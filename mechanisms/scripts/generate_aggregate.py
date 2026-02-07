@@ -3,7 +3,7 @@
 Generate aggregate prompts (L_A, L_B, L_A_B_agg, L_f) for all 3 experiments.
 
 Usage:
-    export OPENAI_API_KEY="your-key-here"
+    export OPENAI_API_KEY="<your-api-key>"   # or pass --api-key
     python generate_aggregate.py --seeds 10
 
 API calls per seed: 8 (binding) + 7 (feasibility) + 7 (support) = 22
