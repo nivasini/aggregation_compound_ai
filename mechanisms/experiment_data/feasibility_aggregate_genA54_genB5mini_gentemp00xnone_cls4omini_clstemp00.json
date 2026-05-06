@@ -1,0 +1,2304 @@
+{
+  "config": {
+    "m1_tag": "gen5mini_gentempnone_cls4omini_clstemp00",
+    "m2_tag": "gen54_gentemp00_cls4omini_clstemp00",
+    "ordering": "L2=54, L3=5mini",
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 20,
+    "random_seed": 42
+  },
+  "seeds": [
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "A Decentralized Smart Contract Protocol for Cyberphysical Systems",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "The Ring Signature Scheme",
+          "New Directions in Cryptography",
+          "How to Share a Secret",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Blockchain Applications"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.4,
+          "x3": 0.3
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Practical Byzantine Fault Tolerance",
+          "Paxos Made Live: An Engineering Perspective",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "The Byzantine Generals Problem",
+          "Viewstamped Replication Revisited",
+          "Epidemic Algorithms for Replicated Database Maintenance",
+          "The Google File System",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-tolerant Web Services",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain Governance: Programming Our Future",
+          "The Truth About Blockchain",
+          "When the Cookie Meets the Blockchain: Privacy Risks of Web Payments via Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.15,
+          "x3": 0.1
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "A Decentralized Smart Contract Protocol for Cyberphysical Systems",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "The Ring Signature Scheme",
+          "New Directions in Cryptography",
+          "How to Share a Secret",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Blockchain Applications"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.4,
+          "x3": 0.3
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "In Search of an Understandable Consensus Algorithm",
+          "Viewstamped Replication Revisited",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "The Byzantine Generals Problem",
+          "Practical Byzantine Fault Tolerance",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Spanner: Google's Globally-Distributed Database",
+          "Chubby: The Lock Service for Loosely-Coupled Distributed Systems",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "The GHOST Protocol",
+          "On the Instability of Bitcoin Without the Block Reward"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain Governance: Programming Our Future",
+          "The Truth About Blockchain",
+          "When the Cookie Meets the Blockchain: Privacy Risks of Web Payments via Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.4
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution Method",
+          "The MD5 Message-Digest Algorithm",
+          "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions",
+          "ChaCha20 and Poly1305 for IETF Protocols"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Viewstamped Replication",
+          "Practical Byzantine Fault Tolerance",
+          "The Byzantine Generals Problem",
+          "Time, Clocks, and the Ordering of Events",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Spanner: Google\u2019s Globally-Distributed Database",
+          "The Google File System",
+          "Chubby: The Lock Service for Loosely-Coupled Distributed Systems",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol",
+          "Security and Performance of Proof-of-Work Blockchains",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "Paxos Made Live: An Engineering Perspective",
+          "ByzCoin: Securely Scaling Consensus"
+        ],
+        "vector": {
+          "x1": 0.25,
+          "x2": 0.0,
+          "x3": 0.75
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Proof of Stake in Cryptocurrencies",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "Erays: Reverse Engineering Ethereum\u2019s Opaque Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+          "GasReducer: Trading Off Confidentiality and Efficiency for Smart Contract Optimization",
+          "A First Look at the Usability of Bitcoin Key Management",
+          "An Empirical Study of Blockchain-Based Decentralized Applications"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.05,
+          "x3": 0.3
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution System",
+          "The MD5 Message-Digest Algorithm",
+          "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions",
+          "ChaCha20 and Poly1305 for IETF Protocols"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "HotStuff: BFT Consensus in the Lens of Blockchain",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Majority is Not Enough: Bitcoin Mining is Vulnerable",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Tendermint: Consensus without Mining",
+          "Decentralization in Bitcoin and Ethereum Networks"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.0,
+          "x3": 0.75
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof of Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "SoK: Communication Across Distributed Ledgers",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.3
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zexe: Enabling Decentralized Private Computation",
+          "A Smart Contract for Boardroom Voting with Maximum Voter Privacy",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Share a Secret",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "The MD5 Message-Digest Algorithm",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Beyond"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "The Byzantine Generals Problem",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Spanner: Google's Globally-Distributed Database",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "The GHOST Protocol",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform"
+        ],
+        "vector": {
+          "x1": 0.35,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "The Truth About Blockchain"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.5
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution System",
+          "The MD5 Message-Digest Algorithm",
+          "The Secure Hash Algorithm (SHA-1)",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Beyond"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Paxos Made Simple",
+          "Paxos Made Live: An Engineering Perspective",
+          "Practical Byzantine Fault Tolerance",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-tolerant Web Services",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "On Scaling Decentralized Blockchains",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "HotStuff: BFT Consensus in the Lens of Blockchain",
+          "Tendermint: Consensus without Mining",
+          "Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains",
+          "Secure High-Rate Transaction Processing in Bitcoin",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Chainspace: A Sharded Smart Contracts Platform"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Note on the Instability of Bitcoin Without the Block Reward",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Selfish Mining in Ethereum",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "SoK: Transparent Dishonesty: Front-Running Attacks on Blockchain",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.15
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Groth16: On the Size of Pairing-based Non-interactive Arguments",
+          "BLS Signatures",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Digital Signature Standard",
+          "How to Share a Secret",
+          "A Fast Software One-Way Hash Function",
+          "The Security of the Elliptic Curve Digital Signature Algorithm",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Practical Byzantine Fault Tolerance",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Viewstamped Replication Revisited",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Consensus in the Presence of Partial Synchrony",
+          "Zab: High-performance Atomic Broadcast for ZooKeeper",
+          "Zyzzyva: Speculative Byzantine Fault Tolerance",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Spanner: Google\u2019s Globally-Distributed Database",
+          "Brewer\u2019s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains",
+          "Tendermint: Consensus without Mining",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.0,
+          "x3": 0.85
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "A First Look at the Usability of Bitcoin Key Management",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.4
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution System",
+          "The MD5 Message-Digest Algorithm",
+          "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions",
+          "ChaCha20 and Poly1305 for IETF Protocols"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "The Part-Time Parliament",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Implementing Fault-Tolerant Services Using the State Machine Approach",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Practical Byzantine Fault Tolerance",
+          "Zyzzyva: Speculative Byzantine Fault Tolerance",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Spanner: Google\u2019s Globally-Distributed Database",
+          "Brewer\u2019s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts"
+        ],
+        "vector": {
+          "x1": 0.2631578947368421,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof of Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "SoK: Communication Across Distributed Ledgers",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.3
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Digital Signature Standard (DSS)",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin",
+          "Keccak sponge function family main document",
+          "BLAKE3: One Function, Fast Everywhere",
+          "CRYSTALS-Kyber: A CCA-Secure Module-Lattice-Based KEM"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "In Search of an Understandable Consensus Algorithm (Raft)",
+          "Practical Byzantine Fault Tolerance",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Spanner: Google's Globally-Distributed Database",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Linearizability: A Correctness Condition for Concurrent Objects",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Information Propagation in the Bitcoin Network",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Viewstamped Replication Revisited"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.05,
+          "x3": 0.75
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Communication Across Distributed Ledgers",
+          "Blockchain and Smart Contract for Digital Certificate",
+          "Designing Proof of Stake for Cryptocurrencies",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.05,
+          "x3": 0.6
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Groth16: On the Size of Pairing-based Non-interactive Arguments",
+          "BLS Signatures",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Digital Signature Standard",
+          "How to Share a Secret",
+          "A Fast Software One-Way Hash Function",
+          "The Security of the Elliptic Curve Digital Signature Algorithm",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "In Search of an Understandable Consensus Algorithm",
+          "Viewstamped Replication Revisited",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "The Byzantine Generals Problem",
+          "Practical Byzantine Fault Tolerance",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Spanner: Google's Globally-Distributed Database",
+          "Chubby: The Lock Service for Loosely-Coupled Distributed Systems",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "The GHOST Protocol",
+          "On the Instability of Bitcoin Without the Block Reward"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "A First Look at the Usability of Bitcoin Key Management",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things"
+        ],
+        "vector": {
+          "x1": 0.8,
+          "x2": 0.2,
+          "x3": 0.4
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Digital Signature Standard (DSS)",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin",
+          "Keccak sponge function family main document",
+          "BLAKE3: One Function, Fast Everywhere",
+          "CRYSTALS-Kyber: A CCA-Secure Module-Lattice-Based KEM"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "In Search of an Understandable Consensus Algorithm (Raft)",
+          "Practical Byzantine Fault Tolerance",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Spanner: Google's Globally-Distributed Database",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Linearizability: A Correctness Condition for Concurrent Objects",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Information Propagation in the Bitcoin Network",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Viewstamped Replication Revisited"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.0,
+          "x3": 0.85
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Communication Across Distributed Ledgers",
+          "Blockchain and Smart Contract for Digital Certificate",
+          "Designing Proof of Stake for Cryptocurrencies",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.15,
+          "x3": 0.6
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zexe: Enabling Decentralized Private Computation",
+          "A Smart Contract for Boardroom Voting with Maximum Voter Privacy",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Share a Secret",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "The MD5 Message-Digest Algorithm",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Beyond"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "HotStuff: BFT Consensus in the Lens of Blockchain",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "The Google File System",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Majority is Not Enough: Bitcoin Mining is Vulnerable",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Tendermint: Consensus without Mining",
+          "Decentralization in Bitcoin and Ethereum Networks"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.0,
+          "x3": 0.75
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "The Truth About Blockchain"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.3
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Prism: Deconstructing the Blockchain to Approach Physical Limits",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "A Digital Signature Based on a Conventional Encryption Function",
+          "New Directions in Cryptography",
+          "How to Share a Secret",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin",
+          "The Security of the Merkle-Damg\u00e5rd Construction",
+          "Keccak sponge function family main document",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.3
+        }
+      },
+      "L3": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "On Scaling Decentralized Blockchains",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Viewstamped Replication Revisited",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Spanner: Google\u2019s Globally-Distributed Database"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.0,
+          "x3": 0.5
+        }
+      },
+      "L4": {
+        "papers": [
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Blockchain for IoT Security and Privacy: The Case Study of a Smart Home",
+          "When the Cookie Meets the Blockchain: Privacy Risks of Web Payments via Cryptocurrencies",
+          "An Empirical Analysis of Traceability in the Monero Blockchain",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract Automation of Post-Trade Processing in Capital Markets",
+          "SoK: Blockchain Technology and Its Potential Use Cases",
+          "A Systematic Review of Blockchain",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study"
+        ],
+        "vector": {
+          "x1": 0.8947368421052632,
+          "x2": 0.10526315789473684,
+          "x3": 0.10526315789473684
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution System",
+          "The MD5 Message-Digest Algorithm",
+          "The Secure Hash Algorithm (SHA-1)",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin and Beyond"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Practical Byzantine Fault Tolerance",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Snow White: Provably Secure Proofs of Stake",
+          "Casper the Friendly Finality Gadget",
+          "Chainspace: A Sharded Smart Contracts Platform"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.5
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Note on the Instability of Bitcoin Without the Block Reward",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Selfish Mining in Ethereum",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "SoK: Transparent Dishonesty: Front-Running Attacks on Blockchain",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.45
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Groth16: On the Size of Pairing-based Non-interactive Arguments",
+          "BLS Signatures",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Digital Signature Standard",
+          "How to Share a Secret",
+          "A Fast Software One-Way Hash Function",
+          "The Security of the Elliptic Curve Digital Signature Algorithm",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Practical Byzantine Fault Tolerance",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "MapReduce: Simplified Data Processing on Large Clusters",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Snow White: Provably Secure Proofs of Stake",
+          "Casper the Friendly Finality Gadget",
+          "Chainspace: A Sharded Smart Contracts Platform"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.5
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "A First Look at the Usability of Bitcoin Key Management",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.2,
+          "x3": 0.5
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof of Stake",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Ouroboros Praos: An Adaptively-Secure, Semi-synchronous Proof-of-Stake Blockchain",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Share a Secret",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "Reducing Storage Requirements in Rabin's Signature Scheme",
+          "The Schnorr Signature Scheme",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.2
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Viewstamped Replication Revisited",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Spanner: Google's Globally-Distributed Database",
+          "Megastore: Providing Scalable, Highly Available Storage for Interactive Services",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "On Scaling Decentralized Blockchains",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The GHOST Protocol",
+          "The Chubby Lock Service for Loosely-Coupled Distributed Systems",
+          "SWIM: Scalable Weakly-consistent Infection-style Process Group Membership Protocol"
+        ],
+        "vector": {
+          "x1": 0.2,
+          "x2": 0.0,
+          "x3": 0.8
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "The DAO Attack Paradox",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "SoK: Decentralized Finance (DeFi)",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.1,
+          "x3": 0.4
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Prism: Deconstructing the Blockchain to Approach Physical Limits",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "A Digital Signature Based on a Conventional Encryption Function",
+          "New Directions in Cryptography",
+          "How to Share a Secret",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin",
+          "The Security of the Merkle-Damg\u00e5rd Construction",
+          "Keccak sponge function family main document",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.35
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+          "Viewstamped Replication Revisited",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Practical Byzantine Fault Tolerance",
+          "The Byzantine Generals Problem",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "Dynamo: Amazon's Highly Available Key-value Store",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Spanner: Google's Globally-Distributed Database",
+          "Megastore: Providing Scalable, Highly Available Storage for Interactive Services",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "On Scaling Decentralized Blockchains",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "The GHOST Protocol",
+          "The Chubby Lock Service for Loosely-Coupled Distributed Systems",
+          "SWIM: Scalable Weakly-consistent Infection-style Process Group Membership Protocol"
+        ],
+        "vector": {
+          "x1": 0.2,
+          "x2": 0.0,
+          "x3": 0.8
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Blockchain for IoT Security and Privacy: The Case Study of a Smart Home",
+          "When the Cookie Meets the Blockchain: Privacy Risks of Web Payments via Cryptocurrencies",
+          "An Empirical Analysis of Traceability in the Monero Blockchain",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract Automation of Post-Trade Processing in Capital Markets",
+          "SoK: Blockchain Technology and Its Potential Use Cases",
+          "A Systematic Review of Blockchain",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study"
+        ],
+        "vector": {
+          "x1": 0.7894736842105263,
+          "x2": 0.10526315789473684,
+          "x3": 0.3684210526315789
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution Method",
+          "The MD5 Message-Digest Algorithm",
+          "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions",
+          "ChaCha20 and Poly1305 for IETF Protocols"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.25
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Viewstamped Replication",
+          "Paxos Made Live: An Engineering Perspective",
+          "Practical Byzantine Fault Tolerance",
+          "Consensus in the Presence of Partial Synchrony",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Chain Replication for Supporting High Throughput and Availability",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "The Google File System",
+          "Spanner: Google's Globally-Distributed Database",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Tendermint: Consensus without Mining",
+          "Honey Badger of BFT",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "The GHOST Protocol"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Selfish Mining in Ethereum",
+          "The Economics of Proof of Stake in Cryptocurrencies",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "Under-Optimized Smart Contracts Devour Your Money",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "Erays: Reverse Engineering Ethereum\u2019s Opaque Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+          "GasReducer: Trading Off Confidentiality and Efficiency for Smart Contract Optimization",
+          "A First Look at the Usability of Bitcoin Key Management",
+          "An Empirical Study of Blockchain-Based Decentralized Applications"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.05,
+          "x3": 0.25
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Prism: Deconstructing the Blockchain to Approach Physical Limits",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "A Digital Signature Based on a Conventional Encryption Function",
+          "New Directions in Cryptography",
+          "How to Share a Secret",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "SECP256K1: Efficient Elliptic Curve Cryptography for Bitcoin",
+          "The Security of the Merkle-Damg\u00e5rd Construction",
+          "Keccak sponge function family main document",
+          "Curve25519: New Diffie-Hellman Speed Records"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.5,
+          "x3": 0.35
+        }
+      },
+      "L3": {
+        "papers": [
+          "Paxos Made Simple",
+          "The Part-Time Parliament",
+          "Practical Byzantine Fault Tolerance",
+          "Paxos Made Live: An Engineering Perspective",
+          "Raft: In Search of an Understandable Consensus Algorithm",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "The Byzantine Generals Problem",
+          "Viewstamped Replication Revisited",
+          "Epidemic Algorithms for Replicated Database Maintenance",
+          "The Google File System",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-tolerant Web Services",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "On the Instability of Bitcoin Without the Block Reward",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Blockchain for IoT Security and Privacy: The Case Study of a Smart Home",
+          "When the Cookie Meets the Blockchain: Privacy Risks of Web Payments via Cryptocurrencies",
+          "An Empirical Analysis of Traceability in the Monero Blockchain",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "Designing Proof-of-Stake Blockchain Protocols",
+          "Blockchain and Smart Contract Automation of Post-Trade Processing in Capital Markets",
+          "SoK: Blockchain Technology and Its Potential Use Cases",
+          "A Systematic Review of Blockchain",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study"
+        ],
+        "vector": {
+          "x1": 0.8947368421052632,
+          "x2": 0.10526315789473684,
+          "x3": 0.10526315789473684
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+          "Snow White: Robustly Reconfigurable Consensus and Applications to Provably Secure Proof-of-Stake",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "zk-SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings",
+          "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Explain Zero-Knowledge Protocols to Your Children",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Diffie-Hellman Key Distribution System",
+          "The MD5 Message-Digest Algorithm",
+          "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions",
+          "ChaCha20 and Poly1305 for IETF Protocols"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.6,
+          "x3": 0.2
+        }
+      },
+      "L3": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "On Scaling Decentralized Blockchains",
+          "The Bitcoin Backbone Protocol: Analysis and Applications",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "Bitcoin-NG: A Scalable Blockchain Protocol",
+          "Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies",
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Casper the Friendly Finality Gadget",
+          "Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains",
+          "Practical Byzantine Fault Tolerance",
+          "Paxos Made Simple",
+          "In Search of an Understandable Consensus Algorithm (Raft)",
+          "Consensus in the Presence of Partial Synchrony",
+          "Impossibility of Distributed Consensus with One Faulty Process",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "The Google File System",
+          "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+          "Bigtable: A Distributed Storage System for Structured Data",
+          "Brewer\u2019s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.0,
+          "x3": 0.55
+        }
+      },
+      "L4": {
+        "papers": [
+          "Algorand: Scaling Byzantine Agreements for Cryptocurrencies",
+          "Bitcoin: A Peer-to-Peer Electronic Cash System"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Secure Decentralised Generalised Transaction Ledger",
+          "On Stake and Consensus",
+          "Majority Is Not Enough: Bitcoin Mining Is Vulnerable",
+          "The Economics of Bitcoin Mining, or Bitcoin in the Presence of Adversaries",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "Making Smart Contracts Smarter",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses",
+          "The Ring of Gyges: Investigating the Future of Criminal Smart Contracts",
+          "An Empirical Study of Blockchain-Based Decentralized Applications",
+          "Designing Proof of Stake Blockchain Protocols",
+          "Blockchain and Smart Contract for Access Control in the Internet of Things",
+          "A First Look at Blockchain-Based Decentralized Applications",
+          "SoK: Communication Across Distributed Ledgers",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study",
+          "A Survey of Blockchain Frameworks and Applications",
+          "Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited",
+          "The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts",
+          "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.3
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L2": {
+      "x1": {
+        "mean": 0.535,
+        "std": 0.06708203932499368,
+        "values": [
+          0.6,
+          0.6,
+          0.5,
+          0.5,
+          0.5,
+          0.6,
+          0.5,
+          0.4,
+          0.6,
+          0.5,
+          0.5,
+          0.6,
+          0.6,
+          0.6,
+          0.5,
+          0.5,
+          0.6,
+          0.5,
+          0.6,
+          0.4
+        ]
+      },
+      "x2": {
+        "mean": 0.54,
+        "std": 0.06805570473787204,
+        "values": [
+          0.4,
+          0.4,
+          0.6,
+          0.6,
+          0.5,
+          0.5,
+          0.6,
+          0.6,
+          0.5,
+          0.6,
+          0.6,
+          0.5,
+          0.5,
+          0.5,
+          0.6,
+          0.6,
+          0.5,
+          0.6,
+          0.5,
+          0.6
+        ]
+      },
+      "x3": {
+        "mean": 0.2625,
+        "std": 0.039319875782852454,
+        "values": [
+          0.3,
+          0.3,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.3,
+          0.25,
+          0.25,
+          0.2,
+          0.35,
+          0.25,
+          0.35,
+          0.2
+        ]
+      }
+    },
+    "L3": {
+      "x1": {
+        "mean": 0.38671052631578945,
+        "std": 0.1365927703976904,
+        "values": [
+          0.4,
+          0.21052631578947367,
+          0.25,
+          0.5,
+          0.35,
+          0.6,
+          0.3,
+          0.2631578947368421,
+          0.4,
+          0.21052631578947367,
+          0.4,
+          0.45,
+          0.5,
+          0.6,
+          0.6,
+          0.2,
+          0.2,
+          0.4,
+          0.4,
+          0.5
+        ]
+      },
+      "x2": {
+        "mean": 0.0025,
+        "std": 0.011180339887498949,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.7875,
+        "std": 0.20318192522181225,
+        "values": [
+          1.0,
+          1.0,
+          0.75,
+          0.75,
+          1.0,
+          0.4,
+          0.85,
+          1.0,
+          0.75,
+          1.0,
+          0.85,
+          0.75,
+          0.5,
+          0.5,
+          0.5,
+          0.8,
+          0.8,
+          1.0,
+          1.0,
+          0.55
+        ]
+      }
+    },
+    "L4": {
+      "x1": {
+        "mean": 0.6,
+        "std": 0.5026246899500346,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.55,
+        "std": 0.5104177855340404,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "L1": {
+      "x1": {
+        "mean": 0.9164473684210527,
+        "std": 0.08090317461225764,
+        "values": [
+          1.0,
+          0.85,
+          1.0,
+          1.0,
+          0.85,
+          1.0,
+          0.85,
+          1.0,
+          1.0,
+          0.8,
+          1.0,
+          0.85,
+          0.8947368421052632,
+          1.0,
+          0.85,
+          0.85,
+          0.7894736842105263,
+          1.0,
+          0.8947368421052632,
+          0.85
+        ]
+      },
+      "x2": {
+        "mean": 0.09328947368421052,
+        "std": 0.06946505339656948,
+        "values": [
+          0.15,
+          0.15,
+          0.05,
+          0.0,
+          0.15,
+          0.0,
+          0.15,
+          0.0,
+          0.05,
+          0.2,
+          0.15,
+          0.15,
+          0.10526315789473684,
+          0.0,
+          0.2,
+          0.1,
+          0.10526315789473684,
+          0.05,
+          0.10526315789473684,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.3414473684210526,
+        "std": 0.15107833952671956,
+        "values": [
+          0.1,
+          0.4,
+          0.3,
+          0.3,
+          0.5,
+          0.15,
+          0.4,
+          0.3,
+          0.6,
+          0.4,
+          0.6,
+          0.3,
+          0.10526315789473684,
+          0.45,
+          0.5,
+          0.4,
+          0.3684210526315789,
+          0.25,
+          0.10526315789473684,
+          0.3
+        ]
+      }
+    }
+  }
+}

@@ -22,14 +22,12 @@ def get_client(api_key: Optional[str] = None) -> OpenAI:
 
 def _call_with_retry(client, model, messages, temperature, seed):
     """Make an API call with retry on rate limit."""
+    kwargs = dict(model=model, messages=messages, seed=seed)
+    if temperature is not None:
+        kwargs["temperature"] = temperature
     for attempt in range(MAX_RETRIES):
         try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=messages,
-                temperature=temperature,
-                seed=seed,
-            )
+            response = client.chat.completions.create(**kwargs)
             return response
         except RateLimitError:
             if attempt == MAX_RETRIES - 1:

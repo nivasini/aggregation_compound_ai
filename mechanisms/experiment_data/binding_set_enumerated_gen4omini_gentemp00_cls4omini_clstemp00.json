@@ -1,0 +1,3309 @@
+{
+  "config": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260329_224755",
+    "experiment": "binding_set"
+  },
+  "parent_topics": {
+    "y1": "natural language processing (NLP)",
+    "y2": "computer vision (CV)"
+  },
+  "classification_topics": {
+    "x1": "deep learning (transformers, attention mechanisms, deep neural networks, modern architectures like BERT, GPT, ViT)",
+    "x2": "non-transformer NLP methods (RNN, LSTM, GRU, word2vec, seq2seq without attention, traditional NLP)",
+    "x3": "non-transformer CV methods (CNN, ConvNets, ResNet, VGG, pooling, convolutional architectures)",
+    "x4": "multimodal methods bridging multiple modalities (combining text and images, vision-language models, image captioning, VQA)",
+    "x5": "statistical machine learning (non-neural methods like SVM, random forests, logistic regression, Bayesian methods, traditional ML)"
+  },
+  "prompts": [
+    {
+      "name": "y2",
+      "label": "y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.20842105263157895,
+        "x2": 0.0,
+        "x3": 0.6810526315789474,
+        "x4": 0.0681578947368421,
+        "x5": 0.021052631578947368
+      },
+      "std": {
+        "x1": 0.10069625267690058,
+        "x2": 0.0,
+        "x3": 0.10157879586692942,
+        "x4": 0.06595242976335103,
+        "x5": 0.02717883049970117
+      },
+      "seeds": [
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+            "YOLOv3: An Incremental Improvement",
+            "Deep Residual Learning for Image Recognition",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "SIFT: Scale-Invariant Feature Transform",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Spatial Transformer Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "RetinaNet: Focal Loss for Dense Object Detection",
+            "Attention Is All You Need",
+            "Image Super-Resolution Using Deep Learning",
+            "Single Shot Multibox Detector",
+            "A Survey on Object Detection: From Classical to State-of-the-Art",
+            "Deep Learning for Image Classification: A Comprehensive Review",
+            "Learning Representations by Back-Propagating Errors",
+            "Panoptic Segmentation",
+            "Self-Supervised Learning: The Dark Matter of Intelligence"
+          ],
+          "vector": {
+            "x1": 0.10526315789473684,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Spatial Transformer Networks",
+            "You Only Look Only Once: Unified Real-Time Object Detection",
+            "Deep Residual Learning for Image Recognition",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Generative Adversarial Nets",
+            "Region-based Convolutional Networks for Accurate Object Detection and Segmentation",
+            "Focal Loss for Dense Object Detection",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Attention Is All You Need",
+            "EfficientDet: Scalable Object Detection",
+            "Squeeze-and-Excitation Networks",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Vision Transformers for Image Classification",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "OpenPose: Real-time multi-person 2D pose estimation using part affinity fields",
+            "3D Object Detection and Localization from a Single Image",
+            "Neural Style Transfer: A Review",
+            "Deep Learning for Image Super-Resolution: A Survey"
+          ],
+          "vector": {
+            "x1": 0.21052631578947367,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Deep Residual Learning for Image Recognition",
+            "Single Shot MultiBox Detector",
+            "Style Transfer Using Convolutional Neural Networks",
+            "Visualizing and Understanding Convolutional Networks",
+            "Attention is All You Need",
+            "Deep Learning for Computer Vision: A Brief Review",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "Neural Style Transfer: A Review",
+            "3D Object Detection from a Single RGB Image",
+            "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+            "Real-Time Face Detection",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+            "Learning Representations for Counterfactual Inference",
+            "A Survey on Image Data Augmentation for Deep Learning"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "Attention is All You Need",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Networks",
+            "Deep Residual Learning for Image Recognition",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "SIFT: Scale-Invariant Feature Transform",
+            "Deep Learning for Computer Vision: A Brief Review",
+            "Single Shot MultiBox Detector",
+            "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+            "Rethinking ImageNet Pre-training",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Vision Transformers for Image Classification",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Convolutional Neural Networks for Small-footprint Keyword Spotting",
+            "Object Detection with Deep Learning: A Review",
+            "Self-Supervised Learning for Computer Vision: A Comprehensive Review"
+          ],
+          "vector": {
+            "x1": 0.2631578947368421,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.05263157894736842,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Vision Transformers: An Image is Worth 16x16 Words",
+            "Self-Supervised Learning of Pretext-Invariant Representations",
+            "Real-Time Single Image and Video Super-Resolution using an Efficient Sub-Pixel Convolutional Neural Network",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "A Survey on Object Detection in Remote Sensing Images",
+            "3D Object Detection and Pose Estimation for Robotic Grasping",
+            "Semantic Segmentation with Deep Learning: A Survey",
+            "3D Convolutional Neural Networks for Human Action Recognition",
+            "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields"
+          ],
+          "vector": {
+            "x1": 0.21052631578947367,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Generative Adversarial Nets",
+            "You Only Look Once: Unified Real-Time Object Detection",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Focal Loss for Dense Object Detection",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Vision Transformers",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Attention Is All You Need",
+            "Deep Learning for Generic Object Detection: A Survey",
+            "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+            "Single Shot MultiBox Detector",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "3D Object Detection for Autonomous Driving: A Review",
+            "Neural Style Transfer: A Review",
+            "Self-Supervised Learning: The Dark Matter of Intelligence"
+          ],
+          "vector": {
+            "x1": 0.21052631578947367,
+            "x2": 0.0,
+            "x3": 0.631578947368421,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "You Only Look Once: Unified Real-Time Object Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "EfficientDet: Scalable Object Detection",
+            "Attention Is All You Need",
+            "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network",
+            "3D Object Detection and Pose Estimation from a Single RGB Image",
+            "OpenPose: Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields",
+            "Neural Style Transfer: A Review",
+            "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+            "Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces",
+            "3D Point Cloud Semantic Segmentation with Multi-Scale Contextual Information"
+          ],
+          "vector": {
+            "x1": 0.15789473684210525,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.15789473684210525,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "YOLOv3: An Incremental Improvement",
+            "Generative Adversarial Networks",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Deep Residual Learning for Image Recognition",
+            "EfficientDet: Scalable Object Detection",
+            "Feature Pyramid Networks for Object Detection",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "Region-Based Convolutional Networks for Object Detection",
+            "Attention Is All You Need",
+            "Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces",
+            "The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "DINO: Emerging Properties in Self-Supervised Vision Transformers",
+            "Point RNN: Point Cloud Processing using Recurrent Neural Networks",
+            "3D Object Detection from a Single RGB Image",
+            "Neural Radiance Fields for Unconstrained Photo-Realistic Novel View Synthesis"
+          ],
+          "vector": {
+            "x1": 0.3157894736842105,
+            "x2": 0.0,
+            "x3": 0.5263157894736842,
+            "x4": 0.15789473684210525,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Deep Residual Learning for Image Recognition",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Single Shot MultiBox Detector",
+            "Generative Adversarial Networks",
+            "You Only Look Once: Unified Real-Time Object Detection",
+            "Visual Attention for Image Captioning",
+            "A Comprehensive Review on Image Steganography and Steganalysis",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Focal Loss for Dense Object Detection",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Deep Learning for Image Super-Resolution: A Survey",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "The Visual Question Answering Challenge",
+            "Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces",
+            "Attention Is All You Need",
+            "3D Object Detection and Pose Estimation from a Single RGB Image",
+            "Learning Transferable Visual Models From Natural Language Supervision"
+          ],
+          "vector": {
+            "x1": 0.15789473684210525,
+            "x2": 0.0,
+            "x3": 0.5263157894736842,
+            "x4": 0.15789473684210525,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Deep Learning Techniques for Image Classification",
+            "Object Detection: A Survey",
+            "Generative Adversarial Networks: An Overview",
+            "Image Segmentation: A Review",
+            "Unsupervised Learning of Depth and Ego-Motion from Video",
+            "Real-Time Object Detection with YOLO",
+            "The Visual Geometry Group's Convolutional Neural Networks for Image Recognition",
+            "Attention Mechanisms in Computer Vision: A Survey",
+            "A Comprehensive Review on Image Super-Resolution",
+            "3D Object Detection in Point Clouds: A Review",
+            "Semantic Segmentation: A Survey",
+            "Transfer Learning in Computer Vision: A Comprehensive Survey",
+            "Image Captioning: A Survey of Models and Evaluation Metrics",
+            "Robust Face Recognition: A Review",
+            "Video Object Segmentation: A Survey",
+            "Understanding Deep Learning for Image Classification: A Review",
+            "Facial Expression Recognition: A Comprehensive Survey",
+            "Multi-Task Learning in Computer Vision: A Survey",
+            "Deep Learning for Medical Image Analysis: A Review",
+            "Scene Understanding: A Survey on Image Segmentation and Object Detection"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.6,
+            "x4": 0.05,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y2",
+      "label": "\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.030000000000000002,
+        "x2": 0.02,
+        "x3": 0.0,
+        "x4": 0.01,
+        "x5": 0.12357142857142857
+      },
+      "std": {
+        "x1": 0.0674948557710553,
+        "x2": 0.025819888974716113,
+        "x3": 0.0,
+        "x4": 0.021081851067789197,
+        "x5": 0.08416777986586375
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Survey on Natural Language Processing Techniques for Sentiment Analysis",
+            "Advances in Renewable Energy Technologies: A Review",
+            "The Impact of Climate Change on Global Food Security",
+            "Machine Learning Approaches for Predictive Analytics in Healthcare",
+            "A Comprehensive Review of Blockchain Technology in Supply Chain Management",
+            "Understanding the Mechanisms of Drug Resistance in Cancer Treatment",
+            "The Role of Artificial Intelligence in Financial Fraud Detection",
+            "Innovations in Quantum Computing: Current Trends and Future Directions",
+            "The Effectiveness of Social Media Marketing Strategies in Small Businesses",
+            "Exploring the Relationship Between Urbanization and Mental Health",
+            "Advances in Nanotechnology for Drug Delivery Systems",
+            "The Economic Impacts of Telecommuting: A Systematic Review",
+            "Examining the Role of Microbiomes in Human Health and Disease",
+            "The Future of Work: Automation and Its Impact on Employment",
+            "Ethical Considerations in Autonomous Vehicle Development",
+            "A Review of Smart Grid Technologies and Their Applications",
+            "The Influence of Music Therapy on Mental Health Outcomes",
+            "Evaluating the Impact of Public Policy on Renewable Energy Adoption",
+            "The Role of Genetics in Personalized Medicine",
+            "Analyzing the Effects of Sleep Quality on Academic Performance"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Sure! Here\u2019s a list of research paper titles, excluding any related to computer vision:",
+            "A Study on the Dynamics of Complex Networks",
+            "The Role of Machine Learning in Predictive Analytics",
+            "Advancements in Quantum Computing Algorithms",
+            "Exploring the Impact of Social Media on Mental Health",
+            "An Analysis of Renewable Energy Adoption in Urban Areas",
+            "The Influence of Climate Change on Global Agriculture",
+            "Understanding the Genetic Basis of Human Disease",
+            "Developing Sustainable Urban Transportation Systems",
+            "The Future of Cryptography in a Post-Quantum World",
+            "Investigating the Effects of Sleep on Cognitive Function",
+            "The Intersection of Artificial Intelligence and Ethics",
+            "Modeling Economic Growth with Machine Learning Techniques",
+            "Trends in Global Water Scarcity and Management",
+            "Advances in Nanotechnology for Drug Delivery",
+            "Socioeconomic Factors Affecting Health Disparities",
+            "The Role of Education in Economic Development",
+            "Analyzing Consumer Behavior in E-commerce",
+            "Assessing the Impact of Automation on the Workforce",
+            "The Science of Happiness: Psychological Perspectives",
+            "Exploring the Relationship Between Exercise and Mental Health"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.23809523809523808
+          }
+        },
+        {
+          "papers": [
+            "Understanding the Impact of Climate Change on Biodiversity",
+            "Advances in Quantum Computing: A Review",
+            "The Role of Microbiomes in Human Health",
+            "Exploring the Effects of Social Media on Mental Health",
+            "Innovations in Renewable Energy Technologies",
+            "The Economics of Artificial Intelligence",
+            "Genetic Engineering: Ethical Implications and Societal Impact",
+            "The Future of Urban Transportation: Challenges and Solutions",
+            "Assessing the Efficacy of Vaccines Against Emerging Diseases",
+            "Behavioral Economics: Insights into Consumer Decision Making",
+            "The Influence of Sleep on Cognitive Function",
+            "Climate Change Mitigation Strategies in Agriculture",
+            "The Role of Policy in Advancing Sustainable Development",
+            "Neuroscience Perspectives on Learning and Memory",
+            "The Interplay Between Culture and Language Acquisition",
+            "Investigating the Mechanisms of Drug Resistance in Cancer",
+            "The Impact of Telecommuting on Work-Life Balance",
+            "The Relationship Between Nutrition and Mental Health",
+            "Ethical Considerations in Autonomous Systems",
+            "Advances in Gene Therapy: Current Trends and Future Directions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Exploring the Impacts of Climate Change on Biodiversity",
+            "Advances in Quantum Computing: A Review of Recent Developments",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Renewable Energy Sources: Trends and Future Directions",
+            "Social Media Influence on Political Engagement",
+            "Machine Learning Approaches in Drug Discovery",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Effects of Urbanization on Wildlife Habitats",
+            "Investigating the Relationship Between Sleep and Mental Health",
+            "Innovations in Sustainable Agriculture Practices",
+            "The Impact of Globalization on Cultural Identity",
+            "Advances in Gene Editing Technologies: Ethical Considerations",
+            "The Role of Artificial Intelligence in Healthcare Delivery",
+            "Climate Policy and Economic Growth: A Comparative Analysis",
+            "Examining the Psychological Effects of Remote Work",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "Assessing the Effectiveness of Public Health Campaigns",
+            "The Interplay Between Genetics and Environment in Disease",
+            "Strategies for Enhancing Cybersecurity in Organizations",
+            "The Social and Economic Impacts of Aging Populations"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Novel Approach to Natural Language Processing",
+            "Analyzing Climate Change Impacts on Biodiversity",
+            "Advances in Quantum Computing Algorithms",
+            "The Role of Artificial Intelligence in Healthcare",
+            "Exploring the Mechanisms of Drug Resistance in Cancer",
+            "Social Media Influence on Political Engagement",
+            "Enhancing Renewable Energy Systems through Smart Grids",
+            "Investigating the Effects of Urbanization on Water Quality",
+            "The Impact of Microplastics on Marine Ecosystems",
+            "Understanding Neural Networks in Financial Predictions",
+            "Advances in Gene Editing Techniques: CRISPR Applications",
+            "The Dynamics of Global Supply Chain Resilience",
+            "Evaluating the Efficacy of Vaccination Programs",
+            "The Future of Work: Automation and Employment Trends",
+            "Insights into the Human Microbiome and Health",
+            "The Role of Big Data in Predictive Analytics",
+            "Exploring Ethical Implications of AI in Society",
+            "Enhancing Cybersecurity through Machine Learning",
+            "The Relationship Between Air Quality and Public Health",
+            "A Study on the Socioeconomic Effects of Telecommuting"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Natural Language Processing Techniques",
+            "Advances in Renewable Energy Sources: A Review",
+            "The Impact of Climate Change on Global Food Security",
+            "Blockchain Technology: Applications and Challenges",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "Machine Learning Algorithms for Predictive Analytics",
+            "Trends in Quantum Computing: Current Status and Future Prospects",
+            "The Role of Artificial Intelligence in Healthcare",
+            "Bioinformatics: Current Trends and Future Directions",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "Exploring the Psychology of Consumer Behavior",
+            "The Evolution of Cryptography in the Digital Age",
+            "Smart Cities: Innovations in Urban Development",
+            "The Influence of Music on Cognitive Development",
+            "Assessing the Economic Impact of Tourism",
+            "Advances in Nanotechnology for Drug Delivery Systems",
+            "The Ethics of Gene Editing: A Contemporary Debate",
+            "Renewable Energy Policy: A Global Perspective",
+            "The Role of Artificial Intelligence in Education",
+            "An Overview of Cybersecurity Threats and Solutions"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Techniques for Healthcare Applications",
+            "Advances in Natural Language Processing: A Survey",
+            "The Role of Big Data in Modern Business Intelligence",
+            "Enhancing Cybersecurity with Machine Learning Approaches",
+            "A Study on Renewable Energy Sources and Their Impact on Sustainability",
+            "Investigating the Effects of Climate Change on Biodiversity",
+            "The Influence of Social Media on Political Polarization",
+            "Quantum Computing: Principles and Applications",
+            "Applications of Blockchain Technology Beyond Cryptocurrency",
+            "Understanding the Impact of Artificial Intelligence on Labor Markets",
+            "Innovations in Drug Delivery Systems: A Review",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Exploring the Relationship Between Urbanization and Mental Health",
+            "The Role of Genetics in Personalized Medicine",
+            "Ethical Considerations in Artificial Intelligence Development",
+            "A Review of Techniques for Data Privacy Preservation",
+            "The Impact of Telemedicine on Healthcare Access",
+            "Advances in Renewable Energy Storage Technologies",
+            "The Use of Augmented Reality in Education",
+            "Exploring the Intersection of Art and Technology in Modern Culture"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.05,
+            "x5": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Exploring the Impacts of Climate Change on Biodiversity",
+            "Advances in Quantum Computing: A Comprehensive Review",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "The Influence of Renewable Energy on Economic Growth",
+            "Understanding Genetic Variability in Plant Breeding",
+            "The Impact of Urbanization on Water Resources Management",
+            "Machine Learning Applications in Predictive Maintenance",
+            "Evaluating the Effectiveness of Remote Learning in Higher Education",
+            "The Relationship Between Nutrition and Cognitive Function",
+            "Assessing the Socioeconomic Impacts of Globalization",
+            "Innovations in Sustainable Agriculture Practices",
+            "The Dynamics of International Trade Agreements",
+            "An Overview of Blockchain Technology and Its Applications",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Investigating the Psychological Effects of Climate Anxiety",
+            "The Role of Microbiomes in Human Health",
+            "Ethical Implications of Genetic Editing Technologies",
+            "The Effects of Air Pollution on Public Health",
+            "Trends in Cybersecurity: Challenges and Solutions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Natural Language Processing Techniques for Sentiment Analysis",
+            "The Role of Blockchain Technology in Supply Chain Management",
+            "Enhancing Cybersecurity Through Machine Learning Algorithms",
+            "A Comprehensive Review of Renewable Energy Resources",
+            "Understanding the Dynamics of Social Media Influence on Consumer Behavior",
+            "Advances in Quantum Computing: A Review of Current Developments",
+            "The Impact of Climate Change on Global Food Security",
+            "Analyzing the Effectiveness of Telemedicine in Rural Healthcare",
+            "Innovations in Biodegradable Materials for Sustainable Packaging",
+            "Evaluating the Impact of Artificial Intelligence on Human Resource Management",
+            "The Relationship Between Mental Health and Social Media Usage",
+            "Exploring the Use of Augmented Reality in Education",
+            "The Evolution of Smart Grids and Their Economic Implications",
+            "Assessing the Risks and Benefits of Gene Editing Technologies",
+            "The Influence of Economic Policies on Renewable Energy Adoption",
+            "Understanding the Mechanisms of Drug Resistance in Cancer Therapy",
+            "A Review of Current Trends in Human-Computer Interaction",
+            "The Role of Data Analytics in Modern Marketing Strategies",
+            "Investigating the Effects of Urbanization on Biodiversity",
+            "The Future of Work: Trends Shaping Employment in the Digital Age"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.05,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Sure! Here are 20 research paper titles that exclude any topics related to computer vision:",
+            "A Study on the Effects of Climate Change on Marine Biodiversity",
+            "Advancements in Quantum Computing: Theoretical Perspectives",
+            "Exploring the Impact of Social Media on Mental Health",
+            "Machine Learning Techniques for Predictive Analytics in Healthcare",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Analysis of Renewable Energy Sources in Urban Areas",
+            "Evaluating the Efficacy of Vaccines against Emerging Infectious Diseases",
+            "The Intersection of Ethics and Artificial Intelligence",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Influence of Economic Policy on Global Trade Dynamics",
+            "A Comprehensive Review of Blockchain Technology Applications",
+            "Investigating the Genetic Basis of Complex Diseases",
+            "The Future of Work: Automation and Its Impact on Employment",
+            "Sustainable Agricultural Practices for Food Security",
+            "Cognitive Behavioral Therapy: A Meta-Analysis of Effectiveness",
+            "Exploring the Relationship Between Urbanization and Public Health",
+            "Neuroscience Approaches to Understanding Learning and Memory",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Challenges and Innovations in Waste Management Systems",
+            "Assessing the Impact of Policy on Climate Change Mitigation Efforts"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.047619047619047616
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "label": "y1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.835,
+        "x2": 0.11,
+        "x3": 0.0,
+        "x4": 0.005,
+        "x5": 0.01
+      },
+      "std": {
+        "x1": 0.11796892246124259,
+        "x2": 0.10219806477837261,
+        "x3": 0.0,
+        "x4": 0.0158113883008419,
+        "x5": 0.0316227766016838
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "A Survey on Contextual Embeddings",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "DistilBERT: A Distilled Version of BERT for Faster Inference",
+            "The Illustrated Transformer",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Natural Language Processing with Transformers",
+            "Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "A Primer in BERTology: What we know about how BERT works",
+            "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks",
+            "How to Fine-Tune BERT for Text Classification?",
+            "Data Augmentation for Low-Resource Neural Machine Translation",
+            "A Survey of Transformer Models for Natural Language Processing",
+            "Neural Machine Translation by Jointly Learning to Align and Translate"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Enabling the Next Generation of NLP with Transfer Learning",
+            "The Illustrated Transformer",
+            "A Survey on Contextual Embeddings",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Transfer Learning in Natural Language Processing: A Survey",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "Few-Shot Text Classification with Distributional Signatures",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Language Models as Knowledge Bases?",
+            "OpenAI Codex: A New AI System for Code Generation",
+            "Sentiment Analysis using BERT: A Case Study on Twitter Data"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "ELMo: Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Fine-tuned Language Models are Zero-Shot Learners",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, lighter",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "The Illustrated Transformer",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Survey on Contextual Embeddings",
+            "Convolutional Sequence to Sequence Learning for Text Generation",
+            "The Stanford Question Answering Dataset",
+            "Semi-Supervised Sequence Learning",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "A Survey on Sentiment Analysis: Approaches and Applications"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+            "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "Fine-tuned Language Models are Zero-Shot Learners",
+            "The Illustrated Transformer",
+            "Natural Language Processing with Transformers",
+            "A Survey of BERT-Based Models for NLP Tasks",
+            "Text Classification Algorithms: A Survey",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Zero-Shot Text Classification with Semantic Prototype Vectors",
+            "Multi-Task Learning for Natural Language Processing: A Survey",
+            "A Survey on Transfer Learning in Natural Language Processing"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "ELMo: Deep Contextualized Word Representations",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "The Illustrated Transformer",
+            "A Survey on Contextual Embeddings",
+            "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks",
+            "Enhancing Data Efficiency in NLP: A Review of Methods and Applications",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Primer in BERTology: What we know about how BERT works",
+            "A Survey of the State of the Art in Natural Language Generation: Core Tasks, Applications and Evaluation",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "OpenAI Codex: A Generalist Programming Model",
+            "Natural Language Processing with Transformers: A Tutorial",
+            "Towards a Human-Level Conversational Agent via Multi-Turn Dialog Management"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.15,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "A Survey on Contextual Embeddings",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ELMo: Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter",
+            "The Illustrated Transformer",
+            "Learning to Generate Natural Language with Deep Reinforcement Learning",
+            "Semantic Role Labeling: An Introduction and Survey",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Transfer Learning in Natural Language Processing",
+            "A Survey of Sentiment Analysis and Opinion Mining",
+            "Fine-tuning Pre-trained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "An Overview of Text Summarization Techniques",
+            "Multi-Task Learning in Natural Language Processing: A Survey",
+            "The Power of Scale for Parameter-Efficient Prompt Tuning"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ELMo: Deep Contextualized Word Representations",
+            "Fine-tuned Language Models are Zero-Shot Learners",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "A Survey on Contextual Embeddings",
+            "The Illustrated Transformer",
+            "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Natural Language Processing with Transformers: A Practical Guide to Building Language Applications",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Text Classification Algorithms: A Survey",
+            "Multi-Task Learning for Natural Language Processing",
+            "A Survey of Text Generation Techniques",
+            "Emotion Detection in Text: A Survey of the State of the Art"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.05,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "ELMo: Deep Contextualized Word Representations",
+            "Generative Pretrained Transformer: A New Approach to Language Understanding",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "DistilBERT, a distilled version of BERT: Smaller, Faster, Cheaper, and Lighter",
+            "The Illustrated Transformer",
+            "A Survey of the State of the Art in Natural Language Generation: Core tasks, applications, and evaluation",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Natural Language Processing with Transformers",
+            "Few-Shot Text Classification with Distributional Signatures",
+            "Cross-lingual Language Model Pretraining",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.1,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "ELMo: Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "A Survey on Contextual Embeddings",
+            "Fine-tuned Language Models Are Zero-Shot Learners",
+            "The Illustrated Transformer",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Semantic Scholar: A Large-Scale Research Paper Search and Discovery Tool",
+            "A Review of Text Classification Algorithms",
+            "Transfer Learning in Natural Language Processing",
+            "The State of the Art in Natural Language Generation: A Survey",
+            "A Comprehensive Survey on Text Summarization",
+            "Evaluating Dialogue Systems: A Survey",
+            "Sentiment Analysis and Opinion Mining: A Survey",
+            "Knowledge Graphs and Their Applications in Natural Language Processing"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+            "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, lighter",
+            "The Illustrated Transformer",
+            "Hierarchical Attention Networks for Document Classification",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Survey on Contextual Embeddings",
+            "Fine-tuning Pre-trained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "OpenAI Codex: A New Model for Programming",
+            "Multi-Task Learning with Transformers",
+            "Adversarial Training for Large Neural Language Models",
+            "A Primer on Neural Network Interpretability in NLP"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND y2",
+      "label": "y1\u2227y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.895,
+        "x2": 0.0,
+        "x3": 0.01,
+        "x4": 0.9299999999999999,
+        "x5": 0.0
+      },
+      "std": {
+        "x1": 0.1165475582469806,
+        "x2": 0.0,
+        "x3": 0.021081851067789197,
+        "x4": 0.11832159566199234,
+        "x5": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Multimodal Transformers for Joint Vision and Language Understanding",
+            "Aligning Text and Image Features with Multimodal Transformers",
+            "Learning to Segment and Describe Objects in Natural Language",
+            "Vision-Language Pretraining: A Survey",
+            "Object Detection with Natural Language Queries",
+            "Bridging Vision and Language: A Survey on Multimodal Learning",
+            "Visual Question Answering: A Comprehensive Survey",
+            "Image-Text Matching with Multi-Modal Neural Networks",
+            "Combining Vision and Language for Image Retrieval",
+            "Cross-Modal Representation Learning for Vision and Language",
+            "Grounding Visual Concepts in Natural Language",
+            "Semantic Image Segmentation with Natural Language Supervision",
+            "Neural Networks for Multimodal Image and Text Processing",
+            "End-to-End Visual Question Answering with Transformers",
+            "Learning Joint Embeddings of Images and Texts",
+            "Contextualized Vision and Language Models for Image Captioning",
+            "Zero-Shot Learning for Multimodal Tasks",
+            "Image Generation from Natural Language Descriptions",
+            "Visual Storytelling: Generating Stories from Images",
+            "Multimodal Sentiment Analysis: A Comprehensive Review"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Bridging the Gap Between Vision and Language: A Survey on Multimodal Learning",
+            "Visual Question Answering: A Survey of Methods and Applications",
+            "Cross-Modal Retrieval and Its Applications: A Review",
+            "Unifying Vision-and-Language Tasks via Text Generation",
+            "Vision-Language Pretraining: A Survey and Benchmark",
+            "Multimodal Transformers for Vision and Language Tasks",
+            "Learning Joint Representations of Images and Texts for Multimodal Applications",
+            "Image Captioning with Multimodal Transformers",
+            "Visual Grounding of Language with Deep Learning Techniques",
+            "Combining Vision and Language for Multimodal Sentiment Analysis",
+            "A Unified Approach to Vision and Language Representation Learning",
+            "Text-Driven Image Generation: Bridging NLP and CV",
+            "Exploring Visual Context for Natural Language Processing",
+            "From Pixels to Sentences: A Review of Visual Storytelling",
+            "Multimodal Neural Machine Translation: A Review",
+            "Scene Graph Generation from Objects, Phrases, and Attributes",
+            "Language-Driven Image Manipulation with Conditional GANs",
+            "Incorporating Visual Context into Natural Language Understanding",
+            "The Role of Attention Mechanisms in Multimodal Deep Learning",
+            "Cross-Modal Transfer Learning for Image and Text Data"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Bridging Text and Vision: A Review of Cross-Modal Learning Approaches",
+            "Visual Question Answering: A Survey of Methods and Applications",
+            "Multimodal Transformer for Matching Text and Images",
+            "Grounding Language in Vision: A Survey on Visual-Language Integration",
+            "Image Captioning with Multimodal Attention Mechanisms",
+            "Learning Visual Representations from Textual Descriptions",
+            "Text and Image Retrieval in the Same Space: A Unified Approach",
+            "Vision-Language Pretraining: Current Trends and Future Directions",
+            "Combining Vision and Language for Robust Image Understanding",
+            "Fine-Grained Visual-Textual Alignment for Image Captioning",
+            "Cross-Modal Retrieval: From Text to Image and Vice Versa",
+            "A Survey on Joint Learning of Text and Image Representations",
+            "Visual-Semantic Alignment for Image-Text Matching",
+            "The Role of Natural Language Processing in Visual Recognition Tasks",
+            "Exploring the Synergies between Language and Vision in AI",
+            "Attention Mechanisms for Multimodal Learning: A Comprehensive Review",
+            "Image Generation from Text: Challenges and Advances",
+            "Unifying Vision and Language Models for Improved Multimodal Understanding",
+            "Enhancing Visual Recognition with Natural Language Descriptions",
+            "Cross-Modal Learning with Transformers: Applications in Vision and Language"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "VisualBERT: A Joint Model for Vision and Language Representation",
+            "UNITER: Learning UNiversal Image-TExt Representations",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations",
+            "ImageBERT: Cross-Modal Pre-training with Large-Scale Weak Supervision",
+            "LAVIS: A Unified Framework for Vision-Language Tasks",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "VQA: Visual Question Answering",
+            "Text-to-Image Generation via Adversarial Training",
+            "T2T-ViT: Training Vision Transformers from Scratch on ImageNet",
+            "Multi-Modal Transformers for Image Captioning",
+            "ViT: An Image is Worth 16x16 Words",
+            "Grounding Objects in Images with Natural Language",
+            "Learning to Segment Object Instances with Natural Language",
+            "M2DET: A Multi-Level Feature Pyramid Network for Object Detection",
+            "Cross-Modal Language-Image Pretraining",
+            "Neural-Symbolic VQA: Bridging the Gap Between Vision and Language",
+            "Language and Vision: A Survey on Multimodal Learning",
+            "Visual-Semantic Alignment for Image Captioning",
+            "DALL-E: Creating Images from Text",
+            "PixelBERT: Aligning Image Pixels with Text by Deep Learning"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.05,
+            "x4": 0.7,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "VisualBERT: A Joint Model for Image and Language Representation",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations",
+            "UNITER: Learning Universal Image-Text Representations",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: A Large-scale ImaGe and Noisy-text embedding",
+            "VisualGPT: Bridging Vision and Language via Large Language Models",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers",
+            "Flamingo: a Visual Language Model for Few-Shot Learning",
+            "MDETR: Modulated Detection for End-to-End Multi-Modal Understanding",
+            "VQGAN+CLIP: Open-Ended Text-to-Image Generation",
+            "ImageBERT: Cross-Modal Pre-training with Large-scale Weak Supervision",
+            "T2T-ViT: Training Vision Transformers with Text and Images",
+            "MedViT: Medical Image Analysis via Vision Transformers and Natural Language Processing",
+            "TextVQA: Answering Questions About Images Using Natural Language",
+            "VideoBERT: A Joint Model for Video and Language Representation Learning",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "Text-to-Image Generation with Transformers",
+            "Multi-Modal Transformers for Image Captioning and Visual Question Answering"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Multimodal Transformers for Visual Question Answering",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "Learning to Communicate in Multi-Agent Reinforcement Learning",
+            "Unified Vision-Language Pre-Training for Image Captioning and VQA",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "CLIP: Connecting Text and Images",
+            "Image-Text Pre-training for Cross-Modal Retrieval",
+            "MDETR: Modulated Detection for End-to-End Multi-Modal Understanding",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Image-Text Embedding",
+            "Grounding Language in Vision: A New Perspective on Visual Semantic Role Labeling",
+            "Dealing with Out-of-Vocabulary Words in Image Captioning with Visual Information",
+            "Cross-Modal Retrieval with Multimodal Transformers",
+            "Text-to-Image Synthesis via Adversarial Learning",
+            "Visual Language Navigation: A New Approach to Grounded Language Learning",
+            "COCO Captioning: Rethinking Image Captioning with Vision and Language",
+            "End-to-End Object Detection with Transformers",
+            "Vision-Language Pre-training for Grounded Language Understanding",
+            "Image Captioning with a Unified Vision-Language Model",
+            "Exploring the Connections Between Vision and Language with Deep Learning",
+            "DALL-E: Creating Images from Text Descriptions"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.75,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Multimodal Neural Language Models: A Survey",
+            "Visual Question Answering Using Natural Language Processing",
+            "CLIP: Connecting Text and Images",
+            "Text-to-Image Synthesis Using Generative Adversarial Networks",
+            "Vision-Language Pretraining for Multimodal Tasks",
+            "Learning to Align Text and Images",
+            "Image Captioning with Visual Attention",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "Integrating Vision and Language Representations for Scene Understanding",
+            "Multimodal Transformers for Image and Text Representation",
+            "Cross-Modal Retrieval Using Joint Embeddings",
+            "End-to-End Dense Video Captioning with Language and Vision",
+            "Image-Text Matching with Contrastive Learning",
+            "VQA: Visual Question Answering with Multimodal Deep Learning",
+            "A Survey of Multimodal Sentiment Analysis",
+            "Co-attention Networks for Image Captioning",
+            "Image-Text Co-Embedding for Zero-Shot Learning",
+            "Visual Grounding of Words in Images",
+            "Translating Images to Text with Neural Networks",
+            "Unified Vision-Language Pretraining for Multimodal Tasks"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Bridging the Gap Between Vision and Language: A Survey on Multimodal Learning",
+            "Visual Question Answering: Datasets, Algorithms, and Future Challenges",
+            "Cross-Modal Learning: A Survey on Multimodal Data",
+            "Vision-Language Pre-training: A Comprehensive Survey",
+            "Joint Embeddings of Text and Images: A Survey",
+            "Multimodal Transformers: A Survey on Vision-and-Language Tasks",
+            "Image Captioning with Natural Language Processing Techniques",
+            "Learning to Communicate with Vision and Language: A Review",
+            "Multimodal Sentiment Analysis: A Survey of Recent Advances",
+            "Vision-and-Language Navigation: A Survey of Methods and Datasets",
+            "Image-Text Retrieval: A Comprehensive Review of Approaches and Challenges",
+            "Text and Image Fusion for Multimodal Learning: A Survey",
+            "Neural Networks for Multimodal Image and Text Processing",
+            "Language and Vision: A Unified Approach to Multimodal Machine Learning",
+            "Exploring the Relationship Between Language and Vision via Attention Mechanisms",
+            "A Survey on Multimodal Machine Learning for Human Activity Recognition",
+            "Generative Models for Text and Image Synthesis: A Review",
+            "Deep Learning for Vision-and-Language Tasks: A Comprehensive Review",
+            "Multimodal Emotion Recognition: A Review of the State-of-the-Art",
+            "Leveraging Natural Language for Visual Understanding: A Survey"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Multimodal Transformers for Image Captioning",
+            "VisualBERT: A Joint Model for Image and Language Representation Learning",
+            "ViLBERT: Pretraining Task-Agnostic Visuallinguistic Representations",
+            "Unifying Vision-and-Language Tasks via Text Generation",
+            "CLIP: Connecting Text and Images",
+            "Grounded Language Learning in a Visual Environment",
+            "Image-Text Matching using Cross-Modal Transformers",
+            "Visual Question Answering with Transformers",
+            "Task-Agnostic Visual Language Pretraining",
+            "TextVQA: Answering Questions Based on Text in Images",
+            "Pixel-BERT: Aligning Image Pixels with Language Tokens",
+            "Learning to Segment Objects by Watching Videos",
+            "Aligning Books and Movies: Towards Story-like Visual Explanations",
+            "TDIUC: A Benchmark for Diverse, Unanswerable Questions",
+            "Open-Vocabulary Object Detection via Vision-Language Pretraining",
+            "MDETR: Modulated Detection for End-to-End Relation Extraction",
+            "Image-Language Pretraining with Contrastive Learning",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Contextualized Vision-Language Representations",
+            "DALL-E: Creating Images from Text"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.05,
+            "x4": 0.85,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Learning Multimodal Representations for Visual Question Answering",
+            "A Survey on Multimodal Learning: Integrating Vision and Language",
+            "Dual Attention Networks for Multimodal Image Captioning",
+            "Vision-and-Language Pretraining: A Survey and New Perspectives",
+            "Image-Text Matching with Multimodal Transformers",
+            "Grounded Language Acquisition: Learning Language in Context",
+            "Multimodal Transformers for Joint Vision-Language Tasks",
+            "Visual-Linguistic Pretraining for Multimodal Tasks",
+            "Cross-Modal Retrieval: A Study on Image-Text Matching",
+            "Multimodal Sentiment Analysis Using Deep Learning",
+            "Unifying Vision-and-Language Tasks via Text-to-Image Synthesis",
+            "Visual Question Answering with Multimodal Transformers",
+            "Learning to Align Text and Images with Multimodal Neural Networks",
+            "Enhancing Image Captioning with NLP Techniques",
+            "Cross-Modal Semantic Matching for Image-Text Retrieval",
+            "Multimodal Fusion for Sentiment Analysis in Social Media",
+            "Attention-Based Models for Multimodal Learning",
+            "Bridging Vision and Language with Multimodal Contrastive Learning",
+            "Text-Driven Image Generation: A Survey",
+            "Multimodal Representation Learning for Visual Storytelling"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 OR y2",
+      "label": "y1\u2228y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.5772514619883041,
+        "x2": 0.020789473684210524,
+        "x3": 0.36394736842105263,
+        "x4": 0.11590643274853801,
+        "x5": 0.0
+      },
+      "std": {
+        "x1": 0.06463300946595699,
+        "x2": 0.05067184815805063,
+        "x3": 0.047244732583297165,
+        "x4": 0.04774817890455673,
+        "x5": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Networks",
+            "A Survey on Deep Learning for Natural Language Processing",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "The Illustrated Transformer",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Visual Genome: Connecting Language and Vision Using Crowdsourced Data",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "YOLOv3: An Incremental Improvement",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Fine-Grained Visual Classification via Deep Learning",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Self-Supervised Learning of Visual Features through Embedding Images into Text",
+            "Multi-Task Learning for Natural Language Processing: A Survey",
+            "Deep Learning for Image Recognition: A Comprehensive Review"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.0,
+            "x3": 0.3684210526315789,
+            "x4": 0.15789473684210525,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "The Illustrated Transformer",
+            "Deep Residual Learning for Image Recognition",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "YOLOv3: An Incremental Improvement",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Natural Language Processing with Transformers: Theory and Practice",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Text-to-Image Generation Using Generative Adversarial Networks",
+            "Convolutional Neural Networks for Small-footprint Keyword Spotting",
+            "Sequence to Sequence Learning with Neural Networks",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "A Survey of Deep Learning for Natural Language Processing",
+            "Deep Learning for Image Super-resolution: A Survey",
+            "Learning Transferable Visual Models From Natural Language Supervision"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.05,
+            "x3": 0.45,
+            "x4": 0.1,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Networks",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "VQA: Visual Question Answering",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Transformers for Image Recognition at Scale",
+            "Semantic Segmentation with Deep Learning: A Survey",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Sequence to Sequence Learning with Neural Networks",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "YOLOv3: An Incremental Improvement",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Object Detection in 20 Years: A Survey",
+            "CLIP: Connecting Text and Images",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond"
+          ],
+          "vector": {
+            "x1": 0.5555555555555556,
+            "x2": 0.0,
+            "x3": 0.3888888888888889,
+            "x4": 0.1111111111111111,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Vision Transformers for Image Classification",
+            "EfficientDet: Scalable Object Detection",
+            "A Survey on Deep Learning for Image Captioning",
+            "Semantic Segmentation with Deep Learning: A Review",
+            "Transfer Learning for Natural Language Processing: A Survey",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "The Illustrated Transformer",
+            "Deep Residual Learning for Image Recognition",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Deep Learning for NLP: A Comprehensive Survey",
+            "YOLOv3: An Incremental Improvement",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding"
+          ],
+          "vector": {
+            "x1": 0.6666666666666666,
+            "x2": 0.0,
+            "x3": 0.2777777777777778,
+            "x4": 0.05555555555555555,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Deep Residual Learning for Image Recognition",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "VQA: Visual Question Answering",
+            "ELMo: Deep Contextualized Word Representations",
+            "Vision Transformers for Image Classification",
+            "CLIP: Connecting Text and Images",
+            "Semantic Segmentation with Deep Learning: A Review",
+            "Turing-NLG: A 17-Billion-Parameter Language Model"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.0,
+            "x3": 0.3684210526315789,
+            "x4": 0.10526315789473684,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "EfficientDet: Scalable Object Detection via Compound Scaling",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Transformers for Image Recognition at Scale",
+            "VQ-VAE: Vector Quantized Variational Autoencoders",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+            "Turing-NLG: A 17-billion-parameter language model by Microsoft",
+            "Deep Learning for Computer Vision: A Brief Review",
+            "CLIP: Connecting Text and Images",
+            "The Illustrated Transformer",
+            "YOLOv3: An Incremental Improvement",
+            "Deep Learning for NLP with Pytorch and TensorFlow"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.0,
+            "x3": 0.3157894736842105,
+            "x4": 0.10526315789473684,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "EfficientDet: Scalable Object Detection via Compound Scaling",
+            "Generative Pre-trained Transformer 3 (GPT-3): Language Models are Few-Shot Learners",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Vision Transformers for Image Classification",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+            "Semantic Segmentation Using Deep Learning: A Review",
+            "VQ-VAE-2: Generating Diverse High-Fidelity Images with VQ-VAE",
+            "Transformers for Image Recognition at Scale",
+            "A Survey on Deep Learning Techniques for Natural Language Processing",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "DALL-E: Creating Images from Text",
+            "Deep Residual Learning for Image Recognition",
+            "Natural Language Processing with Transformers: Theory and Practice",
+            "Efficient Image Classification with Deep Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.5555555555555556,
+            "x2": 0.0,
+            "x3": 0.3333333333333333,
+            "x4": 0.05555555555555555,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "YOLOv3: An Incremental Improvement",
+            "Generative Adversarial Nets",
+            "Vision Transformers",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Deep Residual Learning for Image Recognition",
+            "Semantic Segmentation using Deep Learning: A Comprehensive Review",
+            "A Survey on Image Captioning: From Traditional to Deep Learning",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Few-Shot Learning for Object Detection",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.0,
+            "x3": 0.3684210526315789,
+            "x4": 0.15789473684210525,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "VQ-VAE: Neural Discrete Representation Learning",
+            "Transformers for Image Recognition at Scale",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, lighter",
+            "YOLOv3: An Incremental Improvement",
+            "ELMo: Deep Contextualized Word Representations",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "Deep Residual Learning for Image Recognition",
+            "CLIP: Connecting Text and Images",
+            "Visual BERT: A Simple and Performant Baseline for Vision and Language"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.4,
+            "x4": 0.1,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "VQA: Visual Question Answering",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "YOLOv3: An Incremental Improvement",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "CLIP: Connecting Text and Images",
+            "VQGAN+CLIP: Open-Ended Text-to-Image Generation",
+            "DALL-E: Creating Images from Text"
+          ],
+          "vector": {
+            "x1": 0.47368421052631576,
+            "x2": 0.15789473684210525,
+            "x3": 0.3684210526315789,
+            "x4": 0.21052631578947367,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND NOT y2",
+      "label": "y1\u2227\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.765,
+        "x2": 0.125,
+        "x3": 0.0,
+        "x4": 0.005,
+        "x5": 0.065
+      },
+      "std": {
+        "x1": 0.06258327785172864,
+        "x2": 0.08579691784155834,
+        "x3": 0.0,
+        "x4": 0.0158113883008419,
+        "x5": 0.08834905520465715
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Transformers for Natural Language Processing",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "A Survey on Contextual Embeddings",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Natural Language Processing with Transformers: A Practical Guide",
+            "Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "The Illustrated Transformer",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features",
+            "A Primer in BERTology: What we know about how BERT works",
+            "A Survey of Named Entity Recognition: From Traditional to Neural Approaches",
+            "Text Classification Algorithms: A Survey",
+            "Evaluating the Impact of Pretraining Strategies on Text Generation",
+            "Neural Machine Translation: A Review",
+            "Zero-Shot Learning for Text Classification: A Review",
+            "Language Models are Few-Shot Learners",
+            "Understanding and Improving Layer Normalization"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "A Survey on Contextual Embeddings",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "The Illustrated Transformer",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Fine-tuned Language Models are Zero-Shot Learners",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "A Primer in BERTology: What we know about how BERT works",
+            "The Power of Scale for Parameter-Efficient Fine-Tuning",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Language Models as Knowledge Bases?",
+            "A Survey on Sentiment Analysis: Approaches and Applications",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Learning to Rank for Information Retrieval",
+            "Pre-trained Transformers for Text Ranking: A Case Study on the MS MARCO Dataset"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "A Survey on Contextual Embeddings",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Sequence to Sequence Learning with Neural Networks",
+            "The Illustrated Transformer",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "Evaluating Dialogue Systems: A Survey",
+            "A Primer in BERT for Natural Language Processing",
+            "Natural Language Processing with Transformers",
+            "Word2Vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+            "Zero-Shot Learning for Text Classification",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "Knowledge Graphs and Natural Language Processing: A Survey",
+            "Automatic Text Summarization: A Survey of the State of the Art"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.1,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, lighter",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "A Survey on Contextual Embeddings",
+            "The Power of Scale for Parameter-Efficient Prompt Tuning",
+            "Generative Pre-trained Transformer 2 (GPT-2): Language Models are Unsupervised Multitask Learners",
+            "Fine-tuned Language Models are State of the Art in NLP",
+            "Natural Language Processing with Transformers: A Tutorial",
+            "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "The Illustrated Transformer",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "A Survey on the State of the Art in Natural Language Processing"
+          ],
+          "vector": {
+            "x1": 0.9,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Fine-tuned Language Models Are Few-Shot Learners",
+            "A Survey of Text Classification Algorithms",
+            "The Illustrated Transformer",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Survey on Evaluation Methods for Text Generation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Conversational Agents: A Survey",
+            "Sentiment Analysis: A Comprehensive Review",
+            "Knowledge Graphs for Natural Language Processing",
+            "Natural Language Processing with Transformers: A Practical Guide"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.15,
+            "x3": 0.0,
+            "x4": 0.05,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Attention Is All You Need",
+            "A Survey on Contextual Embeddings",
+            "ELMo: Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Unsupervised Machine Translation Using Monolingual Corpora Only",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "Semantic Role Labeling: An Introduction to the State of the Art",
+            "A Hierarchical Neural Autoencoder for Paragraphs and Documents",
+            "Transfer Learning in Natural Language Processing: A Survey",
+            "Understanding the Difficulty of Training Transformers",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Zero-shot Learning for Text Classification",
+            "A Primer in BERTology: What we know about how BERT works",
+            "The Illustrated Transformer",
+            "Text Classification Algorithms: A Survey",
+            "Multi-Task Learning for Natural Language Processing: A Survey"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ELMo: Deep Contextualized Word Representations",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "Transformers for Natural Language Processing",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "The Illustrated Transformer",
+            "Fine-tuned Language Models Are Zero-Shot Learners",
+            "A Survey of the State of the Art in Natural Language Generation",
+            "Sentiment Analysis of Twitter Data: A Survey of Techniques",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Primer in BERT for Natural Language Processing",
+            "Text Classification Algorithms: A Survey",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Natural Language Processing with Transformers: A Practical Guide",
+            "Sequence to Sequence Learning with Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Generative Pretrained Transformer 3 (GPT-3): Language Models are Few-Shot Learners",
+            "A Survey on Contextual Embeddings",
+            "ELMo: Deep Contextualized Word Representations",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "DistilBERT, a distilled version of BERT: Smaller, Faster, Cheaper, and Lighter",
+            "The Power of Scale for Parameter-Efficient Prompt Tuning",
+            "Fine-tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "Natural Language Processing with Transformers: A Practical Guide",
+            "The Illustrated Transformer",
+            "A Primer in BERTology: What we know about how BERT works",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Semantic Scholar: A Survey of Text Summarization Techniques",
+            "Text Classification Algorithms: A Survey",
+            "A Survey on Sentiment Analysis and Opinion Mining",
+            "Zero-shot Learning for Text Classification: A Survey",
+            "Transfer Learning for NLP: A Survey"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Natural Language Inference with Large Language Models",
+            "A Survey on Sentiment Analysis: Approaches and Applications",
+            "Fine-tuned Language Models are State of the Art in Natural Language Processing",
+            "Pretrained Transformers for Text Ranking: BERT and Beyond",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "DistilBERT, a Distilled Version of BERT: Smaller, Faster, Cheaper, and Lighter",
+            "A Primer in BERTology: What we know about how BERT works",
+            "Contextualized Word Vectors: A Review of BERT and its Applications",
+            "A Survey of Multi-Document Summarization Techniques",
+            "Named Entity Recognition: A Review of Neural Network Approaches",
+            "The State of the Art in Natural Language Generation: A Survey",
+            "An Overview of Text Summarization Techniques: From Extractive to Abstractive"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ELMo: Deep Contextualized Word Representations",
+            "A Survey on Contextual Embeddings",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper, and lighter",
+            "The Power of Scale for Parameter-Efficient Prompt Tuning",
+            "Pre-trained Transformers for Text Ranking: BERT and Beyond",
+            "Fine-tuning Pre-trained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+            "A Primer in BERTology: What we know about how BERT works",
+            "Knowledge Distillation: A Survey",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Transfer Learning for NLP: A Survey",
+            "The Illustrated Transformer",
+            "Leveraging Pre-trained Checkpoints for Sequence Labeling Tasks",
+            "A Comprehensive Review on Text Summarization Techniques"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.05,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y1",
+      "label": "\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.04,
+        "x2": 0.0,
+        "x3": 0.015000000000000001,
+        "x4": 0.005,
+        "x5": 0.125
+      },
+      "std": {
+        "x1": 0.06582805886043833,
+        "x2": 0.0,
+        "x3": 0.0241522945769824,
+        "x4": 0.0158113883008419,
+        "x5": 0.08249579113843054
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Impact of Climate Change on Biodiversity",
+            "Advances in Quantum Computing Algorithms",
+            "A Comprehensive Review of Renewable Energy Technologies",
+            "Exploring the Mechanisms of Antibiotic Resistance",
+            "The Role of Microbiomes in Human Health",
+            "Machine Learning Applications in Healthcare Diagnostics",
+            "Understanding the Genetic Basis of Autism Spectrum Disorders",
+            "The Future of Electric Vehicles: Challenges and Innovations",
+            "Analyzing Social Media's Influence on Political Campaigns",
+            "The Effects of Urbanization on Local Ecosystems",
+            "Strategies for Mitigating Water Scarcity",
+            "The Intersection of Art and Technology in Modern Society",
+            "Behavioral Economics: Understanding Human Decision Making",
+            "The Role of Artificial Intelligence in Supply Chain Management",
+            "Evaluating the Efficacy of Vaccines in Disease Prevention",
+            "The Psychological Effects of Isolation on Mental Health",
+            "Advances in Carbon Capture and Storage Technologies",
+            "The Evolution of Cybersecurity Threats and Responses",
+            "Investigating the Relationship Between Sleep and Cognitive Function",
+            "The Socioeconomic Impacts of Globalization on Developing Countries"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Renewable Energy Sources and Their Impact on Sustainability",
+            "The Effects of Climate Change on Biodiversity: A Global Perspective",
+            "Advances in Quantum Computing: Algorithms and Applications",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "Understanding the Mechanisms of Antibiotic Resistance in Bacteria",
+            "The Role of Microplastics in Marine Ecosystems",
+            "Evaluating the Impact of Urbanization on Air Quality",
+            "Genetic Engineering: Ethical Implications and Societal Impact",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "Assessing the Economic Impact of Telecommuting in the Post-Pandemic Era",
+            "The Influence of Social Media on Political Mobilization",
+            "Advances in CRISPR Technology and Its Applications in Medicine",
+            "The Relationship Between Sleep Patterns and Mental Health",
+            "Exploring the Use of Drones in Agricultural Practices",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "The Impact of Artificial Intelligence on Healthcare Delivery",
+            "Exploring the Link Between Nutrition and Chronic Diseases",
+            "The Role of Ocean Currents in Climate Regulation",
+            "Investigating the Effects of Urban Green Spaces on Human Well-being",
+            "The Dynamics of Global Supply Chain Resilience in Times of Crisis"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Techniques in Medical Diagnosis",
+            "Advancements in Renewable Energy Technologies: A Review",
+            "Deep Learning for Image Recognition: A Survey",
+            "The Impact of Climate Change on Global Agricultural Productivity",
+            "Quantum Computing: Principles and Applications",
+            "Robotics in Manufacturing: Trends and Future Directions",
+            "The Role of Artificial Intelligence in Cybersecurity",
+            "Blockchain Technology in Supply Chain Management",
+            "Smart Cities: A Paradigm Shift in Urban Development",
+            "The Effects of Air Pollution on Human Health",
+            "Biomaterials for Tissue Engineering: Current Trends and Future Prospects",
+            "Advances in Drug Delivery Systems: A Review",
+            "The Influence of Social Media on Consumer Behavior",
+            "Data Mining Techniques for Financial Fraud Detection",
+            "Sustainable Water Management Practices: Challenges and Solutions",
+            "Nanotechnology in Medicine: Current Applications and Future Directions",
+            "The Role of Genetics in Personalized Medicine",
+            "Exploring the Potential of 5G Technology in Telecommunications",
+            "The Intersection of Virtual Reality and Education",
+            "Ecosystem Services and Their Role in Biodiversity Conservation"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.05,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review on Image Segmentation Techniques",
+            "Quantum Computing: Principles and Applications",
+            "Advances in Renewable Energy Technologies",
+            "The Impact of Climate Change on Biodiversity",
+            "Machine Learning in Healthcare: Current Trends and Future Directions",
+            "Graph Theory Applications in Computer Science",
+            "The Role of Microbiomes in Human Health",
+            "Exploring the Mechanisms of Drug Resistance in Cancer",
+            "Autonomous Vehicles: Challenges and Opportunities",
+            "Innovations in Battery Storage Systems for Renewable Energy",
+            "The Influence of Social Media on Consumer Behavior",
+            "Cybersecurity Threats and Defense Mechanisms",
+            "The Evolution of Blockchain Technology",
+            "Smart Cities: Integrating IoT for Urban Development",
+            "Understanding Gene Editing Techniques: CRISPR and Beyond",
+            "The Psychology of Decision Making: Insights and Implications",
+            "Advances in 3D Printing Technologies",
+            "The Economics of Artificial Intelligence",
+            "Water Resource Management in Urban Areas",
+            "The Future of Space Exploration: Challenges and Solutions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Techniques in Healthcare",
+            "Advances in Renewable Energy Technologies: A Systematic Review",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Exploring Quantum Computing: Principles and Applications",
+            "A Survey on Internet of Things (IoT) Security: Challenges and Solutions",
+            "Data Mining Techniques for Customer Relationship Management",
+            "Enhancements in Battery Technology for Electric Vehicles",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Impact of Urbanization on Water Quality",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "A Meta-Analysis of the Effects of Sleep on Cognitive Performance",
+            "The Future of 5G Technology: Opportunities and Challenges",
+            "The Influence of Social Media on Consumer Behavior",
+            "Biodegradable Plastics: Challenges and Innovations",
+            "The Role of Telemedicine in Modern Healthcare",
+            "Advances in Genetic Engineering: CRISPR and Beyond",
+            "Analyzing the Economic Effects of the COVID-19 Pandemic",
+            "The Intersection of Robotics and Automation in Industry 4.0",
+            "Exploring the Potential of Blockchain Technology in Supply Chain Management",
+            "The Effects of Air Pollution on Human Health: A Review"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning in Medical Imaging",
+            "Advances in Quantum Computing and Its Applications",
+            "The Role of Genetic Engineering in Modern Agriculture",
+            "Renewable Energy Sources: A Global Perspective",
+            "The Impact of Climate Change on Biodiversity",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "Exploring the Human Microbiome: Health Implications",
+            "Cybersecurity Challenges in the Era of IoT",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Behavioral Economics: Understanding Consumer Decision-Making",
+            "The Evolution of Social Media and Its Societal Impact",
+            "Strategies for Sustainable Urban Development",
+            "The Neuroscience of Learning and Memory",
+            "Advances in CRISPR Technology and Ethical Considerations",
+            "The Effects of Air Pollution on Human Health",
+            "Trends in Robotics: From Industry to Everyday Life",
+            "The Intersection of Art and Technology in the Digital Age",
+            "Water Scarcity: Solutions for a Growing Global Challenge",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Exploring the Dynamics of Global Supply Chains"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning in Healthcare",
+            "Advances in Renewable Energy Technologies",
+            "The Impact of Climate Change on Biodiversity",
+            "Quantum Computing: Principles and Applications",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "Innovative Approaches to Water Purification",
+            "The Role of Artificial Intelligence in Cybersecurity",
+            "Machine Learning Techniques for Predictive Maintenance",
+            "Advances in Gene Editing Technologies",
+            "The Economics of Clean Energy Transition",
+            "Examining the Sociopolitical Effects of Urbanization",
+            "Bioinformatics: Tools and Techniques for Genomic Analysis",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Exploring the Relationship Between Sleep and Academic Performance",
+            "The Role of Blockchain in Supply Chain Management",
+            "Assessing the Impact of Remote Work on Productivity",
+            "Advances in Materials Science for Energy Storage",
+            "The Influence of Dietary Patterns on Chronic Disease",
+            "The Effects of Air Pollution on Public Health",
+            "Innovations in Robotics for Industrial Automation"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Role of Machine Learning in Image Recognition",
+            "Advances in Quantum Computing Algorithms",
+            "A Comprehensive Review of Renewable Energy Sources",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Innovations in Drug Delivery Systems",
+            "A Study on the Efficiency of Solar Panels",
+            "The Evolution of Robotics in Industrial Applications",
+            "Enhancing Cybersecurity through Blockchain Technology",
+            "The Effects of Urbanization on Air Quality",
+            "Analyzing the Structure of Complex Networks",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Advances in 3D Printing Technology",
+            "The Role of Artificial Intelligence in Predictive Maintenance",
+            "Understanding Genetic Variations in Human Health",
+            "The Influence of Social Media on Public Opinion",
+            "Assessing the Economic Impact of Telecommuting",
+            "The Development of Smart Grids for Energy Management",
+            "Exploring the Relationship between Diet and Mental Health",
+            "Investigating the Mechanics of Fluid Dynamics",
+            "The Importance of Biodiversity in Ecosystem Resilience"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning in Healthcare",
+            "Advances in Quantum Computing Algorithms",
+            "The Role of Artificial Intelligence in Renewable Energy Systems",
+            "Deep Learning Techniques for Image Recognition",
+            "A Survey of Blockchain Technology in Supply Chain Management",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Novel Approaches to Drug Discovery using Computational Methods",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Analyzing Cybersecurity Threats in IoT Devices",
+            "Enhancements in Battery Technology for Electric Vehicles",
+            "The Effects of Urbanization on Local Wildlife Populations",
+            "Machine Learning Applications in Financial Forecasting",
+            "Exploring the Use of Drones in Agricultural Practices",
+            "Understanding the Mechanisms of Antimicrobial Resistance",
+            "The Influence of Social Media on Political Polarization",
+            "A Review of Geospatial Technologies in Disaster Management",
+            "Innovations in Wearable Health Technology",
+            "The Role of Genetic Engineering in Food Security",
+            "Assessing the Economic Impact of Telecommuting",
+            "The Intersection of Ethics and Artificial Intelligence in Decision Making"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on Renewable Energy Sources",
+            "Advances in Quantum Computing: A Review",
+            "The Impact of Climate Change on Biodiversity",
+            "Machine Learning Applications in Healthcare",
+            "The Role of Genetics in Human Disease",
+            "Exploring the Mechanisms of Drug Resistance in Cancer",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Effects of Urbanization on Water Quality",
+            "Sustainable Agricultural Practices for Food Security",
+            "Microbial Ecology in Soil Health",
+            "The Influence of Social Media on Mental Health",
+            "Recent Advances in Materials Science",
+            "Understanding the Neuroscience of Learning",
+            "The Economics of Climate Change Mitigation",
+            "Exploring the Potential of CRISPR Technology",
+            "The Challenges of Cybersecurity in the Digital Age",
+            "Assessing the Impact of Globalization on Local Cultures",
+            "The Future of Space Exploration: Opportunities and Challenges",
+            "Investigating the Role of Artificial Intelligence in Education",
+            "The Intersection of Ethics and Technology in Modern Society"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "y2 AND NOT y1",
+      "label": "y2\u2227\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.07894736842105263,
+        "x2": 0.010526315789473684,
+        "x3": 0.7894736842105263,
+        "x4": 0.021052631578947368,
+        "x5": 0.021052631578947368
+      },
+      "std": {
+        "x1": 0.07545899357054936,
+        "x2": 0.022191422176620203,
+        "x3": 0.07845852552630843,
+        "x4": 0.02717883049970117,
+        "x5": 0.03680031046211058
+      },
+      "seeds": [
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+            "YOLOv3: An Incremental Improvement",
+            "Deep Residual Learning for Image Recognition",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+            "Single Shot MultiBox Detector",
+            "Feature Pyramid Networks for Object Detection",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Focal Loss for Dense Object Detection",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "DeepLabv3+: Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+            "A Survey on Object Detection: Recent Advances and Future Challenges",
+            "Visual Tracking Decomposition",
+            "3D Object Detection and Pose Estimation from a Single RGB Image",
+            "Real-Time Image Processing with a Convolutional Neural Network",
+            "Low-Shot Learning for Object Detection",
+            "Point Cloud Registration using Deep Learning"
+          ],
+          "vector": {
+            "x1": 0.10526315789473684,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+            "YOLOv3: An Incremental Improvement",
+            "Single Shot MultiBox Detector",
+            "Deep Residual Learning for Image Recognition",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Pyramid Scene Parsing Network",
+            "Attention U-Net: Learning Where to Look for the Pancreas",
+            "Generative Adversarial Networks",
+            "Focal Loss for Dense Object Detection",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "EfficientDet: Scalable Object Detection",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "Densely Connected Convolutional Networks",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "A Survey on Object Detection: From Classical to Deep Learning",
+            "3D Object Detection and Pose Estimation for Grasping in Robotics"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Networks",
+            "Single Shot MultiBox Detector",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "SIFT: Scale-Invariant Feature Transform",
+            "Rethinking ImageNet Pre-training",
+            "Vision Transformers for Dense Prediction",
+            "3D Object Detection from a Single RGB Image",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "Denoising Autoencoders for Image Denoising",
+            "Neural Style Transfer",
+            "Learning Representations for Unsupervised Feature Learning",
+            "Depth Estimation from a Single Image using Deep Learning",
+            "A Survey on Image Data Augmentation Techniques in Deep Learning"
+          ],
+          "vector": {
+            "x1": 0.15789473684210525,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.0,
+            "x5": 0.10526315789473684
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Focal Loss for Dense Object Detection",
+            "Deep Residual Learning for Image Recognition",
+            "Single-Shot Multibox Detector",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "3D Object Detection from a Single RGB Image",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "Deep Learning for Generic Object Detection: A Review",
+            "Image Super-Resolution Using Deep Convolutional Networks",
+            "Learning Representations for Automatic Speech Recognition",
+            "Deep Learning for Image Denoising: A Comprehensive Review"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.05263157894736842,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "Generative Adversarial Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Single Shot MultiBox Detector",
+            "Real-Time Object Detection",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "Neural Style Transfer: A Review",
+            "OpenPose: Real-Time Multi-Person 2D Pose Estimation",
+            "3D Object Detection and Tracking for Autonomous Driving",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "Spatial Transformer Networks",
+            "Supervised Learning of Depth from Monocular Images",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Vision Transformers for Image Classification: A Review"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.0,
+            "x3": 0.631578947368421,
+            "x4": 0.05263157894736842,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+            "YOLOv3: An Incremental Improvement",
+            "Deep Residual Learning for Image Recognition",
+            "Focal Loss for Dense Object Detection",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Single Shot Multibox Detector",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5 MB Model Size",
+            "Learning Representations by Maximizing Mutual Information Across Views",
+            "3D Object Detection and Pose Estimation from a Single RGB Image",
+            "Deep Learning for Image Denoising: A Review",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "An Overview of Deep Learning in Medical Imaging",
+            "Neural Architecture Search with Reinforcement Learning",
+            "Landmark Detection in 2D and 3D Images Using Deep Learning Techniques"
+          ],
+          "vector": {
+            "x1": 0.21052631578947367,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "Focal Loss for Dense Object Detection",
+            "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+            "Deep Residual Learning for Image Recognition",
+            "Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "Generative Adversarial Nets",
+            "Real-Time Object Detection with YOLO",
+            "A Survey on Image Data Augmentation for Deep Learning",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Learning Deep Features for Discriminative Localization",
+            "The Visual Geometry Group: Oxford\u2019s Contributions to Computer Vision Research",
+            "3D Object Detection and Pose Estimation from a Single RGB Image",
+            "Neural Style Transfer: A Review",
+            "EfficientDet: Scalable and Efficient Object Detection"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "A Review of Deep Learning in Medical Imaging: Imaging Traits, Technology Trends, and Future Directions",
+            "Deep Residual Learning for Image Recognition",
+            "SIFT: Scale-Invariant Feature Transform",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "Focal Loss for Dense Object Detection",
+            "Attention is All You Need",
+            "3D Object Detection from a Single RGB Image",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Single-Shot Multi-Person 3D Pose Estimation from a Single RGB Image",
+            "Deep Learning for Image Super-Resolution: A Survey",
+            "Multi-Task Learning for Joint Object Detection and Semantic Segmentation",
+            "Deep Learning for Face Recognition: A Survey",
+            "A Survey on Object Detection: From Classical to State-of-the-Art",
+            "Real-Time Object Detection with You Only Look Once, Version 3"
+          ],
+          "vector": {
+            "x1": 0.15789473684210525,
+            "x2": 0.0,
+            "x3": 0.8947368421052632,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "YOLOv3: An Incremental Improvement",
+            "Single Shot MultiBox Detector",
+            "Feature Pyramid Networks for Object Detection",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "EfficientDet: Scalable and Efficient Object Detection",
+            "DenseNet: Densely Connected Convolutional Networks",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+            "Deep Learning for Computer Vision: A Brief Review",
+            "Visualizing and Understanding Convolutional Networks",
+            "Learning Representations by Back-Propagating Errors",
+            "3D Object Detection and Localization from a Single Image",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "Receptive Field Block Net for Accurate and Efficient Semantic Segmentation",
+            "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.8947368421052632,
+            "x4": 0.0,
+            "x5": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "EfficientDet: Scalable Object Detection",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Deep Residual Learning for Image Recognition",
+            "Single Shot MultiBox Detector",
+            "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+            "Generative Adversarial Networks",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Learning Representations by Maximizing Mutual Information Across Views",
+            "Focal Loss for Dense Object Detection",
+            "Scale-Invariant Feature Transform",
+            "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+            "The Visual Geometry Group: A Unified Architecture for Object Detection",
+            "3D Object Detection and Pose Estimation of a Single RGB Image",
+            "Real-Time Hand Gesture Recognition Using a Recurrent Neural Network",
+            "Deep Learning for Generic Object Detection: A Survey",
+            "Learning to Segment Objects in Images",
+            "Object Detection via a Multi-Region & Semantic Segmentation Approach"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05263157894736842,
+            "x3": 0.8421052631578947,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 AND y2)",
+      "label": "\u00ac(y1\u2227y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.02,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.14476190476190476
+      },
+      "std": {
+        "x1": 0.0632455532033676,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.160799213304183
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Exploring Quantum Computing Algorithms for Optimization Problems",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Advances in Renewable Energy Technologies: A Review",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Analyzing the Effects of Urbanization on Local Wildlife",
+            "Genetic Engineering: Ethical Considerations and Future Directions",
+            "Investigating the Mechanisms of Drug Resistance in Cancer Cells",
+            "The Influence of Social Media on Political Polarization",
+            "Assessing the Economic Impacts of Global Trade Policies",
+            "The Relationship Between Sleep Patterns and Mental Health",
+            "Assessing the Efficacy of Vaccines in Controlling Infectious Diseases",
+            "Understanding the Dynamics of Ecosystem Services in Urban Areas",
+            "A Comprehensive Study of Cognitive Behavioral Therapy Outcomes",
+            "The Role of Artificial Intelligence in Enhancing Cybersecurity",
+            "Evaluating Sustainable Agricultural Practices for Food Security",
+            "The Interplay Between Genetics and Environment in Disease Development",
+            "Analyzing the Effects of Air Pollution on Public Health",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "Investigating the Socioeconomic Factors Influencing Education Access",
+            "The Impacts of Globalization on Cultural Identity and Heritage"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study of Quantum Computing Algorithms",
+            "Advances in Renewable Energy Sources: A Review",
+            "The Impact of Climate Change on Global Agriculture",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "The Role of Artificial Intelligence in Healthcare",
+            "Exploring the Dynamics of Human-Computer Interaction",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Future of Cryptography in a Quantum World",
+            "Understanding the Mechanisms of Neurodegenerative Diseases",
+            "Machine Learning Techniques in Financial Forecasting",
+            "Ethical Implications of Biotechnology in Agriculture",
+            "A Study on the Resilience of Urban Infrastructure",
+            "The Role of Blockchain Technology in Supply Chain Management",
+            "Investigating the Effects of Urbanization on Biodiversity",
+            "Strategies for Sustainable Water Management",
+            "The Influence of Economic Policies on Global Trade",
+            "Advances in Material Science for Nanotechnology Applications",
+            "The Psychology of Decision Making in High-Stakes Environments",
+            "Exploring the Intersection of Ethics and Robotics",
+            "An Overview of Current Trends in Cybersecurity Practices"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Sure! Here are 20 research paper titles that exclude topics in natural language processing and computer vision:",
+            "A Novel Algorithm for Quantum Computing Simulations",
+            "Advancements in Renewable Energy Storage Solutions",
+            "Analyzing the Impact of Social Media on Mental Health",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "The Role of Genomic Data in Personalized Medicine",
+            "Blockchain Technology in Supply Chain Management",
+            "Exploring the Dynamics of Climate Change and Its Economic Effects",
+            "The Effectiveness of Telehealth in Chronic Disease Management",
+            "Ethical Considerations in Autonomous Vehicle Development",
+            "A Study on the Efficiency of Organic Farming Practices",
+            "The Influence of Urbanization on Biodiversity Loss",
+            "Developing Smart Grids for Sustainable Energy Distribution",
+            "Investigating the Effects of Microplastics on Marine Life",
+            "Blockchain Applications in Healthcare Data Security",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Economic Impact of E-commerce Growth",
+            "Innovative Approaches in Water Purification Technologies",
+            "Understanding the Mechanisms of Antimicrobial Resistance",
+            "The Future of Work: Remote Collaboration Technologies",
+            "Evaluating the Impacts of Policy Changes on Renewable Energy Adoption"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.047619047619047616
+          }
+        },
+        {
+          "papers": [
+            "A Study on the Impact of Climate Change on Marine Biodiversity",
+            "Advances in Quantum Computing: Challenges and Opportunities",
+            "Analyzing the Effects of Urbanization on Local Wildlife",
+            "The Role of Synthetic Biology in Sustainable Agriculture",
+            "Investigating the Mechanisms of Antibiotic Resistance in Bacteria",
+            "The Influence of Social Media on Political Engagement",
+            "Exploring the Relationship Between Sleep and Cognitive Function",
+            "Innovations in Renewable Energy Technologies: A Review",
+            "Assessing the Economic Impact of Remote Work Trends",
+            "The Importance of Mental Health Awareness in Schools",
+            "Strategies for Reducing Plastic Waste in Urban Areas",
+            "Understanding the Genetic Basis of Alzheimer's Disease",
+            "The Role of Artificial Intelligence in Supply Chain Management",
+            "Evaluating the Efficacy of Vaccines Against Emerging Infectious Diseases",
+            "The Intersection of Ethics and Biotechnology in Genetic Engineering",
+            "Climate Models and Their Predictions for Future Weather Patterns",
+            "The Effect of Music Therapy on Mental Health Outcomes",
+            "Historical Perspectives on the Development of Vaccination",
+            "Analyzing Consumer Behavior in the Age of E-commerce",
+            "The Cultural Impact of Globalization on Indigenous Communities"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Reinforcement Learning",
+            "Advances in Quantum Computing Algorithms",
+            "Exploring the Applications of Blockchain Technology",
+            "A Review of Machine Learning in Healthcare",
+            "The Impact of IoT on Smart Cities Development",
+            "Enhancing Cybersecurity through Machine Learning",
+            "A Study on Data Privacy Regulations",
+            "The Role of AI in Supply Chain Management",
+            "Quantum Machine Learning: A New Approach",
+            "Techniques for Optimizing Neural Network Performance",
+            "Analyzing the Effects of Climate Change on Biodiversity",
+            "The Future of Renewable Energy: Trends and Challenges",
+            "Evaluating the Efficacy of Vaccination Programs",
+            "Innovations in Autonomous Vehicle Technology",
+            "A Critical Review of Ethical AI Practices",
+            "The Influence of Social Media on Public Opinion",
+            "Advances in Bioinformatics: Challenges and Solutions",
+            "Understanding the Dynamics of Economic Recession",
+            "The Role of Data Analytics in Sports Performance",
+            "Investigating the Mechanisms of Drug Resistance in Cancer"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.25
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Reinforcement Learning Algorithms",
+            "Quantum Computing: An Overview and Challenges",
+            "Advances in Gene Editing Technologies",
+            "The Impact of Climate Change on Biodiversity",
+            "Analyzing Social Media Trends Using Big Data",
+            "Blockchain Technology: Applications and Challenges",
+            "A Review of Renewable Energy Sources",
+            "The Role of AI in Healthcare: Opportunities and Risks",
+            "Understanding the Human Microbiome",
+            "Machine Learning in Drug Discovery",
+            "Cybersecurity Threats and Mitigation Strategies",
+            "The Economics of Autonomous Vehicles",
+            "Smart Cities: Technologies and Challenges",
+            "The Future of 5G Networks",
+            "An Overview of Internet of Things (IoT) Protocols",
+            "The Role of Data Privacy in the Digital Age",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Effects of Urbanization on Water Resources",
+            "The Influence of Social Networks on Political Opinions",
+            "Assessing the Impact of Telecommuting on Productivity"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Study on Network Security Protocols in IoT Environments",
+            "Advancements in Quantum Computing Algorithms",
+            "Analyzing the Impact of Climate Change on Biodiversity",
+            "Novel Approaches in Renewable Energy Storage Solutions",
+            "The Role of Machine Learning in Drug Discovery",
+            "Enhancing Cybersecurity with Blockchain Technology",
+            "Investigating the Effects of Microplastics on Marine Life",
+            "The Future of Smart Cities: Urban Planning and Sustainability",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "Innovations in Biodegradable Materials for Packaging",
+            "The Influence of Social Media on Mental Health",
+            "Exploring the Potential of CRISPR Technology in Genetic Engineering",
+            "Evaluating the Economic Impacts of Telecommuting Post-Pandemic",
+            "The Significance of Cultural Heritage in Modern Society",
+            "Advances in Telemedicine: Benefits and Challenges",
+            "Assessing the Effectiveness of Vaccination Programs",
+            "The Role of Artificial Intelligence in Financial Forecasting",
+            "Strategies for Reducing Carbon Footprint in Transportation",
+            "The Importance of Interdisciplinary Research in Environmental Science",
+            "Examining the Ethics of Autonomous Systems in Warfare"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Study on the Impact of Climate Change on Agricultural Yield",
+            "Advances in Quantum Computing: Algorithms and Applications",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Analyzing the Effects of Urbanization on Biodiversity",
+            "Renewable Energy Sources: A Comparative Analysis",
+            "The Influence of Social Media on Political Engagement",
+            "Exploring the Genetic Basis of Alzheimer's Disease",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Socioeconomic Impacts of Telecommuting Post-Pandemic",
+            "Investigating the Effects of Air Pollution on Public Health",
+            "Innovations in Battery Technology for Sustainable Energy",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Impact of Remote Learning on Student Performance",
+            "Climate Adaptation Strategies for Coastal Communities",
+            "Evaluating the Effectiveness of Vaccination Programs",
+            "The Relationship Between Economic Growth and Environmental Sustainability",
+            "Exploring the Ethics of Genetic Engineering in Agriculture",
+            "The Psychological Effects of Long-term Isolation",
+            "Strategies for Enhancing Cybersecurity in Critical Infrastructure"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning in Healthcare",
+            "Advancements in Quantum Computing Algorithms",
+            "Exploring the Role of Artificial Intelligence in Climate Change Mitigation",
+            "The Impact of Blockchain Technology on Supply Chain Management",
+            "Bioinformatics Approaches for Genomic Data Analysis",
+            "Machine Learning Techniques for Financial Market Prediction",
+            "The Future of Renewable Energy: Trends and Challenges",
+            "Artificial Intelligence in Drug Discovery: A Review",
+            "Data Privacy and Security in the Age of Big Data",
+            "Robotics in Manufacturing: Current Trends and Future Directions",
+            "Smart Cities: Integrating IoT and AI for Urban Development",
+            "Analyzing Social Media Trends Using Big Data Analytics",
+            "The Ethical Implications of Autonomous Systems",
+            "Cybersecurity Challenges in the Internet of Things",
+            "Advancements in Edge Computing for Real-Time Data Processing",
+            "The Role of AI in Personalized Education Systems",
+            "Assessing the Impact of Telemedicine on Patient Care",
+            "Trends in Renewable Energy Technology Adoption",
+            "The Application of Machine Learning in Predictive Maintenance",
+            "Investigating the Effects of AI on Labor Markets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.5
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Reinforcement Learning: Theories and Applications",
+            "Quantum Computing: Principles and Applications",
+            "A Study on the Impact of Climate Change on Biodiversity",
+            "Advancements in Renewable Energy Technologies: A Review",
+            "The Role of Machine Learning in Drug Discovery",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "Evaluating Cybersecurity Threats in Modern Networks",
+            "The Importance of Data Privacy in the Digital Age",
+            "A Systematic Review of Blockchain Technology Applications",
+            "The Influence of Urbanization on Air Quality",
+            "Emerging Trends in Internet of Things (IoT) Security",
+            "An Overview of Supply Chain Management Innovations",
+            "Assessing the Impact of Telemedicine on Healthcare Delivery",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Strategies for Effective Waste Management in Urban Areas",
+            "Investigating the Role of Artificial Intelligence in Financial Markets",
+            "The Effects of Globalization on Local Economies",
+            "Exploring the Relationship between Education and Economic Growth",
+            "The Impact of Artificial Intelligence on Workforce Dynamics",
+            "Innovations in Biodegradable Materials for Sustainable Packaging"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 OR y2)",
+      "label": "\u00ac(y1\u2228y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.01,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.1788095238095238
+      },
+      "std": {
+        "x1": 0.021081851067789197,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.11277356090549154
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Exploring Quantum Computing Algorithms for Optimization Problems",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Advances in Renewable Energy Technologies: A Review",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Analyzing the Effects of Urbanization on Local Wildlife",
+            "Genetic Engineering: Ethical Considerations and Future Directions",
+            "Investigating the Mechanisms of Drug Resistance in Cancer",
+            "The Influence of Social Media on Political Engagement",
+            "A Comprehensive Study of Blockchain Technology Applications",
+            "Understanding the Dynamics of Global Supply Chains",
+            "The Relationship Between Economic Growth and Environmental Sustainability",
+            "Advances in Battery Technology for Energy Storage Solutions",
+            "The Psychological Effects of Isolation in Remote Work Environments",
+            "Assessing the Viability of Vertical Farming in Urban Areas",
+            "The Evolution of Cybersecurity Threats and Defense Strategies",
+            "Analyzing Water Scarcity Issues in Agricultural Practices",
+            "The Role of Artificial Intelligence in Healthcare Innovation",
+            "Exploring the Intersection of Culture and Technology in Education",
+            "The Economic Impact of Pandemics on Global Markets",
+            "Investigating the Effects of Air Pollution on Human Health"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Reinforcement Learning Algorithms",
+            "Advances in Quantum Computing: Opportunities and Challenges",
+            "The Effects of Climate Change on Marine Biodiversity",
+            "Innovations in Renewable Energy Technologies",
+            "A Study on the Impact of Telemedicine on Healthcare Delivery",
+            "Exploring the Role of Artificial Intelligence in Drug Discovery",
+            "The Socioeconomic Implications of Urbanization",
+            "Advances in Materials Science: Nanotechnology Applications",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Influence of Social Media on Political Mobilization",
+            "Analyzing the Effects of Microplastics on Human Health",
+            "The Role of Genomics in Personalized Medicine",
+            "A Study of Blockchain Technology in Supply Chain Management",
+            "The Impact of Automation on Employment Trends",
+            "Investigating the Psychological Effects of Isolation",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "Assessing the Impact of Air Pollution on Public Health",
+            "The Role of Education in Economic Development",
+            "Exploring the Ethics of Artificial Intelligence",
+            "The Intersection of Technology and Mental Health Care"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Sure! Here are 20 research paper titles that exclude topics in natural language processing and computer vision:",
+            "A Novel Approach to Quantum Computing Algorithms",
+            "Advancements in Renewable Energy Storage Systems",
+            "The Role of Machine Learning in Predictive Maintenance",
+            "An Analysis of Blockchain Technology in Supply Chain Management",
+            "Exploring the Impact of Climate Change on Biodiversity",
+            "Innovations in Wireless Sensor Networks for Smart Agriculture",
+            "Understanding the Dynamics of Social Networks",
+            "The Effects of Artificial Intelligence on Labor Markets",
+            "Framework for Cybersecurity Risk Assessment in IoT",
+            "Evaluating the Performance of Hybrid Energy Systems",
+            "The Influence of Genetic Factors on Human Behavior",
+            "Recent Developments in Quantum Cryptography",
+            "A Comparative Study of Graph Theory Applications",
+            "Modeling the Spread of Infectious Diseases Using Agent-Based Simulation",
+            "Investigating the Relationship Between Urbanization and Air Quality",
+            "Advancements in 5G Technology and Its Applications",
+            "The Impact of Policy Changes on Renewable Energy Adoption",
+            "Understanding the Mechanisms of Drug Resistance in Cancer",
+            "Designing Sustainable Urban Environments: Challenges and Solutions",
+            "The Role of Data Analytics in Enhancing Customer Experience"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.23809523809523808
+          }
+        },
+        {
+          "papers": [
+            "A Study on the Impact of Climate Change on Marine Biodiversity",
+            "Advances in Quantum Computing: Challenges and Opportunities",
+            "Analyzing the Effects of Urbanization on Local Wildlife",
+            "The Role of Genetic Engineering in Crop Improvement",
+            "Assessing the Economic Impacts of Renewable Energy Adoption",
+            "Enhancing Cybersecurity Through Machine Learning Techniques",
+            "Investigating the Psychological Effects of Social Media on Adolescents",
+            "The Influence of Microplastics on Marine Ecosystems",
+            "Evaluating the Effectiveness of Vaccination Campaigns in Public Health",
+            "The Dynamics of Global Supply Chains Post-Pandemic",
+            "A Comprehensive Review of Blockchain Technology Applications",
+            "The Relationship Between Air Quality and Public Health Outcomes",
+            "Exploring the Intersection of Art and Science in Education",
+            "The Future of Transportation: Autonomous Vehicles and Urban Planning",
+            "Ethical Considerations in Artificial Intelligence Development",
+            "The Impact of Telemedicine on Healthcare Delivery Systems",
+            "Strategies for Sustainable Urban Development",
+            "The Role of Artificial Intelligence in Financial Markets",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Sociocultural Implications of Globalization on Local Communities"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Reinforcement Learning",
+            "Advances in Quantum Computing Algorithms",
+            "Exploring the Applications of Blockchain Technology",
+            "A Review of Machine Learning in Healthcare",
+            "The Impact of IoT on Smart Cities Development",
+            "Enhancing Cybersecurity through Artificial Intelligence",
+            "A Study on Data Privacy Regulations and Compliance",
+            "Energy-Efficient Computing: Trends and Future Directions",
+            "The Role of Big Data in Predictive Analytics",
+            "An Overview of Edge Computing in Modern Networks",
+            "Advances in Autonomous Robotics: Challenges and Solutions",
+            "The Future of 5G Technology: Opportunities and Challenges",
+            "Analyzing the Effects of Climate Change on Agricultural Systems",
+            "Smart Grids: A Review of Current Technologies and Future Trends",
+            "Understanding the Mechanisms of Human-Computer Interaction",
+            "Investigating the Benefits of 3D Printing in Manufacturing",
+            "A Systematic Review of Bioinformatics Applications",
+            "The Evolution of Cryptography in the Digital Age",
+            "Exploring the Intersection of Ethics and Artificial Intelligence",
+            "Recent Advances in Wireless Sensor Networks"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.25
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Reinforcement Learning Algorithms",
+            "Quantum Computing: An Overview and Challenges",
+            "Advances in Gene Editing Technologies",
+            "The Impact of Climate Change on Biodiversity",
+            "Analyzing Social Media Trends Using Big Data",
+            "Blockchain Technology: Applications and Challenges",
+            "A Review of Renewable Energy Sources",
+            "The Role of AI in Healthcare: Opportunities and Risks",
+            "Understanding the Human Microbiome and Its Implications",
+            "Cybersecurity Threats and Mitigation Strategies",
+            "The Economics of Artificial Intelligence",
+            "Exploring the Potential of 5G Networks",
+            "Advances in Battery Technology for Electric Vehicles",
+            "The Future of Work: Automation and Employment",
+            "Assessing the Impact of Microplastics on Marine Life",
+            "The Psychology of Decision Making: A Behavioral Perspective",
+            "Machine Learning in Drug Discovery: A Review",
+            "The Role of Urban Planning in Sustainable Development",
+            "Ethical Implications of Genetic Engineering",
+            "The Influence of Social Media on Political Movements"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Study on Network Security Protocols in IoT Environments",
+            "Advancements in Quantum Computing and Their Applications",
+            "The Impact of Climate Change on Biodiversity in Urban Areas",
+            "Analyzing the Efficiency of Renewable Energy Sources",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "Understanding the Dynamics of Microbial Communities in Soil",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Exploring the Effects of Social Media on Mental Health",
+            "The Use of Blockchain Technology in Supply Chain Management",
+            "Investigating the Relationship Between Air Quality and Public Health",
+            "Novel Approaches to Cybersecurity Threat Detection",
+            "The Influence of Urbanization on Local Water Cycles",
+            "Strategies for Enhancing User Privacy in Mobile Applications",
+            "Assessment of Genetic Diversity in Endangered Plant Species",
+            "The Economics of Telecommuting: Impact on Urban Development",
+            "Evaluating the Effectiveness of Vaccination Programs in Disease Control",
+            "Advances in Biodegradable Materials for Sustainable Packaging",
+            "Research on the Psychological Effects of Long-term Space Travel",
+            "Methods for Optimizing Energy Consumption in Smart Homes",
+            "The Intersection of Ethics and Artificial Intelligence in Decision Making"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "A Study on the Impact of Quantum Computing on Data Security",
+            "Advances in Renewable Energy Systems: A Comprehensive Review",
+            "The Role of Machine Learning in Predictive Maintenance",
+            "Analyzing the Effects of Climate Change on Agricultural Productivity",
+            "Blockchain Technology: Applications and Challenges",
+            "Understanding the Dynamics of Social Networks",
+            "The Influence of Urbanization on Biodiversity",
+            "Enhancing Cybersecurity through Machine Learning Techniques",
+            "The Economics of Artificial Intelligence: Opportunities and Threats",
+            "Exploring the Intersection of Neuroscience and Artificial Intelligence",
+            "The Future of Work: Automation and Employment Trends",
+            "Evaluating the Effectiveness of Telemedicine in Rural Areas",
+            "A Comparative Study of Energy Storage Technologies",
+            "The Ethics of Autonomous Systems in Military Applications",
+            "Investigating the Relationship Between Mental Health and Social Media Usage",
+            "The Impact of Globalization on Local Cultures",
+            "Advances in Biodegradable Materials for Sustainable Packaging",
+            "The Role of Government Policy in Promoting Electric Vehicles",
+            "Analyzing Financial Market Trends Using Time Series Data",
+            "The Influence of Dietary Choices on Global Health Outcomes"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Algorithms for Healthcare Applications",
+            "Advancements in Quantum Computing: An Overview of Current Trends",
+            "The Role of Artificial Intelligence in Climate Change Mitigation",
+            "Blockchain Technology: A Comprehensive Survey on Its Applications",
+            "Emerging Trends in Cybersecurity: Threats and Solutions",
+            "An Investigation into the Effects of Social Media on Mental Health",
+            "Sustainable Energy Systems: Innovations and Challenges",
+            "The Impact of Autonomous Vehicles on Urban Planning",
+            "Data Privacy and Security in the Age of Big Data",
+            "Exploring the Relationship Between Economic Growth and Environmental Sustainability",
+            "Advances in Gene Editing: Ethical Considerations and Future Directions",
+            "The Influence of Telecommuting on Work-Life Balance",
+            "Smart Cities: Integrating Technology for Sustainable Urban Development",
+            "The Future of Renewable Energy Technologies: A Review",
+            "Understanding the Dynamics of Global Supply Chains",
+            "Artificial Intelligence in Drug Discovery: Opportunities and Challenges",
+            "The Role of Robotics in Modern Manufacturing",
+            "E-commerce Trends and Consumer Behavior in the Digital Age",
+            "Investigating the Effects of Climate Change on Biodiversity",
+            "The Intersection of Technology and Education: Innovations in Learning"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Reinforcement Learning: Theories and Applications",
+            "Quantum Computing: Principles and Applications",
+            "A Study on the Impact of Climate Change on Biodiversity",
+            "Advancements in Renewable Energy Technologies: A Review",
+            "The Role of Machine Learning in Drug Discovery",
+            "Analyzing the Effects of Social Media on Mental Health",
+            "Evaluating Cybersecurity Threats in Modern Networks",
+            "The Importance of Data Privacy in the Digital Age",
+            "A Review of Blockchain Technology and Its Applications",
+            "The Influence of Urbanization on Air Quality",
+            "Understanding the Mechanisms of Protein Folding",
+            "Advances in Biometric Authentication Systems",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Exploring the Relationship Between Economic Growth and Education",
+            "Assessing the Efficacy of Vaccines Against Emerging Infectious Diseases",
+            "The Intersection of Ethics and Artificial Intelligence",
+            "The Role of Microbiomes in Human Health",
+            "Current Trends in Financial Technology (FinTech)",
+            "Strategies for Effective Water Resource Management",
+            "The Impact of Remote Work on Organizational Culture"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}

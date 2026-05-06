@@ -1,0 +1,3019 @@
+{
+  "config": {
+    "model": "gpt-5-mini",
+    "temperature": null,
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260329_063911",
+    "experiment": "support"
+  },
+  "parent_topics": {
+    "y1": "theoretical computer science",
+    "y2": "economics"
+  },
+  "classification_topics": {
+    "x1": "complexity theory (computational complexity, P vs NP, complexity classes, hardness results, reductions, circuit complexity, space/time complexity bounds)",
+    "x2": "macroeconomics (GDP, inflation, monetary policy, fiscal policy, business cycles, economic growth, unemployment, central banking, aggregate demand/supply)",
+    "x3": "mechanism design (auction design, incentive compatibility, social choice, matching markets, market design, algorithmic game theory, incentive mechanisms)"
+  },
+  "prompts": [
+    {
+      "name": "y2",
+      "label": "y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.405,
+        "x3": 0.285
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.0864420165325996,
+        "x3": 0.14151953143569185
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Rational Expectations and the Theory of Price Movements",
+            "A Contribution to the Theory of Economic Growth",
+            "The Nature of the Firm",
+            "The Relation Between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "A Model of Growth Through Creative Destruction",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure",
+            "Econometric Policy Evaluation: A Critique",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "On the Impossibility of Informationally Efficient Markets",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Economic Growth in a Cross Section of Countries",
+            "Some Unpleasant Monetarist Arithmetic",
+            "Increasing Returns and Long-Run Growth",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "The Economics of Superstars",
+            "Schooling, Experience, and Earnings"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth",
+            "Theory of Games and Economic Behavior",
+            "An Essay on the Principle of Population",
+            "The Cost of Capital, Corporation Finance and the Theory of Investment",
+            "Job Market Signaling",
+            "The Problem of Social Cost",
+            "The General Theory of Employment, Interest and Money",
+            "The Role of Monetary Policy",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Theory of the Consumption Function",
+            "The Economics of Exhaustible Resources",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "Portfolio Selection",
+            "Increasing Returns and Long-Run Growth",
+            "Endogenous Technological Change",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "The Use of Knowledge in Society",
+            "Econometric Policy Evaluation: A Critique"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Behavioral Model of Rational Choice",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Does the Stock Market Overreact?",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Equilibrium Points in N-Person Games",
+            "The Cross-Section of Expected Stock Returns",
+            "The Pure Theory of Public Expenditure",
+            "The Use of Knowledge in Society",
+            "Growth in a Time of Debt",
+            "The Economics of Superstars",
+            "Equilibrium Unemployment as a Worker Discipline Device"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.35,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Difficulty in the Concept of Social Welfare",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Portfolio Selection",
+            "Equilibrium Points in N-Person Games",
+            "A Contribution to the Theory of Economic Growth",
+            "Time to Build and Aggregate Fluctuations",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "A Model of Growth through Creative Destruction",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Cost of Capital, Corporation Finance and the Theory of Investment",
+            "The Role of Monetary Policy",
+            "Job Market Signaling",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Theory of Economic Regulation",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "The Tragedy of the Commons",
+            "Monopoly and Resource Allocation",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.25,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Use of Knowledge in Society",
+            "A Contribution to the Theory of Economic Growth",
+            "Portfolio Selection",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Increasing Returns and Long-Run Growth",
+            "Endogenous Technological Change",
+            "Job Market Signaling",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Are Government Bonds Net Wealth?",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Growth in a Time of Debt",
+            "Does Social Capital Have an Economic Payoff? A Cross-Country Investigation",
+            "The Pure Theory of Public Expenditure"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth",
+            "Econometric Policy Evaluation: A Critique",
+            "Time to Build and Aggregate Fluctuations",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Job Market Signaling",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Endogenous Technological Change",
+            "Investment in Human Capital",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "Crime and Punishment: An Economic Approach",
+            "The Theory of Optimum Currency Areas",
+            "A Behavioral Model of Rational Choice",
+            "The Political Economy of Rent-Seeking",
+            "Increasing Returns and Economic Geography",
+            "A Theory of Rational Addiction"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.45,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "The Methodology of Positive Economics",
+            "Econometric Policy Evaluation: A Critique",
+            "The Cost of Capital, Corporation Finance and the Theory of Investment",
+            "A Contribution to the Theory of Economic Growth",
+            "Increasing Returns and Long-Run Growth",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Theory of Auctions and Competitive Bidding",
+            "Credit Rationing in Markets with Imperfect Information",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "On the Impossibility of Informationally Efficient Markets",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "A Contribution to the Empirics of Economic Growth",
+            "Crime and Punishment: An Economic Approach",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "The Use of Knowledge in Society",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.3,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Econometric Policy Evaluation: A Critique",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Portfolio Selection",
+            "The Pricing of Options and Corporate Liabilities",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "The Use of Knowledge in Society",
+            "Crime and Punishment: An Economic Approach",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "The Role of Monetary Policy",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Economics of Superstars",
+            "Monopolistic Competition and Optimum Product Diversity",
+            "A Theory of Optimum Currency Areas",
+            "Endogenous Technological Change"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "The Use of Knowledge in Society",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Job Market Signaling",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Growth in a Time of Debt",
+            "A Model of Growth through Creative Destruction",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "Transaction-Cost Economics: The Governance of Contractual Relations",
+            "Moral Hazard in Teams",
+            "Equilibrium Points in N-Person Games",
+            "A Behavioral Model of Rational Choice",
+            "Credit Cycles",
+            "An Experimental Analysis of Ultimatum Bargaining"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "Crime and Punishment: An Economic Approach",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Some Unpleasant Monetarist Arithmetic",
+            "A Contribution to the Theory of Economic Growth",
+            "Portfolio Selection",
+            "Rational Expectations and the Theory of Price Movements",
+            "The Use of Knowledge in Society",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "The Performance of Mutual Funds in the Period 1945\u20131964",
+            "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
+            "Endogenous Technological Change",
+            "Increasing Returns and Long-Run Growth",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "The Role of Monetary Policy",
+            "A Behavioral Model of Rational Choice",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y2",
+      "label": "\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.19,
+        "x2": 0.0,
+        "x3": 0.005
+      },
+      "std": {
+        "x1": 0.09368979548370131,
+        "x2": 0.0,
+        "x3": 0.0158113883008419
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On the Electrodynamics of Moving Bodies",
+            "A Mathematical Theory of Communication",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Highly Accurate Protein Structure Prediction with AlphaFold",
+            "On the Einstein Podolsky-Rosen Paradox",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Generative Adversarial Nets",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "The Chemical Basis of Morphogenesis",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "ImageNet Large Scale Visual Recognition Challenge",
+            "No Free Lunch Theorems for Optimization",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Learning Representations by Back-Propagating Errors"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "On the Electrodynamics of Moving Bodies",
+            "The Quantum Theory of the Electron",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Theory of Superconductivity",
+            "Inflationary universe: A possible solution to the horizon and flatness problems",
+            "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Initial sequencing and analysis of the human genome",
+            "A Contribution to the Mathematical Theory of Epidemics",
+            "The Chemical Basis of Morphogenesis",
+            "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+            "Generative Adversarial Nets",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Planetary boundaries: exploring the safe operating space for humanity"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On the Electrodynamics of Moving Bodies",
+            "Modular Elliptic Curves and Fermat's Last Theorem",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "The Chemical Basis of Morphogenesis",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "The Hallmarks of Cancer: The Next Generation",
+            "Densely Connected Convolutional Networks",
+            "Emergence of scaling in random networks"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Learning representations by back-propagating errors",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Attention Is All You Need",
+            "Generative Adversarial Nets",
+            "Human-level control through deep reinforcement learning",
+            "Mastering the game of Go without human knowledge",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "The Chemical Basis of Morphogenesis",
+            "On the Einstein Podolsky Rosen Paradox",
+            "On the Hypotheses Which Lie at the Foundations of Geometry",
+            "Modular Elliptic Curves and Fermat's Last Theorem",
+            "The Structure of the Large Ribosomal Subunit at 2.4 \u00c5 Resolution",
+            "The Hallmarks of Cancer",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Learning representations by back-propagating errors"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "On the Electrodynamics of Moving Bodies",
+            "Does the Inertia of a Body Depend Upon Its Energy Content?",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Chemical Basis of Morphogenesis",
+            "Synthesis of the Elements in Stars",
+            "Gravitational Collapse and Space-Time Singularities",
+            "On the Law of Distribution of Energy in the Normal Spectrum",
+            "The Hallmarks of Cancer",
+            "Long Short-Term Memory",
+            "Generative Adversarial Nets",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Computing Machinery and Intelligence",
+            "The Strength of Weak Ties",
+            "A Theory of Human Motivation"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Latent Dirichlet Allocation",
+            "Generative Adversarial Nets",
+            "A Theory of the Learnable",
+            "On the Electrodynamics of Moving Bodies",
+            "The Foundation of the General Theory of Relativity",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Protein Measurement with the Folin Phenol Reagent",
+            "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "The Complexity of Theorem-Proving Procedures",
+            "Support-Vector Networks",
+            "Random Forests",
+            "Deterministic Nonperiodic Flow"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Generative Adversarial Nets",
+            "Deep Residual Learning for Image Recognition",
+            "Auto-Encoding Variational Bayes",
+            "Human-level control through deep reinforcement learning",
+            "Mastering the game of Go without human knowledge",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Chemical Basis of Morphogenesis",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Basic local alignment search tool",
+            "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Image-to-Image Translation with Conditional Adversarial Networks"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "On the Electrodynamics of Moving Bodies",
+            "Particle Creation by Black Holes",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "On the Einstein Podolsky-Rosen paradox",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "Generative Adversarial Nets",
+            "Human-level control through deep reinforcement learning",
+            "The Fluid Mosaic Model of the Structure of Cell Membranes",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A Quantitative Description of Membrane Current and Its Application to Conduction and Excitation in Nerve",
+            "Experimental Test of Parity Conservation in Beta Decay",
+            "The Hallmarks of Cancer",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Molecular structure of nucleic acids; a structure for deoxyribose nucleic acid",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Particle creation by black holes",
+            "The Hallmarks of Cancer",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Deterministic Nonperiodic Flow",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Human-level control through deep reinforcement learning",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Chemical Basis of Morphogenesis",
+            "On the Electrodynamics of Moving Bodies",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "On the Einstein Podolsky-Rosen Paradox",
+            "Modular Elliptic Curves and Fermat's Last Theorem",
+            "The Hallmarks of Cancer",
+            "Gradient-Based Learning Applied to Document Recognition"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "label": "y1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.9172807017543859,
+        "x2": 0.0,
+        "x3": 0.01
+      },
+      "std": {
+        "x1": 0.10689608196845779,
+        "x2": 0.0,
+        "x3": 0.021081851067789197
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Probabilistic Encryption",
+            "Probabilistically Checkable Proofs: A New Characterization of NP",
+            "Some Optimal Inapproximability Results",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "IP = PSPACE",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Hardness vs Randomness",
+            "The Space Complexity of Approximating the Frequency Moments",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "Some Complexity Questions Related to Distributed Computing",
+            "Probabilistic Automata",
+            "New Directions in Cryptography",
+            "Parity, Circuits and the Polynomial Method",
+            "Lower Bounds for Small Depth Circuits",
+            "The Probabilistic Method",
+            "Interactive Proofs and the Hardness of Approximating Cliques"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Finite Automata and Their Decision Problems",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "A Theory of the Learnable",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "Graph Isomorphism in Quasipolynomial Time",
+            "Quantum Complexity Theory",
+            "A Polynomial-Time Approximation Algorithm for the Permanent of a Matrix with Nonnegative Entries",
+            "Universal Classes of Hash Functions"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Mathematical Theory of Communication",
+            "PRIMES is in P",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Some Optimal Inapproximability Results",
+            "IP = PSPACE",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "Undirected Connectivity in Log-Space",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Alternation",
+            "Generating Hard Instances of Lattice Problems",
+            "Lower Bounds for Algebraic Computation Trees",
+            "Expander Graphs and Their Applications"
+          ],
+          "vector": {
+            "x1": 0.9333333333333333,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Shortest Spanning Subtree of a Graph",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Probabilistic Encryption",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "IP = PSPACE",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "Probabilistic Algorithms",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "Undirected Connectivity in Log-Space",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Lower Bounds for Algebraic Computation Trees",
+            "A Symbolic Analysis of Relay and Switching Circuits",
+            "Probabilistic Methods in Combinatorics"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Reducibility Among Combinatorial Problems",
+            "The Complexity of Theorem-Proving Procedures",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Probabilistic Encryption",
+            "New Directions in Cryptography",
+            "Some Complexity Questions Related to Distributive Computing",
+            "Eigenvalues and Expanders",
+            "Proof Checking and Hardness of Approximation Problems",
+            "IP = PSPACE",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "Quantum Complexity Theory",
+            "Almost Optimal Lower Bounds for Small Depth Circuits",
+            "Non-Interactive Zero-Knowledge and Its Applications",
+            "Hardness vs Randomness",
+            "Generating Hard Instances of Lattice Problems"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "IP = PSPACE",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Probabilistic Encryption",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Protocols for Secure Computations",
+            "New Directions in Cryptography",
+            "A Theory of the Learnable",
+            "Some Optimal Inapproximability Results",
+            "Natural Proofs",
+            "College Admissions and the Stability of Marriage",
+            "On the Evolution of Random Graphs",
+            "Worst-Case Analysis of a New Heuristic for the Travelling Salesman Problem",
+            "An Unsolvable Problem of Elementary Number Theory"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "New Directions in Cryptography",
+            "Probabilistic Encryption",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "The Byzantine Generals Problem",
+            "IP = PSPACE",
+            "Interactive Proofs and the Hardness of Approximating Cliques",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "College Admissions and the Stability of Marriage",
+            "A Note on Two Problems in Connexion with Graphs",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "Cuckoo Hashing",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "A New Approach to the Maximum Flow Problem",
+            "The Influence of Variables on Boolean Functions",
+            "Expander Graphs and Their Applications",
+            "Undirected Connectivity in Log-Space"
+          ],
+          "vector": {
+            "x1": 0.9,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "An Unsolvable Problem of Elementary Number Theory",
+            "A Note on Two Problems in Connexion with Graphs",
+            "Maximal Flow through a Network",
+            "On the Shortest Spanning Subtree of a Graph and the Traveling-Salesman Problem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "New Directions in Cryptography",
+            "Probabilistic Encryption",
+            "How to Play Any Mental Game",
+            "Probabilistic Automata",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Fast Pattern Matching in Strings",
+            "IP = PSPACE",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Improved Approximation Algorithms for Maximum Cut and Satisfiability Problems Using Semidefinite Programming",
+            "Space/Time Trade-offs in Hash Coding with Allowable Errors",
+            "Hardness vs Randomness"
+          ],
+          "vector": {
+            "x1": 0.7894736842105263,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Probabilistic Encryption",
+            "IP = PSPACE",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Hardness vs Randomness",
+            "PRIMES is in P",
+            "A Theory of the Learnable",
+            "Gaussian Elimination is Not Optimal",
+            "Maximal Flow through a Network",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "Quantum Complexity Theory",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Some Optimal Inapproximability Results",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Lower Bounds for Algebraic Computation Trees"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "IP = PSPACE",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "Polynomial-Time Approximation Schemes for Euclidean TSP and Other Geometric Problems",
+            "Improved Approximation Algorithms for Maximum Cut and Satisfiability Problems Using Semidefinite Programming",
+            "New Directions in Cryptography",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Relationships between Nondeterministic and Deterministic Tape Complexities",
+            "Factoring Polynomials with Rational Coefficients",
+            "Some Optimal Inapproximability Results",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "An O(|E| sqrt(|V|)) Algorithm for Finding Maximum Matching in General Graphs",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "A Mathematical Theory of Communication",
+            "A Threshold of ln n for Approximating Set Cover",
+            "Random Sampling in Cut, Flow, and Network Design Problems",
+            "Protocols for Secure Computations"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND y2",
+      "label": "y1\u2227y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.39958333333333335,
+        "x2": 0.0,
+        "x3": 0.7383333333333333
+      },
+      "std": {
+        "x1": 0.08023042625024684,
+        "x2": 0.0,
+        "x3": 0.06575769212855692
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Algorithmic Mechanism Design",
+            "Worst-case equilibria",
+            "How Bad Is Selfish Routing?",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Mechanism Design via Differential Privacy",
+            "On a Network Creation Game",
+            "Approximate Mechanism Design without Money",
+            "Simple versus Optimal Mechanisms",
+            "The Menu-Size Complexity of Auctions",
+            "The Sample Complexity of Revenue Maximization",
+            "Competitive Auctions and Digital Goods",
+            "Optimal Auction Design"
+          ],
+          "vector": {
+            "x1": 0.3333333333333333,
+            "x2": 0.0,
+            "x3": 0.8333333333333334
+          }
+        },
+        {
+          "papers": [
+            "Worst-case equilibria",
+            "How Bad Is Selfish Routing?",
+            "The Complexity of Computing a Nash Equilibrium",
+            "The computational difficulty of manipulating an election",
+            "Voting procedures for which it can be difficult to tell who won the election",
+            "Truth Revelation in Approximately Efficient Combinatorial Auctions",
+            "Mechanism Design via Differential Privacy",
+            "Optimal Auction Design",
+            "On approximately fair allocations of indivisible goods",
+            "The Menu-Size Complexity of Revenue Approximation",
+            "Manipulation of Voting Schemes",
+            "Strategy-Proofness and Arrow's Conditions: Existence and Correspondence Theorems",
+            "Selfish Routing and the Price of Anarchy",
+            "The Price of Stability for Network Design with Fair Cost Allocation",
+            "Efficient Mechanisms for Bilateral Trading",
+            "Computing Market Equilibria",
+            "The Communication Requirements of Efficient Allocations and Supporting Prices",
+            "Voting Schemes for Which It Can Be Difficult to Tell Who Won the Election",
+            "Truthful Approximation Mechanisms for Combinatorial Auctions",
+            "On the Complexity of Nash Equilibria"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.0,
+            "x3": 0.85
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Mechanism Design",
+            "Optimal Auction Design",
+            "How Bad Is Selfish Routing?",
+            "Worst-case Equilibria",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Settling the Complexity of Computing a Nash Equilibrium",
+            "Intrinsic Robustness of the Price of Anarchy",
+            "Truth Revelation in Approximately Efficient Combinatorial Auctions",
+            "The Menu-Size Complexity of Auctions",
+            "Approximately Optimal Mechanism Design",
+            "Combinatorial Auctions",
+            "The Price of Anarchy"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "Worst-case Equilibria",
+            "How Bad Is Selfish Routing?",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Mechanism Design via Differential Privacy",
+            "Optimal Auction Design",
+            "A Class of Games Possessing Pure-Strategy Nash Equilibria",
+            "The Complexity of Optimal Mechanism Design",
+            "The Menu-Size Complexity of Auctions",
+            "Budget Feasible Mechanisms",
+            "Truth Revelation in Approximately Efficient Combinatorial Auctions",
+            "An Optimal Algorithm for Online Bipartite Matching",
+            "Approximate Mechanism Design Without Money",
+            "Algorithmic Mechanism Design",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Multipart Pricing of Public Goods",
+            "Incentives in Teams",
+            "Prophet Inequalities",
+            "The Price of Anarchy",
+            "Simple Versus Optimal Mechanisms",
+            "On the Power of Randomization in Algorithmic Mechanism Design"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Computing a Nash Equilibrium",
+            "Computing a Nash Equilibrium is PPAD-complete",
+            "Algorithmic Mechanism Design",
+            "Optimal Auction Design",
+            "How Bad Is Selfish Routing?",
+            "Worst-case Equilibria",
+            "The Complexity of Optimal Mechanism Design",
+            "Revenue Maximization with a Single Sample",
+            "Approximate Mechanism Design without Money",
+            "The Menu-Size Complexity of Auctions",
+            "Truthful Approximation Mechanisms for Combinatorial Auctions",
+            "A Polynomial-Time Algorithm for Computing a Market Equilibrium in the Arrow\u2013Debreu Model with Linear Utilities",
+            "The Communication Complexity of Efficient Allocation",
+            "The Simple Economics of Approximately Optimal Auctions",
+            "Learning Optimal Auctions"
+          ],
+          "vector": {
+            "x1": 0.4666666666666667,
+            "x2": 0.0,
+            "x3": 0.6666666666666666
+          }
+        },
+        {
+          "papers": [
+            "Worst-case equilibria",
+            "How Bad Is Selfish Routing?",
+            "Algorithmic Mechanism Design",
+            "Optimal Auction Design",
+            "Mechanism Design via Differential Privacy",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Settling the Complexity of Computing a Nash Equilibrium",
+            "The computational difficulty of manipulating an election",
+            "Simple versus Optimal Mechanisms",
+            "The Communication Complexity of Efficient Allocation",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Efficient Mechanisms for Bilateral Trading",
+            "Truthful mechanisms for one-parameter agents",
+            "Combinatorial Auctions",
+            "Intrinsic Robustness of the Price of Anarchy",
+            "The Price of Anarchy in Games with Incomplete Information"
+          ],
+          "vector": {
+            "x1": 0.3125,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Mechanism Design",
+            "Optimal Auction Design",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Worst-Case Equilibria",
+            "How Bad Is Selfish Routing?",
+            "Combinatorial Auctions",
+            "Truthful Approximation Mechanisms for Single-Parameter Agents",
+            "Prior-Independent Mechanisms for Revenue Maximization",
+            "The Communication Complexity of Efficient Allocations and Supporting Prices",
+            "Intrinsic Robustness of the Price of Anarchy"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Computing a Nash Equilibrium",
+            "Algorithmic Mechanism Design",
+            "How Bad Is Selfish Routing?",
+            "Worst-case Equilibria",
+            "The Computational Difficulty of Manipulating an Election",
+            "Optimal Auction Design",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "The Price of Anarchy",
+            "The Menu-Size Complexity of Auctions",
+            "Combinatorial Auctions",
+            "The Complexity of Optimal Mechanism Design",
+            "The Communication Complexity of Correlated Equilibrium",
+            "Selfish Routing and the Price of Anarchy",
+            "Computing Market Equilibria",
+            "The Price of Stability"
+          ],
+          "vector": {
+            "x1": 0.4666666666666667,
+            "x2": 0.0,
+            "x3": 0.6666666666666666
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Computing a Nash Equilibrium",
+            "Settling the Complexity of Two-Player Nash Equilibrium",
+            "Algorithmic Mechanism Design",
+            "How Bad Is Selfish Routing?",
+            "Worst-Case Equilibria",
+            "How Good Are Simple Mechanisms?",
+            "The Menu-Size Complexity of Auctions",
+            "How Hard Is It to Manipulate an Election?",
+            "Optimal Auction Design",
+            "Truth Revelation in Approximately Efficient Combinatorial Auctions",
+            "Complexity of Mechanism Design",
+            "A Polynomial Time Algorithm for Computing Market Equilibria with Linear Utilities",
+            "Combinatorial Auctions",
+            "College Admissions and the Stability of Marriage",
+            "Approximation Algorithms for Combinatorial Auctions with Complement-Free Bidders"
+          ],
+          "vector": {
+            "x1": 0.4666666666666667,
+            "x2": 0.0,
+            "x3": 0.6666666666666666
+          }
+        },
+        {
+          "papers": [
+            "Optimal Auction Design",
+            "Algorithmic Mechanism Design",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Worst-case equilibria",
+            "Intrinsic Robustness of the Price of Anarchy",
+            "How Bad Is Selfish Routing?",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "College Admissions and the Stability of Marriage",
+            "Manipulation of Voting Schemes: A General Result",
+            "The Menu-Size Complexity of Auctions",
+            "Competitive Auctions and Digital Goods",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "Mechanism Design via Differential Privacy",
+            "Approximate Mechanism Design without Money",
+            "The Price of Anarchy in Large Games",
+            "Complexity of Mechanism Design",
+            "Internet Advertising and the Generalized Second Price Auction",
+            "A Polynomial-Time Algorithm for Computing a Market Equilibrium in Markets with Linear Utilities",
+            "Budget Feasible Mechanisms",
+            "Approximating the Nash Social Welfare with Indivisible Items"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 OR y2",
+      "label": "y1\u2228y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.42210526315789476,
+        "x2": 0.17578947368421052,
+        "x3": 0.4018421052631579
+      },
+      "std": {
+        "x1": 0.10304086929390963,
+        "x2": 0.10050503433533411,
+        "x3": 0.0991426001042561
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Reducibility Among Combinatorial Problems",
+            "The Complexity of Computing a Nash Equilibrium",
+            "A Difficulty in the Concept of Social Welfare",
+            "Manipulation of Voting Schemes",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Optimal Auction Design",
+            "The Complexity of Computing the Permanent",
+            "Protocols for Secure Computations",
+            "Probabilistic Encryption",
+            "Worst-case Equilibria",
+            "How Bad Is Selfish Routing?",
+            "The Computational Difficulty of Manipulating an Election",
+            "Approximate Mechanism Design without Money",
+            "Non-Cooperative Games",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Existence of an Equilibrium for a Competitive Economy",
+            "The Bargaining Problem",
+            "Mechanism Design via Differential Privacy",
+            "The Price of Anarchy",
+            "The Computational Complexity of Market Equilibria"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Mathematical Theory of Communication",
+            "New Directions in Cryptography",
+            "Probabilistic Encryption",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "A Contribution to the Theory of Economic Growth",
+            "The Nature of the Firm",
+            "Existence of an Equilibrium for a Competitive Economy",
+            "The Bargaining Problem",
+            "Non-Cooperative Games",
+            "How Bad Is Selfish Routing?",
+            "Worst-Case Equilibria"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.35,
+            "x3": 0.35
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Mathematical Theory of Communication",
+            "Probabilistic Encryption",
+            "Protocols for Secure Computations",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Worst-Case Equilibria",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Optimal Auction Design",
+            "Manipulation of Voting Schemes: A General Result",
+            "Strategy-Proofness and Arrow's Conditions",
+            "A Threshold of ln n for Approximating Set Cover",
+            "The Price of Anarchy for Selfish Routing",
+            "Equilibrium Points in N-Person Games",
+            "Efficient Mechanisms for Bilateral Trading",
+            "The Revelation Principle",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Incentive Compatibility and Mechanism Design"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.2,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "IP = PSPACE",
+            "A Mathematical Theory of Communication",
+            "Quantum Complexity Theory",
+            "Proof Verification and Hardness of Approximation Problems",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Optimal Auction Design",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "A Difficulty in the Concept of Social Welfare",
+            "Non-Cooperative Games",
+            "The Cost of Capital, Corporation Finance and the Theory of Investment",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "On the Shortest Spanning Subtree of a Graph",
+            "A Note on Two Problems in Connexion with Graphs",
+            "Some Complexity Questions Related to Distributed Computing",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.25,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Theory of Games and Economic Behavior",
+            "The Evolution of Cooperation",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Worst-case equilibria",
+            "Algorithmic Mechanism Design",
+            "Optimal Auction Design",
+            "Multipart Pricing of Public Goods",
+            "Incentives in Teams",
+            "The Tragedy of the Commons",
+            "The Pure Theory of Public Expenditure",
+            "Equilibrium Points in N-person Games",
+            "The Price of Anarchy"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.15,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Probabilistic Encryption",
+            "Protocols for Secure Computations",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Equilibrium Points in N-person Games",
+            "A Difficulty in the Concept of Social Welfare",
+            "Optimal Auction Design",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Worst-Case Equilibria",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "How Bad Is Selfish Routing?",
+            "The Theory of Games and Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.42105263157894735,
+            "x2": 0.15789473684210525,
+            "x3": 0.3684210526315789
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Some Complexity Questions Related to Distributed Computing",
+            "IP = PSPACE",
+            "Probabilistic Encryption",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Some Optimal Inapproximability Results",
+            "Worst-Case Equilibria",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth",
+            "Equilibrium Points in N-Person Games",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Efficient Mechanisms for Bilateral Trading",
+            "Portfolio Selection",
+            "The Use of Knowledge in Society"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.25,
+            "x3": 0.35
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "Probabilistic Encryption",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Equilibrium Points in N-Person Games",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Optimal Auction Design",
+            "Efficient Mechanisms for Bilateral Trading",
+            "Manipulation of Voting Schemes",
+            "How Bad Is Selfish Routing?",
+            "A Behavioral Model of Rational Choice",
+            "The Use of Knowledge in Society",
+            "A Difficulty in the Concept of Social Welfare",
+            "Paths, Trees, and Flowers",
+            "The Theory of Games and Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.05,
+            "x3": 0.4
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Probabilistic Algorithm for Testing Primality",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Equilibrium Points in N-Person Games",
+            "The Bargaining Problem",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Optimal Auction Design",
+            "Manipulation of Voting Schemes",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Worst-case Equilibria",
+            "How Bad Is Selfish Routing?",
+            "The Use of Knowledge in Society",
+            "The Problem of Social Cost",
+            "Settling the Complexity of Computing a Nash Equilibrium",
+            "The Multiplicative Weights Update Method: a Meta-Algorithm and Applications",
+            "A New Approach to the Maximum-Flow Problem"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.15,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Worst-Case Equilibria",
+            "How Bad Is Selfish Routing?",
+            "College Admissions and the Stability of Marriage",
+            "Equilibrium Points in N-Person Games",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Greedy Heuristic for the Set-Covering Problem",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "IP = PSPACE",
+            "Optimal Auction Design",
+            "Manipulation of Voting Schemes: A General Result",
+            "The Complexity of Computing a Nash Equilibrium",
+            "A Note on Two Problems in Connexion with Graphs",
+            "Graph Isomorphism in Quasipolynomial Time",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.2,
+            "x3": 0.35
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND NOT y2",
+      "label": "y1\u2227\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.8150877192982456,
+        "x2": 0.0,
+        "x3": 0.05637426900584795
+      },
+      "std": {
+        "x1": 0.13905702350002278,
+        "x2": 0.0,
+        "x3": 0.06526457270679235
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Finite Automata and Their Decision Problems",
+            "A Note on Two Problems in Connexion with Graphs",
+            "An n^{5/2} Algorithm for Maximum Matchings in Bipartite Graphs",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "IP = PSPACE",
+            "PRIMES is in P",
+            "New Directions in Cryptography",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Almost Optimal Lower Bounds for Small-Depth Circuits",
+            "A Mathematical Theory of Communication",
+            "Three Approaches to the Quantitative Definition of Information",
+            "A Machine-Independent Theory of the Complexity of Recursive Functions",
+            "Gaussian Elimination is Not Optimal",
+            "The Complexity of Computing the Permanent",
+            "A Hard-Core Predicate for All One-Way Functions",
+            "The Method of Forced Enumeration for Nondeterministic Automata",
+            "Nondeterministic Space is Closed Under Complementation"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "A Theory of the Learnable",
+            "New Directions in Cryptography",
+            "Probabilistic Encryption",
+            "IP = PSPACE",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Simulating Physics with Computers",
+            "Quantum Complexity Theory",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "Graph Isomorphism in Quasipolynomial Time",
+            "A Computing Procedure for Quantification Theory",
+            "Pseudorandom Generators for Space-Bounded Computation",
+            "Almost Optimal Lower Bounds for Small Depth Circuits",
+            "The Space Complexity of Approximating the Frequency Moments",
+            "Gaussian Elimination Is Not Optimal"
+          ],
+          "vector": {
+            "x1": 0.8947368421052632,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "IP = PSPACE",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Universal Classes of Hash Functions",
+            "On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem",
+            "A Note on Two Problems in Connexion with Graphs",
+            "The Byzantine Generals Problem",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "A Threshold of ln n for Approximating Set Cover",
+            "Alternation",
+            "Some Complexity Questions Related to Distributed Computing",
+            "Amortized Efficiency of List Update and Paging Rules"
+          ],
+          "vector": {
+            "x1": 0.8,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "IP = PSPACE",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Some Optimal Inapproximability Results",
+            "Graph Isomorphism in Quasipolynomial Time",
+            "A Mathematical Theory of Communication",
+            "On the Evolution of Random Graphs",
+            "Three Approaches to the Quantitative Definition of Information",
+            "Maximal Flow Through a Network",
+            "On the Shortest Spanning Subtree of a Graph",
+            "A Note on Two Problems in Connexion with Graphs",
+            "On the Existence of Linear Codes with Good Relative Distance"
+          ],
+          "vector": {
+            "x1": 0.5333333333333333,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Note on Two Problems in Connexion with Graphs",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "Theoretical Improvements in Algorithmic Efficiency for Network Flow Problems",
+            "On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem",
+            "Probabilistic Encryption",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "IP = PSPACE",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Probabilistic Computations: Toward a Unified Measure of Complexity",
+            "Some Complexity Questions Related to Distributed Computing",
+            "On the Length of Programs for Computing Finite Binary Sequences",
+            "Relationships Between Nondeterministic and Deterministic Tape Complexities",
+            "Some Optimal Inapproximability Results",
+            "New Directions in Cryptography"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.1
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Proof Verification and Hardness of Approximation Problems",
+            "IP = PSPACE",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Probabilistic Algorithms",
+            "New Directions in Cryptography",
+            "Randomized Rounding: A Technique for Provably Good Algorithms and Algorithmic Proofs",
+            "Some Complexity Questions Related to Distributive Computing",
+            "Polynomial-Time Approximation Schemes for Euclidean TSP and Other Geometric Problems",
+            "Relativizations of the P = NP Question",
+            "Almost Optimal Lower Bounds for Small Depth Circuits",
+            "Gaussian Elimination Is Not Optimal",
+            "Universal Classes of Hash Functions",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Alternation"
+          ],
+          "vector": {
+            "x1": 0.7894736842105263,
+            "x2": 0.0,
+            "x3": 0.05263157894736842
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "An Unsolvable Problem of Elementary Number Theory",
+            "Finite Automata and Their Decision Problems",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Probabilistic Checking of Proofs: A New Characterization of NP",
+            "IP = PSPACE",
+            "New Directions in Cryptography",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "A Theory of the Learnable",
+            "On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem",
+            "A Note on Two Problems in Connexion with Graphs",
+            "The Space Complexity of Approximating the Frequency Moments",
+            "Randomized Rounding: A Technique for Provably Good Algorithms and Algorithmic Proofs",
+            "Some Complexity Questions Related to Distributed Computing",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "Quantum Complexity Theory",
+            "Three Approaches to the Quantitative Definition of Information",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Proof Verification and the Hardness of Approximation Problems"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "PRIMES is in P",
+            "IP = PSPACE",
+            "The Knowledge Complexity of Interactive Proof-Systems",
+            "A Polynomial Algorithm in Linear Programming",
+            "A New Polynomial-Time Algorithm for Linear Programming",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "New Directions in Cryptography",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "On the Shortest Spanning Subtree of a Graph",
+            "A Note on Two Problems in Connexion with Graphs",
+            "A Simple Parallel Algorithm for the Maximal Independent Set Problem",
+            "Maximal Flow Through a Network",
+            "Efficient Randomized Pattern-Matching Algorithms",
+            "Alternation",
+            "Protocols for Secure Computations"
+          ],
+          "vector": {
+            "x1": 0.8333333333333334,
+            "x2": 0.0,
+            "x3": 0.1111111111111111
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Computing the Permanent",
+            "Gaussian Elimination Is Not Optimal",
+            "PRIMES is in P",
+            "How to Share a Secret",
+            "Probabilistic Algorithm for Testing Primality",
+            "A Mathematical Theory of Communication",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Algorithms for Quantum Computation: Discrete Logarithms and Factoring",
+            "Proof Verification and Hardness of Approximation",
+            "Clique is Hard to Approximate Within n^{1-\u03b5}",
+            "On the Power of Unique 2-Prover 1-Round Games",
+            "Graph Minors. XX. Wagner's Conjecture",
+            "A Note on Two Problems in Connexion with Graphs",
+            "New Directions in Cryptography",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Universal Classes of Hash Functions",
+            "Reversible Computing"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Note on Two Problems in Connexion with Graphs",
+            "PRIMES is in P",
+            "New Directions in Cryptography",
+            "Protocols for Secure Computations",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "Probabilistic Encryption",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "IP = PSPACE",
+            "On the Shortest Spanning Subtree of a Graph",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Cuckoo Hashing",
+            "Graph Isomorphism in Quasipolynomial Time",
+            "Three Approaches to the Quantitative Definition of Information"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y1",
+      "label": "\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.025,
+        "x2": 0.025,
+        "x3": 0.02
+      },
+      "std": {
+        "x1": 0.06346477588219925,
+        "x2": 0.0485912657903775,
+        "x3": 0.048304589153964794
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On the Electrodynamics of Moving Bodies",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Protein measurement with the Folin phenol reagent",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",
+            "The Hallmarks of Cancer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Global temperature change",
+            "The chemical basis of morphogenesis",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches",
+            "The structure of the nervous system of the nematode Caenorhabditis elegans",
+            "A strong candidate for the breast and ovarian cancer susceptibility gene BRCA1",
+            "Sub-diffraction-limit imaging by stochastic optical reconstruction microscopy",
+            "Mitochondrial DNA and human evolution",
+            "Cleavage of structural proteins during the assembly of the head of bacteriophage T4"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "C60: Buckminsterfullerene",
+            "Bose\u2013Einstein Condensation in a Gas of Sodium Atoms",
+            "A Programmable Dual\u2011RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "The Hallmarks of Cancer",
+            "The Hallmarks of Aging",
+            "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+            "Structure of the 30S ribosomal subunit",
+            "Structure of the reaction centre from Rhodopseudomonas viridis",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+            "Pancreatic extracts in the treatment of diabetes mellitus",
+            "Quantum Spin Hall Effect and Topological Phase Transition in HgTe Quantum Wells",
+            "A neural substrate of prediction and reward",
+            "Crystal structure of the large ribosomal subunit"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "The Significance of Pneumococcal Types",
+            "Primer-directed enzymatic amplification of DNA with a thermostable DNA polymerase",
+            "A contribution to the mathematical theory of epidemics",
+            "The Hallmarks of Cancer",
+            "The Tragedy of the Commons",
+            "Behavioral Study of Obedience",
+            "On the Electrodynamics of Moving Bodies",
+            "A Theory of Human Motivation",
+            "Attention Is All You Need",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "The Chemical Basis of Morphogenesis",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids; a Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Initial sequencing and analysis of the human genome",
+            "Crystal structure of oxygen-evolving photosystem II at a resolution of 1.9 \u00c5",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+            "A super-Earth transiting a nearby low-mass star",
+            "Global warming and recurrent mass bleaching of corals",
+            "Mitochondrial DNA and human evolution",
+            "The spread of true and false news online",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "Evolutionary Rate at the Molecular Level",
+            "Smoking and carcinoma of the lung; preliminary report",
+            "Stratospheric sink for chlorofluoromethanes: chlorine atom\u2013catalysed destruction of ozone",
+            "Gut microbiota from twins discordant for obesity modulate metabolism in mice",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "The Hallmarks of Cancer",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Potent and Specific Genetic Interference by Double-Stranded RNA in Caenorhabditis elegans",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+            "The Chemical Basis of Morphogenesis",
+            "C60: Buckminsterfullerene",
+            "Streptomycin Treatment of Pulmonary Tuberculosis",
+            "DNA Sequencing with Chain-Terminating Inhibitors",
+            "The Hippocampus as a Spatial Map. Preliminary Evidence from Unit Activity in the Freely-Moving Rat",
+            "The Strength of Weak Ties",
+            "The Problem of Social Cost",
+            "Magnetic Anomalies over Oceanic Ridges"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.15,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids; A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "Superconductivity at 203 K in H2S under High Pressure",
+            "Long Short-Term Memory",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Highly Accurate Protein Structure Prediction with AlphaFold",
+            "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry",
+            "Observation of a Rapidly Pulsating Radio Source",
+            "Initial Sequencing and Analysis of the Human Genome",
+            "Punctuated Equilibria: An Alternative to Phyletic Gradualism",
+            "The Chemical Basis of Morphogenesis"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Metallic phase with long-range orientational order and no translational symmetry",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "The Hallmarks of Cancer",
+            "Large losses of total ozone in Antarctica reveal seasonal development of the ozone hole",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "Primer-directed enzymatic amplification of DNA with a thermostable DNA polymerase",
+            "The Chemical Basis of Morphogenesis",
+            "Protein measurement with the Folin phenol reagent",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The fluid mosaic model of the structure of cell membranes",
+            "New Method for High-Accuracy Determination of the Fine-Structure Constant Based on Quantized Hall Resistance",
+            "On the Law of Distribution of Energy in the Normal Spectrum",
+            "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information",
+            "Latent Dirichlet Allocation",
+            "Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS)",
+            "A Measurement of the Antiproton-to-Proton Ratio in Cosmic Rays (This is a representative title of experimental cosmic-ray research)"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Superconductivity at 203 kelvin in sulfur hydride under high pressure",
+            "Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "The Hallmarks of Cancer",
+            "Global Carbon Budget 2019",
+            "Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid",
+            "Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets",
+            "The crystal structure of insulin",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "CRISPR provides acquired resistance against viruses in prokaryotes",
+            "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "Initial sequencing and analysis of the human genome",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Observation of a rapidly pulsating radio source",
+            "Teleporting an unknown quantum state via dual classical and Einstein\u2013Podolsky\u2013Rosen channels",
+            "An obesity-associated gut microbiome with increased capacity for energy harvest"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica",
+            "The Hallmarks of Cancer",
+            "Hallmarks of Cancer: The Next Generation",
+            "Final Results from the Hubble Space Telescope Key Project to Measure the Hubble Constant",
+            "Initial sequencing and analysis of the human genome",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep learning",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Observation of a rapidly pulsating radio source",
+            "Protein measurement with the Folin phenol reagent",
+            "The Positive Electron",
+            "Microscopic Theory of Superconductivity",
+            "Observation of a New Particle in the Search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC",
+            "A default mode of brain function",
+            "Viable offspring derived from fetal and adult mammalian cells",
+            "The Significance of Pneumococcal Types"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A Three-Dimensional Model of the Myoglobin Molecule Obtained by X-Ray Analysis",
+            "Observation of a rapidly pulsating radio source",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Crystal structure of the nucleosome core particle at 2.8 A resolution",
+            "Whole-genome random sequencing and assembly of Haemophilus influenzae Rd",
+            "DNA sequencing with chain-terminating inhibitors",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Identification of the cystic fibrosis gene: cloning and characterization of complementary DNA",
+            "Protein measurement with the Folin phenol reagent",
+            "The Hallmarks of Cancer",
+            "Hallmarks of cancer: the next generation",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Pancreatic extracts in the treatment of diabetes mellitus",
+            "Mortality in relation to smoking: 40 years' observations on male British doctors",
+            "Basic local alignment search tool",
+            "Initial sequencing and analysis of the human genome",
+            "Structure of haemoglobin: a three-dimensional Fourier synthesis at 5.5 \u00c5 resolution",
+            "On the Electrodynamics of Moving Bodies"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y2 AND NOT y1",
+      "label": "y2\u2227\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.485,
+        "x3": 0.265
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.1395429045928965,
+        "x3": 0.0944281031614353
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Job Market Signaling",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Behavioral Model of Rational Choice",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "A Theory of Optimum Currency Areas",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "The Role of Monetary Policy",
+            "A Contribution to the Theory of Economic Growth",
+            "Moral Hazard and Observability",
+            "Agency Costs, Net Worth, and Business Fluctuations",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "Distributive Politics and Economic Growth",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "The Economic Lives of the Poor",
+            "Teachers, Schools, and Academic Achievement"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.35,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "Job Market Signaling",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Contribution to the Theory of Economic Growth",
+            "The Theory of Economic Regulation",
+            "Increasing Returns, Monopolistic Competition, and International Trade",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Credit Cycles",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "Law and Finance",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+            "Time to Build and Aggregate Fluctuations",
+            "The Role of Monetary Policy",
+            "A Model of Growth Through Creative Destruction",
+            "A Contribution to the Empirics of Economic Growth",
+            "Moral Hazard and Observability"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "A Theory of Optimum Currency Areas",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "An Economic Theory of Democracy",
+            "Job Market Signaling",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Role of Monetary Policy",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure",
+            "The Economics of Superstars",
+            "A Contribution to the Theory of Economic Growth",
+            "A Behavioral Model of Rational Choice",
+            "Monopolistic Competition and Optimum Product Diversity",
+            "Econometric Policy Evaluation: A Critique",
+            "Short-Run Equilibrium Dynamics of Unemployment, Vacancies and Real Wages"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Job Market Signaling",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Model of Growth through Creative Destruction",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Crime and Punishment: An Economic Approach",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "The Cross-Section of Expected Stock Returns",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "Economic Growth in a Cross Section of Countries",
+            "Agency Costs, Net Worth, and Business Fluctuations",
+            "Increasing Returns and Economic Geography",
+            "A Theory of Rational Addiction",
+            "The Limits of Arbitrage",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "The Financial Accelerator in a Quantitative Business Cycle Framework"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Theory of Economic Regulation",
+            "Job Market Signaling",
+            "An Exploration in the Theory of Optimum Income Taxation",
+            "Rules Rather Than Discretion and the Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Econometric Policy Evaluation: A Critique",
+            "Equilibrium Unemployment as a Worker Discipline Device",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Model of Reference-Dependent Preferences",
+            "Toward a Positive Theory of Consumer Choice",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "A Contribution to the Theory of Economic Growth",
+            "Endogenous Technological Change",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+            "The Pricing of Options and Corporate Liabilities",
+            "The Role of Monetary Policy",
+            "Identification and Estimation of Local Average Treatment Effects",
+            "Some Unpleasant Monetarist Arithmetic"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Theory of Rational Addiction",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "The Role of Monetary Policy",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "A Contribution to the Empirics of Economic Growth",
+            "Irreversible Investment, Capacity Choice, and the Value of the Firm",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+            "The Equity Premium: A Puzzle",
+            "Growth in a Time of Debt",
+            "Endogenous Technological Change",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.25,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Role of Monetary Policy",
+            "The Nature of the Firm",
+            "Crime and Punishment: An Economic Approach",
+            "Counterspeculation, Auctions, and Competitive Sealed Tenders",
+            "Portfolio Selection",
+            "Efficient Capital Markets: A Review of Theory and Empirical Work",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+            "Expectations and the Neutrality of Money",
+            "The Pure Theory of Public Expenditure",
+            "A Theory of Optimum Currency Areas",
+            "Increasing Returns, Monopolistic Competition, and International Trade",
+            "Time to Build and Aggregate Fluctuations",
+            "Job Creation and Job Destruction in the Theory of Unemployment"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.7,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Uncertainty and the Welfare Economics of Medical Care",
+            "A Contribution to the Theory of Economic Growth",
+            "Increasing Returns and Long-Run Growth",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Pricing of Options and Corporate Liabilities",
+            "The Cross-Section of Expected Stock Returns",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry",
+            "Identification and Estimation of Local Average Treatment Effects",
+            "The Nature of the Firm",
+            "Transaction-Cost Economics: The Governance of Contractual Relations",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+            "Moral Hazard and Observability",
+            "A Theory of Optimum Currency Areas",
+            "Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+            "The Problem of Social Cost"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.45,
+            "x3": 0.35
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "A Behavioral Model of Rational Choice",
+            "The Role of Monetary Policy",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "A Contribution to the Theory of Economic Growth",
+            "Economic Growth and Income Inequality",
+            "Increasing Returns, Monopolistic Competition, and International Trade",
+            "Increasing Returns and Economic Geography",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Crime and Punishment: An Economic Approach",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure",
+            "The Theory of Economic Regulation",
+            "Job Market Signaling",
+            "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+            "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "The Cross-Section of Expected Stock Returns",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "Financial Intermediation and Delegated Monitoring"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Theory of the Allocation of Time",
+            "Job Market Signaling",
+            "Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends?",
+            "The Nature of the Firm",
+            "The Economics of Exhaustible Resources",
+            "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+            "Time to Build and Aggregate Fluctuations",
+            "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861\u20131957",
+            "Fairness and Retaliation: The Economics of Reciprocity",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation",
+            "Why Doesn't Capital Flow from Rich to Poor Countries?",
+            "A Contribution to the Empirics of Economic Growth",
+            "Growth in a Time of Debt",
+            "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure",
+            "Endogenous Technological Change",
+            "The Role of Monetary Policy",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "Job Creation and Job Destruction"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 AND y2)",
+      "label": "\u00ac(y1\u2227y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.005263157894736842,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.016643566632465155,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+            "A relation between distance and radial velocity among extra-galactic nebulae",
+            "Detection of an Extrasolar Planet Atmosphere",
+            "Crystal structure of the large ribosomal subunit at 2.4 \u00c5 resolution",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Programmable editing of a target base in genomic DNA without double-stranded DNA cleavage",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The Hallmarks of Cancer",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A novel coronavirus from patients with pneumonia in China, 2019",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "Detection of a particle consistent with the Higgs boson at the LHC"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "On the Electrodynamics of Moving Bodies",
+            "Superconductivity at 203 kelvin in sulfur hydride under high pressure",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the hippocampus",
+            "Protein measurement with the Folin phenol reagent",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+            "Enterotypes of the human gut microbiome",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A Randomized Trial of Intensive versus Standard Blood-Pressure Control",
+            "The Hallmarks of Cancer",
+            "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information",
+            "A new method of determining distances to galaxies",
+            "Metallic Phase with Long-Range Orientational Order and No Translational Symmetry",
+            "Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 \u00c5 resolution",
+            "Comprehensive molecular portraits of human breast tumours"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On the Electrodynamics of Moving Bodies",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Synthesis of the Elements in Stars",
+            "The Hallmarks of Cancer",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "Observation of a New Particle in the Search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC",
+            "A Neural Algorithm of Artistic Style",
+            "The Protein Data Bank",
+            "Structure, function and diversity of the healthy human microbiome",
+            "On the Antibacterial Action of Cultures of a Penicillium",
+            "On the Origin of Mitosing Cells",
+            "Principles that govern the folding of protein chains",
+            "Global Consequences of Land Use"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "Mastering the Game of Go without Human Knowledge",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "A reconstruction of regional and global temperature for the past 11,300 years",
+            "The Hallmarks of Cancer",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+            "ImageNet: A large-scale hierarchical image database",
+            "Generative Adversarial Nets",
+            "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+            "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "The genome sequence of the nematode Caenorhabditis elegans",
+            "Initial sequencing and analysis of the human genome",
+            "Basic local alignment search tool",
+            "Hallmarks of Cancer: The Next Generation"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "The Hallmarks of Cancer",
+            "Initial sequencing and analysis of the human genome",
+            "A Measurement of Excess Antenna Temperature at 4,080 Mc/s",
+            "Observation of a Rapidly Pulsating Radio Source",
+            "The Scattering of \u03b1 and \u03b2 Particles by Matter and the Structure of the Atom",
+            "Two-Dimensional Magnetotransport in the Extreme Quantum Limit",
+            "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+            "Protein measurement with the Folin phenol reagent",
+            "The Chemical Basis of Morphogenesis",
+            "Structure of haemoglobin: A three-dimensional Fourier synthesis at 5.5 \u00c5 resolution",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "On the Electrodynamics of Moving Bodies",
+            "Superconductivity at 39 K in MgB2",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Initial sequencing and analysis of the human genome",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+            "Quantifying the consensus on anthropogenic global warming in the scientific literature",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",
+            "A Three-Dimensional Model of the Myoglobin Molecule Obtained by X-Ray Analysis",
+            "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+            "Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS)",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Enzymatic Amplification of \u03b2-globin Genomic Sequences and Restriction Site Analysis for Diagnosis of Sickle Cell Anemia",
+            "Metallic phase with long-range orientational order and no translational symmetry",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The structure of the 30S ribosomal subunit",
+            "Initial sequencing and analysis of the human genome",
+            "Initial sequencing and comparative analysis of the mouse genome",
+            "Observation of Bose\u2013Einstein condensation in a dilute atomic vapor",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "The Hallmarks of Cancer",
+            "A safe operating space for humanity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "The Human Connectome Project: a data acquisition perspective",
+            "A subcellular map of the human proteome",
+            "Massively parallel digital transcriptional profiling of single cells",
+            "Fast gapped-read alignment with Bowtie 2",
+            "Three-dimensional structure of a bacterial photosynthetic reaction centre",
+            "Fractional quantization of the Hall effect"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05263157894736842,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Evidence for the Detection of the Free Neutrino",
+            "On the Electrodynamics of Moving Bodies",
+            "Possible high Tc superconductivity in the Ba\u2212La\u2212Cu\u2212O system",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "Initial sequencing and analysis of the human genome",
+            "The Hallmarks of Cancer",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "Protein measurement with the Folin phenol reagent",
+            "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information",
+            "Genetic Structure of Human Populations",
+            "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "Homage to Santa Rosalia, or Why Are There So Many Kinds of Animals?",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",
+            "C60: Buckminsterfullerene",
+            "Crystal structure of photosystem II at 1.9 \u00c5 resolution"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Structure of Proteins: Two Hydrogen-Bonded Helical Configurations of the Polypeptide Chain",
+            "On the Electrodynamics of Moving Bodies",
+            "A Theory of Human Motivation",
+            "The Hallmarks of Cancer",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Chemical Basis of Morphogenesis",
+            "Conventional Superconductivity at 203 Kelvin at High Pressures in the Sulfur Hydride System",
+            "Initial Sequencing and Analysis of the Human Genome",
+            "Behavioral Study of Obedience",
+            "Bowling Alone: America's Declining Social Capital",
+            "The Hubble Deep Field",
+            "An Obesity-Associated Gut Microbiome with Increased Capacity for Energy Harvest",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "Receptive Fields, Binocular Interaction and Functional Architecture in the Cat's Visual Cortex",
+            "Observation of a Rapidly Pulsating Radio Source",
+            "Streptomycin Treatment of Pulmonary Tuberculosis",
+            "Stellar Orbits Around the Galactic Center Black Hole",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Specific enzymatic amplification of DNA in vitro",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "The Hallmarks of Cancer",
+            "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+            "A three-dimensional model of the myoglobin molecule obtained by X-ray analysis",
+            "Mitochondrial DNA and human evolution",
+            "A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding",
+            "On the Electrodynamics of Moving Bodies",
+            "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+            "On the antibacterial action of cultures of a Penicillium, with special reference to their use in the isolation of B. influenzae",
+            "Magnetic Anomalies over Oceanic Ridges",
+            "Protein measurement with the Folin phenol reagent",
+            "Pancreatic Extracts in the Treatment of Diabetes Mellitus"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 OR y2)",
+      "label": "\u00ac(y1\u2228y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.02,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.03496029493900505,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Crystal structure of oxygen-evolving photosystem II at a resolution of 1.9 \u00c5",
+            "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+            "Global surface temperature change",
+            "The Hallmarks of Cancer",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "Multiplex genome engineering using CRISPR/Cas systems",
+            "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "On the Electrodynamics of Moving Bodies",
+            "A Neural Algorithm of Artistic Style",
+            "Image Super-Resolution Using Deep Convolutional Networks",
+            "Initial sequencing and analysis of the human genome"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "C60: Buckminsterfullerene",
+            "Millisecond-timescale, genetically targeted optical control of neural activity",
+            "The Hallmarks of Cancer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+            "A neural substrate of prediction and reward",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Initial sequencing and analysis of the human genome",
+            "Teleporting an Unknown Quantum State via Dual Classical and Einstein\u2013Podolsky\u2013Rosen Channels",
+            "Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A Quantitative Description of Membrane Current and Its Application to Conduction and Excitation in Nerve",
+            "On the Electrodynamics of Moving Bodies",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Hallmarks of Cancer",
+            "The Chemical Basis of Morphogenesis",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "Protein measurement with the Folin phenol reagent",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae",
+            "Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors",
+            "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+            "Potent and specific genetic interference by double-stranded RNA in Caenorhabditis elegans",
+            "Initial sequencing and analysis of the human genome",
+            "Deep Residual Learning for Image Recognition",
+            "The free-energy principle: a unified brain theory?",
+            "Structure of the potassium channel: molecular basis of K+ conduction and selectivity",
+            "Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration",
+            "Emergence of scaling in random networks",
+            "Electric Field Effect in Atomically Thin Carbon Films"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "The genome sequence of Drosophila melanogaster",
+            "Mitochondrial DNA and human evolution",
+            "Deep Residual Learning for Image Recognition",
+            "Attention Is All You Need",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Protein measurement with the Folin phenol reagent",
+            "The Chemical Basis of Morphogenesis",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "Pancreatic Extracts in the Treatment of Diabetes Mellitus",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "A relation between distance and radial velocity among extra-galactic nebulae",
+            "Random Forests",
+            "Dropout: a simple way to prevent neural networks from overfitting",
+            "Superconductivity at 203 K in H2S under high pressure",
+            "Efficient Estimation of Word Representations in Vector Space"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular structure of nucleic acids: a structure for deoxyribose nucleic acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Initial sequencing and analysis of the human genome",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine",
+            "A novel coronavirus from patients with pneumonia in China, 2019",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "Accelerated modern human\u2013induced species losses: Entering the sixth mass extinction",
+            "The Hallmarks of Cancer",
+            "Teleporting an unknown quantum state via dual classical and Einstein\u2013Podolsky\u2013Rosen channels",
+            "Protein measurement with the Folin phenol reagent",
+            "Structure of the 30S ribosomal subunit",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids; A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "On the Electrodynamics of Moving Bodies",
+            "On the Einstein Podolsky Rosen paradox",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "Millisecond-timescale, genetically targeted optical control of neural activity",
+            "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "The Hallmarks of Cancer",
+            "Hallmarks of Cancer: The Next Generation",
+            "Structure in the COBE differential microwave radiometer first-year maps",
+            "A Jupiter-mass companion to a solar-type star",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to Their Use in the Isolation of B. influenzae",
+            "Initial sequencing and analysis of the human genome",
+            "Specific enzymatic amplification of DNA in vitro"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "A novel coronavirus from patients with pneumonia in China, 2019",
+            "Programmable dual\u2011RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "The Hallmarks of Cancer",
+            "Hallmarks of Cancer: The Next Generation",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "A Neural Algorithm of Artistic Style",
+            "Deep Residual Learning for Image Recognition",
+            "A neural substrate of prediction and reward",
+            "Protein measurement with the Folin phenol reagent",
+            "Extinction risk from climate change",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "Attention Is All You Need",
+            "A simple framework for contrastive learning of visual representations",
+            "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+            "Initial sequencing and analysis of the human genome"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "A Neural Algorithm of Artistic Style",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "On the Electrodynamics of Moving Bodies",
+            "The Chemical Basis of Morphogenesis",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Protein measurement with the Folin phenol reagent",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of a rapidly pulsating radio source",
+            "Mitochondrial DNA and human evolution",
+            "Basic Local Alignment Search Tool",
+            "Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors",
+            "Large losses of total ozone in Antarctica"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Initial sequencing and analysis of the human genome",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "The Hallmarks of Cancer",
+            "Hallmarks of Cancer: The Next Generation",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "The Protein Data Bank",
+            "Green Fluorescent Protein as a Marker for Gene Expression",
+            "The structure of the nervous system of the nematode Caenorhabditis elegans",
+            "A Measurement of Excess Antenna Temperature at 4080 Mc/s",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "DNA sequencing with chain-terminating inhibitors",
+            "Protein measurement with the Folin phenol reagent",
+            "On protein synthesis",
+            "Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution",
+            "A Neural Probabilistic Language Model"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Attention Is All You Need",
+            "The Hallmarks of Cancer",
+            "Deep Residual Learning for Image Recognition",
+            "Mitochondrial DNA and Human Evolution",
+            "A globally coherent fingerprint of climate change impacts across natural systems",
+            "Emergence of scaling in random networks",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+            "Signatures of mutational processes in human cancer",
+            "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type",
+            "A Neural Algorithm of Artistic Style",
+            "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Efficient Estimation of Word Representations in Vector Space"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

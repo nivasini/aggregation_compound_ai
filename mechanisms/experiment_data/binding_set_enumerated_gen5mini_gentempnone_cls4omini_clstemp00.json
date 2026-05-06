@@ -1,0 +1,3281 @@
+{
+  "config": {
+    "model": "gpt-5-mini",
+    "temperature": null,
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260329_063914",
+    "experiment": "binding_set"
+  },
+  "parent_topics": {
+    "y1": "natural language processing (NLP)",
+    "y2": "computer vision (CV)"
+  },
+  "classification_topics": {
+    "x1": "deep learning (transformers, attention mechanisms, deep neural networks, modern architectures like BERT, GPT, ViT)",
+    "x2": "non-transformer NLP methods (RNN, LSTM, GRU, word2vec, seq2seq without attention, traditional NLP)",
+    "x3": "non-transformer CV methods (CNN, ConvNets, ResNet, VGG, pooling, convolutional architectures)",
+    "x4": "multimodal methods bridging multiple modalities (combining text and images, vision-language models, image captioning, VQA)",
+    "x5": "statistical machine learning (non-neural methods like SVM, random forests, logistic regression, Bayesian methods, traditional ML)"
+  },
+  "prompts": [
+    {
+      "name": "y2",
+      "label": "y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.30116959064327486,
+        "x2": 0.0,
+        "x3": 0.7154970760233919,
+        "x4": 0.060233918128654966,
+        "x5": 0.005555555555555555
+      },
+      "std": {
+        "x1": 0.168827122200192,
+        "x2": 0.0,
+        "x3": 0.09413459009445782,
+        "x4": 0.05536199652362789,
+        "x5": 0.01756820922315766
+      },
+      "seeds": [
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Visualizing and Understanding Convolutional Networks",
+            "Spatial Transformer Networks",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Learning Deep Features for Discriminative Localization",
+            "Generative Adversarial Nets",
+            "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks"
+          ],
+          "vector": {
+            "x1": 0.1111111111111111,
+            "x2": 0.0,
+            "x3": 0.8333333333333334,
+            "x4": 0.1111111111111111,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "FlowNet: Learning Optical Flow with Convolutional Networks",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Spatial Transformer Networks",
+            "Deformable Convolutional Networks",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "A Simple Framework for Contrastive Learning of Visual Representations",
+            "Momentum Contrast for Unsupervised Visual Representation Learning",
+            "Unsupervised Representation Learning by Predicting Image Rotations",
+            "ORB-SLAM: a Versatile and Accurate Monocular SLAM System"
+          ],
+          "vector": {
+            "x1": 0.3157894736842105,
+            "x2": 0.0,
+            "x3": 0.631578947368421,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Going Deeper with Convolutions",
+            "Densely Connected Convolutional Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Feature Pyramid Networks for Object Detection",
+            "Spatial Transformer Networks",
+            "Generative Adversarial Nets",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Rethinking Atrous Convolution for Semantic Image Segmentation",
+            "FlowNet: Learning Optical Flow with Convolutional Networks"
+          ],
+          "vector": {
+            "x1": 0.3157894736842105,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Rapid Object Detection using a Boosted Cascade of Simple Features",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Networks",
+            "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "Feature Pyramid Networks for Object Detection",
+            "Spatial Transformer Networks",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "SSD: Single Shot MultiBox Detector",
+            "Densely Connected Convolutional Networks"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.7777777777777778,
+            "x4": 0.1111111111111111,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Non-local Neural Networks",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume"
+          ],
+          "vector": {
+            "x1": 0.16666666666666666,
+            "x2": 0.0,
+            "x3": 0.7777777777777778,
+            "x4": 0.05555555555555555,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Visualizing and Understanding Convolutional Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "SSD: Single Shot MultiBox Detector",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "Spatial Transformer Networks",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+            "A Simple Framework for Contrastive Learning of Visual Representations"
+          ],
+          "vector": {
+            "x1": 0.3157894736842105,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Spatial Transformer Networks",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Unsupervised Representation Learning by Predicting Image Rotations",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Determining Optical Flow",
+            "Rethinking Atrous Convolution for Semantic Image Segmentation",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Feature Pyramid Networks for Object Detection"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.7894736842105263,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Going Deeper with Convolutions",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Spatial Transformer Networks",
+            "Visualizing and Understanding Convolutional Networks",
+            "Rethinking Atrous Convolution for Semantic Image Segmentation",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "End-to-End Object Detection with Transformers",
+            "FlowNet: Learning Optical Flow with Convolutional Networks",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume"
+          ],
+          "vector": {
+            "x1": 0.3157894736842105,
+            "x2": 0.0,
+            "x3": 0.631578947368421,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Densely Connected Convolutional Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Spatial Transformer Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "A Neural Algorithm of Artistic Style",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+            "Feature Pyramid Networks for Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "A Simple Framework for Contrastive Learning of Visual Representations"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.0,
+            "x3": 0.631578947368421,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "SSD: Single Shot MultiBox Detector",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Spatial Transformer Networks",
+            "Visualizing and Understanding Convolutional Networks",
+            "Unsupervised Representation Learning by Predicting Image Rotations",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+            "Learning Transferable Visual Models From Natural Language Supervision"
+          ],
+          "vector": {
+            "x1": 0.4444444444444444,
+            "x2": 0.0,
+            "x3": 0.5555555555555556,
+            "x4": 0.16666666666666666,
+            "x5": 0.05555555555555555
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y2",
+      "label": "\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.415,
+        "x2": 0.155,
+        "x3": 0.01,
+        "x4": 0.0,
+        "x5": 0.385
+      },
+      "std": {
+        "x1": 0.12703892666773003,
+        "x2": 0.10124228365658293,
+        "x3": 0.021081851067789197,
+        "x4": 0.0,
+        "x5": 0.15643600040343086
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Generative Adversarial Nets",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Mastering the game of Go without human knowledge",
+            "Sequence to Sequence Learning with Neural Networks",
+            "A Neural Probabilistic Language Model",
+            "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Hallmarks of Cancer",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Learning representations by back-propagating errors",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Adam: A Method for Stochastic Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Initial sequencing and analysis of the human genome",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Quantum supremacy using a programmable superconducting processor",
+            "Generative Adversarial Nets"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.5
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Google File System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Adam: A Method for Stochastic Optimization",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Support-Vector Networks",
+            "Random Forests",
+            "SMOTE: Synthetic Minority Over-sampling Technique",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "A Few Useful Things to Know About Machine Learning"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Auto-Encoding Variational Bayes",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Layer Normalization",
+            "Long Short-Term Memory",
+            "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+            "Neural Ordinary Differential Equations",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Language Models are Few-Shot Learners",
+            "Proximal Policy Optimization Algorithms",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "A Mathematical Theory of Communication"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Computing Machinery and Intelligence",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Latent Dirichlet Allocation",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "On the Electrodynamics of Moving Bodies",
+            "On the Einstein Podolsky Rosen Paradox",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "The Google File System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Hallmarks of Cancer",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Generative Adversarial Nets",
+            "No Free Lunch Theorems for Optimization"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.4
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Mastering the Game of Go without Human Knowledge",
+            "New Directions in Cryptography",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Long Short-Term Memory",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Learning representations by back-propagating errors",
+            "Why Most Published Research Findings Are False",
+            "Equation of State Calculations by Fast Computing Machines",
+            "Deep Double Descent",
+            "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+            "No Free Lunch Theorems for Optimization",
+            "Random Forests"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.5
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Mastering the Game of Go without Human Knowledge",
+            "Neural Ordinary Differential Equations",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Latent Dirichlet Allocation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Generative Adversarial Networks",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "A Mathematical Theory of Communication",
+            "Fast Algorithms for Mining Association Rules"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.2,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep contextualized word representations",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+            "Asynchronous Methods for Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Time, Clocks, and the Ordering of Events in a Distributed System"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Mathematical Theory of Communication",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Neural Ordinary Differential Equations",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Adam: A Method for Stochastic Optimization",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Fairness Through Awareness",
+            "Mastering the game of Go without human knowledge",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Understanding deep learning requires rethinking generalization",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "PRIMES is in P",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Theory of the Learnable"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.15,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Sequence to Sequence Learning with Neural Networks",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Byzantine Generals Problem",
+            "K-means++: The Advantages of Careful Seeding",
+            "Human-level control through deep reinforcement learning",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Understanding the difficulty of training deep feedforward neural networks",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Experimental test of Bell's inequalities using time-varying analyzers",
+            "Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web",
+            "Time, Clocks, and the Ordering of Events in a Distributed System"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.05,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "label": "y1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.655,
+        "x2": 0.295,
+        "x3": 0.025,
+        "x4": 0.0,
+        "x5": 0.12
+      },
+      "std": {
+        "x1": 0.09846036991827953,
+        "x2": 0.055025246730730594,
+        "x3": 0.035355339059327376,
+        "x4": 0.0,
+        "x5": 0.06324555320336758
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Neural Probabilistic Language Model",
+            "Latent Dirichlet Allocation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Attention Is All You Need",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Convolutional Neural Networks for Sentence Classification",
+            "Named Entity Recognition with Bidirectional LSTM-CNNs",
+            "A Fast and Accurate Dependency Parser using Neural Networks",
+            "Bag of Tricks for Efficient Text Classification",
+            "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+            "Neural Architectures for Named Entity Recognition"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.35,
+            "x3": 0.1,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Contextualized Word Representations",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Enriching Word Vectors with Subword Information",
+            "Convolutional Neural Networks for Sentence Classification",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Latent Dirichlet Allocation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "ROUGE: A Package for Automatic Evaluation of Summaries",
+            "Pointer Networks",
+            "TextRank: Bringing Order into Texts",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Unsupervised Multitask Learners",
+            "A Neural Probabilistic Language Model",
+            "Long Short-Term Memory"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.35,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "A Neural Probabilistic Language Model",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Convolutional Neural Networks for Sentence Classification",
+            "Pointer Networks",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Enriching Word Vectors with Subword Information"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.3,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Sequence to Sequence Learning with Neural Networks",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Pointer Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "The Stanford CoreNLP Natural Language Processing Toolkit",
+            "Skip-Thought Vectors",
+            "Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks",
+            "A Neural Probabilistic Language Model",
+            "Latent Dirichlet Allocation",
+            "A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Convolutional Neural Networks for Sentence Classification",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Neural Machine Translation of Rare Words with Subword Units",
+            "Get To The Point: Summarization with Pointer-Generator Networks",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "SpanBERT: Improving Pre-training by Representing and Predicting Spans"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.25,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Neural Probabilistic Language Model",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Contextualized Word Representations",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Few-Shot Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+            "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+            "Distributed Representations of Sentences and Documents",
+            "Neural Architectures for Named Entity Recognition",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.4,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep contextualized word representations",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Language Models are Few-Shot Learners",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Get To The Point: Summarization with Pointer-Generator Networks",
+            "Enriching Word Vectors with Subword Information",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+            "Hierarchical Attention Networks for Document Classification"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Neural Machine Translation of Rare Words with Subword Units",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Latent Dirichlet Allocation",
+            "A Neural Probabilistic Language Model",
+            "Pointer Networks"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Neural Probabilistic Language Model",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Deep contextualized word representations",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Language Models are Few-Shot Learners",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Unsupervised Multitask Learners",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Language Models are Few-Shot Learners",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "A Neural Probabilistic Language Model",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep contextualized word representations",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Get To The Point: Summarization with Pointer-Generator Networks",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+            "WordNet: An Electronic Lexical Database"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.3,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND y2",
+      "label": "y1\u2227y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.995,
+        "x2": 0.0,
+        "x3": 0.025,
+        "x4": 0.985,
+        "x5": 0.0
+      },
+      "std": {
+        "x1": 0.01581138830084191,
+        "x2": 0.0,
+        "x3": 0.07905694150420949,
+        "x4": 0.047434164902525694,
+        "x5": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Stacked Cross Attention for Image-Text Matching",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multimodal Transformers",
+            "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+            "Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "DALL\u00b7E: Zero-Shot Text-to-Image Generation",
+            "From Recognition to Cognition: Visual Commonsense Reasoning",
+            "MERLOT: Multimodal Neural Script Knowledge Models"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "VQA: Visual Question Answering",
+            "Visual Dialog",
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "DenseCap: Fully Convolutional Localization Network for Dense Captioning",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "VL-BERT: Pre-training of Generic Visual-Linguistic Representations",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "Pixel-BERT: Aligning Image Pixels with Text by Pre-training",
+            "OSCAR: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "BLIP: Bootstrapped Language-Image Pre-training",
+            "MERLOT: Multimodal Neural Script Knowledge Models",
+            "Conceptual Captions: A Large-Scale Image Captioning Dataset",
+            "ALIGN: Scaling Up Image-Text Representation Learning With Noisy Text Supervision",
+            "FLAVA: A Foundational Language and Vision Alignment Model"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.25,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Meshed-Memory Transformer for Image Captioning",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "VL-BERT: Pre-training of Generic Visual-Linguistic Representations",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "MDETR: Modulated Detection for End-to-End Multi-Modal Understanding",
+            "VirTex: Learning Visual Representations from Textual Annotations",
+            "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",
+            "Flamingo: a Visual Language Model for Few-Shot Learning"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Stacked Cross Attention for Image-Text Matching",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "VL-BERT: Pre-training of Generic Visual-Linguistic Representations",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers",
+            "ViLT: Vision-and-Language Transformer Without Convolutional Backbones",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "ERNIE-ViL: Knowledge Enhanced Vision-Language Representations through Scene Graph",
+            "Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training",
+            "Visual Genome: Connecting Language and Vision",
+            "Zero-Shot Text-to-Image Generation"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Deep Modular Co-Attention Networks for Visual Question Answering",
+            "Visual Dialog",
+            "GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "OSCAR: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers",
+            "ViLT: Vision-and-Language Transformer Without Convolutional Backbones",
+            "ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervised Image-Text Data",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "UNIMO: Towards Unified-Modal Understanding and Generation via Cross-Modal Pre-Training",
+            "FLAVA: A Foundational Language And Vision Alignment Model",
+            "VinVL: Revisiting Visual Representations in Vision-Language Models"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Neural Baby Talk",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "OSCAR: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "DALL\u00b7E: Zero-Shot Text-to-Image Generation",
+            "AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks",
+            "StackGAN: Text to Photo-Realistic Image Synthesis with Stacked Generative Adversarial Networks",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "MDETR: Modulated Detection for End-to-End Multi-Modal Understanding"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "VQA: Visual Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Visual Dialog",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "OSCAR: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "VinVL: Revisiting Visual Representations in Vision-Language Models",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "DALL\u00b7E: Zero-Shot Text-to-Image Generation",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Pre-Training",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "BLIP: Bootstrapping Language-Image Pre-training",
+            "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",
+            "Flamingo: a Visual Language Model for Few-Shot Learning",
+            "ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervision"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "VQA: Visual Question Answering",
+            "Stacked Cross Attention for Image-Text Matching",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "Pixel-BERT: Aligning Image Pixels with Text by Cross-Modal Mutual Distillation",
+            "VCR: Visual Commonsense Reasoning",
+            "HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips",
+            "ImageBERT: Cross-Modal Pre-Training with Large-Scale Weak Supervision",
+            "VSE++: Improving Visual-Semantic Embeddings with Hard Negatives",
+            "Visual7W: Grounded Question Answering in Images",
+            "UNIMO: Unified-Modal Pre-training for Vision-Language Tasks"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.85,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "VQA: Visual Question Answering",
+            "Visual7W: Grounded Question Answering in Images",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "Stacked Cross Attention for Image-Text Matching",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-modal Transformers",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "CLIP: Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "ALBEF: Align Before Fuse for Vision-Language Representation Learning",
+            "BLIP: Bootstrapping Language-Image Pre-training",
+            "FLAVA: A Foundational Language and Vision Alignment Model",
+            "Conceptual Captions: A New Dataset for Image Captioning"
+          ],
+          "vector": {
+            "x1": 0.95,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Show and Tell: A Neural Image Caption Generator",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Deep Visual-Semantic Alignments for Generating Image Descriptions",
+            "VQA: Visual Question Answering",
+            "Stacked Attention Networks for Image Question Answering",
+            "Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering",
+            "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+            "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+            "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+            "UNITER: UNiversal Image-TExt Representation Learning",
+            "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "ALIGN: Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+            "Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers",
+            "DenseCap: Fully Convolutional Localization Networks for Dense Captioning",
+            "Stacked Cross Attention for Image-Text Matching",
+            "Visual Genome: Connecting Language and Vision",
+            "Unicoder-VL: A Universal Encoder for Vision and Language by Cross-modal Pre-training",
+            "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+            "SCAN: Stacked Cross Attention Network for Image-Text Matching"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 1.0,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 OR y2",
+      "label": "y1\u2228y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.5853801169590643,
+        "x2": 0.17573099415204677,
+        "x3": 0.3827485380116959,
+        "x4": 0.042105263157894736,
+        "x5": 0.005263157894736842
+      },
+      "std": {
+        "x1": 0.05772416639718498,
+        "x2": 0.0900961289369007,
+        "x3": 0.03865477907193258,
+        "x4": 0.05435766099940234,
+        "x5": 0.016643566632465155
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "ELMo: Deep Contextualized Word Representations",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Spatial Transformer Networks"
+          ],
+          "vector": {
+            "x1": 0.6666666666666666,
+            "x2": 0.16666666666666666,
+            "x3": 0.3333333333333333,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Sequence to Sequence Learning with Neural Networks",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.21052631578947367,
+            "x3": 0.3157894736842105,
+            "x4": 0.10526315789473684,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep contextualized word representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Sequence to Sequence Learning with Neural Networks",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Densely Connected Convolutional Networks",
+            "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.0,
+            "x3": 0.42105263157894735,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Deep contextualized word representations",
+            "GloVe: Global Vectors for Word Representation",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Densely Connected Convolutional Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.3157894736842105,
+            "x3": 0.3684210526315789,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Deep contextualized word representations",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation"
+          ],
+          "vector": {
+            "x1": 0.5555555555555556,
+            "x2": 0.2222222222222222,
+            "x3": 0.3888888888888889,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "A Simple Framework for Contrastive Learning of Visual Representations",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.10526315789473684,
+            "x3": 0.3684210526315789,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Deep contextualized word representations",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Distinctive Image Features from Scale-Invariant Keypoints"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.15789473684210525,
+            "x3": 0.42105263157894735,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Visualizing and Understanding Convolutional Networks",
+            "Densely Connected Convolutional Networks"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.21052631578947367,
+            "x3": 0.42105263157894735,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Deep Contextualized Word Representations",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "A Simple Framework for Contrastive Learning of Visual Representations"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.2631578947368421,
+            "x3": 0.42105263157894735,
+            "x4": 0.15789473684210525,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Deep Contextualized Word Representations",
+            "A Neural Probabilistic Language Model",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "SimCLR: A Simple Framework for Contrastive Learning of Visual Representations",
+            "You Only Look Once: Unified, Real-Time Object Detection"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.10526315789473684,
+            "x3": 0.3684210526315789,
+            "x4": 0.05263157894736842,
+            "x5": 0.05263157894736842
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND NOT y2",
+      "label": "y1\u2227\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.6231578947368421,
+        "x2": 0.2863157894736842,
+        "x3": 0.015000000000000001,
+        "x4": 0.0,
+        "x5": 0.11605263157894737
+      },
+      "std": {
+        "x1": 0.10035179732126315,
+        "x2": 0.0878665430847236,
+        "x3": 0.03374742788552765,
+        "x4": 0.0,
+        "x5": 0.04959748725254836
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Deep contextualized word representations",
+            "GloVe: Global Vectors for Word Representation",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Enriching Word Vectors with Subword Information",
+            "A Neural Probabilistic Language Model",
+            "Get To The Point: Summarization with Pointer-Generator Networks",
+            "TextRank: Bringing Order into Texts",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Transition-Based Dependency Parsing with Stack Long Short-Term Memory",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.3,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "A Neural Probabilistic Language Model",
+            "Latent Dirichlet Allocation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Effective Approaches to Attention-based Neural Machine Translation",
+            "Attention Is All You Need",
+            "Universal Transformers",
+            "Deep Contextualized Word Representations",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Unsupervised Multitask Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Neural Architectures for Named Entity Recognition",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "Pointer Networks"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.4,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Neural Probabilistic Language Model",
+            "Latent Dirichlet Allocation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Long Short-Term Memory",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep contextualized word representations",
+            "GloVe: Global Vectors for Word Representation",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Few-Shot Learners",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "ROUGE: A Package for Automatic Evaluation of Summaries",
+            "Deep Biaffine Attention for Neural Dependency Parsing",
+            "Pointer Networks"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.35,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Latent Dirichlet Allocation",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.15,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "A Neural Probabilistic Language Model",
+            "Long Short-Term Memory",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Deep contextualized word representations",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Few-Shot Learners",
+            "Neural Architectures for Named Entity Recognition",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "Deep Biaffine Attention for Neural Dependency Parsing",
+            "Maximum Entropy Models for Natural Language Ambiguity Resolution",
+            "WordNet: A Lexical Database for English"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.3,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "Bag of Tricks for Efficient Text Classification",
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Few-Shot Learners",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Bidirectional LSTM-CRF Models for Sequence Tagging",
+            "Learning Phrase Representations using RNN Encoder\u2013Decoder for Statistical Machine Translation",
+            "Natural Language Processing (Almost) from Scratch",
+            "Convolutional Neural Networks for Sentence Classification"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.4,
+            "x3": 0.05,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Efficient Estimation of Word Representations in Vector Space",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Few-Shot Learners",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Convolutional Neural Networks for Sentence Classification",
+            "A Neural Probabilistic Language Model",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Neural Machine Translation of Rare Words with Subword Units",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "Enriching Word Vectors with Subword Information",
+            "WordNet: An Electronic Lexical Database"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.3,
+            "x3": 0.1,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Language Models are Unsupervised Multitask Learners",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Deep Contextualized Word Representations",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "A Neural Probabilistic Language Model",
+            "Enriching Word Vectors with Subword Information",
+            "Neural Architectures for Named Entity Recognition",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.25,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "GloVe: Global Vectors for Word Representation",
+            "Enriching Word Vectors with Subword Information",
+            "Deep Contextualized Word Representations",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "GPT-3: Language Models are Few-Shot Learners",
+            "Attention Is All You Need",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+            "Transformer-XL: Attentive Language Models beyond a Fixed-Length Context",
+            "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "Universal Language Model Fine-tuning for Text Classification",
+            "Get To The Point: Summarization with Pointer-Generator Networks",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Character-Aware Neural Language Models"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.15,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Improving Language Understanding by Generative Pre-Training",
+            "Language Models are Unsupervised Multitask Learners",
+            "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "Deep Contextualized Word Representations",
+            "GloVe: Global Vectors for Word Representation",
+            "Distributed Representations of Words and Phrases and their Compositionality",
+            "Sequence to Sequence Learning with Neural Networks",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "BLEU: a Method for Automatic Evaluation of Machine Translation",
+            "Latent Dirichlet Allocation",
+            "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+            "Long Short-Term Memory",
+            "A Neural Probabilistic Language Model",
+            "Neural Architectures for Named Entity Recognition",
+            "End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF",
+            "Get To The Point: Summarization with Pointer-Generator Networks"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.2631578947368421,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.21052631578947367
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y1",
+      "label": "\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.4284210526315789,
+        "x2": 0.0,
+        "x3": 0.21421052631578946,
+        "x4": 0.010526315789473684,
+        "x5": 0.22657894736842105
+      },
+      "std": {
+        "x1": 0.1481225483165568,
+        "x2": 0.0,
+        "x3": 0.08121689135308484,
+        "x4": 0.022191422176620203,
+        "x5": 0.2233191034730182
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "On the Electrodynamics of Moving Bodies",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids; A Structure for Deoxyribose Nucleic Acid",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Human-level control through deep reinforcement learning",
+            "Experimental Test of Parity Conservation in Beta Decay",
+            "On the Einstein Podolsky Rosen paradox",
+            "The Hallmarks of Cancer",
+            "Density-functional thermochemistry. III. The role of exact exchange",
+            "Learning representations by back-propagating errors",
+            "Random Forests",
+            "Support-Vector Networks"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.25,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Human-level Control through Deep Reinforcement Learning",
+            "Deep Residual Learning for Image Recognition",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Adam: A Method for Stochastic Optimization",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "SimCLR: A Simple Framework for Contrastive Learning of Visual Representations",
+            "ImageNet Large Scale Visual Recognition Challenge",
+            "Neural Ordinary Differential Equations"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.3,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "Human-level control through deep reinforcement learning",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Adam: A Method for Stochastic Optimization",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Mastering the game of Go without human knowledge",
+            "The Structure and Function of Complex Networks",
+            "On the Electrodynamics of Moving Bodies",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Playing Atari with Deep Reinforcement Learning"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.0,
+            "x3": 0.2631578947368421,
+            "x4": 0.05263157894736842,
+            "x5": 0.3157894736842105
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On the Electrodynamics of Moving Bodies",
+            "The Chemical Basis of Morphogenesis",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Initial sequencing and analysis of the human genome",
+            "Electric Field Effect in Atomically Thin Carbon Films",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Quantum Spin Hall Effect and Topological Phase Transition in HgTe Quantum Wells",
+            "Dropout: a Simple Way to Prevent Neural Networks from Overfitting",
+            "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.15,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On the Electrodynamics of Moving Bodies",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "New Directions in Cryptography",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Quantum supremacy using a programmable superconducting processor",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "Human-level control through deep reinforcement learning",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Adam: A Method for Stochastic Optimization",
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Visualizing and Understanding Convolutional Networks",
+            "Reflections on Trusting Trust",
+            "Hallmarks of Cancer",
+            "The Chemical Basis of Morphogenesis",
+            "The Nature of the Firm"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.15,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Complexity of Theorem-Proving Procedures",
+            "On the Electrodynamics of Moving Bodies",
+            "On the Einstein Podolsky Rosen Paradox",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "ImageNet: A large-scale hierarchical image database",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Generative Adversarial Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.1,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Gradient-Based Learning Applied to Document Recognition",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Neural Ordinary Differential Equations",
+            "Distilling the Knowledge in a Neural Network",
+            "The Hallmarks of Cancer",
+            "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "On the Electrodynamics of Moving Bodies",
+            "The Chemical Basis of Morphogenesis",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "The Structure and Function of Complex Networks",
+            "Highly accurate protein structure prediction with AlphaFold"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.0,
+            "x3": 0.25,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Human-level Control through Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Mastering the Game of Go without Human Knowledge",
+            "A Neural Algorithm of Artistic Style",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "A Simple Framework for Contrastive Learning of Visual Representations",
+            "Momentum Contrast for Unsupervised Visual Representation Learning",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Adam: A Method for Stochastic Optimization",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Initial sequencing and analysis of the human genome",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "Observation of a New Particle in the Search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC"
+          ],
+          "vector": {
+            "x1": 0.631578947368421,
+            "x2": 0.0,
+            "x3": 0.2631578947368421,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Networks",
+            "Human-level control through deep reinforcement learning",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Spatial Transformer Networks",
+            "A Neural Algorithm of Artistic Style",
+            "A programmable dual-RNA\u2013guided DNA endonuclease in adaptive bacterial immunity",
+            "Genome engineering using the CRISPR-Cas9 system",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.0,
+            "x3": 0.3157894736842105,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On the Electrodynamics of Moving Bodies",
+            "A Mathematical Theory of Communication",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Chemical Basis of Morphogenesis",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "On the Einstein Podolsky Rosen Paradox",
+            "Computing Machinery and Intelligence",
+            "Learning representations by back-propagating errors",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Theory of Superconductivity",
+            "Modular Elliptic Curves and Fermat's Last Theorem",
+            "Deterministic Nonperiodic Flow",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Hallmarks of Cancer",
+            "Deep Residual Learning for Image Recognition",
+            "On the Origin of Mitosing Cells",
+            "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+            "Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors",
+            "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.1,
+            "x4": 0.0,
+            "x5": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "y2 AND NOT y1",
+      "label": "y2\u2227\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.21842105263157893,
+        "x2": 0.0,
+        "x3": 0.7725146198830409,
+        "x4": 0.038011695906432746,
+        "x5": 0.0
+      },
+      "std": {
+        "x1": 0.20841775816375882,
+        "x2": 0.0,
+        "x3": 0.13044999760092338,
+        "x4": 0.04462192258190876,
+        "x5": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Spatial Transformer Networks",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "SURF: Speeded Up Robust Features",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Focal Loss for Dense Object Detection",
+            "Feature Pyramid Networks for Object Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "FlowNet: Learning Optical Flow with Convolutional Networks"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 1.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Going Deeper with Convolutions",
+            "Deep Residual Learning for Image Recognition",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Feature Pyramid Networks for Object Detection",
+            "FlowNet: Learning Optical Flow with Convolutional Networks",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+            "Generative Adversarial Nets",
+            "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "ImageNet: A Large-Scale Hierarchical Image Database"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.6666666666666666,
+            "x4": 0.05555555555555555,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "Spatial Transformer Networks",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Visualizing and Understanding Convolutional Networks",
+            "Feature Pyramid Networks for Object Detection",
+            "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.8421052631578947,
+            "x4": 0.10526315789473684,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Unsupervised Representation Learning by Predicting Image Rotations",
+            "A Simple Framework for Contrastive Learning of Visual Representations",
+            "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "DensePose: Dense Human Pose Estimation In The Wild",
+            "Simple Online and Realtime Tracking",
+            "High-Resolution Representations for Labeling Pixels and Regions",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+            "Spatial Transformer Networks"
+          ],
+          "vector": {
+            "x1": 0.10526315789473684,
+            "x2": 0.0,
+            "x3": 0.7368421052631579,
+            "x4": 0.05263157894736842,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "SURF: Speeded Up Robust Features",
+            "Histograms of Oriented Gradients for Human Detection",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Determining Optical Flow",
+            "An Iterative Image Registration Technique with an Application to Stereo Vision",
+            "Visualizing and Understanding Convolutional Networks",
+            "Beyond Bags of Features: Spatial Pyramid Matching for Recognizing Natural Scene Categories",
+            "Bundle Adjustment \u2014 A Modern Synthesis",
+            "Accurate Image Super-Resolution Using Very Deep Convolutional Networks"
+          ],
+          "vector": {
+            "x1": 0.4444444444444444,
+            "x2": 0.0,
+            "x3": 0.7777777777777778,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Going Deeper with Convolutions",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Rapid Object Detection using a Boosted Cascade of Simple Features",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "Feature Pyramid Networks for Object Detection",
+            "Generative Adversarial Nets",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Deep High-Resolution Representation Learning for Visual Recognition",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "Non-local Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.2222222222222222,
+            "x2": 0.0,
+            "x3": 0.8333333333333334,
+            "x4": 0.05555555555555555,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Rich feature hierarchies for accurate object detection and semantic segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Focal Loss for Dense Object Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+            "Image-to-Image Translation with Conditional Adversarial Networks",
+            "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+            "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+            "Momentum Contrast for Unsupervised Visual Representation Learning",
+            "A Simple Framework for Contrastive Learning of Visual Representations",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+          ],
+          "vector": {
+            "x1": 0.2777777777777778,
+            "x2": 0.0,
+            "x3": 0.6666666666666666,
+            "x4": 0.1111111111111111,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Rapid Object Detection using a Boosted Cascade of Simple Features",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Going Deeper with Convolutions",
+            "Densely Connected Convolutional Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+            "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "Spatial Transformer Networks",
+            "Visualizing and Understanding Convolutional Networks",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+          ],
+          "vector": {
+            "x1": 0.5263157894736842,
+            "x2": 0.0,
+            "x3": 0.5263157894736842,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "Feature Pyramid Networks for Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "Generative Adversarial Nets",
+            "CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks",
+            "FlowNet: Learning Optical Flow with Convolutional Networks",
+            "PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume",
+            "Spatial Transformer Networks",
+            "Non-local Neural Networks",
+            "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Distinctive Image Features from Scale-Invariant Keypoints"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.0,
+            "x3": 0.8421052631578947,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "ImageNet: A Large-Scale Hierarchical Image Database",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "Deep Residual Learning for Image Recognition",
+            "Going Deeper with Convolutions",
+            "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+            "You Only Look Once: Unified, Real-Time Object Detection",
+            "SSD: Single Shot MultiBox Detector",
+            "Feature Pyramid Networks for Object Detection",
+            "Fully Convolutional Networks for Semantic Segmentation",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "Generative Adversarial Nets",
+            "Distinctive Image Features from Scale-Invariant Keypoints",
+            "SURF: Speeded Up Robust Features",
+            "Histograms of Oriented Gradients for Human Detection",
+            "Object Detection with Discriminatively Trained Part-Based Models"
+          ],
+          "vector": {
+            "x1": 0.05555555555555555,
+            "x2": 0.0,
+            "x3": 0.8333333333333334,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 AND y2)",
+      "label": "\u00ac(y1\u2227y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.195,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.48
+      },
+      "std": {
+        "x1": 0.2397336484981243,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.32076297929918424
+      },
+      "seeds": [
+        {
+          "papers": [
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Paxos Made Simple",
+            "In Search of an Understandable Consensus Algorithm (Raft)",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "End-to-End Arguments in System Design",
+            "The Byzantine Generals Problem",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "Cuckoo Hashing",
+            "Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web",
+            "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+            "The Tail at Scale",
+            "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II",
+            "Support-Vector Networks",
+            "Random Forests",
+            "The Complexity of Theorem-Proving Procedures",
+            "A Note on Two Problems in Connexion with Graphs",
+            "No Silver Bullet \u2014 Essence and Accidents of Software Engineering",
+            "Reflections on Trusting Trust"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.15
+          }
+        },
+        {
+          "papers": [
+            "On the Electrodynamics of Moving Bodies",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "The Foundation of the General Theory of Relativity",
+            "The Chemical Basis of Morphogenesis",
+            "A Fast Algorithm for Particle Simulations",
+            "The Complexity of Theorem-Proving Procedures",
+            "Black Holes and Entropy",
+            "On the Einstein Podolsky Rosen Paradox",
+            "The Hallmarks of Cancer",
+            "A Programmable Dual-RNA\u2013Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+            "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+            "Collective Dynamics of 'Small-World' Networks",
+            "Emergence of Scaling in Random Networks",
+            "Portfolio Selection",
+            "Evolutionary Rate at the Molecular Level",
+            "A Theory of the Learnable",
+            "Time, Clocks, and the Ordering of Events in a Distributed System"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Byzantine Generals Problem",
+            "On the Criteria To Be Used in Decomposing Systems into Modules",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "The Google File System",
+            "Paxos Made Simple",
+            "In Search of an Understandable Consensus Algorithm",
+            "Distributed Snapshots: Determining Global States of Distributed Systems",
+            "The Complexity of Theorem-Proving Procedures",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "A Relational Model of Data for Large Shared Data Banks",
+            "The Transaction Concept: Virtues and Limitations",
+            "A Note on Two Problems in Connexion with Graphs",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web",
+            "Cuckoo Hashing",
+            "End-to-End Arguments in System Design"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Human-level control through deep reinforcement learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "Mastering the game of Go without human knowledge",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "A Distributional Perspective on Reinforcement Learning",
+            "Neural Ordinary Differential Equations",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Generative Adversarial Nets",
+            "Distilling the Knowledge in a Neural Network",
+            "Understanding deep learning requires rethinking generalization",
+            "A Theory of the Learnable",
+            "The Strength of Weak Learnability",
+            "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+            "Identification and Estimation of Local Average Treatment Effects",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Quantum supremacy using a programmable superconducting processor"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.45
+          }
+        },
+        {
+          "papers": [
+            "Adam: A Method for Stochastic Optimization",
+            "On the Convergence of Adam and Beyond",
+            "Stochastic Variational Inference",
+            "Variational Inference: A Review for Statisticians",
+            "Random Forests",
+            "Greedy Function Approximation: A Gradient Boosting Machine",
+            "Support-Vector Networks",
+            "A Theory of the Learnable",
+            "Calibrating Noise to Sensitivity in Private Data Analysis",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Bigtable: A Distributed Storage System for Structured Data",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Byzantine Generals Problem",
+            "Finite-time Analysis of the Multiarmed Bandit Problem",
+            "Deterministic Policy Gradient Algorithms",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Understanding deep learning requires rethinking generalization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Auto-Encoding Variational Bayes",
+            "Neural Ordinary Differential Equations",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+            "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Practical Bayesian Optimization of Machine Learning Algorithms",
+            "A Few Useful Things to Know About Machine Learning",
+            "Semi-Supervised Classification with Graph Convolutional Networks",
+            "Inductive Representation Learning on Large Graphs",
+            "A Distributional Perspective on Reinforcement Learning",
+            "Least-Squares Policy Iteration",
+            "Representation Learning on Graphs: Methods and Applications",
+            "On the difficulty of training Recurrent Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.7
+          }
+        },
+        {
+          "papers": [
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "How to Share a Secret",
+            "A Mathematical Theory of Communication",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Byzantine Generals Problem",
+            "The Google File System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "End-to-End Arguments in System Design",
+            "Reflections on Trusting Trust",
+            "On the Criteria to Be Used in Decomposing Systems into Modules",
+            "Learning to Predict by the Methods of Temporal Differences",
+            "Temporal Difference Learning and TD-Gammon",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Mastering the Game of Go without Human Knowledge",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Adam: A Method for Stochastic Optimization",
+            "Auto-Encoding Variational Bayes",
+            "Generative Adversarial Nets"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.85
+          }
+        },
+        {
+          "papers": [
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Deterministic Policy Gradient Algorithms",
+            "A Distributional Perspective on Reinforcement Learning",
+            "Identification and Estimation of Local Average Treatment Effects",
+            "Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference",
+            "Adam: A Method for Stochastic Optimization",
+            "On the Convergence of Adam and Beyond",
+            "Stochastic Variational Inference",
+            "Auto-Encoding Variational Bayes",
+            "Semi-Supervised Classification with Graph Convolutional Networks",
+            "Neural Message Passing for Quantum Chemistry",
+            "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+            "Understanding Deep Learning Requires Rethinking Generalization",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Highly Accurate Protein Structure Prediction with AlphaFold",
+            "Quantum supremacy using a programmable superconducting processor",
+            "Neural Ordinary Differential Equations"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 1.0
+          }
+        },
+        {
+          "papers": [
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Auto-Encoding Variational Bayes",
+            "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Continuous Control with Deep Reinforcement Learning",
+            "Understanding Deep Learning Requires Rethinking Generalization",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Neural Ordinary Differential Equations",
+            "Semi-Supervised Classification with Graph Convolutional Networks",
+            "Neural Message Passing for Quantum Chemistry",
+            "Deep Learning with Differential Privacy",
+            "Fairness Through Awareness",
+            "A Theory of the Learnable",
+            "On the Number of Linear Regions of Deep Neural Networks",
+            "Do Deep Nets Really Need to Be Deep?",
+            "Masked Autoregressive Flow for Density Estimation",
+            "On Calibration of Modern Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.35
+          }
+        },
+        {
+          "papers": [
+            "A Few Useful Things to Know about Machine Learning",
+            "Learning representations by back-propagating errors",
+            "Induction of Decision Trees",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Learning to predict by the methods of temporal differences",
+            "A Theory of the Learnable",
+            "Computing Machinery and Intelligence",
+            "Reflections on Trusting Trust",
+            "End-to-end arguments in system design",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Byzantine Generals Problem",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "Paxos Made Simple",
+            "The Part-Time Parliament",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "New Directions in Cryptography",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "The PageRank Citation Ranking: Bringing Order to the Web"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 OR y2)",
+      "label": "\u00ac(y1\u2228y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.17289473684210527,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.513859649122807
+      },
+      "std": {
+        "x1": 0.1982225184497467,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.23186739965523145
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Theory of the Learnable",
+            "Human-level control through deep reinforcement learning",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Asynchronous Methods for Deep Reinforcement Learning",
+            "Auto-Encoding Variational Bayes",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Semi-Supervised Classification with Graph Convolutional Networks",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Paxos Made Simple",
+            "Raft: In Search of an Understandable Consensus Algorithm",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On the Electrodynamics of Moving Bodies",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "On the Einstein Podolsky Rosen Paradox",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Chemical Basis of Morphogenesis",
+            "Protein Measurement with the Folin Phenol Reagent",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Reflections on Trusting Trust",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "End-to-End Arguments in System Design",
+            "The Hallmarks of Cancer",
+            "Particle Swarm Optimization",
+            "A Fast Algorithm for Particle Simulations",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Self-Organized Criticality: An Explanation of 1/f Noise",
+            "The Complexity of Theorem-Proving Procedures",
+            "A Theory of Human Motivation",
+            "Random Forests",
+            "The Origin of Species (Note: included as a classic work in biology)"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.1
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Impossibility of Distributed Consensus in Asynchronous Systems with One Faulty Process",
+            "The Byzantine Generals Problem",
+            "New Directions in Cryptography",
+            "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+            "Reflections on Trusting Trust",
+            "End-to-End Arguments in System Design",
+            "The Google File System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Bigtable: A Distributed Storage System for Structured Data",
+            "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "On the Electrodynamics of Moving Bodies",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+            "On the Einstein Podolsky Rosen Paradox",
+            "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 1.0
+          }
+        },
+        {
+          "papers": [
+            "A Theory of the Learnable",
+            "Learning to Predict by the Methods of Temporal Differences",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Finite-time Analysis of the Multiarmed Bandit Problem",
+            "The Nonstochastic Multiarmed Bandit Problem",
+            "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization",
+            "Adam: A Method for Stochastic Optimization",
+            "End-to-end Arguments in System Design",
+            "The Google File System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Chubby: A lock service for loosely-coupled distributed systems",
+            "In Search of an Understandable Consensus Algorithm",
+            "Paxos Made Simple",
+            "Reflections on Trusting Trust",
+            "Bigtable: A Distributed Storage System for Structured Data",
+            "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "A fast quantum mechanical algorithm for database search"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.3333333333333333
+          }
+        },
+        {
+          "papers": [
+            "A Theory of the Learnable",
+            "Learning to Predict by the Methods of Temporal Differences",
+            "Finite-time Analysis of the Multiarmed Bandit Problem",
+            "Adam: A Method for Stochastic Optimization",
+            "On the Convergence of Adam and Beyond",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Auto-Encoding Variational Bayes",
+            "Generative Adversarial Nets",
+            "Neural Ordinary Differential Equations",
+            "Stochastic Gradient Descent as Approximate Bayesian Inference",
+            "Understanding Deep Learning Requires Rethinking Generalization",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Overcoming Catastrophic Forgetting in Neural Networks",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Deterministic Policy Gradient Algorithms",
+            "Semi-Supervised Classification with Graph Convolutional Networks",
+            "Thompson Sampling (for the Multi-armed Bandit Problem)"
+          ],
+          "vector": {
+            "x1": 0.3684210526315789,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.631578947368421
+          }
+        },
+        {
+          "papers": [
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Understanding deep learning requires rethinking generalization",
+            "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Neural Ordinary Differential Equations",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+            "A Mathematical Theory of Communication",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "On Calibration of Modern Neural Networks",
+            "On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima",
+            "Calibrating Noise to Sensitivity in Private Data Analysis",
+            "A Survey of Monte Carlo Tree Search Methods"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.4
+          }
+        },
+        {
+          "papers": [
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Paxos Made Simple",
+            "Raft: In Search of an Understandable Consensus Algorithm",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "Adam: A Method for Stochastic Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Trust Region Policy Optimization",
+            "Neural Ordinary Differential Equations",
+            "Basic Local Alignment Search Tool",
+            "The Sequence Alignment/Map format and SAMtools",
+            "A Mathematical Theory of Communication",
+            "End-to-End Arguments in System Design",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "Dynamo: Amazon\u2019s Highly Available Key-value Store",
+            "On the Criteria To Be Used in Decomposing Systems into Modules",
+            "Reflections on Trusting Trust",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
+          ],
+          "vector": {
+            "x1": 0.21052631578947367,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.47368421052631576
+          }
+        },
+        {
+          "papers": [
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "Trust Region Policy Optimization",
+            "Proximal Policy Optimization Algorithms",
+            "Least-Squares Policy Iteration",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm",
+            "Adam: A Method for Stochastic Optimization",
+            "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+            "Neural Ordinary Differential Equations",
+            "Calibrating Noise to Sensitivity in Private Data Analysis",
+            "Exact Matrix Completion via Convex Optimization",
+            "Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Paxos Made Simple",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+            "No Free Lunch Theorems for Optimization",
+            "Optimization by Simulated Annealing",
+            "Finite-time Analysis of the Multiarmed Bandit Problem",
+            "A Survey of Monte Carlo Tree Search Methods"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.6
+          }
+        },
+        {
+          "papers": [
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "On the Electrodynamics of Moving Bodies",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "The Complexity of Theorem-Proving Procedures",
+            "New Directions in Cryptography",
+            "Possible High Tc Superconductivity in the Ba\u2013La\u2013Cu\u2013O System",
+            "Observation of Bose\u2013Einstein Condensation in a Dilute Atomic Vapor",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers",
+            "A Contribution to the Mathematical Theory of Epidemics",
+            "Collective dynamics of 'small-world' networks",
+            "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+            "The Hallmarks of Cancer",
+            "On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground",
+            "Self-Consistent Equations Including Exchange and Correlation Effects",
+            "Policy Gradient Methods for Reinforcement Learning with Function Approximation",
+            "The Pricing of Options and Corporate Liabilities",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.5
+          }
+        },
+        {
+          "papers": [
+            "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "End-to-End Arguments in System Design",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Impossibility of Distributed Consensus with One Faulty Process",
+            "A Mathematical Theory of Communication",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Reflections on Trusting Trust",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "No Silver Bullet \u2014 Essence and Accident in Software Engineering",
+            "The Complexity of Theorem-Proving Procedures",
+            "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+            "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+            "On the Criteria To Be Used in Decomposing Systems into Modules",
+            "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+            "New Directions in Cryptography",
+            "Identification of Common Molecular Subsequences",
+            "An Algorithm for the Machine Calculation of Complex Fourier Series"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0,
+            "x4": 0.0,
+            "x5": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1986 @@
+{
+  "config": {
+    "m1_tag": "gen4omini_gentemp00_cls4omini_clstemp00",
+    "m2_tag": "gen5mini_gentempnone_cls4omini_clstemp00",
+    "ordering": "L2=5mini, L3=4omini",
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 20,
+    "random_seed": 42
+  },
+  "seeds": [
+    {
+      "L2": {
+        "papers": [
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "Ligero: Lightweight Sublinear Arguments Without a Trusted Setup",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Ekiden: A Platform for Confidential Smart Contracts",
+          "Confidential Transactions",
+          "FROST: Flexible Round-Optimized Schnorr Threshold Signatures",
+          "The Keccak Sponge Function Family",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Protocols for Secure Computations",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "How to Share a Secret",
+          "A Fully Homomorphic Encryption Scheme",
+          "Enigma: Decentralized Computation Platform with Guaranteed Privacy",
+          "Non-Interactive Zero-Knowledge and Its Applications"
+        ],
+        "vector": {
+          "x1": 0.35,
+          "x2": 0.75,
+          "x3": 0.15
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Ledger Technology: A Review of the Current State",
+          "Consensus Algorithms in Blockchain: A Comprehensive Review",
+          "The Impact of Blockchain on Distributed Database Systems",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Survey on Replication Techniques in Distributed Systems",
+          "Blockchain and Distributed Systems: A Synergistic Approach",
+          "Challenges and Opportunities in Blockchain Consensus Protocols",
+          "The Future of Smart Contracts in Decentralized Applications",
+          "Analyzing the Trade-offs in Distributed Consensus Algorithms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Do you want papers on consensus protocols, proof-of-work, and proof-of-stake included? Your allowed topics list includes them but your exclusions explicitly rule out distributed-systems topics (which covers consensus). Should I include consensus/PoW/PoS papers or exclude all consensus/distributed-systems papers?"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Share a Secret",
+          "Identity-Based Cryptosystems and Signature Schemes",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Protocols for Secure Computations",
+          "Fully Homomorphic Encryption Using Ideal Lattices",
+          "Short Signatures from the Weil Pairing",
+          "Aggregate and Verifiably Encrypted Signatures",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "CryptoNote v2.0",
+          "The Keccak Sponge Function Family (SHA-3)",
+          "Random Oracles are Practical: A Paradigm for Designing Efficient Protocols and Their Implementations",
+          "The Double Ratchet Algorithm",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity (STARKs)",
+          "Fiat-Shamir Heuristic: Transforming Interactive Proofs into Non-Interactive Signatures"
+        ],
+        "vector": {
+          "x1": 0.25,
+          "x2": 1.0,
+          "x3": 0.1
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Protocols in Blockchain Technology",
+          "Smart Contracts: A Systematic Mapping Study",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Consensus Algorithms in Blockchain Technology",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Protocols",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Understanding the CAP Theorem: Implications for Distributed Database Design",
+          "A Comparative Study of Consensus Mechanisms in Blockchain",
+          "Smart Contracts: Security and Performance Analysis",
+          "Replication Strategies in Distributed Systems: A Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Impact of Consensus Algorithms on Blockchain Performance",
+          "Distributed Databases: Challenges and Solutions",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "Consensus Protocols for Blockchain: A Review of Current Trends",
+          "The Evolution of Smart Contracts: From Theory to Practice",
+          "Analyzing the Trade-offs of Proof-of-Work vs. Proof-of-Stake",
+          "Distributed Systems: Principles and Paradigms",
+          "A Survey on Fault Tolerance Mechanisms in Distributed Systems"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.5
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I\u2019m unclear about a conflict in your request. You asked for papers on blockchain topics like \"consensus protocols, proof-of-work, proof-of-stake,\" but then asked to exclude any papers about \"distributed systems (consensus algorithms, fault tolerance...).\" Consensus, PoW and PoS papers are usually classified under distributed systems, so strict exclusion would rule out most consensus literature.",
+          "Do you mean:",
+          "- Exclude papers focused on cryptographic primitives only (e.g., new ZK proofs, new hash or signature schemes) and on core distributed-systems theory (e.g., Paxos, PBFT proofs), but allow applied/economic/empirical or security papers about PoW/PoS and smart contracts? OR",
+          "- Exclude all distributed systems work entirely (in which case I should omit consensus/PoW/PoS papers and only list application/economic/legal/smart-contract-analysis papers)?",
+          "Please confirm which interpretation you want, and whether papers about smart-contract security and formal verification are allowed."
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "A Next-Generation Smart Contract and Decentralised Application Platform",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Fully Homomorphic Encryption Using Ideal Lattices",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity (STARKs)",
+          "Hashcash \u2014 A Denial of Service Counter-Measure",
+          "The Rijndael Block Cipher",
+          "Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups",
+          "Use of Elliptic Curves in Cryptography",
+          "Ring Confidential Transactions",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Performance",
+          "A Survey on Decentralized Ledger Technologies",
+          "Evaluating the Trade-offs of Consensus Protocols in Distributed Systems",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "Analyzing the Efficiency of Distributed Consensus Algorithms",
+          "A Review of Blockchain Scalability Solutions and Consensus Mechanisms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Making Smart Contracts Smarter",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "Sereum: Protecting Smart Contracts Against Re-Entrancy Attacks",
+          "VeriSol: Verifying Solidity Smart Contracts",
+          "MadMax: Taming Gas-Oriented Smart Contracts"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "Short Signatures from the Weil Pairing",
+          "A Public Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms",
+          "The First Collision for Full SHA-1",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Oyente: Analyzing Smart Contracts for Vulnerabilities",
+          "SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies",
+          "CoinJoin: Bitcoin Privacy for the Real World",
+          "Mixcoin: Anonymity for Bitcoin with Accountability",
+          "On the Size of Pairing-Based Non-Interactive Arguments",
+          "Non-interactive Zero-Knowledge Proofs from Homomorphic Encryption"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.75,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Survey on Smart Contract Security: Vulnerabilities and Solutions",
+          "Performance Evaluation of Blockchain Consensus Algorithms",
+          "Analyzing the Scalability of Blockchain Systems",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "The Role of Decentralized Ledgers in Distributed Systems",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "A Survey on the State of the Art in Blockchain Technology",
+          "Distributed Ledger Technology: Applications and Challenges",
+          "An Overview of Fault Tolerance Mechanisms in Distributed Systems",
+          "Smart Contracts and Their Applications in Decentralized Systems"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Making Smart Contracts Smarter",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "A Survey of Attacks on Ethereum Smart Contracts",
+          "An Empirical Analysis of Smart Contracts: Platforms, Applications and Design Patterns",
+          "Where Is Current Research on Blockchain Technology?\u2014A Systematic Review",
+          "Do You Need a Blockchain?",
+          "The Carbon Footprint of Bitcoin",
+          "Decentralized Finance: On Blockchain- and Smart Contract-based Financial Markets",
+          "SmartCheck: Static Analysis of Smart Contracts",
+          "ContractFuzzer: Fuzz Testing of Ethereum Smart Contracts",
+          "Sereum: Protecting Existing Smart Contracts Against Re-Entrancy Attacks",
+          "SoK: Decentralized Finance (DeFi)",
+          "An Empirical Study of Ethereum Token Sales and ICOs",
+          "Smart Contracts: Security Patterns and Anti-patterns"
+        ],
+        "vector": {
+          "x1": 0.8666666666666667,
+          "x2": 0.0,
+          "x3": 0.06666666666666667
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Non-Interactive Zero-Knowledge Proofs and Applications",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Confidential Transactions",
+          "How to Time-Stamp a Digital Document",
+          "CoinShuffle: Practical Decentralized Coin Mixing for Bitcoin",
+          "Ring Confidential Transactions",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Elliptic Curve Cryptosystems",
+          "The Keccak Sponge Function Family",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments",
+          "How to Make a Mint: The Cryptography of Anonymous Electronic Cash"
+        ],
+        "vector": {
+          "x1": 0.5263157894736842,
+          "x2": 0.631578947368421,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Evaluating the Trade-offs of Consensus Mechanisms in Blockchain",
+          "A Comparative Study of Blockchain Consensus Protocols",
+          "The Impact of Distributed Systems on Blockchain Scalability",
+          "Fault Tolerance in Blockchain Networks: A Survey",
+          "Analyzing the Performance of Smart Contracts on Blockchain Platforms",
+          "The Evolution of Consensus Algorithms in Distributed Systems",
+          "Challenges and Solutions in Decentralized Ledger Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "Sereum: Protecting Smart Contracts Against Re-Entrancy",
+          "Scilla: A Smart Contract Intermediate-Level Language",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+          "SmartCheck: Static Analysis of Ethereum Smart Contracts",
+          "EthIR: A Framework for Security Analysis of Ethereum Bytecode"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "A Fully Homomorphic Encryption Scheme",
+          "The Keccak sponge function family",
+          "Short Signatures from the Weil Pairing",
+          "Curve25519: new Diffie-Hellman speed records",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "On the Size of Pairing-Based Non-interactive Arguments",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Random Oracles are Practical: A Paradigm for Designing Efficient Protocols",
+          "Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms",
+          "Identity-Based Encryption from the Weil Pairing",
+          "The Design of Rijndael",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups"
+        ],
+        "vector": {
+          "x1": 0.2,
+          "x2": 0.9,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Mapping Study",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Consensus Algorithms in Blockchain",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Performance of Blockchain Systems: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Scalability",
+          "Distributed Systems: Principles and Paradigms",
+          "A Survey on Blockchain Interoperability",
+          "Analyzing the Trade-offs of Proof-of-Work and Proof-of-Stake",
+          "The Future of Decentralized Applications: Challenges and Opportunities"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Your topic list and your exclusions conflict: you asked for papers on consensus protocols, proof-of-work/proof-of-stake, and decentralized ledgers (all of which are central distributed-systems topics) but then told me to exclude papers about distributed systems (including consensus algorithms) and cryptography. Which do you want?",
+          "Options I can follow once you confirm:",
+          "- Include consensus/PoW/PoS papers (but still exclude cryptography-focused ones).",
+          "- Exclude consensus/PoW/PoS and provide papers on other blockchain areas only (smart-contract analysis, economics, measurement, governance, energy use, applications, DeFi, etc.).",
+          "- Or give two separate lists (one for consensus/PoW/PoS and one avoiding distributed-systems/crypto).",
+          "Tell me which option you prefer."
+        ],
+        "vector": {
+          "x1": 0.16666666666666666,
+          "x2": 0.0,
+          "x3": 0.16666666666666666
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "Efficient Signature Generation by Smart Cards",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Making Smart Contracts Smarter",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Scilla: a Smart Contract Intermediate-Level Language",
+          "CryptoNote v2.0",
+          "Short Signatures from the Weil Pairing",
+          "Aggregate Signatures",
+          "How to Leak a Secret",
+          "A Design Principle for Hash Functions",
+          "HMAC: Keyed-Hashing for Message Authentication",
+          "Group Signatures"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Mechanisms in Blockchain Technology",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Consensus Protocols",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The CAP Theorem in Distributed Systems: A Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Comparative Study",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Smart Contracts: Security and Performance Analysis",
+          "A Review of Distributed Database Systems: Challenges and Solutions",
+          "The Role of Consensus in Distributed Systems: A Survey",
+          "Performance Evaluation of Blockchain Consensus Mechanisms",
+          "Understanding the Trade-offs in Distributed Systems: CAP and Beyond",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "The Impact of Consensus Protocols on Blockchain Scalability",
+          "Analyzing the Efficiency of Smart Contracts in Blockchain Networks",
+          "Distributed Systems: Principles and Paradigms in the Age of Blockchain"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "There's a contradiction in your request: you asked for papers on consensus protocols and proof-of-work/proof-of-stake, but you also asked to exclude papers about distributed systems (explicitly listing consensus algorithms). Do you want me to:",
+          "- A) Exclude all distributed-systems and consensus-focused papers (so I should only return blockchain papers on economics, applications, smart-contract analysis/languages, measurement, regulation, energy, etc.), or",
+          "- B) Allow papers on consensus protocols and PoW/PoS (but still exclude cryptography-focused work)?",
+          "Which option do you want?"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "How to Construct Random Functions",
+          "Short Signatures from the Weil Pairing",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "The Keccak Sponge Function Family",
+          "The First Collision for Full SHA-1",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "How to Exchange Secrets by Oblivious Transfer",
+          "How to Leak a Secret",
+          "Sonic: Zero-Knowledge SNARKs from Linear-Size Homomorphic Commitments",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "Identity-Based Encryption from the Weil Pairing",
+          "Scalable, Transparent ARguments of Knowledge (STARKs)",
+          "Verifiable Delay Functions"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Survey on Smart Contract Security: Vulnerabilities and Solutions",
+          "Performance Evaluation of Blockchain Consensus Algorithms",
+          "Analyzing the Scalability of Blockchain Systems",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "The Role of Decentralized Ledgers in Distributed Systems",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "A Survey on the State of the Art in Blockchain Technology",
+          "Distributed Ledger Technology: Applications and Challenges",
+          "An Overview of Fault Tolerance Mechanisms in Distributed Systems",
+          "Smart Contracts and Their Applications in Decentralized Systems"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Do you want papers about consensus protocols / PoW / PoS included even though those are typically considered distributed-systems topics, or should I exclude any paper whose main focus is distributed systems or cryptography and instead list papers on economics, governance, applications, energy, empirical measurement, and law only?"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 1.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "How to Time-Stamp a Digital Document",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "TumbleBit: An Untrusted Bitcoin-Compatible Anonymous Payment Hub",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "Efficient Signature Generation by Smart Cards",
+          "Use of Elliptic Curves in Cryptography",
+          "Elliptic Curve Cryptosystems",
+          "Pricing via Processing or Combatting Junk Mail",
+          "Curve25519: new Diffie-Hellman speed records"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.6,
+          "x3": 0.1
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Ledger Technology: A Review of the Current State",
+          "Consensus Algorithms in Blockchain: A Comprehensive Review",
+          "The Impact of Blockchain on Distributed Database Systems",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Survey on Replication Techniques in Distributed Systems",
+          "Blockchain and Distributed Systems: A Synergistic Approach",
+          "Challenges and Opportunities in Blockchain Consensus Protocols",
+          "The Future of Smart Contracts in Decentralized Applications",
+          "Analyzing the Trade-offs in Distributed Consensus Algorithms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I need a quick clarification \u2014 your requested topics (consensus protocols, proof-of-work/proof-of-stake, decentralized ledgers) overlap with the excluded category \"distributed systems.\" Do you want me to:",
+          "Include papers on consensus/PoW/PoS/decentralized ledgers (but still exclude cryptography), or",
+          "Exclude any papers about consensus/PoW/PoS/decentralized ledgers as part of the distributed-systems exclusion, and instead only list blockchain papers on topics like economics, governance, legal/regulatory issues, applications, energy use, and smart-contract programming/verification?",
+          "Reply 1 or 2 (and any preferred topic focus) and I\u2019ll produce up to 20 titles."
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "New Directions in Cryptography",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "Blind Signatures for Untraceable Payments",
+          "A Design Principle for Hash Functions",
+          "Efficient Signature Generation by Smart Cards",
+          "How to Construct Random Functions",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "TumbleBit: An Untrusted Bitcoin-Compatible Anonymous Payment Hub",
+          "Confidential Transactions",
+          "Verifiable Delay Functions",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Protocols for Secure Computations"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Mechanisms in Blockchain Technology",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Consensus Protocols",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The CAP Theorem in Distributed Systems: A Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Comparative Study",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Smart Contracts: Security and Performance Analysis",
+          "A Review of Distributed Database Systems: Challenges and Solutions",
+          "The Role of Consensus in Distributed Systems: A Survey",
+          "Performance Evaluation of Blockchain Consensus Mechanisms",
+          "Understanding the Trade-offs in Distributed Systems: CAP and Beyond",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "The Impact of Consensus Protocols on Blockchain Scalability",
+          "Analyzing the Efficiency of Smart Contracts in Blockchain Networks",
+          "Distributed Systems: Principles and Paradigms in the Age of Blockchain"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I need a clarification \u2014 your allowed topics include \u201cconsensus protocols\u201d and \u201cproof-of-work/proof-of-stake,\u201d but you also ask to exclude papers about \u201cdistributed systems (consensus algorithms, fault tolerance, \u2026).\u201d Do you want me to:",
+          "A) Include blockchain papers on consensus/PoW/PoS (and related incentive/economic analyses) but avoid papers that are primarily about distributed systems theory and low-level consensus algorithm design; or",
+          "B) Exclude all papers about consensus/PoW/PoS and other distributed-systems topics and only return papers on other blockchain aspects (smart contracts, economics, measurement, governance, energy, security, etc.)?",
+          "Please reply A or B."
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "A Next-Generation Smart Contract and Decentralised Application Platform",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Fully Homomorphic Encryption Using Ideal Lattices",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity (STARKs)",
+          "Hashcash \u2014 A Denial of Service Counter-Measure",
+          "The Rijndael Block Cipher",
+          "Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups",
+          "Use of Elliptic Curves in Cryptography",
+          "Ring Confidential Transactions",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Ledger Technology: A Review of the Current State",
+          "Consensus Algorithms in Blockchain: A Comprehensive Review",
+          "The Impact of Blockchain on Distributed Database Systems",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Survey on Replication Techniques in Distributed Systems",
+          "Blockchain and Distributed Systems: A Synergistic Approach",
+          "Challenges and Opportunities in Blockchain Consensus Protocols",
+          "The Future of Smart Contracts in Decentralized Applications",
+          "Analyzing the Trade-offs in Distributed Consensus Algorithms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Making Smart Contracts Smarter",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "Sereum: Protecting Smart Contracts Against Re-Entrancy Attacks",
+          "VeriSol: Verifying Solidity Smart Contracts",
+          "MadMax: Taming Gas-Oriented Smart Contracts"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "New Directions in Cryptography",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "Blind Signatures for Untraceable Payments",
+          "A Design Principle for Hash Functions",
+          "Efficient Signature Generation by Smart Cards",
+          "How to Construct Random Functions",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "TumbleBit: An Untrusted Bitcoin-Compatible Anonymous Payment Hub",
+          "Confidential Transactions",
+          "Verifiable Delay Functions",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Protocols for Secure Computations"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Evaluating the Trade-offs of Consensus Mechanisms in Blockchain",
+          "A Comparative Study of Blockchain Consensus Protocols",
+          "The Impact of Distributed Systems on Blockchain Scalability",
+          "Fault Tolerance in Blockchain Networks: A Survey",
+          "Analyzing the Performance of Smart Contracts on Blockchain Platforms",
+          "The Evolution of Consensus Algorithms in Distributed Systems",
+          "Challenges and Solutions in Decentralized Ledger Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I need a clarification \u2014 your allowed topics include \u201cconsensus protocols\u201d and \u201cproof-of-work/proof-of-stake,\u201d but you also ask to exclude papers about \u201cdistributed systems (consensus algorithms, fault tolerance, \u2026).\u201d Do you want me to:",
+          "A) Include blockchain papers on consensus/PoW/PoS (and related incentive/economic analyses) but avoid papers that are primarily about distributed systems theory and low-level consensus algorithm design; or",
+          "B) Exclude all papers about consensus/PoW/PoS and other distributed-systems topics and only return papers on other blockchain aspects (smart contracts, economics, measurement, governance, energy, security, etc.)?",
+          "Please reply A or B."
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Non-Interactive Zero-Knowledge Proofs and Applications",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Confidential Transactions",
+          "How to Time-Stamp a Digital Document",
+          "CoinShuffle: Practical Decentralized Coin Mixing for Bitcoin",
+          "Ring Confidential Transactions",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Elliptic Curve Cryptosystems",
+          "The Keccak Sponge Function Family",
+          "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments",
+          "How to Make a Mint: The Cryptography of Anonymous Electronic Cash"
+        ],
+        "vector": {
+          "x1": 0.5263157894736842,
+          "x2": 0.631578947368421,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Comprehensive Survey on Blockchain Technology and its Applications",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Decentralized Ledger Technology: A Review of the State of the Art",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "Analyzing the Trade-offs of Distributed Systems: CAP Theorem Revisited",
+          "A Survey on the Challenges of Smart Contract Development",
+          "Evaluating Fault Tolerance in Distributed Systems: Techniques and Approaches",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "MadMax: Surviving Out-of-Gas Conditions in Ethereum Smart Contracts",
+          "Sereum: Protecting Smart Contracts Against Re-Entrancy",
+          "Scilla: A Smart Contract Intermediate-Level Language",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+          "SmartCheck: Static Analysis of Ethereum Smart Contracts",
+          "EthIR: A Framework for Security Analysis of Ethereum Bytecode"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "On Lattices, Learning with Errors, Random Linear Codes, and Cryptography",
+          "Collisions for Hash Functions MD4, MD5, HAVAL-128 and RIPEMD",
+          "SHAttered: First Practical Collision for SHA-1",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity (STARKs)",
+          "On the Size of Pairing-Based Non-Interactive Arguments",
+          "Edwards-curve Digital Signature Algorithm (EdDSA)",
+          "NewHope: Post-Quantum Key Exchange from Ring-LWE",
+          "Making Smart Contracts Smarter",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Sereum: Protecting Smart Contracts Against Re-Entrancy Attacks",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "A Certified Digital Signature",
+          "Pinocchio: Snark-Friendly Verifiable Computation"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.75,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Mapping Study",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Consensus Algorithms in Blockchain",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Performance of Blockchain Systems: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Scalability",
+          "Distributed Systems: Principles and Paradigms",
+          "A Survey on Blockchain Interoperability",
+          "Analyzing the Trade-offs of Proof-of-Work and Proof-of-Stake",
+          "The Future of Decentralized Applications: Challenges and Opportunities"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "A Fistful of Bitcoins: Characterizing Payments Among Men with No Names",
+          "An Analysis of Anonymity in Bitcoin",
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "SmartCheck: Static Analysis of Ethereum Smart Contracts",
+          "ZEUS: Analyzing Safety of Smart Contracts",
+          "Sereum: Protecting Existing Smart Contracts Against Re-Entrancy Attacks",
+          "Decentralized Finance: On Blockchain- and Smart Contract-based Financial Markets",
+          "The Carbon Footprint of Bitcoin",
+          "Price Manipulation in the Bitcoin Ecosystem"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.09090909090909091,
+          "x3": 0.18181818181818182
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public\u2011Key Cryptosystems",
+          "A Public\u2011Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms",
+          "Efficient Signature Generation by Smart Cards",
+          "Short Signatures from the Weil Pairing",
+          "Fully Homomorphic Encryption Using Ideal Lattices",
+          "Random Oracles are Practical: A Paradigm for Designing Efficient Protocols",
+          "The Keccak Sponge Function Family",
+          "The Design of Rijndael",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Quadratic Span Programs and Succinct Non\u2011interactive Arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Making Smart Contracts Smarter",
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Hawk: The Blockchain Model of Cryptography and Privacy\u2011Preserving Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.75,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Mechanisms in Blockchain Technology",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Consensus Protocols",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The CAP Theorem in Distributed Systems: A Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Comparative Study",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Smart Contracts: Security and Performance Analysis",
+          "A Review of Distributed Database Systems: Challenges and Solutions",
+          "The Role of Consensus in Distributed Systems: A Survey",
+          "Performance Evaluation of Blockchain Consensus Mechanisms",
+          "Understanding the Trade-offs in Distributed Systems: CAP and Beyond",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "The Impact of Consensus Protocols on Blockchain Scalability",
+          "Analyzing the Efficiency of Smart Contracts in Blockchain Networks",
+          "Distributed Systems: Principles and Paradigms in the Age of Blockchain"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I need a quick clarification before I list papers.",
+          "You included topics like consensus protocols and proof-of-work/proof-of-stake, but your exclusion list forbids distributed-systems papers (which normally covers those topics). Do you want me to:",
+          "Include consensus / PoW / PoS papers (i.e., allow distributed-systems papers), or",
+          "Exclude all distributed-systems papers and only list blockchain papers on other aspects (e.g., smart-contract languages and verification, economics/tokenomics, applications, legal/regulatory, empirical usage studies)?",
+          "Reply with \"1\" or \"2\" (or specify another preference)."
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public\u2011Key Cryptosystems",
+          "A Public\u2011Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms",
+          "Efficient Signature Generation by Smart Cards",
+          "Short Signatures from the Weil Pairing",
+          "Fully Homomorphic Encryption Using Ideal Lattices",
+          "Random Oracles are Practical: A Paradigm for Designing Efficient Protocols",
+          "The Keccak Sponge Function Family",
+          "The Design of Rijndael",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Quadratic Span Programs and Succinct Non\u2011interactive Arguments of Knowledge",
+          "Halo: Recursive Proof Composition without a Trusted Setup",
+          "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Making Smart Contracts Smarter",
+          "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+          "Hawk: The Blockchain Model of Cryptography and Privacy\u2011Preserving Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More"
+        ],
+        "vector": {
+          "x1": 0.4,
+          "x2": 0.75,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Distributed Databases: A Survey of Techniques and Applications",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "The Impact of Replication on Distributed System Performance",
+          "Blockchain and Distributed Ledger Technology: A Review of Applications",
+          "Analyzing the Trade-offs in Consensus Algorithms for Blockchain",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "A Survey on the State of the Art in Distributed Systems and Blockchain Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "I need a quick clarification before I list papers.",
+          "You included topics like consensus protocols and proof-of-work/proof-of-stake, but your exclusion list forbids distributed-systems papers (which normally covers those topics). Do you want me to:",
+          "Include consensus / PoW / PoS papers (i.e., allow distributed-systems papers), or",
+          "Exclude all distributed-systems papers and only list blockchain papers on other aspects (e.g., smart-contract languages and verification, economics/tokenomics, applications, legal/regulatory, empirical usage studies)?",
+          "Reply with \"1\" or \"2\" (or specify another preference)."
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Curve25519: new Diffie-Hellman speed records",
+          "Short Signatures from the Weil Pairing",
+          "The Keccak Sponge Function Family",
+          "ChaCha20 and Poly1305 for IETF Protocols",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "On the Size of Pairing-Based Non-interactive Arguments",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Confidential Transactions",
+          "Ring Confidential Transactions",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "Scilla: a Smart Contract Intermediate-Level Language",
+          "Making Smart Contracts Smarter"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.6,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Comprehensive Survey on Blockchain Technology and its Applications",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Decentralized Ledger Technology: A Review of the State of the Art",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "Analyzing the Trade-offs of Distributed Systems: CAP Theorem Revisited",
+          "A Survey on the Challenges of Smart Contract Development",
+          "Evaluating Fault Tolerance in Distributed Systems: Techniques and Approaches",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Do you want papers on consensus protocols (PoW/PoS) included, even though you excluded distributed-systems topics like consensus algorithms, or should I exclude all consensus/distributed-systems papers and only list works on smart contracts, token economics, governance, measurement, and related non-cryptography/non-distributed-systems areas?"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Curve25519: new Diffie-Hellman speed records",
+          "Short Signatures from the Weil Pairing",
+          "The Keccak Sponge Function Family",
+          "ChaCha20 and Poly1305 for IETF Protocols",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "On the Size of Pairing-Based Non-interactive Arguments",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Zerocoin: Anonymous Distributed E-Cash from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Confidential Transactions",
+          "Ring Confidential Transactions",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+          "Scilla: a Smart Contract Intermediate-Level Language",
+          "Making Smart Contracts Smarter"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Performance",
+          "A Survey on Decentralized Ledger Technologies",
+          "Evaluating the Trade-offs of Consensus Protocols in Distributed Systems",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "Analyzing the Efficiency of Distributed Consensus Algorithms",
+          "A Review of Blockchain Scalability Solutions and Consensus Mechanisms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "Do you want papers on consensus protocols (PoW/PoS) included, even though you excluded distributed-systems topics like consensus algorithms, or should I exclude all consensus/distributed-systems papers and only list works on smart contracts, token economics, governance, measurement, and related non-cryptography/non-distributed-systems areas?"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Leak a Secret",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "HAWK: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "Town Crier: An Authenticated Data Feed for Smart Contracts",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts",
+          "KEVM: A Complete Formal Semantics of the Ethereum Virtual Machine in K",
+          "On the Size of Pairing-Based Non-Interactive Arguments",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge",
+          "Efficient Identity-Based Encryption from Bilinear Maps",
+          "Constructing Digital Signatures from a One-Way Function",
+          "Non-Interactive Zero-Knowledge and Its Applications",
+          "CryptoNote v2.0"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.8,
+          "x3": 0.15
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Comprehensive Survey on Blockchain Technology and its Applications",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Decentralized Ledger Technology: A Review of the State of the Art",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "Analyzing the Trade-offs of Distributed Systems: CAP Theorem Revisited",
+          "A Survey on the Challenges of Smart Contract Development",
+          "Evaluating Fault Tolerance in Distributed Systems: Techniques and Approaches",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "There\u2019s a conflict in your request: you asked for papers on topics that include consensus protocols and proof-of-work/proof-of-stake, but then you also asked to exclude any papers about distributed systems (which would include consensus algorithms). Do you want me to:",
+          "A) Include papers on consensus/PoW/PoS and smart contracts but exclude only cryptography papers; or",
+          "B) Exclude both cryptography and any distributed-systems/consensus papers, and return papers only about non-consensus blockchain topics (e.g., smart-contract security, economics, governance, applications, empirical measurements)?",
+          "Which option should I follow?"
+        ],
+        "vector": {
+          "x1": 0.25,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L2": {
+        "papers": [
+          "New Directions in Cryptography",
+          "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+          "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+          "The Knowledge Complexity of Interactive Proof-Systems",
+          "Non-Interactive Zero-Knowledge and its Applications",
+          "Pinocchio: Nearly Practical Verifiable Computation",
+          "Scalable, Transparent, and Post-Quantum Secure Computational Integrity",
+          "Bulletproofs: Short Proofs for Confidential Transactions and More",
+          "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+          "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+          "A Fully Homomorphic Encryption Scheme",
+          "On Lattices, Learning with Errors, Random Linear Codes, and Cryptography",
+          "Short Signatures from the Weil Pairing",
+          "SPHINCS: Practical Stateless Hash-Based Signatures",
+          "The Keccak Sponge Function Family",
+          "A Certified Digital Signature",
+          "Identity-Based Encryption from the Weil Pairing",
+          "How to Time-Stamp a Digital Document",
+          "Oyente: An Analysis Tool for Smart Contracts",
+          "Securify: Practical Security Analysis of Smart Contracts"
+        ],
+        "vector": {
+          "x1": 0.2,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Survey on Smart Contract Security: Vulnerabilities and Solutions",
+          "Performance Evaluation of Blockchain Consensus Algorithms",
+          "Analyzing the Scalability of Blockchain Systems",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "The Role of Decentralized Ledgers in Distributed Systems",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "A Survey on the State of the Art in Blockchain Technology",
+          "Distributed Ledger Technology: Applications and Challenges",
+          "An Overview of Fault Tolerance Mechanisms in Distributed Systems",
+          "Smart Contracts and Their Applications in Decentralized Systems"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L1": {
+        "papers": [
+          "There's a contradiction: you asked for papers on topics including consensus protocols and PoW/PoS (which are typically distributed-systems topics) but then told me to exclude any papers about distributed systems (including consensus algorithms). Do you want me to:",
+          "A) Include papers on consensus/PoW/PoS (and related distributed-systems work) but still exclude cryptography papers, or",
+          "B) Exclude all distributed-systems papers (so I should avoid consensus/PoW/PoS research) and only list papers on other blockchain aspects (e.g., smart-contract security, economics, governance, empirical studies, regulation)?",
+          "Which option should I follow?"
+        ],
+        "vector": {
+          "x1": 0.25,
+          "x2": 0.0,
+          "x3": 0.25
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L2": {
+      "x1": {
+        "mean": 0.3676315789473684,
+        "std": 0.10905263425277271,
+        "values": [
+          0.35,
+          0.25,
+          0.5,
+          0.4,
+          0.5263157894736842,
+          0.2,
+          0.3,
+          0.3,
+          0.4,
+          0.3,
+          0.5,
+          0.3,
+          0.5263157894736842,
+          0.3,
+          0.3,
+          0.4,
+          0.5,
+          0.5,
+          0.3,
+          0.2
+        ]
+      },
+      "x2": {
+        "mean": 0.7431578947368421,
+        "std": 0.12918994651371205,
+        "values": [
+          0.75,
+          1.0,
+          0.6,
+          0.75,
+          0.631578947368421,
+          0.9,
+          0.85,
+          0.85,
+          0.6,
+          0.85,
+          0.6,
+          0.85,
+          0.631578947368421,
+          0.75,
+          0.75,
+          0.75,
+          0.6,
+          0.5,
+          0.8,
+          0.85
+        ]
+      },
+      "x3": {
+        "mean": 0.025,
+        "std": 0.05256574830378469,
+        "values": [
+          0.15,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.15,
+          0.0
+        ]
+      }
+    },
+    "L3": {
+      "x1": {
+        "mean": 0.695,
+        "std": 0.022360679774997894,
+        "values": [
+          0.7,
+          0.6,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.385,
+        "std": 0.036634754853252335,
+        "values": [
+          0.35,
+          0.5,
+          0.4,
+          0.4,
+          0.4,
+          0.35,
+          0.35,
+          0.4,
+          0.35,
+          0.35,
+          0.4,
+          0.4,
+          0.4,
+          0.35,
+          0.35,
+          0.35,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      }
+    },
+    "L4": {
+      "x1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L1": {
+      "x1": {
+        "mean": 0.6716666666666666,
+        "std": 0.40821605906332614,
+        "values": [
+          1.0,
+          0.4,
+          1.0,
+          0.8666666666666667,
+          1.0,
+          0.16666666666666666,
+          0.0,
+          1.0,
+          0.75,
+          1.0,
+          1.0,
+          0.75,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.25,
+          0.25
+        ]
+      },
+      "x2": {
+        "mean": 0.004545454545454545,
+        "std": 0.020327890704543543,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.09090909090909091,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.10325757575757576,
+        "std": 0.2378121255855977,
+        "values": [
+          0.0,
+          0.4,
+          0.0,
+          0.06666666666666667,
+          0.0,
+          0.16666666666666666,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.18181818181818182,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ]
+      }
+    }
+  }
+}

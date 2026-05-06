@@ -4,9 +4,8 @@ Generate aggregate prompts (L_A, L_B, L_A_B_agg, L_f) for all 3 experiments.
 
 Usage:
     export OPENAI_API_KEY="<your-api-key>"   # or pass --api-key
-    python generate_aggregate.py --seeds 10
-
-API calls per seed: 8 (binding) + 7 (feasibility) + 7 (support) = 22
+    python generate_aggregate.py --experiment all --model gpt-4o-mini --temperature 0.7 \
+        --cls-model gpt-4o-mini --cls-temperature 0 --seeds 30 --list-length 20
 """
 
 import os
@@ -15,7 +14,7 @@ import json
 import argparse
 import statistics
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import List, Dict
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -56,18 +55,18 @@ def aggregate_vectors(vectors: List[Dict[str, float]]) -> Dict[str, Dict]:
     return result
 
 
-def run_binding_set_seed(seed, client, model, temperature, list_length, verbose=True):
+def run_binding_set_seed(seed, client, gen_model, cls_model, gen_temperature, cls_temperature, list_length, verbose=True):
     if verbose:
         print(f"  Generating L_y1 (NLP papers)...")
     prompt_y1 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[BINDING_SET_PARENT_TOPICS["y1"]], exclusion_topics=[], n=list_length)
-    papers_y1 = get_papers(prompt_y1, client, seed, model, temperature)
+    papers_y1 = get_papers(prompt_y1, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Generating L_y2 (CV papers)...")
     prompt_y2 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[BINDING_SET_PARENT_TOPICS["y2"]], exclusion_topics=[], n=list_length)
-    papers_y2 = get_papers(prompt_y2, client, seed, model, temperature)
+    papers_y2 = get_papers(prompt_y2, client, seed, gen_model, gen_temperature)
 
     papers_intersection = find_intersection(papers_y1, papers_y2)
     if verbose:
@@ -79,14 +78,17 @@ def run_binding_set_seed(seed, client, model, temperature, list_length, verbose=
         inclusion_topics=[BINDING_SET_CHILD_TOPICS["x1"]],
         exclusion_topics=[BINDING_SET_CHILD_TOPICS[k] for k in ["x2", "x3", "x4", "x5"]],
         inclusion_op=True, exclusion_op=False, n=list_length)
-    papers_x1 = get_papers(prompt_x1, client, seed, model, temperature)
+    papers_x1 = get_papers(prompt_x1, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Classifying lists (batch)...")
-    vector_y1 = classify_paper_list_batch(papers_y1, BINDING_SET_CHILD_TOPICS, client, seed, model, temperature)
-    vector_y2 = classify_paper_list_batch(papers_y2, BINDING_SET_CHILD_TOPICS, client, seed, model, temperature)
-    vector_intersection = classify_paper_list_batch(papers_intersection, BINDING_SET_CHILD_TOPICS, client, seed, model, temperature) if papers_intersection else {k: 0.0 for k in BINDING_SET_CHILD_TOPICS}
-    vector_x1 = classify_paper_list_batch(papers_x1, BINDING_SET_CHILD_TOPICS, client, seed, model, temperature)
+    vector_y1 = classify_paper_list_batch(papers_y1, BINDING_SET_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_y2 = classify_paper_list_batch(papers_y2, BINDING_SET_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_intersection = (
+        classify_paper_list_batch(papers_intersection, BINDING_SET_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+        if papers_intersection else {k: 0.0 for k in BINDING_SET_CHILD_TOPICS}
+    )
+    vector_x1 = classify_paper_list_batch(papers_x1, BINDING_SET_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
 
     if verbose:
         for name, vec in [("L_y1", vector_y1), ("L_y2", vector_y2), ("L_intersection", vector_intersection), ("L_x1_or", vector_x1)]:
@@ -100,14 +102,14 @@ def run_binding_set_seed(seed, client, model, temperature, list_length, verbose=
     }
 
 
-def run_feasibility_seed(seed, client, model, temperature, list_length, verbose=True):
+def run_feasibility_seed(seed, client, gen_model, cls_model, gen_temperature, cls_temperature, list_length, verbose=True):
     if verbose:
         print(f"  Generating L1 (blockchain, excl crypto OR dist sys)...")
     prompt_l1 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[FEASIBILITY_TOPICS["x1"]],
         exclusion_topics=[FEASIBILITY_TOPICS["x2"], FEASIBILITY_TOPICS["x3"]],
         inclusion_op=True, exclusion_op=False, n=list_length)
-    papers_l1 = get_papers(prompt_l1, client, seed, model, temperature)
+    papers_l1 = get_papers(prompt_l1, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Generating L2 (blockchain OR crypto, excl dist sys)...")
@@ -115,7 +117,7 @@ def run_feasibility_seed(seed, client, model, temperature, list_length, verbose=
         inclusion_topics=[FEASIBILITY_TOPICS["x1"], FEASIBILITY_TOPICS["x2"]],
         exclusion_topics=[FEASIBILITY_TOPICS["x3"]],
         inclusion_op=False, exclusion_op=True, n=list_length)
-    papers_l2 = get_papers(prompt_l2, client, seed, model, temperature)
+    papers_l2 = get_papers(prompt_l2, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Generating L3 (blockchain OR dist sys, excl crypto)...")
@@ -123,7 +125,7 @@ def run_feasibility_seed(seed, client, model, temperature, list_length, verbose=
         inclusion_topics=[FEASIBILITY_TOPICS["x1"], FEASIBILITY_TOPICS["x3"]],
         exclusion_topics=[FEASIBILITY_TOPICS["x2"]],
         inclusion_op=False, exclusion_op=True, n=list_length)
-    papers_l3 = get_papers(prompt_l3, client, seed, model, temperature)
+    papers_l3 = get_papers(prompt_l3, client, seed, gen_model, gen_temperature)
 
     papers_l4 = find_intersection(papers_l2, papers_l3)
     if verbose:
@@ -131,10 +133,13 @@ def run_feasibility_seed(seed, client, model, temperature, list_length, verbose=
 
     if verbose:
         print(f"  Classifying lists (batch)...")
-    vector_l1 = classify_paper_list_batch(papers_l1, FEASIBILITY_TOPICS, client, seed, model, temperature)
-    vector_l2 = classify_paper_list_batch(papers_l2, FEASIBILITY_TOPICS, client, seed, model, temperature)
-    vector_l3 = classify_paper_list_batch(papers_l3, FEASIBILITY_TOPICS, client, seed, model, temperature)
-    vector_l4 = classify_paper_list_batch(papers_l4, FEASIBILITY_TOPICS, client, seed, model, temperature) if papers_l4 else {k: 0.0 for k in FEASIBILITY_TOPICS}
+    vector_l1 = classify_paper_list_batch(papers_l1, FEASIBILITY_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l2 = classify_paper_list_batch(papers_l2, FEASIBILITY_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l3 = classify_paper_list_batch(papers_l3, FEASIBILITY_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l4 = (
+        classify_paper_list_batch(papers_l4, FEASIBILITY_TOPICS, client, seed, cls_model, cls_temperature)
+        if papers_l4 else {k: 0.0 for k in FEASIBILITY_TOPICS}
+    )
 
     if verbose:
         for name, vec in [("L1", vector_l1), ("L2", vector_l2), ("L3", vector_l3), ("L4", vector_l4)]:
@@ -148,25 +153,25 @@ def run_feasibility_seed(seed, client, model, temperature, list_length, verbose=
     }
 
 
-def run_support_seed(seed, client, model, temperature, list_length, verbose=True):
+def run_support_seed(seed, client, gen_model, cls_model, gen_temperature, cls_temperature, list_length, verbose=True):
     if verbose:
         print(f"  Generating L1 (complexity theory OR macroeconomics)...")
     prompt_l1 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[SUPPORT_CHILD_TOPICS["x1"], SUPPORT_CHILD_TOPICS["x2"]],
         exclusion_topics=[], inclusion_op=False, n=list_length)
-    papers_l1 = get_papers(prompt_l1, client, seed, model, temperature)
+    papers_l1 = get_papers(prompt_l1, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Generating L2_y1 (theoretical CS)...")
     prompt_l2_y1 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[SUPPORT_PARENT_TOPICS["y1"]], exclusion_topics=[], n=list_length)
-    papers_l2_y1 = get_papers(prompt_l2_y1, client, seed, model, temperature)
+    papers_l2_y1 = get_papers(prompt_l2_y1, client, seed, gen_model, gen_temperature)
 
     if verbose:
         print(f"  Generating L2_y2 (economics)...")
     prompt_l2_y2 = generate_inclusion_exclusion_prompt(
         inclusion_topics=[SUPPORT_PARENT_TOPICS["y2"]], exclusion_topics=[], n=list_length)
-    papers_l2_y2 = get_papers(prompt_l2_y2, client, seed, model, temperature)
+    papers_l2_y2 = get_papers(prompt_l2_y2, client, seed, gen_model, gen_temperature)
 
     papers_l2 = find_union(papers_l2_y1, papers_l2_y2)
     if verbose:
@@ -174,10 +179,10 @@ def run_support_seed(seed, client, model, temperature, list_length, verbose=True
 
     if verbose:
         print(f"  Classifying lists (batch)...")
-    vector_l1 = classify_paper_list_batch(papers_l1, SUPPORT_CHILD_TOPICS, client, seed, model, temperature)
-    vector_l2_y1 = classify_paper_list_batch(papers_l2_y1, SUPPORT_CHILD_TOPICS, client, seed, model, temperature)
-    vector_l2_y2 = classify_paper_list_batch(papers_l2_y2, SUPPORT_CHILD_TOPICS, client, seed, model, temperature)
-    vector_l2 = classify_paper_list_batch(papers_l2, SUPPORT_CHILD_TOPICS, client, seed, model, temperature)
+    vector_l1 = classify_paper_list_batch(papers_l1, SUPPORT_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l2_y1 = classify_paper_list_batch(papers_l2_y1, SUPPORT_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l2_y2 = classify_paper_list_batch(papers_l2_y2, SUPPORT_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
+    vector_l2 = classify_paper_list_batch(papers_l2, SUPPORT_CHILD_TOPICS, client, seed, cls_model, cls_temperature)
 
     if verbose:
         for name, vec in [("L1", vector_l1), ("L2_y1", vector_l2_y1), ("L2_y2", vector_l2_y2), ("L2", vector_l2)]:
@@ -191,73 +196,117 @@ def run_support_seed(seed, client, model, temperature, list_length, verbose=True
     }
 
 
+MODEL_TAG = {
+    "gpt-4o-mini": "4omini",
+    "gpt-5.4":     "54",
+    "gpt-5-mini":  "5mini",
+}
+
+
+def model_tag(model: str) -> str:
+    return MODEL_TAG.get(model, model.replace(".", "").replace("-", ""))
+
+
+def temp_tag(t):
+    return "tempnone" if t is None else f"temp{t}".replace(".", "")
+
+
+def file_tag(gen_model, gen_temp, cls_model, cls_temp):
+    return (
+        f"gen{model_tag(gen_model)}_gen{temp_tag(gen_temp)}"
+        f"_cls{model_tag(cls_model)}_cls{temp_tag(cls_temp)}"
+    )
+
+
+def run_experiment(exp_name, exp_def, client, gen_model, gen_temp, cls_model, cls_temp, args, log, output_dir, timestamp):
+    log(f"\n{'=' * 70}\n{exp_name.upper()} (gen={gen_model}@{gen_temp}, cls={cls_model}@{cls_temp})\n{'=' * 70}")
+
+    tag = file_tag(gen_model, gen_temp, cls_model, cls_temp)
+    output_file = os.path.join(output_dir, f"{exp_name}_aggregate_{tag}.json")
+    partial_file = output_file.replace(".json", "_partial.json")
+
+    config = {
+        "generation_model": gen_model, "classification_model": cls_model,
+        "generation_temperature": gen_temp, "classification_temperature": cls_temp,
+        "num_seeds": args.seeds, "list_length": args.list_length,
+        "timestamp": timestamp, "batch_classification": True,
+    }
+
+    seeds = []
+    for seed in range(1, args.seeds + 1):
+        log(f"\n--- Seed {seed}/{args.seeds} ---")
+        seeds.append(exp_def["runner"](seed, client, gen_model, cls_model, gen_temp, cls_temp, args.list_length))
+
+        aggregates = {}
+        for ln in exp_def["list_names"]:
+            vectors = [s[ln]["vector"] for s in seeds]
+            aggregates[ln] = aggregate_vectors(vectors)
+        partial_output = {"config": {**config, "completed_seeds": seed}, "seeds": seeds, "aggregates": aggregates}
+        with open(partial_file, "w") as f:
+            json.dump(partial_output, f, indent=2)
+
+    aggregates = {}
+    for ln in exp_def["list_names"]:
+        vectors = [s[ln]["vector"] for s in seeds]
+        aggregates[ln] = aggregate_vectors(vectors)
+
+    output = {"config": config, "seeds": seeds, "aggregates": aggregates}
+    with open(output_file, "w") as f:
+        json.dump(output, f, indent=2)
+    if os.path.exists(partial_file):
+        os.remove(partial_file)
+    log(f"Saved to {output_file}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Run aggregate prompts with batch classification")
+    parser.add_argument("--experiment", choices=["binding_set", "feasibility", "support", "all"], default="all")
     parser.add_argument("--seeds", "-s", type=int, default=10)
-    parser.add_argument("--list-length", "-n", type=int, default=10)
-    parser.add_argument("--model", "-m", default="gpt-4o-mini")
-    parser.add_argument("--temperature", "-t", type=float, default=0)
-    parser.add_argument("--output", "-o", default=None)
+    parser.add_argument("--list-length", "-n", type=int, default=20)
+    parser.add_argument("--model", "-m", default="gpt-4o-mini", help="Generator model")
+    parser.add_argument("--temperature", "-t", default="0", help="Generation temperature (use 'none' to omit)")
+    parser.add_argument("--cls-model", default=None, help="Classification model (defaults to --model)")
+    parser.add_argument("--cls-temperature", default=None, help="Classification temperature (use 'none' to omit; defaults to --temperature)")
     parser.add_argument("--api-key", default=None, help="OpenAI API key (or set OPENAI_API_KEY env var)")
     parser.add_argument("--log", "-l", default=None)
     args = parser.parse_args()
+
+    def parse_temp(val):
+        if val is None or val == "" or str(val).lower() == "none":
+            return None
+        return float(val)
+
+    gen_temp = parse_temp(args.temperature)
+    cls_temp = parse_temp(args.cls_temperature) if args.cls_temperature is not None else gen_temp
+    cls_model = args.cls_model if args.cls_model is not None else args.model
 
     log_file = open(args.log, "w") if args.log else None
 
     def log(msg):
         print(msg, flush=True)
         if log_file:
-            log_file.write(msg + "\n")
-            log_file.flush()
+            log_file.write(msg + "\n"); log_file.flush()
 
     client = get_client(args.api_key)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
     output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "experiment_data")
     os.makedirs(output_dir, exist_ok=True)
 
-    log(f"\nModel: {args.model}, Seeds: {args.seeds}, List length: {args.list_length}")
+    log(f"Generator: {args.model} @ temperature={gen_temp}")
+    log(f"Classifier: {cls_model} @ temperature={cls_temp}")
+    log(f"Seeds: {args.seeds}, List length: {args.list_length}")
     log(f"Output dir: {output_dir}")
 
-    config = {
-        "model": args.model, "temperature": args.temperature,
-        "num_seeds": args.seeds, "list_length": args.list_length,
-        "timestamp": timestamp, "batch_classification": True,
-    }
-
     EXPERIMENT_DEFS = {
-        "binding_set": {
-            "runner": run_binding_set_seed,
-            "list_names": ["L_y1", "L_y2", "L_intersection", "L_x1_or"],
-        },
-        "feasibility": {
-            "runner": run_feasibility_seed,
-            "list_names": ["L1", "L2", "L3", "L4"],
-        },
-        "support": {
-            "runner": run_support_seed,
-            "list_names": ["L1", "L2_y1", "L2_y2", "L2"],
-        },
+        "binding_set": {"runner": run_binding_set_seed, "list_names": ["L_y1", "L_y2", "L_intersection", "L_x1_or"]},
+        "feasibility": {"runner": run_feasibility_seed, "list_names": ["L1", "L2", "L3", "L4"]},
+        "support":     {"runner": run_support_seed,     "list_names": ["L1", "L2_y1", "L2_y2", "L2"]},
     }
 
-    for exp_name, exp_def in EXPERIMENT_DEFS.items():
-        log(f"\n{'=' * 70}\n{exp_name.upper()}\n{'=' * 70}")
+    experiments = list(EXPERIMENT_DEFS.keys()) if args.experiment == "all" else [args.experiment]
 
-        seeds = []
-        for seed in range(1, args.seeds + 1):
-            log(f"\n--- Seed {seed}/{args.seeds} ---")
-            seeds.append(exp_def["runner"](seed, client, args.model, args.temperature, args.list_length))
-
-        aggregates = {}
-        for ln in exp_def["list_names"]:
-            vectors = [s[ln]["vector"] for s in seeds]
-            aggregates[ln] = aggregate_vectors(vectors)
-
-        output = {"config": config, "seeds": seeds, "aggregates": aggregates}
-        output_file = os.path.join(output_dir, f"{exp_name}_aggregate.json")
-        with open(output_file, 'w') as f:
-            json.dump(output, f, indent=2)
-        log(f"Saved to {output_file}")
+    for exp_name in experiments:
+        run_experiment(exp_name, EXPERIMENT_DEFS[exp_name], client, args.model, gen_temp, cls_model, cls_temp, args, log, output_dir, timestamp)
 
     log("\nAll experiments complete.")
     if log_file:

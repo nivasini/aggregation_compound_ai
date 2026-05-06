@@ -1,0 +1,1203 @@
+{
+  "config": {
+    "generation_model": "gpt-4o-mini",
+    "classification_model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260327_213154",
+    "batch_classification": true
+  },
+  "seeds": [
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Survey",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Blockchain-Based Smart Contracts: A Review",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Blockchain Technology for Smart Cities: A Comprehensive Review",
+          "Decentralized Ledger Technology: A Review of Applications and Challenges",
+          "The Impact of Blockchain Technology on Supply Chain Management",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "Smart Contracts and Their Applications in the Internet of Things",
+          "Blockchain Technology in Healthcare: A Comprehensive Review",
+          "The Future of Smart Contracts: Opportunities and Challenges",
+          "Analyzing the Scalability of Blockchain Consensus Mechanisms",
+          "Blockchain for Social Impact: A Review of Applications and Challenges",
+          "The Evolution of Blockchain Technology: From Bitcoin to Smart Contracts",
+          "Blockchain in Financial Services: A Review of Applications and Challenges",
+          "The Role of Decentralized Ledgers in Digital Identity Management",
+          "Blockchain Technology in Energy Systems: A Review",
+          "Smart Contracts in the Sharing Economy: Opportunities and Challenges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Mechanisms: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Blockchain Technology on Financial Services",
+          "A Survey of Decentralized Ledger Technologies",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "Key Exchange Protocols in Blockchain Systems",
+          "Smart Contracts: Opportunities and Challenges",
+          "The Evolution of Consensus Protocols in Blockchain",
+          "Understanding the Role of Encryption in Blockchain Security",
+          "A Comparative Study of Blockchain Consensus Algorithms",
+          "The Future of Cryptography in Blockchain Applications",
+          "Evaluating the Security of Blockchain Systems: A Cryptographic Perspective"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Mapping Study",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Consensus Algorithms in Blockchain",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Performance of Blockchain Systems: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Scalability",
+          "Distributed Systems: Principles and Paradigms",
+          "A Survey on Blockchain Interoperability",
+          "Analyzing the Trade-offs of Proof-of-Work and Proof-of-Stake",
+          "The Future of Decentralized Applications: Challenges and Opportunities"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Survey",
+          "Blockchain-Based Smart Contracts: A Comprehensive Survey",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Blockchain and Smart Contracts: A New Paradigm for Digital Transactions",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "A Comparative Study of Consensus Protocols in Blockchain Technology",
+          "Blockchain Technology for Smart Cities: A Review",
+          "The Impact of Blockchain on Supply Chain Management: A Review",
+          "Decentralized Ledger Technology: A Review of Applications and Challenges",
+          "Blockchain in Healthcare: A Systematic Review",
+          "The Future of Smart Contracts: Opportunities and Challenges",
+          "Blockchain Technology in the Energy Sector: A Review",
+          "Analyzing the Scalability of Blockchain Systems",
+          "Blockchain for IoT: A Survey on the State of the Art",
+          "The Role of Blockchain in Digital Identity Management",
+          "Blockchain-Based Voting Systems: A Review",
+          "Smart Contracts in the Internet of Things: A Survey",
+          "Blockchain Technology in Financial Services: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Protocols: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Smart Contracts on the Legal Framework",
+          "A Survey of Key Exchange Protocols",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "The Evolution of Consensus Mechanisms in Blockchain",
+          "Understanding the Role of Encryption in Blockchain Applications",
+          "A Comparative Study of Blockchain Consensus Algorithms",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "Exploring the Use of Zero-Knowledge Proofs in Blockchain",
+          "Hash Functions in Blockchain: A Review of Their Applications",
+          "Digital Identity Management Using Blockchain Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.4,
+          "x3": 0.15
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Mechanisms in Blockchain Technology",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Consensus Protocols",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The CAP Theorem in Distributed Systems: A Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Comparative Study",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Smart Contracts: Security and Performance Analysis",
+          "A Review of Distributed Database Systems: Challenges and Solutions",
+          "The Role of Consensus in Distributed Systems: A Survey",
+          "Performance Evaluation of Blockchain Consensus Mechanisms",
+          "Understanding the Trade-offs in Distributed Systems: CAP and Beyond",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "The Impact of Consensus Protocols on Blockchain Scalability",
+          "Analyzing the Efficiency of Smart Contracts in Blockchain Networks",
+          "Distributed Systems: Principles and Paradigms in the Age of Blockchain"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Survey",
+          "Blockchain-Based Smart Contracts: A Comprehensive Survey",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Blockchain and Smart Contracts: A New Paradigm for Digital Transactions",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "A Comparative Study of Consensus Protocols in Blockchain Technology",
+          "Blockchain Technology for Smart Cities: A Review",
+          "The Impact of Blockchain Technology on Supply Chain Management",
+          "Decentralized Ledger Technology: A Review of Applications and Challenges",
+          "Analyzing the Efficiency of Proof-of-Stake Mechanisms",
+          "Blockchain for IoT: A Systematic Review",
+          "Smart Contracts in the Blockchain: A Review of Applications and Challenges",
+          "The Future of Blockchain Technology: Trends and Challenges",
+          "Blockchain Technology in Healthcare: A Systematic Review",
+          "The Role of Blockchain in Financial Services: Opportunities and Challenges",
+          "Blockchain-Based Voting Systems: A Review of Current Research",
+          "The Use of Blockchain Technology in Intellectual Property Rights Management",
+          "Blockchain for Energy Trading: A Review of Current Research and Future Directions"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Protocols: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Smart Contracts on the Legal Framework",
+          "A Survey of Blockchain-Based Identity Management Systems",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "Key Exchange Protocols in Blockchain: A Review",
+          "The Evolution of Consensus Mechanisms in Blockchain",
+          "Understanding the Role of Encryption in Blockchain Security",
+          "A Comparative Study of Blockchain Consensus Algorithms",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "An Introduction to Cryptographic Techniques in Blockchain",
+          "Evaluating the Efficiency of Proof-of-Stake Mechanisms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.2
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Survey on Smart Contract Security: Vulnerabilities and Solutions",
+          "Performance Evaluation of Blockchain Consensus Algorithms",
+          "Analyzing the Scalability of Blockchain Systems",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "The Role of Decentralized Ledgers in Distributed Systems",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "A Survey on the State of the Art in Blockchain Technology",
+          "Distributed Ledger Technology: Applications and Challenges",
+          "An Overview of Fault Tolerance Mechanisms in Distributed Systems",
+          "Smart Contracts and Their Applications in Decentralized Systems"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Role of Blockchain in Supply Chain Management",
+          "Blockchain Technology for Smart Cities: A Review",
+          "An Overview of Blockchain Technology and Its Applications",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "The Impact of Blockchain on Financial Services",
+          "Blockchain-Based Voting Systems: A Review",
+          "Smart Contracts: Opportunities and Challenges",
+          "Blockchain for IoT: A Systematic Review",
+          "The Future of Blockchain in Healthcare",
+          "Analyzing the Scalability of Blockchain Networks",
+          "Blockchain in Energy Trading: A Review",
+          "The Use of Blockchain in Digital Identity Management",
+          "Blockchain for Social Impact: A Review of Applications",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "The Role of Blockchain in Enhancing Data Privacy",
+          "Blockchain Technology in Real Estate: Opportunities and Challenges",
+          "The Evolution of Smart Contracts: From Theory to Practice"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Protocols: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Smart Contracts on the Legal Framework",
+          "A Survey of Blockchain-Based Identity Management",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "The Evolution of Consensus Mechanisms in Blockchain",
+          "Key Exchange Protocols in Blockchain Systems",
+          "Understanding the Role of Encryption in Blockchain Security",
+          "A Comparative Study of Blockchain Consensus Mechanisms",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "Exploring the Use of Zero-Knowledge Proofs in Blockchain Applications",
+          "Analyzing the Efficiency of Cryptographic Techniques in Blockchain Systems"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Protocols in Blockchain Technology",
+          "Smart Contracts: A Systematic Survey",
+          "The Role of Decentralized Ledgers in Blockchain Technology",
+          "An Overview of Proof-of-Work and Proof-of-Stake Mechanisms",
+          "Consensus Algorithms in Distributed Systems: A Survey",
+          "Fault Tolerance in Distributed Systems: A Comprehensive Review",
+          "Replication Techniques in Distributed Databases",
+          "Understanding the CAP Theorem: Implications for Distributed Systems",
+          "Blockchain Scalability and its Challenges: A Survey",
+          "Performance Evaluation of Consensus Protocols in Blockchain",
+          "Smart Contracts: Security and Reliability Issues",
+          "A Comparative Study of Blockchain Consensus Mechanisms",
+          "The Impact of Distributed Ledger Technology on Supply Chain Management",
+          "Analyzing the Efficiency of Proof-of-Stake Protocols",
+          "Distributed Systems: A Review of Fault Tolerance Techniques",
+          "The Evolution of Consensus Algorithms in Blockchain Networks",
+          "Decentralized Applications: A Survey on Smart Contracts",
+          "The Future of Distributed Databases: Trends and Challenges",
+          "Evaluating the Trade-offs of Consensus Protocols in Blockchain",
+          "A Survey of Blockchain Interoperability Solutions"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey",
+          "A Comparative Study of Blockchain Consensus Mechanisms"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.5
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Blockchain Technology: Applications and Challenges",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The Impact of Blockchain on Supply Chain Management",
+          "Blockchain for IoT: A Systematic Review",
+          "Smart Contracts: The Future of Contracting",
+          "Blockchain Technology in Healthcare: A Systematic Review",
+          "Analyzing the Scalability of Blockchain Protocols",
+          "Blockchain-Based Voting Systems: A Review",
+          "The Economics of Blockchain: A Survey",
+          "Blockchain in Financial Services: A Review of the Current State",
+          "The Role of Blockchain in Digital Identity Management",
+          "Blockchain for Energy Trading: A Review",
+          "Smart Contracts in Real Estate: Opportunities and Challenges",
+          "Blockchain Technology in the Internet of Things: A Survey",
+          "The Future of Blockchain: Trends and Challenges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Mechanisms: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Blockchain Technology on Financial Services",
+          "A Survey of Decentralized Ledger Technologies",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "Key Exchange Protocols in Blockchain Systems",
+          "Smart Contracts and Their Applications in Supply Chain Management",
+          "The Evolution of Blockchain Consensus Protocols",
+          "Exploring the Use of Zero-Knowledge Proofs in Blockchain",
+          "A Comparative Study of Blockchain Protocols",
+          "The Future of Cryptography in Blockchain Applications",
+          "Analyzing the Efficiency of Proof-of-Work and Proof-of-Stake Mechanisms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.3,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "A Comprehensive Survey on Blockchain Technology and its Applications",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "Decentralized Ledger Technology: A Review of the State of the Art",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Replication Techniques in Distributed Databases: A Survey",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Protocols on Blockchain Performance",
+          "Analyzing the Trade-offs of Distributed Systems: CAP Theorem Revisited",
+          "A Survey on the Challenges of Smart Contract Development",
+          "Evaluating Fault Tolerance in Distributed Systems: Techniques and Approaches",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Smart Contract Formal Verification",
+          "Blockchain-Based Smart Contracts: A Systematic Mapping Study",
+          "The Role of Blockchain in Supply Chain Management: A Review",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A New Era of Contractual Agreements",
+          "Decentralized Applications: The Blockchain Ecosystem",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Blockchain Technology for Sustainable Supply Chain Management: A Review",
+          "The Impact of Blockchain Technology on the Future of Finance",
+          "Smart Contracts: The Future of Contracting",
+          "Blockchain and the Internet of Things: A Systematic Review",
+          "Analyzing the Scalability of Blockchain Protocols",
+          "The Evolution of Blockchain Technology: A Comprehensive Review",
+          "Blockchain in Healthcare: A Systematic Review",
+          "The Role of Blockchain in Enhancing Data Integrity in IoT",
+          "A Comparative Study of Consensus Mechanisms in Blockchain",
+          "Blockchain for Social Impact: A Review of Applications",
+          "Smart Contracts and Their Applications in the Real World",
+          "The Future of Blockchain Technology: Trends and Challenges",
+          "Blockchain Technology in the Energy Sector: A Review of Applications and Challenges"
+        ],
+        "vector": {
+          "x1": 0.9,
+          "x2": 0.0,
+          "x3": 0.25
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Mechanisms: A Survey",
+          "Digital Signatures in Blockchain: A Comprehensive Review",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "Hash Functions: A Comprehensive Survey",
+          "The Impact of Cryptography on Blockchain Scalability",
+          "Exploring the Use of Zero-Knowledge Proofs in Blockchain",
+          "Smart Contracts: Opportunities and Challenges",
+          "A Comparative Study of Blockchain Consensus Protocols",
+          "The Evolution of Cryptographic Techniques in Blockchain",
+          "Key Exchange Protocols in Blockchain Systems",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "The Future of Smart Contracts: Trends and Challenges",
+          "Analyzing the Efficiency of Proof-of-Work and Proof-of-Stake",
+          "Cryptographic Foundations of Blockchain Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.4,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Consensus Algorithms in Blockchain: A Review",
+          "The Impact of Consensus Mechanisms on Blockchain Performance",
+          "A Survey on Decentralized Ledger Technologies",
+          "Evaluating the Trade-offs of Consensus Protocols in Distributed Systems",
+          "Blockchain and Distributed Ledger Technology: A Comprehensive Review",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "Analyzing the Efficiency of Distributed Consensus Algorithms",
+          "A Review of Blockchain Scalability Solutions and Consensus Mechanisms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Survey",
+          "The Role of Blockchain in the Internet of Things: A Survey",
+          "Blockchain-Based Smart Contracts: A Comprehensive Survey",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "Evaluating the Performance of Blockchain Consensus Protocols",
+          "A Comparative Study of Blockchain Consensus Mechanisms",
+          "The Impact of Blockchain Technology on Supply Chain Management",
+          "Blockchain for Smart Cities: A Systematic Review",
+          "Decentralized Finance: The Future of Financial Services",
+          "Blockchain Technology in Healthcare: A Comprehensive Review",
+          "The Evolution of Blockchain Technology: A Review of the Literature",
+          "Blockchain and the Future of Energy: A Review",
+          "Smart Contracts in the Real World: A Case Study Approach",
+          "Blockchain for Social Impact: A Review of Applications and Challenges",
+          "The Role of Blockchain in Enhancing Data Integrity in Supply Chains",
+          "Analyzing the Scalability of Blockchain Protocols",
+          "Blockchain Technology for Sustainable Development: A Review",
+          "The Use of Blockchain in Digital Identity Management",
+          "Blockchain in the Music Industry: Opportunities and Challenges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "A Survey of Blockchain Consensus Protocols: A Comprehensive Review",
+          "The Role of Cryptography in Blockchain Technology",
+          "An Overview of Smart Contracts and Their Applications",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "Zero-Knowledge Proofs: A Survey",
+          "Blockchain and Cryptography: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Blockchain Protocols",
+          "The Impact of Cryptographic Techniques on Blockchain Security",
+          "A Survey on the Use of Hash Functions in Blockchain",
+          "Smart Contracts: Security Issues and Challenges",
+          "Key Exchange Protocols in Blockchain Systems",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "A Review of Privacy-Preserving Techniques in Blockchain",
+          "The Evolution of Consensus Mechanisms in Blockchain",
+          "Cryptographic Approaches to Secure Smart Contracts",
+          "An Overview of Decentralized Ledger Technologies",
+          "The Future of Blockchain: Challenges and Opportunities in Cryptography"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.45,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Consensus Algorithms in Blockchain",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "A Comparative Study of Proof-of-Work and Proof-of-Stake",
+          "Distributed Ledger Technology: A Review of the Current State",
+          "Consensus Algorithms in Blockchain: A Comprehensive Review",
+          "The Impact of Blockchain on Distributed Database Systems",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Survey on Replication Techniques in Distributed Systems",
+          "Blockchain and Distributed Systems: A Synergistic Approach",
+          "Challenges and Opportunities in Blockchain Consensus Protocols",
+          "The Future of Smart Contracts in Decentralized Applications",
+          "Analyzing the Trade-offs in Distributed Consensus Algorithms"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Mapping Study",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Mechanisms",
+          "Blockchain Technology for Smart Cities: A Review",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The Impact of Blockchain on Supply Chain Management",
+          "Blockchain-Based Smart Contracts: A Review of Applications and Challenges",
+          "Analyzing the Scalability of Blockchain Protocols",
+          "Blockchain for IoT: A Systematic Review",
+          "The Future of Blockchain: Opportunities and Challenges",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "Smart Contracts in the Real World: Applications and Challenges",
+          "Blockchain Technology in Healthcare: A Systematic Review",
+          "The Economics of Blockchain: A Survey",
+          "Blockchain and the Future of Financial Services",
+          "Exploring the Use of Blockchain in Voting Systems",
+          "Blockchain for Identity Management: A Review",
+          "The Role of Blockchain in Enhancing Cybersecurity"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Mechanisms: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Smart Contracts on the Legal Framework",
+          "A Survey of Blockchain-Based Identity Management Systems",
+          "Key Exchange Protocols: A Comprehensive Review",
+          "Enhancing Blockchain Security with Advanced Cryptographic Techniques",
+          "The Evolution of Consensus Protocols in Blockchain",
+          "Understanding the Role of Encryption in Blockchain Security",
+          "A Comparative Study of Blockchain Consensus Algorithms",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "An Introduction to Blockchain and Cryptography",
+          "Evaluating the Security of Blockchain Systems: A Cryptographic Perspective"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Distributed Databases: A Survey on Replication Techniques",
+          "Evaluating the Trade-offs of Consensus Mechanisms in Blockchain",
+          "A Comparative Study of Blockchain Consensus Protocols",
+          "The Impact of Distributed Systems on Blockchain Scalability",
+          "Fault Tolerance in Blockchain Networks: A Survey",
+          "Analyzing the Performance of Smart Contracts on Blockchain Platforms",
+          "The Evolution of Consensus Algorithms in Distributed Systems",
+          "Challenges and Solutions in Decentralized Ledger Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Survey",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Blockchain-Based Smart Contracts: A Review",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "A Comparative Study of Consensus Protocols in Blockchain Technology",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "The Impact of Consensus Mechanisms on Blockchain Scalability",
+          "Smart Contracts and Their Applications in Blockchain Technology",
+          "Analyzing the Efficiency of Proof-of-Stake vs. Proof-of-Work",
+          "Blockchain Technology for Smart Cities: A Review",
+          "The Future of Smart Contracts: Opportunities and Challenges",
+          "Blockchain and Its Applications in Supply Chain Management",
+          "A Review of Blockchain-Based Voting Systems",
+          "The Evolution of Blockchain Technology: From Bitcoin to Smart Contracts",
+          "Blockchain in Healthcare: A Systematic Review",
+          "The Role of Blockchain in Financial Services: A Review",
+          "Exploring the Use of Blockchain in IoT Applications",
+          "Blockchain Technology in Education: Opportunities and Challenges"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.25
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Survey",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Protocols: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Blockchain Protocols",
+          "The Impact of Proof-of-Stake on Blockchain Scalability",
+          "A Survey of Key Exchange Protocols in Blockchain",
+          "Smart Contracts and Their Applications: A Review",
+          "The Evolution of Blockchain Consensus Mechanisms",
+          "Enhancing Blockchain Security with Cryptographic Techniques",
+          "A Comparative Study of Blockchain Protocols",
+          "Understanding the Role of Encryption in Blockchain",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "An Introduction to Blockchain and Cryptography",
+          "Evaluating the Security of Cryptographic Algorithms in Blockchain"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Blockchain Consensus Mechanisms",
+          "Smart Contracts: A Systematic Survey",
+          "The Blockchain Technology: A Survey on its Applications and Challenges",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Future Trends",
+          "A Survey of Distributed Consensus Protocols",
+          "Understanding the CAP Theorem in Distributed Systems",
+          "A Survey on Fault Tolerance in Distributed Systems",
+          "Performance Evaluation of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Role of Smart Contracts in Blockchain Technology",
+          "Consensus Algorithms in Blockchain: A Review",
+          "Distributed Databases: A Survey of Techniques and Applications",
+          "Evaluating the Efficiency of Blockchain Consensus Mechanisms",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "The Impact of Replication on Distributed System Performance",
+          "Blockchain and Distributed Ledger Technology: A Review of Applications",
+          "Analyzing the Trade-offs in Consensus Algorithms for Blockchain",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "A Survey on the State of the Art in Distributed Systems and Blockchain Technology"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.35
+        }
+      },
+      "L4": {
+        "papers": [
+          "Smart Contracts: A Systematic Survey",
+          "The Future of Smart Contracts: Challenges and Opportunities"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "A Survey on Smart Contracts: Current Research and Future Directions",
+          "Blockchain Technology for Smart Cities: A Systematic Review",
+          "The Role of Blockchain in Supply Chain Management: A Review",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "Smart Contracts: A Systematic Mapping Study",
+          "Blockchain-Based Decentralized Applications: A Survey",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Consensus Mechanisms",
+          "The Impact of Blockchain Technology on the Internet of Things",
+          "Blockchain for Healthcare: A Systematic Review",
+          "Analyzing the Scalability of Blockchain Protocols",
+          "Blockchain in the Energy Sector: A Review of Applications and Challenges",
+          "The Future of Smart Contracts: Opportunities and Challenges",
+          "Blockchain Technology in Financial Services: A Review",
+          "A Comparative Study of Consensus Mechanisms in Blockchain",
+          "The Use of Blockchain in Digital Identity Management",
+          "Blockchain for Voting Systems: A Review of Current Research",
+          "Exploring the Role of Blockchain in the Sharing Economy",
+          "The Integration of Blockchain Technology in E-Government Services",
+          "Blockchain-Based Solutions for Data Privacy and Security",
+          "The Evolution of Blockchain Technology: Trends and Future Directions"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.15
+        }
+      },
+      "L2": {
+        "papers": [
+          "A Survey on Blockchain Technology: Architecture, Consensus, and Future Directions",
+          "Smart Contracts: A Systematic Survey",
+          "Proof of Work vs. Proof of Stake: A Comparative Analysis",
+          "The Role of Cryptography in Blockchain Technology",
+          "Zero-Knowledge Proofs: A Survey",
+          "An Overview of Smart Contract Security",
+          "Blockchain Consensus Mechanisms: A Survey",
+          "Cryptographic Hash Functions: A Comprehensive Review",
+          "Digital Signatures in Blockchain: A Survey",
+          "Analyzing the Security of Proof-of-Stake Protocols",
+          "The Impact of Blockchain Technology on Financial Services",
+          "A Survey of Decentralized Ledger Technologies",
+          "Enhancing Privacy in Blockchain with Zero-Knowledge Proofs",
+          "Smart Contracts: Opportunities and Challenges",
+          "The Evolution of Cryptographic Techniques in Blockchain",
+          "A Comparative Study of Consensus Protocols in Blockchain",
+          "Key Exchange Protocols: A Review of Current Techniques",
+          "The Future of Smart Contracts: Challenges and Opportunities",
+          "An Overview of Blockchain Interoperability Solutions",
+          "Cryptographic Techniques for Secure Blockchain Transactions"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0
+        }
+      },
+      "L3": {
+        "papers": [
+          "A Survey on Consensus Protocols in Blockchain Technology",
+          "Smart Contracts: A Systematic Mapping Study",
+          "An Overview of Blockchain Technology: Architecture, Consensus, and Applications",
+          "The Role of Consensus Algorithms in Blockchain Technology",
+          "Evaluating the Performance of Proof-of-Work and Proof-of-Stake Protocols",
+          "Decentralized Ledger Technology: A Comprehensive Review",
+          "Fault Tolerance in Distributed Systems: A Survey",
+          "Understanding the CAP Theorem: Implications for Distributed Database Design",
+          "A Comparative Study of Consensus Mechanisms in Blockchain",
+          "Smart Contracts: Security and Performance Analysis",
+          "Replication Strategies in Distributed Systems: A Review",
+          "Analyzing the Scalability of Blockchain Consensus Protocols",
+          "The Impact of Consensus Algorithms on Blockchain Performance",
+          "Distributed Databases: Challenges and Solutions",
+          "A Survey of Blockchain-Based Applications in Supply Chain Management",
+          "Consensus Protocols for Blockchain: A Review of Current Trends",
+          "The Evolution of Smart Contracts: From Theory to Practice",
+          "Analyzing the Trade-offs of Proof-of-Work vs. Proof-of-Stake",
+          "Distributed Systems: Principles and Paradigms",
+          "A Survey on Fault Tolerance Mechanisms in Distributed Systems"
+        ],
+        "vector": {
+          "x1": 0.65,
+          "x2": 0.0,
+          "x3": 0.4
+        }
+      },
+      "L4": {
+        "papers": [],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L1": {
+      "x1": {
+        "mean": 0.99,
+        "std": 0.031622776601683784,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.14500000000000002,
+        "std": 0.10394977419675118,
+        "values": [
+          0.2,
+          0.2,
+          0.2,
+          0.0,
+          0.0,
+          0.25,
+          0.2,
+          0.0,
+          0.25,
+          0.15
+        ]
+      }
+    },
+    "L2": {
+      "x1": {
+        "mean": 0.705,
+        "std": 0.01581138830084191,
+        "values": [
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.75,
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "x2": {
+        "mean": 0.365,
+        "std": 0.04116363011742825,
+        "values": [
+          0.35,
+          0.4,
+          0.35,
+          0.35,
+          0.3,
+          0.4,
+          0.45,
+          0.35,
+          0.35,
+          0.35
+        ]
+      },
+      "x3": {
+        "mean": 0.035,
+        "std": 0.07472170590486632,
+        "values": [
+          0.0,
+          0.15,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L3": {
+      "x1": {
+        "mean": 0.695,
+        "std": 0.015811388300841875,
+        "values": [
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.65
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.38,
+        "std": 0.025819888974716137,
+        "values": [
+          0.35,
+          0.35,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.35,
+          0.4,
+          0.35,
+          0.4
+        ]
+      }
+    },
+    "L4": {
+      "x1": {
+        "mean": 0.8,
+        "std": 0.4216370213557839,
+        "values": [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.05,
+        "std": 0.15811388300841897,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1591 @@
+{
+  "config": {
+    "generation_model": "gpt-4o-mini",
+    "classification_model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260327_213154",
+    "batch_classification": true
+  },
+  "seeds": [
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness Results for Approximation Problems",
+          "Time Complexity of Randomized Algorithms",
+          "Space Complexity and the Limits of Computation",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy: A Review",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: Theoretical Insights",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Causes and Consequences",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Macroeconomic Policy in the Face of Globalization"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "The Theory of NP-Completeness",
+          "Computational Models of Learning",
+          "The Foundations of Cryptography",
+          "Complexity Classes and Their Hierarchies",
+          "The Impact of Quantum Mechanics on Computation",
+          "Formal Methods in Software Engineering"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "An Inquiry into the Nature and Causes of the Wealth of Nations",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Structure of Scientific Revolutions",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Invisible Hand: A New Perspective on the Economics of the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest, and the Business Cycle"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "The Theory of NP-Completeness",
+          "Computational Models of Learning",
+          "The Foundations of Cryptography",
+          "Complexity Classes and Their Hierarchies",
+          "The Impact of Quantum Mechanics on Computation",
+          "Formal Methods in Software Engineering",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Structure of Scientific Revolutions",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Invisible Hand: A New Perspective on the Economics of the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest, and the Business Cycle"
+        ],
+        "vector": {
+          "x1": 0.3076923076923077,
+          "x2": 0.38461538461538464,
+          "x3": 0.05128205128205128
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time-Space Tradeoffs for Turing Machines",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "Central Banking and Its Role in Economic Stability",
+          "The Effects of Government Spending on GDP",
+          "Business Cycles: Theory and Evidence",
+          "The Phillips Curve: A Historical Perspective",
+          "Economic Growth and the Role of Innovation",
+          "The Interaction Between Fiscal and Monetary Policy"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Formal Languages and Automata Theory",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Game Semantics for Programming Languages",
+          "The Theory of Computation: An Overview",
+          "Algorithmic Game Theory: A Survey",
+          "The Complexity of Approximation Problems",
+          "Proof Complexity: A Survey",
+          "Parameterized Complexity: A New Perspective",
+          "The Foundations of Cryptography: A Primer",
+          "Computational Learning Theory: A Survey",
+          "The Impact of Quantum Computing on Cryptography"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.15
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impacts of Climate Change",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Lessons for the Future",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Impact of Globalization on Economic Growth",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Economics of Discrimination",
+          "The Theory of Public Finance",
+          "The Economics of Information",
+          "The Political Economy of Development",
+          "The Economics of Education",
+          "The Dynamics of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Future of Work: Automation and Economic Implications"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.75,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Formal Languages and Automata Theory",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Game Semantics for Programming Languages",
+          "The Theory of Computation: An Overview",
+          "Algorithmic Game Theory: A Survey",
+          "The Complexity of Approximation Problems",
+          "Proof Complexity: A Survey",
+          "Parameterized Complexity: A New Perspective",
+          "The Foundations of Cryptography: A Primer",
+          "Computational Learning Theory: A Survey",
+          "The Impact of Quantum Computing on Cryptography",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impacts of Climate Change",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Lessons for the Future",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Impact of Globalization on Economic Growth",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Economics of Discrimination",
+          "The Theory of Public Finance",
+          "The Economics of Information",
+          "The Political Economy of Development",
+          "The Economics of Education",
+          "The Dynamics of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Future of Work: Automation and Economic Implications"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.5,
+          "x3": 0.125
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness Results for Approximation Problems",
+          "Time Complexity of Boolean Functions",
+          "Space Complexity and the Limits of Computation",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy: A Review",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: Theoretical Insights",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Causes and Consequences",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Macroeconomic Policy in the Face of Globalization"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Formal Languages and Automata Theory",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Graph Theory and Its Applications in Computer Science",
+          "Computational Learning Theory: A Comprehensive Overview",
+          "The Theory of Computation: An Introduction",
+          "Algorithmic Game Theory: A Survey",
+          "The Limits of Computation: An Overview of Turing Machines",
+          "Complexity Classes: A Comprehensive Guide",
+          "The Foundations of Cryptography: A Primer",
+          "The Role of Logic in Computer Science",
+          "Distributed Computing: Models and Algorithms"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.15
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "An Inquiry into the Nature and Causes of the Wealth of Nations",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Structure of Scientific Revolutions",
+          "The Invisible Hand: Economic Theory and the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.75,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Formal Languages and Automata Theory",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Graph Theory and Its Applications in Computer Science",
+          "Computational Learning Theory: A Comprehensive Overview",
+          "The Theory of Computation: An Introduction",
+          "Algorithmic Game Theory: A Survey",
+          "The Limits of Computation: An Overview of Turing Machines",
+          "Complexity Classes: A Comprehensive Guide",
+          "The Foundations of Cryptography: A Primer",
+          "The Role of Logic in Computer Science",
+          "Distributed Computing: Models and Algorithms",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Structure of Scientific Revolutions",
+          "The Invisible Hand: Economic Theory and the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development"
+        ],
+        "vector": {
+          "x1": 0.3076923076923077,
+          "x2": 0.46153846153846156,
+          "x3": 0.02564102564102564
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time Complexity of Randomized Algorithms",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "The Role of Central Banking in Economic Stability",
+          "Economic Growth and Its Determinants",
+          "The Interaction of Fiscal and Monetary Policy",
+          "Business Cycles: Theory and Evidence",
+          "The Phillips Curve: A Historical Perspective",
+          "Macroeconomic Policy in the Face of Economic Shocks"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Formal Languages and Automata Theory",
+          "Computational Learning Theory",
+          "The Role of Non-determinism in Computation",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Computational Models of Natural Language Processing",
+          "The Theory of NP-Completeness",
+          "Cryptography and Computational Complexity",
+          "The Foundations of Programming Languages",
+          "Automata Theory and Its Applications"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Lessons for the Future",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes: A Survey of the Evidence",
+          "The Economics of Climate Change: The Stern Review",
+          "The New Industrial State",
+          "The Economics of Information: A Theory of Capitalist Production",
+          "The Political Economy of the Welfare State",
+          "The Dynamics of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health and Health Care",
+          "The Future of Economic Growth: A Bayesian Approach"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Formal Languages and Automata Theory",
+          "Computational Learning Theory",
+          "The Role of Non-determinism in Computation",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Computational Models of Natural Language Processing",
+          "The Theory of NP-Completeness",
+          "Cryptography and Computational Complexity",
+          "The Foundations of Programming Languages",
+          "Automata Theory and Its Applications",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Lessons for the Future",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes: A Survey of the Evidence",
+          "The Economics of Climate Change: The Stern Review",
+          "The New Industrial State",
+          "The Economics of Information: A Theory of Capitalist Production",
+          "The Political Economy of the Welfare State",
+          "The Dynamics of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health and Health Care",
+          "The Future of Economic Growth: A Bayesian Approach"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.3,
+          "x3": 0.025
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time-Space Tradeoffs for Turing Machines",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "The Role of Central Banking in Economic Stability",
+          "Economic Growth and Its Determinants",
+          "The Interaction Between Fiscal and Monetary Policy",
+          "Business Cycles: Theory and Evidence",
+          "The Phillips Curve: A Historical Perspective",
+          "Macroeconomic Policy in the Face of Economic Shocks"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Computational Geometry: Algorithms and Applications",
+          "The Theory of NP-Completeness",
+          "Cryptography and Computational Number Theory",
+          "Parallel Algorithms: Theory and Practice",
+          "The Foundations of Programming Languages",
+          "Complexity Classes and Their Hierarchies"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes: A Survey of the Evidence",
+          "The Economics of Climate Change: The Stern Review",
+          "The New Industrial State",
+          "The Economics of Information: A New Perspective",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Political Economy of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Dynamics of Economic Growth: A Survey",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Computational Geometry: Algorithms and Applications",
+          "The Theory of NP-Completeness",
+          "Cryptography and Computational Number Theory",
+          "Parallel Algorithms: Theory and Practice",
+          "The Foundations of Programming Languages",
+          "Complexity Classes and Their Hierarchies",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes: A Survey of the Evidence",
+          "The Economics of Climate Change: The Stern Review",
+          "The New Industrial State",
+          "The Economics of Information: A New Perspective",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Political Economy of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Dynamics of Economic Growth: A Survey",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care: A Comprehensive Review"
+        ],
+        "vector": {
+          "x1": 0.35,
+          "x2": 0.3,
+          "x3": 0.025
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time Complexity of Randomized Algorithms",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "The Role of Central Banking in Economic Stability",
+          "Economic Growth and Its Determinants",
+          "The Interaction Between Fiscal and Monetary Policy",
+          "Business Cycles: Theory and Evidence",
+          "The Phillips Curve: A Historical Perspective",
+          "Macroeconomic Policy in the Face of Economic Shocks"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Foundations of Cryptography: Volume 1",
+          "Computational Geometry: Algorithms and Applications",
+          "The Complexity of Counting Problems",
+          "Parameterized Complexity",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes",
+          "The Economics of Climate Change",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Political Economy of the Great Depression",
+          "The Economics of Education: A Review of the Literature",
+          "The Dynamics of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Effects of Taxation on Economic Growth",
+          "The Future of Work: Implications for Economic Policy"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 1.0,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Foundations of Cryptography: Volume 1",
+          "Computational Geometry: Algorithms and Applications",
+          "The Complexity of Counting Problems",
+          "Parameterized Complexity",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes",
+          "The Economics of Climate Change",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Political Economy of the Great Depression",
+          "The Economics of Education: A Review of the Literature",
+          "The Dynamics of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Effects of Taxation on Economic Growth",
+          "The Future of Work: Implications for Economic Policy"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.5,
+          "x3": 0.05
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time Complexity of Randomized Algorithms",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Theory and Evidence",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Macroeconomic Models of Economic Growth",
+          "The Interaction Between Monetary and Fiscal Policy"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Algorithmic Game Theory: A Survey",
+          "The Landscape of Algorithmic Complexity",
+          "Formal Languages and Automata Theory",
+          "The Theory of Computation: An Overview",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Limits of Computation: Turing Machines and Beyond",
+          "Computational Learning Theory: A Comprehensive Survey",
+          "The Foundations of Cryptography: A Primer",
+          "The Complexity of Decision Problems",
+          "The Role of Logic in Computer Science",
+          "Distributed Computing: Models and Algorithms"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.2
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes",
+          "The Economics of Climate Change",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Dynamics of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Political Economy of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Effects of Taxation on Economic Growth",
+          "The Future of Work: Implications for Economic Policy"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 1.0,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "The Theory of NP-Completeness",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Role of Non-determinism in Computation",
+          "Algorithmic Game Theory: A Survey",
+          "The Landscape of Algorithmic Complexity",
+          "Formal Languages and Automata Theory",
+          "The Theory of Computation: An Overview",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Limits of Computation: Turing Machines and Beyond",
+          "Computational Learning Theory: A Comprehensive Survey",
+          "The Foundations of Cryptography: A Primer",
+          "The Complexity of Decision Problems",
+          "The Role of Logic in Computer Science",
+          "Distributed Computing: Models and Algorithms",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Impact of COVID-19",
+          "Behavioral Economics: Past, Present, and Future",
+          "The Great Recession: Causes and Consequences",
+          "Economic Growth in a Cross-Section of Countries",
+          "The Theory of Moral Sentiments",
+          "The Impact of Trade on Incomes",
+          "The Economics of Climate Change",
+          "Inequality and Economic Growth: A Review of the Evidence",
+          "The Dynamics of Economic Growth",
+          "The Economics of Education: A Review of the Literature",
+          "The Political Economy of Economic Growth",
+          "The Role of Institutions in Economic Development",
+          "The Economics of Health Care",
+          "The Effects of Taxation on Economic Growth",
+          "The Future of Work: Implications for Economic Policy"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.5,
+          "x3": 0.1
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness Results for Approximation Problems",
+          "Time Complexity of Boolean Functions",
+          "Space Complexity and the Limits of Computation",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy Frameworks",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Causes and Consequences",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Macroeconomic Policy in the Face of Globalization"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness",
+          "Algorithmic Game Theory: A Survey",
+          "The Role of Randomness in Computation",
+          "Formal Methods in Software Engineering",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Automata Theory: An Introduction",
+          "Computational Learning Theory: A Survey",
+          "The Theory of Computation: A Comprehensive Overview",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Foundations of Cryptography: A Primer",
+          "Complexity Classes and Their Relationships",
+          "The Role of Logic in Computer Science",
+          "The Impact of Quantum Computing on Cryptography"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.15
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Impact of Monetary Policy on Economic Growth",
+          "Behavioral Economics: Insights from Psychology",
+          "The Role of Government in Market Economies",
+          "Income Inequality and Economic Growth: A Review",
+          "The Economics of Climate Change: A Global Perspective",
+          "Labor Market Dynamics and Unemployment Trends",
+          "The Effects of Trade Policy on Economic Development",
+          "Analyzing the Relationship Between Inflation and Unemployment",
+          "The Economics of Education: Returns to Investment",
+          "The Role of Innovation in Economic Growth",
+          "Fiscal Policy and Its Impact on Economic Stability",
+          "The Economics of Health Care: Cost and Access",
+          "Globalization and Its Economic Implications",
+          "The Influence of Technology on Labor Markets",
+          "Economic Models of Consumer Behavior",
+          "The Effects of Taxation on Economic Activity",
+          "The Role of Financial Markets in Economic Development",
+          "The Economics of Natural Resources and Sustainability",
+          "The Impact of Demographic Changes on Economic Growth",
+          "The Relationship Between Economic Freedom and Prosperity"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.0
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Complexity of Counting Problems",
+          "On the Power of Quantum Computation",
+          "A Survey of Cryptographic Protocols",
+          "The P vs NP Problem: A Survey",
+          "Randomized Algorithms: A Survey",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness",
+          "Algorithmic Game Theory: A Survey",
+          "The Role of Randomness in Computation",
+          "Formal Methods in Software Engineering",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "Automata Theory: An Introduction",
+          "Computational Learning Theory: A Survey",
+          "The Theory of Computation: A Comprehensive Overview",
+          "Graph Theory and Its Applications in Computer Science",
+          "The Foundations of Cryptography: A Primer",
+          "Complexity Classes and Their Relationships",
+          "The Role of Logic in Computer Science",
+          "The Impact of Quantum Computing on Cryptography",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Behavioral Economics: Insights from Psychology",
+          "The Role of Government in Market Economies",
+          "Income Inequality and Economic Growth: A Review",
+          "The Economics of Climate Change: A Global Perspective",
+          "Labor Market Dynamics and Unemployment Trends",
+          "The Effects of Trade Policy on Economic Development",
+          "Analyzing the Relationship Between Inflation and Unemployment",
+          "The Economics of Education: Returns to Investment",
+          "The Role of Innovation in Economic Growth",
+          "Fiscal Policy and Its Impact on Economic Stability",
+          "The Economics of Health Care: Cost and Access",
+          "Globalization and Its Economic Implications",
+          "The Influence of Technology on Labor Markets",
+          "Economic Models of Consumer Behavior",
+          "The Effects of Taxation on Economic Activity",
+          "The Role of Financial Markets in Economic Development",
+          "The Economics of Natural Resources and Sustainability",
+          "The Impact of Demographic Changes on Economic Growth",
+          "The Relationship Between Economic Freedom and Prosperity"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.5,
+          "x3": 0.075
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness Results for Approximation Problems",
+          "Time Complexity of Boolean Function Evaluation",
+          "Space Complexity and the Limits of Computation",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy Frameworks",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Causes and Consequences",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Macroeconomic Models and Their Policy Implications"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Foundations of Cryptography",
+          "The Complexity of Counting Problems",
+          "Parameterized Complexity",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness",
+          "Computational Models of Natural Language Processing"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "An Inquiry into the Nature and Causes of the Wealth of Nations",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Structure of Scientific Revolutions",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Invisible Hand: A New Perspective on the Economics of the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest, and the Business Cycle"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "Foundations of Cryptography",
+          "The Complexity of Counting Problems",
+          "Parameterized Complexity",
+          "Approximation Algorithms for NP-Hard Problems",
+          "The Theory of NP-Completeness",
+          "Computational Models of Natural Language Processing",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Structure of Scientific Revolutions",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Invisible Hand: A New Perspective on the Economics of the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest, and the Business Cycle"
+        ],
+        "vector": {
+          "x1": 0.41025641025641024,
+          "x2": 0.38461538461538464,
+          "x3": 0.07692307692307693
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "P vs NP: A Survey of the Current State of Research",
+          "On the Complexity of Approximation Problems",
+          "Circuit Complexity and the P vs NP Problem",
+          "The Role of Randomness in Computation",
+          "Complexity Classes and Their Relationships",
+          "Hardness of Approximation: A Survey",
+          "Time Complexity of Randomized Algorithms",
+          "The Impact of Monetary Policy on Economic Growth",
+          "Inflation Dynamics and Monetary Policy",
+          "Fiscal Policy and Business Cycle Fluctuations",
+          "Understanding Unemployment: A Macroeconomic Perspective",
+          "Aggregate Demand and Supply: A Theoretical Framework",
+          "Central Banking and Its Role in Economic Stability",
+          "The Relationship Between GDP Growth and Inflation",
+          "Business Cycles: Theory and Evidence",
+          "The Effects of Fiscal Stimulus on Economic Recovery",
+          "Monetary Policy Rules and Economic Performance",
+          "Economic Growth and the Role of Technological Innovation"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "The Theory of NP-Completeness",
+          "Computational Geometry: Algorithms and Applications",
+          "The Foundations of Cryptography",
+          "Parallel Algorithms: Theory and Practice",
+          "The Complexity of Counting Problems",
+          "Formal Methods in Computer Science"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "An Inquiry into the Nature and Causes of the Wealth of Nations",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Structure of Scientific Revolutions",
+          "The Invisible Hand: Economic Theory and the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.85,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "Computational Complexity: A Modern Approach",
+          "The Art of Computer Programming",
+          "Introduction to the Theory of Computation",
+          "On the Complexity of Finite Functions",
+          "A Survey of Quantum Computing",
+          "The Complexity of Approximation Problems",
+          "Randomized Algorithms",
+          "The P vs NP Problem",
+          "Algorithmic Game Theory",
+          "The Theory of Computation: A Survey",
+          "Graph Theory and Its Applications",
+          "Automata Theory and Formal Languages",
+          "Computational Learning Theory",
+          "The Role of Logic in Computer Science",
+          "The Theory of NP-Completeness",
+          "Computational Geometry: Algorithms and Applications",
+          "The Foundations of Cryptography",
+          "Parallel Algorithms: Theory and Practice",
+          "The Complexity of Counting Problems",
+          "Formal Methods in Computer Science",
+          "The General Theory of Employment, Interest, and Money",
+          "Capital in the Twenty-First Century",
+          "A Theory of Economic History",
+          "The Wealth of Nations",
+          "The Role of Monetary Policy",
+          "The Economic Consequences of the Peace",
+          "The Great Transformation: The Political and Economic Origins of Our Time",
+          "The Theory of Moral Sentiments",
+          "The Logic of Collective Action: Public Goods and the Theory of Groups",
+          "The Road to Serfdom",
+          "The Affluent Society",
+          "The Structure of Scientific Revolutions",
+          "The Invisible Hand: Economic Theory and the Market",
+          "The Price of Inequality: How Today's Divided Society Endangers Our Future",
+          "The End of Poverty: Economic Possibilities for Our Time",
+          "The Shock Doctrine: The Rise of Disaster Capitalism",
+          "The New Industrial State",
+          "The Great Escape: Health, Wealth, and the Origins of Inequality",
+          "The Theory of Economic Development"
+        ],
+        "vector": {
+          "x1": 0.358974358974359,
+          "x2": 0.46153846153846156,
+          "x3": 0.02564102564102564
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L1": {
+      "x1": {
+        "mean": 0.48,
+        "std": 0.025819888974716106,
+        "values": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.45,
+          0.45,
+          0.45,
+          0.5,
+          0.5,
+          0.45
+        ]
+      },
+      "x2": {
+        "mean": 0.53,
+        "std": 0.025819888974716137,
+        "values": [
+          0.5,
+          0.55,
+          0.5,
+          0.55,
+          0.55,
+          0.55,
+          0.55,
+          0.5,
+          0.5,
+          0.55
+        ]
+      },
+      "x3": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L2_y1": {
+      "x1": {
+        "mean": 0.64,
+        "std": 0.05163977794943221,
+        "values": [
+          0.6,
+          0.7,
+          0.6,
+          0.7,
+          0.6,
+          0.7,
+          0.6,
+          0.6,
+          0.7,
+          0.6
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.095,
+        "std": 0.05986094998689324,
+        "values": [
+          0.05,
+          0.15,
+          0.15,
+          0.05,
+          0.05,
+          0.05,
+          0.2,
+          0.15,
+          0.05,
+          0.05
+        ]
+      }
+    },
+    "L2_y2": {
+      "x1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x2": {
+        "mean": 0.86,
+        "std": 0.08432740427115679,
+        "values": [
+          0.85,
+          0.75,
+          0.75,
+          0.85,
+          0.85,
+          1.0,
+          1.0,
+          0.85,
+          0.85,
+          0.85
+        ]
+      },
+      "x3": {
+        "mean": 0.02,
+        "std": 0.025819888974716113,
+        "values": [
+          0.05,
+          0.0,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.05
+        ]
+      }
+    },
+    "L2": {
+      "x1": {
+        "mean": 0.35346153846153844,
+        "std": 0.03677473962078244,
+        "values": [
+          0.3076923076923077,
+          0.375,
+          0.3076923076923077,
+          0.375,
+          0.35,
+          0.375,
+          0.375,
+          0.3,
+          0.41025641025641024,
+          0.358974358974359
+        ]
+      },
+      "x2": {
+        "mean": 0.42923076923076925,
+        "std": 0.08131076092504037,
+        "values": [
+          0.38461538461538464,
+          0.5,
+          0.46153846153846156,
+          0.3,
+          0.3,
+          0.5,
+          0.5,
+          0.5,
+          0.38461538461538464,
+          0.46153846153846156
+        ]
+      },
+      "x3": {
+        "mean": 0.05794871794871795,
+        "std": 0.035404635320903266,
+        "values": [
+          0.05128205128205128,
+          0.125,
+          0.02564102564102564,
+          0.025,
+          0.025,
+          0.05,
+          0.1,
+          0.075,
+          0.07692307692307693,
+          0.02564102564102564
+        ]
+      }
+    }
+  }
+}
