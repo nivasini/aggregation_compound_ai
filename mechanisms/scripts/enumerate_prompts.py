@@ -2,8 +2,8 @@
 """
 Enumerate all set-theoretic prompts based on parent topics for each experiment.
 
-For 2 topics (binding_set, support): 3^2 - 1 = 8 combinations
-For 3 topics (feasibility): 3^3 - 1 = 26 combinations
+For 2 topics (binding_set, support): 3^2 - 1 = 8 combinations.
+For 3 topics (feasibility): 3^3 - 1 = 26 combinations.
 With AND/OR operator variants where applicable.
 """
 
@@ -37,9 +37,6 @@ from utils import (
     generate_inclusion_exclusion_prompt,
 )
 
-MODEL = "gpt-4o-mini"
-TEMPERATURE = 0
-
 DATA_DIR = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) / "experiment_data"
 
 EXPERIMENTS = {
@@ -56,6 +53,27 @@ EXPERIMENTS = {
         "classification_topics": SUPPORT_CHILD_TOPICS,
     },
 }
+
+MODEL_TAG = {
+    "gpt-4o-mini": "4omini",
+    "gpt-5.4":     "54",
+    "gpt-5-mini":  "5mini",
+}
+
+
+def model_tag(model: str) -> str:
+    return MODEL_TAG.get(model, model.replace(".", "").replace("-", ""))
+
+
+def temp_tag(t):
+    return "tempnone" if t is None else f"temp{t}".replace(".", "")
+
+
+def file_tag(gen_model, gen_temp, cls_model, cls_temp):
+    return (
+        f"gen{model_tag(gen_model)}_gen{temp_tag(gen_temp)}"
+        f"_cls{model_tag(cls_model)}_cls{temp_tag(cls_temp)}"
+    )
 
 
 def format_vector(v: Dict[str, float]) -> str:
@@ -84,8 +102,8 @@ def generate_all_prompt_combos(topics: Dict[str, str]) -> List[Dict[str, Any]]:
 
         for incl_op in incl_ops:
             for excl_op in excl_ops:
-                incl_op_sym = "\u2227" if incl_op else "\u2228"
-                excl_op_sym = "\u2227" if excl_op else "\u2228"
+                incl_op_sym = "∧" if incl_op else "∨"
+                excl_op_sym = "∧" if excl_op else "∨"
                 incl_op_word = " AND " if incl_op else " OR "
                 excl_op_word = " AND " if excl_op else " OR "
 
@@ -100,7 +118,7 @@ def generate_all_prompt_combos(topics: Dict[str, str]) -> List[Dict[str, Any]]:
                     name = f"{incl_part} AND NOT {excl_part}"
                     incl_lbl = f"({incl_label})" if len(incl_keys) >= 2 else incl_label
                     excl_lbl = f"({excl_label})" if len(excl_keys) >= 2 else excl_label
-                    label = f"{incl_lbl}\u2227\u00ac{excl_lbl}"
+                    label = f"{incl_lbl}∧¬{excl_lbl}"
                 elif incl_keys:
                     name = incl_name
                     label = incl_label
@@ -108,7 +126,7 @@ def generate_all_prompt_combos(topics: Dict[str, str]) -> List[Dict[str, Any]]:
                     excl_part = f"({excl_name})" if len(excl_keys) >= 2 else excl_name
                     name = f"NOT {excl_part}"
                     excl_lbl = f"({excl_label})" if len(excl_keys) >= 2 else excl_label
-                    label = f"\u00ac{excl_lbl}"
+                    label = f"¬{excl_lbl}"
 
                 combos.append({
                     "name": name, "label": label,
@@ -120,7 +138,7 @@ def generate_all_prompt_combos(topics: Dict[str, str]) -> List[Dict[str, Any]]:
     return combos
 
 
-def run_prompt(combo, client, classification_topics, num_seeds, list_length=20):
+def run_prompt(combo, client, classification_topics, num_seeds, list_length, gen_model, gen_temp, cls_model, cls_temp):
     """Run a single prompt combination across all seeds."""
     prompt = generate_inclusion_exclusion_prompt(
         inclusion_topics=combo["inclusion"], exclusion_topics=combo["exclusion"],
@@ -132,8 +150,8 @@ def run_prompt(combo, client, classification_topics, num_seeds, list_length=20):
 
     for seed in range(1, num_seeds + 1):
         try:
-            papers = get_papers(prompt, client, seed, MODEL, TEMPERATURE)
-            vector = classify_paper_list_batch(papers, classification_topics, client, seed, MODEL, TEMPERATURE)
+            papers = get_papers(prompt, client, seed, gen_model, gen_temp)
+            vector = classify_paper_list_batch(papers, classification_topics, client, seed, cls_model, cls_temp)
             seeds_data.append({"papers": papers, "vector": vector})
             print(f"    Seed {seed}/{num_seeds}: {len(papers)} papers -> {format_vector(vector)}")
         except Exception as e:
@@ -141,8 +159,7 @@ def run_prompt(combo, client, classification_topics, num_seeds, list_length=20):
             time.sleep(2)
 
     if seeds_data:
-        mean_vec = {}
-        std_vec = {}
+        mean_vec, std_vec = {}, {}
         for d in dims:
             values = [s["vector"].get(d, 0.0) for s in seeds_data]
             mean_vec[d] = statistics.mean(values)
@@ -160,11 +177,26 @@ def main():
     parser.add_argument("--experiment", choices=["binding_set", "feasibility", "support", "all"], default="all")
     parser.add_argument("--seeds", type=int, default=10)
     parser.add_argument("--list-length", type=int, default=20)
+    parser.add_argument("--model", "-m", default="gpt-4o-mini", help="Generator model")
+    parser.add_argument("--temperature", "-t", default="0", help="Generation temperature (use 'none' to omit)")
+    parser.add_argument("--cls-model", default=None, help="Classification model (defaults to --model)")
+    parser.add_argument("--cls-temperature", default=None, help="Classification temperature (use 'none' to omit; defaults to --temperature)")
     parser.add_argument("--api-key", default=None, help="OpenAI API key (or set OPENAI_API_KEY)")
     args = parser.parse_args()
 
+    def parse_temp(val):
+        if val is None or val == "" or str(val).lower() == "none":
+            return None
+        return float(val)
+
+    gen_model = args.model
+    gen_temp = parse_temp(args.temperature)
+    cls_model = args.cls_model if args.cls_model is not None else gen_model
+    cls_temp = parse_temp(args.cls_temperature) if args.cls_temperature is not None else gen_temp
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    print(f"Model: {MODEL}, Seeds: {args.seeds}, List length: {args.list_length}")
+    print(f"Generator: {gen_model} @ {gen_temp}, Judge: {cls_model} @ {cls_temp}, "
+          f"Seeds: {args.seeds}, List length: {args.list_length}")
 
     api_key = args.api_key or os.environ.get("OPENAI_API_KEY")
     if not api_key:
@@ -184,27 +216,43 @@ def main():
         combos = generate_all_prompt_combos(parent_topics)
         print(f"Total prompt combinations: {len(combos)}")
 
+        tag = file_tag(gen_model, gen_temp, cls_model, cls_temp)
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        output_file = DATA_DIR / f"{exp_name}_enumerated_{tag}.json"
+        partial_file = DATA_DIR / f"{exp_name}_enumerated_{tag}_partial.json"
+
+        config = {
+            "model": gen_model, "temperature": gen_temp,
+            "classification_model": cls_model, "classification_temperature": cls_temp,
+            "num_seeds": args.seeds, "list_length": args.list_length,
+            "timestamp": timestamp, "experiment": exp_name,
+        }
+
         results = []
         for i, combo in enumerate(combos):
             print(f"\n[{i + 1}/{len(combos)}] {combo['name']} ({combo['label']})")
-            result = run_prompt(combo, client, class_topics, args.seeds, args.list_length)
+            result = run_prompt(combo, client, class_topics, args.seeds, args.list_length,
+                                gen_model, gen_temp, cls_model, cls_temp)
             if result:
                 results.append(result)
 
+            partial_output = {
+                "config": {**config, "completed_combos": i + 1, "total_combos": len(combos)},
+                "parent_topics": parent_topics,
+                "classification_topics": {k: v for k, v in class_topics.items()},
+                "prompts": results,
+            }
+            partial_file.write_text(json.dumps(partial_output, indent=2))
+
         output = {
-            "config": {
-                "model": MODEL, "temperature": TEMPERATURE,
-                "num_seeds": args.seeds, "list_length": args.list_length,
-                "timestamp": timestamp, "experiment": exp_name,
-            },
+            "config": config,
             "parent_topics": parent_topics,
             "classification_topics": {k: v for k, v in class_topics.items()},
             "prompts": results,
         }
-
-        DATA_DIR.mkdir(parents=True, exist_ok=True)
-        output_file = DATA_DIR / f"{exp_name}_enumerated_{timestamp}.json"
         output_file.write_text(json.dumps(output, indent=2))
+        if partial_file.exists():
+            partial_file.unlink()
         print(f"\nSaved to: {output_file}")
 
     print(f"\n{'=' * 70}\nALL EXPERIMENTS COMPLETE\n{'=' * 70}")
