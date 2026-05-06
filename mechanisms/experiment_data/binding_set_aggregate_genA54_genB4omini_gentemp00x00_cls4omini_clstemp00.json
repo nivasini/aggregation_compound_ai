@@ -1,0 +1,2663 @@
+{
+  "config": {
+    "m1_tag": "gen4omini_gentemp00_cls4omini_clstemp00",
+    "m2_tag": "gen54_gentemp00_cls4omini_clstemp00",
+    "ordering": "L_y1=54, L_y2=4omini",
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 20,
+    "random_seed": 42
+  },
+  "seeds": [
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Sequence to Sequence Learning with Neural Networks",
+          "The Illustrated Transformer",
+          "Longformer: The Long-Document Transformer",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Neural Style Transfer: A Review",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Vision Transformers for Image Classification: A Survey"
+        ],
+        "vector": {
+          "x1": 0.10526315789473684,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer (ViT): An Image is Worth 16x16 Words",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "A Survey of Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Neural Style Transfer: A Review",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "A Survey on Image Data Augmentation for Deep Learning"
+        ],
+        "vector": {
+          "x1": 0.05263157894736842,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A Vision Transformer without MLPs",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Going deeper with Image Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "SIFT: Scale-Invariant Feature Transform",
+          "Spatial Transformer Networks",
+          "Attention is All You Need",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Single Shot MultiBox Detector",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Real-Time Object Detection with YOLO",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Visual Question Answering",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.2631578947368421,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "Transformers in Vision: A Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sequence to Sequence Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "A Neural Probabilistic Language Model",
+          "Word2Vec: Efficient Estimation of Word Representations in Vector Space",
+          "GloVe: Global Vectors for Word Representation",
+          "The Illustrated Transformer",
+          "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.25,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "SIFT: Scale-Invariant Feature Transform",
+          "Spatial Transformer Networks",
+          "Attention is All You Need",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Single Shot MultiBox Detector",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Real-Time Object Detection with YOLO",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Visual Question Answering",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A ConvNet for the 2020s",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "Vision Transformer Adapter for Dense Predictions",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "PaLM: Scaling Language Modeling with Pathways"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.0,
+          "x3": 0.05,
+          "x4": 0.1,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sequence to Sequence Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "A Neural Probabilistic Language Model",
+          "Word2Vec: Efficient Estimation of Word Representations in Vector Space",
+          "GloVe: Global Vectors for Word Representation",
+          "The Illustrated Transformer",
+          "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.25,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "SIFT: Scale-Invariant Feature Transform",
+          "Spatial Transformer Networks",
+          "Attention is All You Need",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Single Shot MultiBox Detector",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Real-Time Object Detection with YOLO",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Visual Question Answering",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.10526315789473684,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A ConvNet for the 2020s",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "Vision Transformer Adapter for Dense Predictions",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "PaLM: Scaling Language Modeling with Pathways"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.05,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Neural Style Transfer: A Review",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Vision Transformers for Image Classification: A Survey"
+        ],
+        "vector": {
+          "x1": 0.10526315789473684,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A Vision Transformer without MLPs",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Going deeper with Image Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Sequence to Sequence Learning with Neural Networks",
+          "The Illustrated Transformer",
+          "Longformer: The Long-Document Transformer",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Neural Style Transfer: A Review",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Vision Transformers for Image Classification: A Survey"
+        ],
+        "vector": {
+          "x1": 0.10526315789473684,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer (ViT): An Image is Worth 16x16 Words",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "A Survey of Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Neural Style Transfer: A Review",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Vision Transformers for Image Classification",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Space"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 0.631578947368421,
+          "x4": 0.15789473684210525,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Improving Language Models by Retrieving from Trillions of Tokens",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "GPT-4 Technical Report"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "Scaling Laws for Neural Language Models",
+          "A Survey of Large Language Models",
+          "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+          "LLaMA: Open and Efficient Foundation Language Models"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "Attention is All You Need",
+          "Single Shot MultiBox Detector",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Spatial Transformer Networks",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering Using Deep Learning",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "A Survey on Image Data Augmentation for Deep Learning",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Improving Language Models by Retrieving from Trillions of Tokens",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey of Transformers",
+          "Transformers in Vision: A Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Neural Style Transfer: A Review",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Vision Transformers for Image Classification",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Space"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 0.631578947368421,
+          "x4": 0.15789473684210525,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A Vision Transformer without MLPs",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Going deeper with Image Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Neural Style Transfer: A Review",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Vision Transformers for Image Classification",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Space"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.7368421052631579,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Improving Language Models by Retrieving from Trillions of Tokens",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "GPT-4 Technical Report"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.05,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "LLaMA: Open and Efficient Foundation Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "SIFT: Scale-Invariant Feature Transform",
+          "Spatial Transformer Networks",
+          "Attention is All You Need",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Single Shot MultiBox Detector",
+          "Feature Pyramid Networks for Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Neural Style Transfer: A Review",
+          "Self-Supervised Learning: A Survey"
+        ],
+        "vector": {
+          "x1": 0.3157894736842105,
+          "x2": 0.0,
+          "x3": 0.631578947368421,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "A Survey on Vision Transformer",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "Training data-efficient image transformers & distillation through attention"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "R-CNN: Rich Feature Hierarchies for Accurate Object Detection and Segmentation",
+          "Fully Convolutional Networks for Semantic Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention Is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Vision Transformers",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "Neural Style Transfer",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.631578947368421,
+          "x4": 0.10526315789473684,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "Transformers in Vision: A Survey"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method",
+          "Longformer: The Long-Document Transformer",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.8,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "R-CNN: Rich Feature Hierarchies for Accurate Object Detection and Segmentation",
+          "Fully Convolutional Networks for Semantic Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-Level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention Is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Vision Transformers",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "Neural Style Transfer",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Topic Spaces"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.5263157894736842,
+          "x4": 0.10526315789473684,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A ConvNet for the 2020s",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.05,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Sequence to Sequence Learning with Neural Networks",
+          "The Illustrated Transformer",
+          "Longformer: The Long-Document Transformer",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "Attention is All You Need",
+          "Single Shot MultiBox Detector",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Spatial Transformer Networks",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering Using Deep Learning",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "A Survey on Image Data Augmentation for Deep Learning",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.2631578947368421,
+          "x2": 0.0,
+          "x3": 0.7368421052631579,
+          "x4": 0.05263157894736842,
+          "x5": 0.05263157894736842
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer (ViT): An Image is Worth 16x16 Words",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "A Survey of Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ULMFiT: Universal Language Model Fine-tuning for Text Classification",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Longformer: The Long-Document Transformer",
+          "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable and Efficient Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+          "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "Neural Style Transfer: A Review",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Vision Transformers for Image Classification",
+          "Self-Supervised Learning of Visual Features through Embedding Images into Text Space"
+        ],
+        "vector": {
+          "x1": 0.15789473684210525,
+          "x2": 0.0,
+          "x3": 0.5263157894736842,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A Vision Transformer without MLPs",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Going deeper with Image Transformers"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.35,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "Attention is All You Need",
+          "Single Shot MultiBox Detector",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Spatial Transformer Networks",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering",
+          "DeepFace: Closing the Gap to Human-Level Performance in Face Verification",
+          "3D Object Detection from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "A Survey on Image Data Augmentation for Deep Learning",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 0.7368421052631579,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A Vision Transformer without MLPs",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "GPT-4 Technical Report",
+          "PaLM: Scaling Language Modeling with Pathways"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.1,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method",
+          "Long Short-Term Memory",
+          "The Annotated Transformer",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.35,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "Attention is All You Need",
+          "Single Shot MultiBox Detector",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Semantic Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+          "Spatial Transformer Networks",
+          "Deep Learning for Image Super-Resolution: A Survey",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering Using Deep Learning",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Deep Learning for Face Recognition: A Survey",
+          "A Survey on Image Data Augmentation for Deep Learning",
+          "Neural Style Transfer: A Review"
+        ],
+        "vector": {
+          "x1": 0.21052631578947367,
+          "x2": 0.0,
+          "x3": 0.7368421052631579,
+          "x4": 0.05263157894736842,
+          "x5": 0.05263157894736842
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Improving Language Models by Retrieving from Trillions of Tokens",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "Longformer: The Long-Document Transformer",
+          "Big Bird: Transformers for Longer Sequences",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "A Survey on Vision Transformer",
+          "GPT-4 Technical Report"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method",
+          "Longformer: The Long-Document Transformer",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.3,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+          "YOLOv3: An Incremental Improvement",
+          "Generative Adversarial Networks",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "Deep Residual Learning for Image Recognition",
+          "SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters",
+          "Single Shot MultiBox Detector",
+          "Attention is All You Need",
+          "EfficientDet: Scalable Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Spatial Transformer Networks",
+          "Focal Loss for Dense Object Detection",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "3D Object Detection from a Single RGB Image",
+          "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+          "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+          "Neural Style Transfer",
+          "Vision Transformers for Image Classification"
+        ],
+        "vector": {
+          "x1": 0.10526315789473684,
+          "x2": 0.0,
+          "x3": 0.7894736842105263,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Learning Transferable Visual Models From Natural Language Supervision",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Training data-efficient image transformers & distillation through attention",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "DeiT III: Revenge of the ViT",
+          "A ConvNet for the 2020s",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "BEiT: BERT Pre-Training of Image Transformers",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "GPT-2: Language Models are Unsupervised Multitask Learners",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "Vision Transformer for Small-Size Datasets",
+          "Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.05,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    },
+    {
+      "L_y1": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Language Models are Unsupervised Multitask Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "GPT-3: Language Models are Few-Shot Learners",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "Seq2Seq Learning with Neural Networks",
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "Effective Approaches to Attention-based Neural Machine Translation",
+          "A Neural Probabilistic Language Model",
+          "GloVe: Global Vectors for Word Representation",
+          "Distributed Representations of Words and Phrases and their Compositionality",
+          "ELMo: Deep Contextualized Word Representations",
+          "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+          "LoRA: Low-Rank Adaptation of Large Language Models",
+          "LLaMA: Open and Efficient Foundation Language Models",
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.15,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_y2": {
+        "papers": [
+          "ImageNet Classification with Deep Convolutional Neural Networks",
+          "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "Generative Adversarial Nets",
+          "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+          "YOLOv3: An Incremental Improvement",
+          "Deep Residual Learning for Image Recognition",
+          "SIFT: Scale-Invariant Feature Transform",
+          "Spatial Transformer Networks",
+          "Attention is All You Need",
+          "Deep Learning for Computer Vision: A Brief Review",
+          "Single Shot MultiBox Detector",
+          "Feature Pyramid Networks for Object Detection",
+          "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets",
+          "Real-Time Object Detection with YOLO",
+          "Visual Question Answering",
+          "3D Object Detection and Pose Estimation from a Single RGB Image",
+          "Learning Representations by Maximizing Mutual Information Across Views",
+          "Neural Style Transfer: A Review",
+          "Self-Supervised Learning: A Survey"
+        ],
+        "vector": {
+          "x1": 0.2631578947368421,
+          "x2": 0.0,
+          "x3": 0.6842105263157895,
+          "x4": 0.05263157894736842,
+          "x5": 0.0
+        }
+      },
+      "L_intersection": {
+        "papers": [
+          "Attention Is All You Need"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      },
+      "L_x1_or": {
+        "papers": [
+          "Attention Is All You Need",
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "Improving Language Understanding by Generative Pre-Training",
+          "Language Models are Unsupervised Multitask Learners",
+          "Language Models are Few-Shot Learners",
+          "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+          "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+          "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+          "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+          "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+          "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+          "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "Vision Transformer",
+          "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+          "A Survey on Vision Transformer",
+          "Masked Autoencoders Are Scalable Vision Learners",
+          "Training data-efficient image transformers & distillation through attention"
+        ],
+        "vector": {
+          "x1": 1.0,
+          "x2": 0.0,
+          "x3": 0.0,
+          "x4": 0.0,
+          "x5": 0.0
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L_y1": {
+      "x1": {
+        "mean": 0.7925,
+        "std": 0.06934847169416057,
+        "values": [
+          0.85,
+          0.75,
+          0.75,
+          0.85,
+          0.85,
+          0.75,
+          0.85,
+          0.75,
+          1.0,
+          0.75,
+          0.85,
+          0.75,
+          0.75,
+          0.8,
+          0.75,
+          0.75,
+          0.75,
+          0.7,
+          0.75,
+          0.85
+        ]
+      },
+      "x2": {
+        "mean": 0.2625,
+        "std": 0.08564768715960445,
+        "values": [
+          0.15,
+          0.3,
+          0.3,
+          0.25,
+          0.25,
+          0.3,
+          0.3,
+          0.3,
+          0.0,
+          0.3,
+          0.15,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.35,
+          0.35,
+          0.3,
+          0.15
+        ]
+      },
+      "x3": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x4": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x5": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L_y2": {
+      "x1": {
+        "mean": 0.17894736842105263,
+        "std": 0.0670108237748856,
+        "values": [
+          0.10526315789473684,
+          0.05263157894736842,
+          0.2631578947368421,
+          0.15789473684210525,
+          0.15789473684210525,
+          0.10526315789473684,
+          0.10526315789473684,
+          0.21052631578947367,
+          0.21052631578947367,
+          0.21052631578947367,
+          0.15789473684210525,
+          0.3157894736842105,
+          0.15789473684210525,
+          0.15789473684210525,
+          0.2631578947368421,
+          0.15789473684210525,
+          0.21052631578947367,
+          0.21052631578947367,
+          0.10526315789473684,
+          0.2631578947368421
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.7157894736842105,
+        "std": 0.08938401894623015,
+        "values": [
+          0.7894736842105263,
+          0.7894736842105263,
+          0.7894736842105263,
+          0.7894736842105263,
+          0.7894736842105263,
+          0.7894736842105263,
+          0.7894736842105263,
+          0.631578947368421,
+          0.7894736842105263,
+          0.631578947368421,
+          0.7368421052631579,
+          0.631578947368421,
+          0.631578947368421,
+          0.5263157894736842,
+          0.7368421052631579,
+          0.5263157894736842,
+          0.7368421052631579,
+          0.7368421052631579,
+          0.7894736842105263,
+          0.6842105263157895
+        ]
+      },
+      "x4": {
+        "mean": 0.05789473684210526,
+        "std": 0.047995237164683756,
+        "values": [
+          0.0,
+          0.0,
+          0.05263157894736842,
+          0.05263157894736842,
+          0.10526315789473684,
+          0.0,
+          0.0,
+          0.15789473684210525,
+          0.05263157894736842,
+          0.15789473684210525,
+          0.05263157894736842,
+          0.05263157894736842,
+          0.10526315789473684,
+          0.10526315789473684,
+          0.05263157894736842,
+          0.05263157894736842,
+          0.05263157894736842,
+          0.05263157894736842,
+          0.0,
+          0.05263157894736842
+        ]
+      },
+      "x5": {
+        "mean": 0.005263157894736842,
+        "std": 0.01619965819081822,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05263157894736842,
+          0.0,
+          0.0,
+          0.05263157894736842,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L_intersection": {
+      "x1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x4": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x5": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L_x1_or": {
+      "x1": {
+        "mean": 0.965,
+        "std": 0.07451598203705946,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          0.75,
+          0.85,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.85,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.85,
+          1.0
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.01,
+        "std": 0.02051956704170308,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.0
+        ]
+      },
+      "x4": {
+        "mean": 0.0125,
+        "std": 0.03193331868292526,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x5": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}
