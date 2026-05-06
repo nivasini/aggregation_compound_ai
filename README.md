@@ -102,4 +102,9 @@ cell, and run all cells. The notebook supports two modes:
   over the union of enumerated prompts from both models. Produces two
   plots per experiment (one per ordering).
 
-Plots are saved to `mechanisms/figures/` (gitignored).
+Plots are saved to `mechanisms/figures/`. The default-config (single-mode,
+`gpt-4o-mini @ 0.7`) PNGs ship pre-rendered there; running the notebook
+overwrites them with whatever configuration is currently set.
+
+For the rich-embedding analysis of LLM aggregation, see
+[`rich_embeddings/README.md`](rich_embeddings/README.md).
