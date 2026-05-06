@@ -1,0 +1,3667 @@
+{
+  "config": {
+    "model": "gpt-5.4",
+    "temperature": 0.0,
+    "classification_model": "gpt-5.4",
+    "classification_temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260328_092959",
+    "experiment": "support",
+    "relabeled_by": "gpt-4o-mini",
+    "relabel_temperature": 0.0
+  },
+  "parent_topics": {
+    "y1": "theoretical computer science",
+    "y2": "economics"
+  },
+  "classification_topics": {
+    "x1": "complexity theory (computational complexity, P vs NP, complexity classes, hardness results, reductions, circuit complexity, space/time complexity bounds)",
+    "x2": "macroeconomics (GDP, inflation, monetary policy, fiscal policy, business cycles, economic growth, unemployment, central banking, aggregate demand/supply)",
+    "x3": "mechanism design (auction design, incentive compatibility, social choice, matching markets, market design, algorithmic game theory, incentive mechanisms)"
+  },
+  "prompts": [
+    {
+      "name": "y2",
+      "label": "y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.005,
+        "x2": 0.44,
+        "x3": 0.215
+      },
+      "std": {
+        "x1": 0.0158113883008419,
+        "x2": 0.10488088481701516,
+        "x3": 0.06258327785172862
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Economic Implications of Learning by Doing",
+            "A Theory of the Consumption Function",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Problem of Social Cost",
+            "An Economic Analysis of Fertility",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "A Behavioral Model of Rational Choice",
+            "The General Theory of Employment",
+            "A Theory of the Allocation of Time",
+            "The Economics of Information",
+            "The Tragedy of the Commons",
+            "The Nature of the Firm",
+            "A Theory of Justice",
+            "The Theory of Economic Regulation",
+            "The Economic Approach to Human Behavior",
+            "Increasing Returns and Long-Run Growth",
+            "The Price System as a Mechanism for Using Knowledge"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Economic Implications of Learning by Doing",
+            "A Theory of the Consumption Function",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Problem of Social Cost",
+            "An Economic Analysis of Fertility",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "The Nature of the Firm",
+            "A Theory of the Allocation of Time",
+            "The Economics of Discrimination",
+            "Rational Expectations and the Theory of Price Movements",
+            "The Tragedy of the Commons",
+            "The General Theory of Employment",
+            "A Monetary History of the United States",
+            "The Theory of Economic Development",
+            "The Economic Consequences of the Peace",
+            "The Theory of Public Expenditure",
+            "The Pure Theory of Public Expenditure"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Problem of Social Cost",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "A Contribution to the Theory of Economic Growth",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "An Economic Analysis of Fertility",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "The Nature of the Firm",
+            "A Monetary History of the United States, 1867\u20131960",
+            "The General Theory of Employment, Interest and Money",
+            "Capital in the Twenty-First Century",
+            "The Theory of Economic Development",
+            "The Economics of Discrimination",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "The Strategy of Economic Development",
+            "The Theory of Economic Regulation",
+            "The Price of Inequality",
+            "Why Nations Fail"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Economic Consequences of Peace",
+            "A Theory of the Consumption Function",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Problem of Social Cost",
+            "An Economic Analysis of Fertility",
+            "The Nature of the Firm",
+            "A Monetary History of the United States, 1867\u20131960",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Use of Knowledge in Society",
+            "The Theory of Economic Regulation",
+            "The Role of Monetary Policy",
+            "A Behavioral Model of Rational Choice",
+            "The General Theory of Employment",
+            "The Quantity Theory of Money: A Restatement",
+            "Economic Growth and Income Inequality",
+            "The Economics of Discrimination",
+            "The Coase Theorem",
+            "The Theory of Optimum Currency Areas",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "An Economic Theory of Democracy",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "Capitalism, Socialism and Democracy",
+            "The Theory of Economic Development",
+            "Risk, Uncertainty, and Profit",
+            "The Pure Theory of Public Expenditure",
+            "A Theory of Justice",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "The Economic Approach to Human Behavior",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Theory of Moral Sentiments",
+            "The Road to Serfdom"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.3,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Economic Consequences of Peace",
+            "A Theory of the Consumption Function",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Problem of Social Cost",
+            "An Economic Theory of Democracy",
+            "The Nature of the Firm",
+            "The General Theory of Employment, Interest and Money",
+            "Capitalism, Socialism and Democracy",
+            "The Theory of Economic Development",
+            "Risk, Uncertainty, and Profit",
+            "The Theory of Political Economy",
+            "The Affluent Society",
+            "The Road to Serfdom",
+            "The Wealth of Nations",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "The Economics of Discrimination",
+            "A Monetary History of the United States, 1867\u20131960",
+            "The Theory of Moral Sentiments",
+            "The Economic Institutions of Capitalism"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Economic Implications of Learning by Doing",
+            "A Theory of Production",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Economic Growth and Income Inequality",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "An Economic Theory of Democracy",
+            "A Theory of the Consumption Function",
+            "Portfolio Selection",
+            "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "The Use of Knowledge in Society",
+            "The Theory of Economic Regulation",
+            "Job Market Signaling",
+            "Rational Expectations and the Theory of Price Movements",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Tragedy of the Commons",
+            "Prospect Theory: An Analysis of Decision under Risk"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.35,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Economic Consequences of Peace",
+            "A Theory of the Consumption Function",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "An Economic Analysis of Fertility",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "The Economics of Information",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "A Behavioral Model of Rational Choice",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons",
+            "The Theory of Economic Regulation",
+            "A Monetary History of the United States, 1867\u20131960",
+            "The General Theory of Employment, Interest and Money",
+            "Capitalism, Socialism and Democracy"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Economic Consequences of Peace",
+            "A Theory of the Consumption Function",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "A Contribution to the Theory of Economic Growth",
+            "The Problem of Social Cost",
+            "An Economic Analysis of Fertility",
+            "The Use of Knowledge in Society",
+            "A Monetary History of the United States, 1867\u20131960",
+            "The General Theory of Employment, Interest and Money",
+            "Capital in the Twenty-First Century",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "The Nature of the Firm",
+            "Risk, Uncertainty, and Profit",
+            "The Theory of Economic Development",
+            "The Economics of Discrimination",
+            "A Theory of Justice",
+            "The Wealth of Nations",
+            "The Road to Serfdom",
+            "The Affluent Society",
+            "Development as Freedom"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Economic Consequences of Peace",
+            "A Theory of the Consumption Function",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "An Economic Analysis of Fertility",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "The Economics of Discrimination",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "A Behavioral Model of Rational Choice",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons",
+            "The Theory of Economic Regulation",
+            "A Monetary History of the United States, 1867\u20131960",
+            "The General Theory of Employment, Interest and Money",
+            "Capitalism, Socialism and Democracy"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.35,
+            "x3": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y2",
+      "label": "\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.125,
+        "x2": 0.01,
+        "x3": 0.005
+      },
+      "std": {
+        "x1": 0.08579691784155834,
+        "x2": 0.0316227766016838,
+        "x3": 0.0158113883008419
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Island Biogeography",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Hallmarks of Cancer",
+            "The Selfish Gene",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Origin of Species",
+            "The Double Helix",
+            "The Extended Phenotype",
+            "The Logic of Scientific Discovery",
+            "The Principles of Quantum Mechanics"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Island Biogeography",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Selfish Gene",
+            "The Hallmarks of Cancer",
+            "The Origin of Species",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Double Helix",
+            "The Extended Phenotype",
+            "The Logic of Scientific Discovery",
+            "The Principles of Quantum Mechanics"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The Structure of Scientific Revolutions",
+            "The Hallmarks of Cancer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The Elements of Statistical Learning",
+            "On the Origin of Species",
+            "The Theory of Island Biogeography",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "The Selfish Gene",
+            "The Double Helix",
+            "The Extended Phenotype",
+            "The Logic of Scientific Discovery",
+            "The Principles of Quantum Mechanics",
+            "Computing Machinery and Intelligence",
+            "The Nature of Statistical Learning Theory"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey on Image Captioning",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Island Biogeography",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "The Selfish Gene",
+            "The Origin of Species",
+            "The Double Helix",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Nature of the Chemical Bond",
+            "A Relational Model of Data for Large Shared Data Banks",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "The Theory of Economic Regulation",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.1,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Island Biogeography",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The Chemical Basis of Morphogenesis",
+            "Computing Machinery and Intelligence",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Origin of Species",
+            "A Mathematical Theory of Communication",
+            "The Selfish Gene",
+            "The Extended Phenotype",
+            "The Double Helix",
+            "The Principles of Quantum Mechanics",
+            "The Large Scale Structure of Space-Time"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "A Survey on Image Captioning",
+            "The Structure of Scientific Revolutions",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "The Theory of Island Biogeography",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "The Origin of Continents and Oceans",
+            "The Selfish Gene",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+            "A Relational Model of Data for Large Shared Data Banks",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Densely Connected Convolutional Networks",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Adam: A Method for Stochastic Optimization"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "A Survey of Active Learning",
+            "The Structure of Scientific Revolutions",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "The Theory of Island Biogeography",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Selfish Gene",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "The Origin of Species",
+            "The Double Helix",
+            "The Extended Phenotype",
+            "The Logic of Scientific Discovery",
+            "The Principles of Quantum Mechanics",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Island Biogeography",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Hallmarks of Cancer",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "The PageRank Citation Ranking: Bringing Order to the Web",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "The Origin of Species",
+            "The Selfish Gene",
+            "The Double Helix",
+            "The Nature of Statistical Learning Theory",
+            "A Relational Model of Data for Large Shared Data Banks",
+            "The Elements of Statistical Learning",
+            "The Logic of Scientific Discovery"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "A Survey on Image Captioning",
+            "The Structure of Scientific Revolutions",
+            "The Double Helix",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "The Hallmarks of Cancer",
+            "A Mathematical Theory of Communication",
+            "The Theory of Island Biogeography",
+            "The Selfish Gene",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Chemical Basis of Morphogenesis",
+            "The Origin of Species",
+            "The Principles of Quantum Mechanics",
+            "The Feynman Lectures on Physics",
+            "The Extended Phenotype"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "A Survey of Active Learning",
+            "The Structure of Scientific Revolutions",
+            "The Selfish Gene",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Theory of Island Biogeography",
+            "A Mathematical Theory of Communication",
+            "The Origin of Continents and Oceans",
+            "The Hallmarks of Cancer",
+            "The Nature of the Chemical Bond",
+            "The Tragedy of the Commons",
+            "The Extended Phenotype",
+            "The Double Helix",
+            "The Society of Mind",
+            "The Logic of Scientific Discovery"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "label": "y1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.7,
+        "x2": 0.0,
+        "x3": 0.01
+      },
+      "std": {
+        "x1": 0.07453559924999299,
+        "x2": 0.0,
+        "x3": 0.021081851067789197
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Power of Randomization in On-Line Algorithms",
+            "A Theory of the Learnable",
+            "Computational Complexity of Games and Puzzles",
+            "The Price of Anarchy",
+            "Graph Minors. I. Excluding a Forest",
+            "Communication Complexity"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Interactive Proof Systems",
+            "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+            "A Theory of the Learnable",
+            "The Power of Randomization in On-Line Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Monotone Circuit Complexity of Boolean Functions",
+            "Communication Complexity",
+            "On the Degree of Unsovability of Post's Problem",
+            "The Complexity of Computing the Permanent",
+            "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+            "Graph Minors. XIII. The Disjoint Paths Problem"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Complexity of Theorem-Proving Procedures",
+            "An n log n Algorithm for Minimizing States in a Finite Automaton",
+            "A Fast Algorithm for Finding Dominators in a Flowgraph",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Byzantine Generals Problem",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Knowledge and Common Knowledge in a Distributed Environment",
+            "Interactive Proof Systems",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "A Theory of the Learnable",
+            "On the Complexity of Matrix Multiplication",
+            "The Power of the Church-Turing Thesis",
+            "Computing Machinery and Intelligence"
+          ],
+          "vector": {
+            "x1": 0.65,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "A Fast Quantum Mechanical Algorithm for Database Search",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "A Theory of the Learnable",
+            "Randomized Algorithms",
+            "The Power of Randomization in Network Routing",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Monotone Circuit Value Problem is Log Space Complete for P",
+            "On the Degree of Difficulty of Computing a Function and a Partial Ordering of Recursive Sets",
+            "Computing Machinery and Intelligence",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "A Basis for a Mathematical Theory of Computation"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time Bounds for Selection",
+            "Fast Pattern Matching in Strings",
+            "Randomized Algorithms",
+            "The Probabilistic Method",
+            "Interactive Proof Systems",
+            "Probabilistically Checkable Proofs: A New Characterization of NP",
+            "A Theory of the Learnable",
+            "Computational Complexity of Approximate Counting",
+            "The Power of Randomization in On-Line Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "Communication Complexity",
+            "A New Characterization of Complete Problems in NP",
+            "The Monotone Circuit Complexity of Boolean Functions",
+            "Graph Minors. XIII. The Disjoint Paths Problem"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time Bounds for Selection",
+            "Fast Pattern Matching in Strings",
+            "Randomized Algorithms",
+            "The Probabilistic Method",
+            "Interactive Proof Systems",
+            "Probabilistically Checkable Proofs: A New Characterization of NP",
+            "A Theory of the Learnable",
+            "Computational Complexity of Games and Puzzles",
+            "The Power of Quantum Computation",
+            "Quantum Complexity Theory",
+            "Communication Complexity",
+            "A New Characterization of Complete Problems in NP",
+            "The Design and Analysis of Computer Algorithms",
+            "Computers and Intractability: A Guide to the Theory of NP-Completeness"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "The Probabilistic Analysis of Matching Heuristics",
+            "A Theory of the Learnable",
+            "Interactive Proof Systems",
+            "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Power of Randomization in Network Algorithms",
+            "Communication Complexity",
+            "On the Power of Quantum Computation",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "The Monotone Circuit Complexity of Boolean Functions",
+            "Computational Complexity of Approximate Counting",
+            "The Lambda Calculus: Its Syntax and Semantics"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "The Power of Randomness in Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Probabilistically Checkable Proofs Theorem",
+            "Interactive Proofs and the Hardness of Approximating Cliques",
+            "A Theory of the Learnable",
+            "Computational Complexity of Games and Puzzles",
+            "Quantum Complexity Theory",
+            "The Price of Anarchy in Games of Incomplete Information"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Knowledge and Common Knowledge in a Distributed Environment",
+            "Interactive Proof Systems",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Power of Randomization",
+            "A Theory of the Learnable",
+            "Proofs that Yield Nothing But Their Validity or All Languages in NP Have Zero-Knowledge Proof Systems",
+            "On the Power of Quantum Computation",
+            "Quantum Complexity Theory",
+            "PCP Characterizations of NP: Towards a Polynomial-Time Approximation Scheme for Clique"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time Bounds for Selection",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "The Power of Randomization in Network Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Byzantine Generals Problem",
+            "On the Complexity of Matrix Multiplication",
+            "A New Approach to the Maximum-Flow Problem",
+            "Computational Complexity of Continuous Linear Operators",
+            "The Number of Lines in a Matroid with No U2,n-Minor"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND y2",
+      "label": "y1\u2227y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.46,
+        "x2": 0.0,
+        "x3": 0.775
+      },
+      "std": {
+        "x1": 0.08432740427115677,
+        "x2": 0.0,
+        "x3": 0.0978945010372561
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Computing Correlated Equilibria in Multi-Player Games",
+            "On the Complexity of Nash Equilibria",
+            "A Polynomial-Time Approximation Scheme for the Euclidean Traveling Salesman Problem",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "Approximation and Truthful Mechanisms for Combinatorial Auctions",
+            "The Price of Anarchy in Cost Sharing Games",
+            "Selfish Routing and the Price of Anarchy",
+            "Revenue Equivalence in Auction Theory",
+            "Optimal Auction Design",
+            "Combinatorial Auctions and Generalizations",
+            "Market Equilibria and Linear Programming: Formulation, Existence, and Computation",
+            "The Complexity of Market Equilibria",
+            "Computing Arrow-Debreu Equilibria: From Fisher to Nash and Back",
+            "Communication Complexity of Approximate Nash Equilibria",
+            "The Price of Stability in Games of Incomplete Information",
+            "Algorithmic Mechanism Design",
+            "Online Algorithms in Market Design",
+            "Matching Markets: Theory and Practice"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Computing Correlated Equilibria in Multi-Player Games",
+            "On the Complexity of Nash Equilibria",
+            "A Polynomial-Time Algorithm for the Assignment Problem",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "College Admissions and the Stability of Marriage",
+            "Incentives and Efficiency in the Groves-Clarke Mechanism",
+            "Optimal Auction Design",
+            "Revenue Equivalence in Auctions",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation and Truthful Mechanisms for Combinatorial Auctions",
+            "The Price of Anarchy in Cost Sharing Games",
+            "Selfish Routing and the Price of Anarchy",
+            "How Bad is Selfish Routing?",
+            "Market Equilibria with Production: Existence, Computation, and Complexity",
+            "Computing Arrow-Debreu Equilibria: Worst-Case and Smoothed Complexity",
+            "The Communication Complexity of Efficient Allocation Problems",
+            "An Analysis of the Generalized Second Price Auction",
+            "Prediction Markets, Mechanism Design, and Cooperative Game Theory"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Computing Correlated Equilibria in Multi-Player Games",
+            "Communication Complexity and Mechanism Design",
+            "Approximately Efficient Cost-Sharing Mechanisms",
+            "Price of Anarchy",
+            "Selfish Routing and the Price of Anarchy",
+            "The Price of Stability for Congestion Games",
+            "On the Impossibility of Efficient, Budget-Balanced, Anonymous Cost-Sharing Mechanisms",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Truthful Approximation Mechanisms for Combinatorial Auctions",
+            "Revenue Maximization in an Optical Network",
+            "The Border's Theorem and the Complexity of Optimal Auctions",
+            "Simple and Approximately Optimal Mechanisms",
+            "Prophet Inequalities and Posted Price Mechanisms",
+            "Market Equilibrium with Transaction Costs",
+            "Computing Walrasian Equilibria: Fast Algorithms and Structural Properties",
+            "The Communication Complexity of Approximate Nash Equilibria",
+            "Menu-Size Complexity in Auctions"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium as a Computational Problem",
+            "On the Complexity of Equilibria",
+            "The Price of Anarchy",
+            "Selfish Routing and the Price of Anarchy",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation Algorithms for Combinatorial Auctions with Complement-Free Bidders",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "Revenue Equivalence in Multi-Item Auctions",
+            "The Communication Complexity of Efficient Allocation Problems",
+            "How Bad is Selfish Routing?",
+            "Efficiency Loss in a Network Resource Allocation Game",
+            "Computing Walrasian Equilibria: Fast Algorithms and Structural Properties",
+            "The Complexity of Market Equilibria with Gross Substitute Utilities",
+            "A Polynomial-Time Algorithm for the Arrow-Debreu Nash Bargaining Game",
+            "Mechanism Design via Differential Privacy",
+            "Approximately Optimal Mechanism Design",
+            "The Sample Complexity of Revenue Maximization"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computing Correlated Equilibria in Multi-Player Games",
+            "The Complexity of Computing a Nash Equilibrium",
+            "On the Complexity of Nash Equilibria",
+            "Market Equilibrium as a Linear Complementarity Problem",
+            "The Complexity of Market Equilibria",
+            "Arrow-Debreu and Nash Equilibria: Computational Complexity and Algorithms",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation Algorithms for Combinatorial Auctions with Complement-Free Bidders",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "Algorithmic Mechanism Design",
+            "Revenue Equivalence in Auctions with Budgets",
+            "The Price of Anarchy in Games of Incomplete Information",
+            "Smoothness and the Price of Anarchy",
+            "Selfish Routing and the Price of Anarchy",
+            "How Bad is Selfish Routing?",
+            "Stable Matchings and Their Relation to Other Combinatorial Problems",
+            "College Admissions and the Stability of Marriage",
+            "Kidney Exchange",
+            "Online Bipartite Matching and Ad Allocation"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 1.0
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium as a Computational Problem",
+            "Communication Complexity and Mechanism Design",
+            "Approximately Efficient Cost-Sharing Mechanisms",
+            "Price of Anarchy",
+            "Selfish Routing and the Price of Anarchy",
+            "The Complexity of Markets with Additive Utilities",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Revenue Maximization in an Optical Network",
+            "On the Impossibility of Efficient, Budget-Balanced, Anonymous Cost-Sharing Mechanisms",
+            "The Communication Complexity of Efficient Allocation Problems",
+            "Walrasian Equilibrium with Gross Substitutes? A General Existence and Welfare Theorem",
+            "Computing Arrow-Debreu Equilibria: On the Complexity of Fixed Point Problems",
+            "The Price of Stability",
+            "Mechanism Design via Differential Privacy",
+            "Prophet Inequalities and Posted-Price Mechanisms",
+            "Simple Auctions with Simple Strategies",
+            "The Sample Complexity of Revenue Maximization"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computing Correlated Equilibria in Multi-Player Games",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium with Transaction Costs",
+            "On the Complexity of Equilibria",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximately Efficient Cost-Sharing Mechanisms",
+            "The Price of Anarchy in Cost Sharing Games",
+            "Selfish Routing and the Price of Anarchy",
+            "How Bad is Selfish Routing?",
+            "Revenue Maximization in an Optical Network",
+            "Mechanism Design via Differential Privacy",
+            "Approximately Optimal Mechanism Design",
+            "The Communication Complexity of Efficient Allocation Problems",
+            "Walrasian Equilibrium with Gross Substitutes",
+            "A Polynomial-Time Algorithm for the Arrow-Debreu Market Equilibrium Problem",
+            "Spending Constraint Utility Markets",
+            "Fisher Markets and Equilibria",
+            "The Complexity of Market Equilibria",
+            "Truthful Approximation Mechanisms for Combinatorial Auctions"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.0,
+            "x3": 0.85
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium as a Computational Problem",
+            "The Price of Anarchy in Routing and Load Balancing",
+            "Selfish Routing and the Price of Anarchy",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation Algorithms for Combinatorial Auctions with Complement-Free Bidders",
+            "VCG-Based Mechanisms for Combinatorial Auctions",
+            "Revenue Equivalence in Multi-Item Auctions",
+            "Communication Complexity of Approximate Nash Equilibria",
+            "The Query Complexity of Correlated Equilibria",
+            "Computing Walrasian Equilibria: Fast Algorithms and Structural Properties",
+            "On the Complexity of the Core in Coalition Formation",
+            "Mechanism Design via Differential Privacy",
+            "Approximately Optimal Mechanism Design",
+            "Prophet Inequalities and Posted Price Mechanisms",
+            "The Sample Complexity of Revenue Maximization",
+            "Algorithmic Pricing via Virtual Valuations",
+            "Fair Division and the Geometry of Proportionality"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium as a Computational Problem",
+            "The Price of Anarchy in Routing and Load Balancing",
+            "Selfish Routing and the Price of Anarchy",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation Algorithms for Combinatorial Auctions with Complement-Free Bidders",
+            "Truthful Mechanisms for One-Parameter Agents",
+            "Revenue Equivalence in Multi-Item Auctions",
+            "Optimal Auction Design",
+            "The Communication Complexity of Approximate Nash Equilibria",
+            "Computing Walrasian Equilibria: Fast Algorithms and Structural Properties",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Kidney Exchange in Dynamic Sparse Heterogeneous Pools",
+            "Matching Markets with Contracts",
+            "A Course in Game Theory",
+            "Mechanism Design via Differential Privacy",
+            "Prophet Inequalities and Posted-Price Mechanisms",
+            "The Simple Economics of Approximately Optimal Auctions"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.85
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "Computational Complexity and Information",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium as a Computational Problem",
+            "Communication Complexity and Mechanism Design",
+            "Combinatorial Auctions with Decreasing Marginal Utilities",
+            "Approximation Algorithms and Incentive Compatibility",
+            "The Price of Anarchy in Cost Sharing Games",
+            "Selfish Routing and the Price of Anarchy",
+            "How Bad is Selfish Routing?",
+            "On the Impossibility of Efficient, Strategy-Proof, and Non-Dictatorial Social Choice Rules",
+            "Revenue Equivalence in Auctions and Related Pricing Procedures",
+            "Optimal Auction Design",
+            "Multi-Item Auctions with Budget-Constrained Bidders",
+            "Prophet Inequalities and Online Mechanism Design",
+            "Stable Matching and Indifference",
+            "Kidney Exchange in Dynamic Sparse Heterogeneous Pools",
+            "The Complexity of Walrasian Equilibrium",
+            "Computing Arrow-Debreu Equilibria: From Fisher to Arrow-Debreu via Convex Programming",
+            "A Polynomial-Time Algorithm for the Arrow-Debreu Market Equilibrium Problem"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 OR y2",
+      "label": "y1\u2228y2",
+      "num_seeds": 30,
+      "mean": {
+        "x1": 0.275,
+        "x2": 0.32166666666666666,
+        "x3": 0.23833333333333334
+      },
+      "std": {
+        "x1": 0.07514354080117552,
+        "x2": 0.14543829911881778,
+        "x3": 0.12572776648126624
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in n-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "Individual Choice Behavior",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "The Use of Knowledge in Society",
+            "A Contribution to the Theory of Economic Growth"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.35,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in n-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Theory of Justice",
+            "Individual Choice Behavior",
+            "An Experimental Analysis of Ultimatum Bargaining",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Theory of Incentives: The Principal-Agent Model"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.15,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Randomized Algorithms",
+            "Probabilistically Checkable Proofs and the Hardness of Approximation Problems",
+            "The Price of Anarchy in Games of Incomplete Information",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in n-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Theory of Economic Regulation",
+            "Mechanism Design in a Changing World",
+            "Auction Theory",
+            "The Theory of Incentives: The Principal-Agent Model"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.35,
+            "x3": 0.35
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Theory of the Learnable",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of Justice",
+            "The Economic Implications of Learning by Doing",
+            "The Theory of Economic Regulation",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Individual Choice Behavior: A Theoretical Analysis",
+            "The Use of Knowledge in Society"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.25,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "Rational Expectations and the Theory of Price Movements",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Job Market Signaling",
+            "The Problem of Social Cost",
+            "A Behavioral Model of Rational Choice",
+            "Individual Choice Behavior: A Theoretical Analysis",
+            "Games and Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.5,
+            "x3": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of Production",
+            "The Problem of Social Cost",
+            "Economic Calculation in the Socialist Commonwealth",
+            "An Economic Theory of Democracy",
+            "The Use of Knowledge in Society",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Job Market Signaling",
+            "The Theory of Incentives: The Principal-Agent Model",
+            "Mechanism Design in Large Economies"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.4,
+            "x3": 0.35
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "The Theory of Incentives: The Principal-Agent Model",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "A Theory of Auctions and Competitive Bidding",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Mechanism Design: A Linear Programming Approach",
+            "Algorithmic Game Theory",
+            "The Price of Anarchy in Games of Incomplete Information",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Computing Machinery and Intelligence",
+            "The Nature of Computation",
+            "Arrow's Impossibility Theorem",
+            "The Theory of Economic Regulation"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.15,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "An Experimental Analysis of Ultimatum Bargaining"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.2,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Theory of the Consumption Function",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "More Is Different",
+            "Equilibrium Points in N-Person Games",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "The Tragedy of the Commons",
+            "Coase Theorem"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.5,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "A Theory of the Consumption Function",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "More Is Different",
+            "Arrow's Impossibility Theorem",
+            "The Use of Knowledge in Society",
+            "A Contribution to the Theory of Economic Growth",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Coase Theorem",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.6,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Probabilistic Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "Theory of Games and Economic Behavior",
+            "Arrow's Impossibility Theorem"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.3,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Theory of Production",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "An Experimental Analysis of Ultimatum Bargaining",
+            "Prospect Theory: An Analysis of Decision under Risk"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.25,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity of Equilibria and Fixed Points",
+            "Algorithmic Game Theory",
+            "The Price of Anarchy",
+            "A Course in Game Theory",
+            "Communication Complexity",
+            "Probabilistically Checkable Proofs and the Hardness of Approximation",
+            "The Complexity of Computing a Nash Equilibrium",
+            "Market Equilibrium Computation and Complexity",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "The Theory of Incentives in Principal-Agent Relationships",
+            "Mechanism Design and Approximation",
+            "Revenue Equivalence in Auctions",
+            "The Foundations of Mechanism Design",
+            "Matching Theory",
+            "On the Impossibility of Efficient Bargaining",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "Rationalizable Strategic Behavior",
+            "Computing Walrasian Equilibria",
+            "The Complexity of Optimal Mechanism Design",
+            "Approximation Algorithms for Combinatorial Auctions"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of Production",
+            "The Use of Knowledge in Society",
+            "The Problem of Social Cost",
+            "An Economic Theory of Democracy",
+            "Individual Choice Behavior",
+            "Equilibrium Points in N-Person Games",
+            "Theory of Games and Economic Behavior",
+            "Arrow's Impossibility Theorem",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.5,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "Individual Choice Behavior",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "An Experimental Analysis of Ultimatum Bargaining",
+            "Prospect Theory: An Analysis of Decision under Risk"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.15,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Use of Knowledge in Society",
+            "The Problem of Social Cost",
+            "An Economic Theory of Democracy",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "More Is Different",
+            "The Tragedy of the Commons",
+            "A Contribution to the Theory of Economic Growth"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.6,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time Bounds for Selection",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Theory of the Consumption Function",
+            "An Economic Theory of Democracy",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Mechanism Design in a Changing World",
+            "Auction Theory: A Guide to the Literature"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.3,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Theory of the Learnable",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Computers and Intractability: A Guide to the Theory of NP-Completeness",
+            "The Probabilistically Checkable Proofs Theorem",
+            "Interactive Proof Systems",
+            "A Mathematical Theory of Communication",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "Mechanism Design in Theory and Practice",
+            "Individual Choice Behavior",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.25,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Problem of Social Cost",
+            "An Economic Theory of Democracy",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Job Market Signaling",
+            "The Theory of Incentives: The Principal-Agent Model",
+            "Algorithmic Game Theory"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.45,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Randomized Algorithms",
+            "Probabilistically Checkable Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "The Price of Anarchy",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Contribution to the Theory of Economic Growth",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Mechanism Design in a Changing World",
+            "Auction Theory",
+            "Individual Strategy and Social Structure: An Evolutionary Theory of Institutions"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.25,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Theory of the Consumption Function",
+            "The Nature of the Firm",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "More Is Different",
+            "The Use of Knowledge in Society",
+            "Individual Choice Behavior",
+            "Games and Economic Behavior",
+            "Theory of Games and Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.5,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Theory of Economic Regulation",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information",
+            "Job Market Signaling",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "An Experimental Analysis of Ultimatum Bargaining",
+            "Prospect Theory: An Analysis of Decision under Risk"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.5,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Theory of Production",
+            "The Economic Implications of Learning by Doing",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Individual Choice Behavior: A Theoretical Analysis",
+            "The Theory of Economic Development"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.3,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Incentives: The Principal-Agent Model",
+            "A Theory of Fairness, Competition, and Cooperation",
+            "Computing Machinery and Intelligence",
+            "Probabilistically Checkable Proofs: A New Characterization of NP",
+            "Interactive Proof Systems",
+            "The Byzantine Generals Problem",
+            "No-Regret Learning in Repeated Games"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.15,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy in Routing and Load Balancing",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Theory of Auctions and Competitive Bidding",
+            "Job Market Signaling",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior: A Theoretical Analysis",
+            "Arrow\u2019s Impossibility Theorem"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.25,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Behavioral Model of Rational Choice",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Economic Implications of Learning by Doing"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.25,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Probabilistic Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "A Theory of the Consumption Function",
+            "The Theory of Economic Development",
+            "The Economic Implications of Learning by Doing",
+            "An Experimental Analysis of Ultimatum Bargaining"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.35,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Randomized Algorithms",
+            "Probabilistically Checkable Proofs and the Hardness of Approximation",
+            "The Price of Anarchy in Routing and Load Balancing",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Theory of Auctions and Competitive Bidding",
+            "Job Market Signaling",
+            "The Nature of the Firm",
+            "The Economic Implications of Learning by Doing",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Individual Choice Behavior: A Theoretical Analysis",
+            "Arrow's Impossibility Theorem"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.25,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "A Theory of the Learnable",
+            "Algorithmic Game Theory",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Nature of the Firm",
+            "A Contribution to the Theory of Economic Growth",
+            "Equilibrium Points in N-Person Games",
+            "The Theory of Economic Regulation",
+            "The Economic Implications of Learning by Doing",
+            "Rational Fools: A Critique of the Behavioral Foundations of Economic Theory",
+            "More Is Different",
+            "The Use of Knowledge in Society",
+            "A Behavioral Model of Rational Choice",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Problem of Social Cost",
+            "Individual Strategy and Social Structure: An Evolutionary Theory of Institutions"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.3,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Computability and Logic",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "A Mathematical Theory of Communication",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "On the Computational Complexity of Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Price of Anarchy",
+            "Algorithmic Game Theory",
+            "Stable Marriage and Its Relation to Other Combinatorial Problems",
+            "Equilibrium Points in N-Person Games",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "The Theory of Economic Regulation",
+            "A Theory of the Consumption Function",
+            "The Nature of the Firm",
+            "The Problem of Social Cost",
+            "Individual Choice Behavior",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "Mechanism Design in a Changing World"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.3,
+            "x3": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND NOT y2",
+      "label": "y1\u2227\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.6699999999999999,
+        "x2": 0.0,
+        "x3": 0.03
+      },
+      "std": {
+        "x1": 0.06324555320336758,
+        "x2": 0.0,
+        "x3": 0.053748384988657
+      },
+      "seeds": [
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+            "A New Approach to the Maximum-Flow Problem",
+            "The Polytime Hierarchy Collapses if the Boolean Hierarchy Collapses",
+            "Interactive Proof Systems",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "A Theory of the Learnable",
+            "Random Oracles are Practical: A Paradigm for Designing Efficient Protocols",
+            "The Knowledge Complexity of Interactive Proof Systems",
+            "On the Power of Quantum Computation",
+            "Quantum Complexity Theory",
+            "Communication Complexity",
+            "The Monotone Circuit Complexity of Boolean Functions",
+            "A Fast Quantum Mechanical Algorithm for Database Search",
+            "The Complexity of Computing a Nash Equilibrium"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Reducibility Among Combinatorial Problems",
+            "A Fast Algorithm for Particle Simulations",
+            "Randomized Algorithms",
+            "The Probabilistic Checkable Proofs Theorem",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "A Basis for a Mathematical Theory of Computation",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "A Theory of Type Polymorphism in Programming",
+            "Linear Logic",
+            "The Temporal Logic of Programs",
+            "Alternation",
+            "The Complexity of Computing the Permanent",
+            "On the Power of Quantum Computation",
+            "Probabilistic Algorithms for Matrix and Polynomial Identities"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Context-Free Grammars",
+            "The Complexity of Theorem-Proving Procedures",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "A Basis for a Mathematical Theory of Computation",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "On the Algebraic Theory of Context-Free Languages",
+            "The Complexity of Computing the Permanent",
+            "A Theory of the Learnable",
+            "Query Complexity of Approximate Nash Equilibria",
+            "The Power of Randomness in Computation"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "The Power of Randomness in Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Byzantine Generals Problem",
+            "On the Degree of Randomness of Infinite Sequences",
+            "A Theory of the Learnable",
+            "Checking Experiments on Finite State Machines",
+            "The Temporal Logic of Programs",
+            "Alternation"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "Context-Free Grammars",
+            "The Complexity of Theorem-Proving Procedures",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "A Basis for a Mathematical Theory of Computation",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "On the Computational Complexity of Algorithms",
+            "The Power of the Church-Rosser Property",
+            "Computing Machinery and Intelligence",
+            "An Axiomatic Basis for Computer Programming",
+            "The Temporal Logic of Programs",
+            "The Complexity of Computing the Permanent"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+            "Randomized Algorithms",
+            "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+            "Interactive Proof Systems",
+            "Knowledge and Common Knowledge in a Distributed Environment",
+            "A Theory of the Learnable",
+            "The Power of Randomization in On-Line Algorithms",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Temporal Logic of Programs",
+            "Alternation",
+            "The Monotone Circuit Value Problem is Log Space Complete for P",
+            "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "Communicating Sequential Processes"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "The Probabilistic Method",
+            "Interactive Proof Systems",
+            "Probabilistically Checkable Proofs: A New Characterization of NP",
+            "A Theory of the Learnable",
+            "On the Power of Quantum Computation",
+            "Communication Complexity",
+            "The Monotone Circuit Complexity of Boolean Functions",
+            "Graph Minors I: Excluding a Forest",
+            "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+            "The Complexity of Computing the Permanent",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "The Lambda Calculus: Its Syntax and Semantics"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Reducibility Among Combinatorial Problems",
+            "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "The Power of Randomness in Interactive Proof Systems",
+            "A Subexponential-Time Algorithm for the Dihedral Hidden Subgroup Problem",
+            "On the Degree of Unsolvability of Hilbert's Tenth Problem",
+            "The Complexity of Computing the Permanent",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "A Theory of the Learnable",
+            "Query Complexity of Approximate Nash Equilibria",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "Communication Complexity"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.1
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "On the Number of Primes Less Than a Given Magnitude",
+            "Reducibility Among Combinatorial Problems",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Fast Parallel Sorting Algorithms",
+            "The Complexity of Theorem-Proving Procedures",
+            "A Note on Two Problems in Connexion with Graphs",
+            "Self-Stabilizing Systems in Spite of Distributed Control",
+            "Generating Random Permutations by Coin Tossing",
+            "An O(n log n) Sorting Algorithm",
+            "The Power of the Church-Rosser Property",
+            "Alternation",
+            "Probabilistic Algorithms",
+            "On the Complexity of Matrix Multiplication",
+            "A Theory of the Learnable",
+            "Query Complexity of Approximate Nash Equilibria",
+            "The Lambda Calculus: Its Syntax and Semantics",
+            "Communication Complexity"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "A Mathematical Theory of Communication",
+            "Three Models for the Description of Language",
+            "The Complexity of Theorem-Proving Procedures",
+            "Time, Clocks, and the Ordering of Events in a Distributed System",
+            "Reducibility Among Combinatorial Problems",
+            "Fast Parallel Sorting Algorithms",
+            "Randomized Algorithms",
+            "Probabilistic Encryption",
+            "Interactive Proof Systems",
+            "Knowledge Complexity of Interactive Proof Systems",
+            "A Polynomial-Time Algorithm for Linear Programming",
+            "The Power of Randomness in Interactive Proof Systems",
+            "Proof Verification and the Hardness of Approximation Problems",
+            "Self-Testing/Correcting with Applications to Numerical Problems",
+            "A Subexponential Lower Bound for Monotone Graph Properties",
+            "The PCP Theorem and Hardness of Approximation Problems",
+            "Algebraic Methods for Interactive Proof Systems",
+            "On the (Im)possibility of Obfuscating Programs",
+            "Graph Minors. XX. Wagner's Conjecture"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y1",
+      "label": "\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.02,
+        "x2": 0.03,
+        "x3": 0.02
+      },
+      "std": {
+        "x1": 0.0632455532033676,
+        "x2": 0.06324555320336758,
+        "x3": 0.048304589153964794
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Denoising Diffusion Probabilistic Models",
+            "YOLOv3: An Incremental Improvement",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "The Elements of Statistical Learning",
+            "Random Forests",
+            "Latent Dirichlet Allocation",
+            "A Survey of Active Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly Accurate Protein Structure Prediction with AlphaFold"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly Accurate Protein Structure Prediction with AlphaFold",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "The Structure of Scientific Revolutions",
+            "The Strength of Weak Ties",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "On the Electrodynamics of Moving Bodies"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Adam: A Method for Stochastic Optimization",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Auto-Encoding Variational Bayes",
+            "Long Short-Term Memory",
+            "A Survey on Image Captioning",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+            "Segment Anything",
+            "Language Models are Few-Shot Learners"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Denoising Diffusion Probabilistic Models",
+            "YOLOv3: An Incremental Improvement",
+            "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+            "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "Bigtable: A Distributed Storage System for Structured Data",
+            "The Google File System",
+            "DALL\u00b7E: Creating Images from Text",
+            "Segment Anything",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Language Models are Few-Shot Learners"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Denoising Diffusion Probabilistic Models",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "A Survey on Image Captioning",
+            "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+            "Auto-Encoding Variational Bayes",
+            "Long Short-Term Memory",
+            "Learning Transferable Visual Models From Natural Language Supervision",
+            "Segment Anything",
+            "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Random Forests",
+            "XGBoost: A Scalable Tree Boosting System",
+            "The Elements of Statistical Learning",
+            "A Survey of Active Learning",
+            "MapReduce: Simplified Data Processing on Large Clusters",
+            "The Google File System",
+            "Bigtable: A Distributed Storage System for Structured Data",
+            "ResNet Strikes Back: An Improved Training Procedure in timm",
+            "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+            "Segment Anything"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "A Survey of Active Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Scientific Revolutions",
+            "The Theory of Economic Development",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Strength of Weak Ties",
+            "The Nature of the Chemical Bond",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem"
+          ],
+          "vector": {
+            "x1": 0.2,
+            "x2": 0.15,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "A Survey of Active Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Scientific Revolutions",
+            "The Tragedy of the Commons",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Strength of Weak Ties",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Theory of Economic Regulation",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.15,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Auto-Encoding Variational Bayes",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "The Elements of Statistical Learning",
+            "Random Forests",
+            "XGBoost: A Scalable Tree Boosting System",
+            "A Survey on Image Captioning"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Densely Connected Convolutional Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "YOLOv3: An Incremental Improvement",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Auto-Encoding Variational Bayes",
+            "A Survey on Image Captioning",
+            "The Human Genome Project",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Highly Accurate Protein Structure Prediction with AlphaFold",
+            "The Hallmarks of Cancer"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y2 AND NOT y1",
+      "label": "y2\u2227\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.475,
+        "x3": 0.34
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.08249579113843054,
+        "x3": 0.1286683937707919
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "An Economic Analysis of Democracy",
+            "A Theory of Optimum Currency Areas",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "The Coase Theorem",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "A Contribution to the Theory of Economic Growth",
+            "Increasing Returns and Long-Run Growth",
+            "The Tragedy of the Commons",
+            "The Economics of Discrimination",
+            "A Theory of Justice",
+            "The Theory of Economic Regulation",
+            "Prospect Theory: An Analysis of Decision under Risk"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "Capitalism, Socialism and Democracy",
+            "The Problem of Social Cost",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Theory of Human Capital",
+            "An Economic Theory of Democracy",
+            "The Economic Implications of Learning by Doing",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "A Contribution to the Theory of Economic Growth",
+            "The Costs of Accidents: A Legal and Economic Analysis",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "An Essay on the Nature and Significance of Economic Science",
+            "The Theory of Economic Development",
+            "The Affluent Society",
+            "The Theory of Public Finance",
+            "The Economics of Discrimination"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.45,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "Capitalism, Socialism and Democracy",
+            "The Problem of Social Cost",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "A Theory of Human Capital",
+            "An Economic Theory of Democracy",
+            "The Economic Implications of Learning by Doing",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "A Contribution to the Theory of Economic Growth",
+            "Increasing Returns and Long-Run Growth",
+            "Endogenous Technological Change",
+            "The Costs of Accidents: A Legal and Economic Analysis",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "The Theory of Economic Regulation",
+            "An Analysis of Outlawing Prostitution",
+            "The Theory of Economic Development"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.4,
+            "x3": 0.15
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "An Economic Analysis of Fertility",
+            "The Role of Monetary Policy",
+            "The Costs of Accidents: A Legal and Economic Analysis",
+            "A Theory of Optimum Currency Areas",
+            "The Economics of Information",
+            "Production, Information Costs, and Economic Organization",
+            "Job Market Signaling",
+            "The Theory of Economic Regulation",
+            "An Almost Ideal Demand System",
+            "Returns to Scale and Aggregate Productivity in U.S. Manufacturing, 1959\u201373",
+            "On the Mechanics of Economic Development",
+            "Increasing Returns and Long-Run Growth",
+            "The Colonial Origins of Comparative Development: An Empirical Investigation"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.4
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "An Economic Theory of Democracy",
+            "A Contribution to the Theory of Economic Growth",
+            "Capital Accumulation and Economic Growth",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "Portfolio Selection",
+            "Risk, Uncertainty, and Profit",
+            "The Theory of Economic Development",
+            "Economic Growth and Income Inequality",
+            "The Costs of Accidents: A Legal and Economic Analysis",
+            "A Behavioral Model of Rational Choice",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "An Economic Theory of Democracy",
+            "A Contribution to the Theory of Economic Growth",
+            "The Role of Monetary Policy",
+            "The Use of Knowledge in Society",
+            "The Theory of Economic Regulation",
+            "Production, Information Costs, and Economic Organization",
+            "Job Market Signaling",
+            "Rational Expectations and the Theory of Price Movements",
+            "A Theory of Human Capital",
+            "The Economic Approach to Human Behavior",
+            "The Tragedy of the Commons",
+            "Returns to Scale and Aggregate Production Functions",
+            "On the Mechanics of Economic Development"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.35,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "The Nature of the Firm",
+            "Production, Information Costs, and Economic Organization",
+            "An Economic Theory of Democracy",
+            "A Contribution to the Theory of Economic Growth",
+            "Economic Growth and Income Inequality",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "Portfolio Selection",
+            "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+            "The Theory of Optimum Currency Areas",
+            "Migration, Unemployment and Development: A Two-Sector Analysis",
+            "Job Market Signaling",
+            "The Economics of Discrimination",
+            "A Behavioral Model of Rational Choice"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "Capitalism, Socialism and Democracy",
+            "The Economic Consequences of the Peace",
+            "The Problem of Social Cost",
+            "The Market for Lemons: Quality Uncertainty and the Market Mechanism",
+            "A Theory of Optimum Currency Areas",
+            "An Economic Theory of Democracy",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "Production, Information Costs, and Economic Organization",
+            "An Analysis of Outlawing Prostitution",
+            "The Theory of Economic Development",
+            "The Pure Theory of Public Expenditure",
+            "A Contribution to the Theory of Economic Growth",
+            "The Role of Monetary Policy",
+            "The Quantity Theory of Money: A Restatement",
+            "Economic Growth and Income Inequality",
+            "The Economics of Discrimination"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Economic Growth and Income Inequality",
+            "An Economic Theory of Democracy",
+            "The Nature of the Firm",
+            "The Use of Knowledge in Society",
+            "Production, Information Costs, and Economic Organization",
+            "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+            "The Role of Monetary Policy",
+            "Rational Expectations and the Theory of Price Movements",
+            "A Theory of Optimum Currency Areas",
+            "The Economics of Discrimination",
+            "Crime and Punishment: An Economic Approach",
+            "Prospect Theory: An Analysis of Decision under Risk",
+            "The Tragedy of the Commons"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.5,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "The Wealth of Nations",
+            "The General Theory of Employment, Interest and Money",
+            "A Theory of the Consumption Function",
+            "The Economic Implications of Learning by Doing",
+            "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+            "The Problem of Social Cost",
+            "A Contribution to the Theory of Economic Growth",
+            "Economic Growth and Income Inequality",
+            "The Role of Monetary Policy",
+            "An Economic Analysis of Fertility",
+            "Human Capital",
+            "The Tragedy of the Commons",
+            "A Theory of Optimum Currency Areas",
+            "The Use of Knowledge in Society",
+            "The Nature of the Firm",
+            "Production, Information Costs, and Economic Organization",
+            "Job Market Signaling",
+            "The Economics of Information",
+            "An Almost Ideal Demand System",
+            "Increasing Returns and Long-Run Growth"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.45,
+            "x3": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 AND y2)",
+      "label": "\u00ac(y1\u2227y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.04026315789473684,
+        "x2": 0.0,
+        "x3": 0.005
+      },
+      "std": {
+        "x1": 0.08100676533196195,
+        "x2": 0.0,
+        "x3": 0.0158113883008419
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Highly Accurate Protein Structure Prediction with Deep Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase Transition in Photonic Quasicrystals",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+            "On the Electrodynamics of Moving Bodies"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "A Survey on Image Captioning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "The Structure of Scientific Revolutions",
+            "The Selfish Gene",
+            "A Mathematical Theory of Communication",
+            "The Double Helix",
+            "The Origin of Species",
+            "The Principles of Quantum Mechanics",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Chemical Basis of Morphogenesis"
+          ],
+          "vector": {
+            "x1": 0.25,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Highly Accurate Protein Structure Prediction with Deep Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Walk",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Language Models are Few-Shot Learners",
+            "The Unreasonable Effectiveness of Data",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase Transition in the Quantum Spin Hall Insulator",
+            "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Using AI for scientific discovery",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase Transition in Quantum Walks",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid"
+          ],
+          "vector": {
+            "x1": 0.05263157894736842,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Insulator in Bi2Se3",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "The Human Genome Project",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Long Short-Term Memory",
+            "Generative Adversarial Nets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "The Sequence of the Human Genome",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Scalable Bayesian Optimization Using Deep Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "The Sequence of the Human Genome",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Scalable Bayesian Optimization Using Deep Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Auto-Encoding Variational Bayes",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Heavy Particle J",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "A short history of SHELX",
+            "The Structure of Scientific Revolutions",
+            "The Selfish Gene"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "The Sequence of the Human Genome",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Scalable Bayesian Optimization Using Deep Neural Networks",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 OR y2)",
+      "label": "\u00ac(y1\u2228y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.035,
+        "x2": 0.005,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.05296749527356901,
+        "x2": 0.0158113883008419,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "YOLOv3: An Incremental Improvement",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Double Helix"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Generative Adversarial Nets",
+            "Adam: A Method for Stochastic Optimization",
+            "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Scientific Revolutions",
+            "The Double Helix",
+            "Quantum Supremacy Using a Programmable Superconducting Processor",
+            "Highly Accurate Protein Structure Prediction with AlphaFold"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Using AI for Scientific Discovery",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Ordinary Water: New Data and Interpretations Are Leading to a New Understanding of This Fascinating Substance",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "Language Models are Few-Shot Learners",
+            "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+            "Long Short-Term Memory"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Using AI for scientific discovery",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+            "Experimental Observation of a Topological Phase Transition in Quantum Walks",
+            "Quantum supremacy using a programmable superconducting processor",
+            "Long-term potentiation in the hippocampus"
+          ],
+          "vector": {
+            "x1": 0.1,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On the Electrodynamics of Moving Bodies",
+            "The Origin of Species"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Using AI for scientific discovery",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "The Structure of Scientific Revolutions",
+            "A Mathematical Theory of Communication",
+            "The Chemical Basis of Morphogenesis",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "On Computable Numbers, with an Application to the Entscheidungsproblem",
+            "The Origin of Species",
+            "The Selfish Gene"
+          ],
+          "vector": {
+            "x1": 0.15,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Insulator in Bi2Se3",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "The Theory of Island Biogeography",
+            "Global patterns of biodiversity and conservation",
+            "Climate Change 2021: The Physical Science Basis",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Scalable Bayesian Optimization Using Deep Neural Networks"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "AlphaFold: Highly accurate protein structure prediction with deep learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Phase in a Quantum Spin Hall Insulator",
+            "A Structure for Deoxyribose Nucleic Acid",
+            "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+            "The Theory of Island Biogeography",
+            "Global and regional drivers of accelerating CO2 emissions",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "Long Short-Term Memory"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Denoising Diffusion Probabilistic Models",
+            "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+            "Segment Anything",
+            "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+            "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+            "AlphaFold: Highly Accurate Protein Structure Prediction with Deep Learning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Observation of Gravitational Waves from a Binary Black Hole Merger",
+            "Experimental Observation of a Topological Insulator in Bi2Se3",
+            "The Structure of Ordinary Water: New Data and Interpretations Are Leading to a New Understanding of This Fascinating Liquid",
+            "A Fast Learning Algorithm for Deep Belief Nets",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the Game of Go with Deep Neural Networks and Tree Search"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Attention Is All You Need",
+            "Deep Residual Learning for Image Recognition",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Generative Adversarial Nets",
+            "Auto-Encoding Variational Bayes",
+            "Playing Atari with Deep Reinforcement Learning",
+            "Mastering the game of Go with deep neural networks and tree search",
+            "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "Language Models are Few-Shot Learners",
+            "Denoising Diffusion Probabilistic Models",
+            "A Survey on Image Captioning",
+            "The Hallmarks of Cancer",
+            "CRISPR-Cas9 and Targeted Genome Editing: A New Era in Molecular Biology",
+            "Highly accurate protein structure prediction with AlphaFold",
+            "The Structure of Scientific Revolutions",
+            "The Selfish Gene",
+            "A Mathematical Theory of Communication",
+            "The Double Helix",
+            "The Origin of Species",
+            "On the Electrodynamics of Moving Bodies"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

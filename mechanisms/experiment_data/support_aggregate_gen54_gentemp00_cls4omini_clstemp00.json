@@ -1,0 +1,1598 @@
+{
+  "config": {
+    "generation_model": "gpt-5.4",
+    "classification_model": "gpt-5.4",
+    "temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260327_084008",
+    "batch_classification": true,
+    "relabeled_by": "gpt-4o-mini",
+    "relabel_temperature": 0.0
+  },
+  "seeds": [
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "The Relative Efficiency of Procedures",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Lower Bounds for Constant Depth Circuits for Prefix Problems",
+          "Natural Proofs",
+          "IP = PSPACE",
+          "Interactive Proof Systems",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "A Theory of the Learnable",
+          "The Complexity of Computing the Permanent",
+          "Circuit Lower Bounds and Non-Reducibility to Sparse Sets",
+          "The Price Level, Relative Prices, and Economic Stability: Aspects of the Interwar Debate",
+          "The General Theory of Employment",
+          "The Role of Monetary Policy",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Some Unpleasant Monetarist Arithmetic"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.25,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "A Theory of the Learnable",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Power of Randomization in Network Algorithms",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "A New Characterization of Complete Problems in NP",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Communication Complexity",
+          "The Number of Lines in a Hypergraph with No 2-Packing"
+        ],
+        "vector": {
+          "x1": 0.65,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Development",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "Capital in the Twenty-First Century",
+          "The General Theory of Employment, Interest and Money",
+          "The Wealth of Nations",
+          "An Essay on the Principle of Population",
+          "The Road to Serfdom",
+          "The Theory of Moral Sentiments",
+          "The Affluent Society",
+          "The Economics of Welfare",
+          "Risk, Uncertainty, and Profit",
+          "The Theory of the Leisure Class"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.45,
+          "x3": 0.25
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "A Theory of the Learnable",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Power of Randomization in Network Algorithms",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "A New Characterization of Complete Problems in NP",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Communication Complexity",
+          "The Number of Lines in a Hypergraph with No 2-Packing",
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Development",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "Capital in the Twenty-First Century",
+          "The General Theory of Employment, Interest and Money",
+          "The Wealth of Nations",
+          "An Essay on the Principle of Population",
+          "The Road to Serfdom",
+          "The Theory of Moral Sentiments",
+          "The Affluent Society",
+          "The Economics of Welfare",
+          "Risk, Uncertainty, and Profit",
+          "The Theory of the Leisure Class"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "The Complexity of Theorem-Proving Procedures",
+          "Time-Bounded Random Access Machines",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Relativizations of the P=?NP Question",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Non-Reducibility to Sparse Sets",
+          "NP-complete Problems and Physical Reality",
+          "A Contribution to the Theory of Economic Growth",
+          "The General Theory of Employment, Interest and Money",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Time to Build and Aggregate Fluctuations",
+          "Some International Evidence on Output-Inflation Tradeoffs",
+          "Discretion versus Policy Rules in Practice",
+          "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory",
+          "The Science of Monetary Policy: A New Keynesian Perspective",
+          "Prices, Wages, and the U.S. NAIRU in the 1990s",
+          "Understanding the Great Depression"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "A Fast Algorithm for Finding Dominators in a Flowgraph",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "A New Characterization of Complete Problems for the Class NP",
+          "The Power of Randomness in Interactive Proofs",
+          "The Complexity of Computing the Permanent",
+          "A Theory of the Learnable",
+          "Communication Complexity",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Graph Minors. I. Excluding a Forest"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "Production, Information Costs, and Economic Organization",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Regulation",
+          "A Behavioral Model of Rational Choice",
+          "The Use of Knowledge in Society",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "Risk, Uncertainty, and Profit",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Moral Sentiments",
+          "The Wealth of Nations",
+          "The Theory of Political Economy"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.25,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "A Fast Algorithm for Finding Dominators in a Flowgraph",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "A New Characterization of Complete Problems for the Class NP",
+          "The Power of Randomness in Interactive Proofs",
+          "The Complexity of Computing the Permanent",
+          "A Theory of the Learnable",
+          "Communication Complexity",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Graph Minors. I. Excluding a Forest",
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "Production, Information Costs, and Economic Organization",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Regulation",
+          "A Behavioral Model of Rational Choice",
+          "The Use of Knowledge in Society",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "Risk, Uncertainty, and Profit",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Moral Sentiments",
+          "The Wealth of Nations",
+          "The Theory of Political Economy"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.375,
+          "x3": 0.025
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "NP-Completeness and Degree of Difficulty of the Satisfiability Problem",
+          "The Relative Efficiency of Paterson's Algorithm for Dynamic Storage Allocation",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Lower Bounds for Constant Depth Circuits for Prefix Problems",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Average-Case Complexity",
+          "The Theory of Economic Policy in a Dynamic Model",
+          "A Contribution to the Theory of Economic Growth",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Time to Build and Aggregate Fluctuations",
+          "Some Unpleasant Monetarist Arithmetic",
+          "Discretion versus Policy Rules in Practice",
+          "Prices vs. Quantities",
+          "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory",
+          "The Science of Monetary Policy: A New Keynesian Perspective"
+        ],
+        "vector": {
+          "x1": 0.55,
+          "x2": 0.45,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Basis for a Mathematical Theory of Computation",
+          "Alternation",
+          "The Power of Randomization in Network Algorithms",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "A New Characterization of Complete Problems in NP",
+          "The Design and Analysis of Computer Algorithms",
+          "Computational Complexity of Propositional Proof Systems",
+          "Communication Complexity",
+          "The Monotone Circuit Complexity of Boolean Functions"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "Production, Information Costs, and Economic Organization",
+          "An Economic Theory of Democracy",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Risk, Uncertainty, and Profit",
+          "The Use of Knowledge in Society",
+          "Economic Calculation in the Socialist Commonwealth",
+          "The Theory of Economic Regulation",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Strategy of Economic Development",
+          "The Economic Institutions of Capitalism",
+          "The Theory of Moral Sentiments"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.3,
+          "x3": 0.1
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Basis for a Mathematical Theory of Computation",
+          "Alternation",
+          "The Power of Randomization in Network Algorithms",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "A New Characterization of Complete Problems in NP",
+          "The Design and Analysis of Computer Algorithms",
+          "Computational Complexity of Propositional Proof Systems",
+          "Communication Complexity",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "Production, Information Costs, and Economic Organization",
+          "An Economic Theory of Democracy",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Risk, Uncertainty, and Profit",
+          "The Use of Knowledge in Society",
+          "Economic Calculation in the Socialist Commonwealth",
+          "The Theory of Economic Regulation",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Strategy of Economic Development",
+          "The Economic Institutions of Capitalism",
+          "The Theory of Moral Sentiments"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.5,
+          "x3": 0.05
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "NP-Completeness and Physical Reality",
+          "Relativizations of the P=?NP Question",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Average-Case Complexity",
+          "The PCP Theorem and Hardness of Approximation",
+          "A Contribution to the Theory of Economic Growth",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Some Unpleasant Monetarist Arithmetic",
+          "Time to Build and Aggregate Fluctuations",
+          "Prices and Quantities in Business Cycle Theory",
+          "The Time Series Behavior of Real GNP",
+          "Monetary Policy Rules",
+          "Discretion versus Policy Rules in Practice",
+          "The Science of Monetary Policy: A New Keynesian Perspective",
+          "The Great Moderation"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "The Power of the Church-Rosser Property",
+          "The Monotone Circuit Value Problem is Log Space Complete for P",
+          "Graph Minors. XIII. The Disjoint Paths Problem",
+          "A New Characterization of Complete Problems in NP",
+          "The Complexity of Computing the Permanent",
+          "Communication Complexity",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Quantum Complexity Theory"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The General Theory of Employment",
+          "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+          "The Problem of Social Cost",
+          "A Contribution to the Theory of Economic Growth",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "The Use of Knowledge in Society",
+          "The Theory of Economic Regulation",
+          "A Monetary History of the United States, 1867\u20131960",
+          "Capital in the Twenty-First Century",
+          "Prospect Theory: An Analysis of Decision under Risk",
+          "The Tragedy of the Commons",
+          "The Coase Theorem",
+          "The Role of Monetary Policy",
+          "Economic Growth and Income Inequality",
+          "A Behavioral Model of Rational Choice",
+          "The Theory of Optimum Currency Areas",
+          "The Price System as a Mechanism for Using Knowledge"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.5,
+          "x3": 0.35
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "The Power of the Church-Rosser Property",
+          "The Monotone Circuit Value Problem is Log Space Complete for P",
+          "Graph Minors. XIII. The Disjoint Paths Problem",
+          "A New Characterization of Complete Problems in NP",
+          "The Complexity of Computing the Permanent",
+          "Communication Complexity",
+          "The Space Complexity of Approximating the Frequency Moments",
+          "Quantum Complexity Theory",
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The General Theory of Employment",
+          "The Market for \u201cLemons\u201d: Quality Uncertainty and the Market Mechanism",
+          "The Problem of Social Cost",
+          "A Contribution to the Theory of Economic Growth",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "The Use of Knowledge in Society",
+          "The Theory of Economic Regulation",
+          "A Monetary History of the United States, 1867\u20131960",
+          "Capital in the Twenty-First Century",
+          "Prospect Theory: An Analysis of Decision under Risk",
+          "The Tragedy of the Commons",
+          "The Coase Theorem",
+          "The Role of Monetary Policy",
+          "Economic Growth and Income Inequality",
+          "A Behavioral Model of Rational Choice",
+          "The Theory of Optimum Currency Areas",
+          "The Price System as a Mechanism for Using Knowledge"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.45,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "The Complexity of Theorem-Proving Procedures",
+          "Time Bounds for Selection",
+          "A Note on the Time Required to Multiply Matrices",
+          "Separations of Nondeterministic Time Complexity Classes",
+          "Relativizations of the P=?NP Question",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Non-Reducibility to Sparse Sets",
+          "The Monotone Circuit Complexity of Clique",
+          "A Theory of the Learnable",
+          "A Contribution to the Theory of Economic Growth",
+          "The General Theory of Employment, Interest and Money",
+          "The Quantity Theory of Money\u2014A Restatement",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Some Unpleasant Monetarist Arithmetic",
+          "Time to Build and Aggregate Fluctuations",
+          "Understanding the Great Depression",
+          "The Dynamic Effects of Aggregate Demand and Supply Disturbances",
+          "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.45,
+          "x3": 0.05
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Probabilistic Method",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs: A New Characterization of NP",
+          "A Theory of the Learnable",
+          "Computational Complexity of Games and Puzzles",
+          "Communication Complexity",
+          "The Power of Randomness in Computation",
+          "Approximation Algorithms for NP-hard Problems",
+          "Lower Bounds by Probabilistic Arguments",
+          "The Lambda Calculus: Its Syntax and Semantics"
+        ],
+        "vector": {
+          "x1": 0.85,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "An Economic Theory of Democracy",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Risk, Uncertainty, and Profit",
+          "The Theory of Political Economy",
+          "An Essay on the Nature and Significance of Economic Science",
+          "The Economic Implications of Learning by Doing",
+          "A Theory of Justice",
+          "The Strategy of Economic Development",
+          "The Affluent Society",
+          "The Road to Serfdom"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.35,
+          "x3": 0.05
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Probabilistic Method",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs: A New Characterization of NP",
+          "A Theory of the Learnable",
+          "Computational Complexity of Games and Puzzles",
+          "Communication Complexity",
+          "The Power of Randomness in Computation",
+          "Approximation Algorithms for NP-hard Problems",
+          "Lower Bounds by Probabilistic Arguments",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "An Economic Theory of Democracy",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Risk, Uncertainty, and Profit",
+          "The Theory of Political Economy",
+          "An Essay on the Nature and Significance of Economic Science",
+          "The Economic Implications of Learning by Doing",
+          "A Theory of Justice",
+          "The Strategy of Economic Development",
+          "The Affluent Society",
+          "The Road to Serfdom"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "The Complexity of Theorem-Proving Procedures",
+          "Time Bounds for Selection",
+          "A Note on the Time Required to Generate All Permutations",
+          "Separations of Nondeterministic Time Complexity Classes",
+          "Relativizations of the P=?NP Question",
+          "NP-Completeness, Sparse Sets, and Quasipolynomial-Time Complexity",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Average-Case Complexity",
+          "A Theory of the Learnable",
+          "The Power of Randomness in Computation",
+          "The Complexity of Computing the Permanent",
+          "The Price of Robustness",
+          "Rules Rather Than Discretion: The Inconsistency of Optimal Plans",
+          "Time to Build and Aggregate Fluctuations",
+          "Some International Evidence on Output-Inflation Tradeoffs",
+          "Monetary Policy Rules in Practice",
+          "The Science of Monetary Policy: A New Keynesian Perspective",
+          "Discretion versus Policy Rules in Practice"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.25,
+          "x3": 0.1
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "A Theory of the Learnable",
+          "The Power of Randomization in On-Line Algorithms",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Byzantine Generals Problem",
+          "On the Complexity of Matrix Multiplication",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Computational Complexity of Linear Programming",
+          "The Number of Lines in a Matroid with No U2,n-Minor"
+        ],
+        "vector": {
+          "x1": 0.6,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The General Theory of Employment, Interest and Money",
+          "The Use of Knowledge in Society",
+          "A Contribution to the Theory of Economic Growth",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "An Economic Theory of Democracy",
+          "A Theory of Optimum Currency Areas",
+          "The Role of Monetary Policy",
+          "The Nature of the Firm",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Economic Growth and Income Inequality",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Tragedy of the Commons",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Public Finance",
+          "The Affluent Society"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.5,
+          "x3": 0.15
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "A Theory of the Learnable",
+          "The Power of Randomization in On-Line Algorithms",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Byzantine Generals Problem",
+          "On the Complexity of Matrix Multiplication",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Computational Complexity of Linear Programming",
+          "The Number of Lines in a Matroid with No U2,n-Minor",
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The General Theory of Employment, Interest and Money",
+          "The Use of Knowledge in Society",
+          "A Contribution to the Theory of Economic Growth",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "An Economic Theory of Democracy",
+          "A Theory of Optimum Currency Areas",
+          "The Role of Monetary Policy",
+          "The Nature of the Firm",
+          "Capitalism, Socialism and Democracy",
+          "The Theory of Economic Development",
+          "Economic Growth and Income Inequality",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Tragedy of the Commons",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Public Finance",
+          "The Affluent Society"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "The Complexity of Theorem-Proving Procedures",
+          "Time Bounds for Selection",
+          "A Note on the Time Required to Multiply Matrices",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Relativizations of the P=?NP Question",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Non-Reducibility to Sparse Sets",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "A Theory of the Learnable",
+          "A New Characterization of Complete Problems for Nondeterministic Time Complexity Classes",
+          "The Theory of NP-Completeness",
+          "A Monetary History of the United States, 1867\u20131960",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Some Unpleasant Monetarist Arithmetic",
+          "Time to Build and Aggregate Fluctuations",
+          "Prices vs. Quantities",
+          "The Time Series Implications of Real Business Cycle Models",
+          "Discretion versus Policy Rules in Practice"
+        ],
+        "vector": {
+          "x1": 0.65,
+          "x2": 0.4,
+          "x3": 0.05
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "The Probabilistic Analysis of Matching Heuristics",
+          "A Theory of the Learnable",
+          "Knowledge and Common Knowledge in a Distributed Environment",
+          "The Power of Randomization in Network Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+          "The Monotone Circuit Value Problem is Log Space Complete for P",
+          "The Complexity of Computing a Function on a General Purpose Computer",
+          "Communication Complexity",
+          "The Number of Lines in a Matroid with No U2,n-Minor"
+        ],
+        "vector": {
+          "x1": 0.65,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Development",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "The Role of Monetary Policy",
+          "The Use of Knowledge in Society",
+          "Production, Information Costs, and Economic Organization",
+          "A Theory of Justice",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Moral Sentiments",
+          "Capital in the Twenty-First Century",
+          "Why Nations Fail",
+          "The Wealth of Nations"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.5,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "The Probabilistic Analysis of Matching Heuristics",
+          "A Theory of the Learnable",
+          "Knowledge and Common Knowledge in a Distributed Environment",
+          "The Power of Randomization in Network Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs and the Hardness of Approximation Problems",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "A New Characterization of Complete Problems for Nondeterministic Logarithmic Space",
+          "The Monotone Circuit Value Problem is Log Space Complete for P",
+          "The Complexity of Computing a Function on a General Purpose Computer",
+          "Communication Complexity",
+          "The Number of Lines in a Matroid with No U2,n-Minor",
+          "The Economic Consequences of the Peace",
+          "A Contribution to the Theory of Economic Growth",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Theory of the Consumption Function",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Development",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "The Role of Monetary Policy",
+          "The Use of Knowledge in Society",
+          "Production, Information Costs, and Economic Organization",
+          "A Theory of Justice",
+          "The Economics of Discrimination",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "The Theory of Moral Sentiments",
+          "Capital in the Twenty-First Century",
+          "Why Nations Fail",
+          "The Wealth of Nations"
+        ],
+        "vector": {
+          "x1": 0.3,
+          "x2": 0.5,
+          "x3": 0.15
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "Some Results on Tape-Bounded Turing Machines",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Lower Bounds for Constant Depth Circuits for Prefix Problems",
+          "Relativizations of the P=?NP Question",
+          "Natural Proofs",
+          "Circuit Lower Bounds and Average-Case Complexity",
+          "The Theory of NP-Completeness",
+          "A Contribution to the Theory of Economic Growth",
+          "The General Theory of Employment, Interest and Money",
+          "The Role of Monetary Policy",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Time to Build and Aggregate Fluctuations",
+          "Some International Evidence on Output-Inflation Tradeoffs",
+          "Discretion versus Policy Rules in Practice",
+          "Monetary Policy Rules and Macroeconomic Stability",
+          "The Dynamic Effects of Aggregate Demand and Supply Disturbances"
+        ],
+        "vector": {
+          "x1": 0.5714285714285714,
+          "x2": 0.42857142857142855,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "Knowledge Complexity of Interactive Proof Systems",
+          "The Power of Randomization in Network Algorithms",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Complexity of Computing the Permanent",
+          "A Theory of the Learnable",
+          "Computational Complexity of Approximate Nash Equilibria",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Communication Complexity"
+        ],
+        "vector": {
+          "x1": 0.7,
+          "x2": 0.0,
+          "x3": 0.05
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "Capital in the Twenty-First Century",
+          "The Theory of Economic Development",
+          "The Affluent Society",
+          "The Road to Serfdom",
+          "The Wealth of Nations",
+          "An Essay on the Principle of Population",
+          "The Theory of Moral Sentiments",
+          "The Economic Institutions of Capitalism",
+          "Development as Freedom"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.6,
+          "x3": 0.2
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Fast Parallel Algorithms for Short-Range Molecular Dynamics",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "Knowledge Complexity of Interactive Proof Systems",
+          "The Power of Randomization in Network Algorithms",
+          "A Fast Quantum Mechanical Algorithm for Database Search",
+          "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "The Complexity of Computing the Permanent",
+          "A Theory of the Learnable",
+          "Computational Complexity of Approximate Nash Equilibria",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Communication Complexity",
+          "The Economic Consequences of the Peace",
+          "A Theory of the Consumption Function",
+          "The Problem of Social Cost",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The General Theory of Employment, Interest and Money",
+          "Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education",
+          "Capital in the Twenty-First Century",
+          "The Theory of Economic Development",
+          "The Affluent Society",
+          "The Road to Serfdom",
+          "The Wealth of Nations",
+          "An Essay on the Principle of Population",
+          "The Theory of Moral Sentiments",
+          "The Economic Institutions of Capitalism",
+          "Development as Freedom"
+        ],
+        "vector": {
+          "x1": 0.375,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On the Computational Complexity of Algorithms",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Machine-Independent Theory of the Complexity of Recursive Functions",
+          "The Relative Efficiency of Paterson\u2019s and Mankin\u2019s Algorithms for Certain NP-Complete Problems",
+          "Separating the Polynomial-Time Hierarchy by Oracles",
+          "Lower Bounds for Constant Depth Circuits for Prefix Problems",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "A Theory of the Consumption Function",
+          "The General Theory of Employment, Interest and Money",
+          "The Role of Monetary Policy",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Time to Build and Aggregate Fluctuations",
+          "Some International Evidence on Output-Inflation Tradeoffs",
+          "Discretion versus Policy Rules in Practice",
+          "Understanding the Great Depression",
+          "The Dynamic Effects of Aggregate Demand and Supply Disturbances",
+          "Monetary Policy Shocks: What Have We Learned and to What End?",
+          "The Science of Monetary Policy: A New Keynesian Perspective"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.55,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Computing Machinery and Intelligence",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "A Fast Algorithm for Finding Dominators in a Flowgraph",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Byzantine Generals Problem",
+          "On the Power of Quantum Computation",
+          "Quantum Complexity Theory",
+          "The Monotone Circuit Complexity of Boolean Functions"
+        ],
+        "vector": {
+          "x1": 0.8,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Implications of Learning by Doing",
+          "A Theory of the Consumption Function",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "A Theory of Optimum Currency Areas",
+          "The Role of Monetary Policy",
+          "The Use of Knowledge in Society",
+          "The Theory of Economic Regulation",
+          "Increasing Returns and Long-Run Growth",
+          "Prospect Theory: An Analysis of Decision under Risk",
+          "A Behavioral Model of Rational Choice",
+          "The Economics of Information",
+          "The Tragedy of the Commons",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capital in the Twenty-First Century",
+          "Why Nations Fail"
+        ],
+        "vector": {
+          "x1": 0.0,
+          "x2": 0.5,
+          "x3": 0.45
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Computing Machinery and Intelligence",
+          "Three Models for the Description of Language",
+          "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "A Fast Algorithm for Finding Dominators in a Flowgraph",
+          "Randomized Algorithms",
+          "Probabilistic Checking of Proofs and the Hardness of Approximation Problems",
+          "Interactive Proof Systems",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Polynomial-Time Algorithm for Linear Programming",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Byzantine Generals Problem",
+          "On the Power of Quantum Computation",
+          "Quantum Complexity Theory",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "The Economic Implications of Learning by Doing",
+          "A Theory of the Consumption Function",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Nature of the Firm",
+          "A Theory of Optimum Currency Areas",
+          "The Role of Monetary Policy",
+          "The Use of Knowledge in Society",
+          "The Theory of Economic Regulation",
+          "Increasing Returns and Long-Run Growth",
+          "Prospect Theory: An Analysis of Decision under Risk",
+          "A Behavioral Model of Rational Choice",
+          "The Economics of Information",
+          "The Tragedy of the Commons",
+          "A Theory of Justice",
+          "The General Theory of Employment, Interest and Money",
+          "Capital in the Twenty-First Century",
+          "Why Nations Fail"
+        ],
+        "vector": {
+          "x1": 0.45,
+          "x2": 0.55,
+          "x3": 0.175
+        }
+      }
+    },
+    {
+      "L1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "Reducibility Among Combinatorial Problems",
+          "The Complexity of Theorem-Proving Procedures",
+          "A Theory of the Learnable",
+          "Natural Proofs",
+          "Relativizations of the P=?NP Question",
+          "NP-completeness and Physical Reality",
+          "Circuit Lower Bounds and Average-Case Complexity",
+          "The Power of Randomness in Interactive Proofs",
+          "A Contribution to the Theory of Economic Growth",
+          "The Role of Monetary Policy",
+          "Rules Rather than Discretion: The Inconsistency of Optimal Plans",
+          "Some International Evidence on Output-Inflation Tradeoffs",
+          "Prices vs. Quantities",
+          "Discretion versus Policy Rules in Practice",
+          "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory",
+          "The Time Series Behavior of Real GNP",
+          "Understanding the Great Depression",
+          "The Great Moderation"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.0
+        }
+      },
+      "L2_y1": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs: A New Characterization of NP",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Basis for a Mathematical Theory of Computation",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "A Theory of the Learnable",
+          "Computational Complexity of Mathematical Problems",
+          "The Power of Randomization in On-Line Algorithms",
+          "Communication Complexity",
+          "On the Complexity of Matrix Multiplication",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Self-Stabilizing Systems in Spite of Distributed Control"
+        ],
+        "vector": {
+          "x1": 0.75,
+          "x2": 0.0,
+          "x3": 0.0
+        }
+      },
+      "L2_y2": {
+        "papers": [
+          "The Economic Implications of Learning by Doing",
+          "A Theory of the Consumption Function",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Regulation",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Role of Monetary Policy",
+          "Rational Expectations and the Theory of Price Movements",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "The Economics of Information",
+          "A Theory of Human Capital",
+          "The Price System as a Mechanism for Using Knowledge",
+          "Increasing Returns and Long-Run Growth",
+          "The Theory of Optimum Currency Areas",
+          "Economic Growth and Income Inequality",
+          "The Colonial Origins of Comparative Development: An Empirical Investigation"
+        ],
+        "vector": {
+          "x1": 0.05,
+          "x2": 0.7,
+          "x3": 0.35
+        }
+      },
+      "L2": {
+        "papers": [
+          "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "A Mathematical Theory of Communication",
+          "Three Models for the Description of Language",
+          "The Complexity of Theorem-Proving Procedures",
+          "Reducibility Among Combinatorial Problems",
+          "Time Bounds for Selection",
+          "Fast Parallel Sorting Algorithms",
+          "Randomized Algorithms",
+          "Interactive Proof Systems",
+          "Probabilistic Checkable Proofs: A New Characterization of NP",
+          "The Knowledge Complexity of Interactive Proof Systems",
+          "A Basis for a Mathematical Theory of Computation",
+          "The Lambda Calculus: Its Syntax and Semantics",
+          "A Theory of the Learnable",
+          "Computational Complexity of Mathematical Problems",
+          "The Power of Randomization in On-Line Algorithms",
+          "Communication Complexity",
+          "On the Complexity of Matrix Multiplication",
+          "The Monotone Circuit Complexity of Boolean Functions",
+          "Self-Stabilizing Systems in Spite of Distributed Control",
+          "The Economic Implications of Learning by Doing",
+          "A Theory of the Consumption Function",
+          "The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism",
+          "A Contribution to the Theory of Economic Growth",
+          "The Nature of the Firm",
+          "The Problem of Social Cost",
+          "An Economic Theory of Democracy",
+          "The Theory of Economic Regulation",
+          "The Use of Knowledge in Society",
+          "A Monetary History of the United States, 1867\u20131960",
+          "The Role of Monetary Policy",
+          "Rational Expectations and the Theory of Price Movements",
+          "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "The Economics of Information",
+          "A Theory of Human Capital",
+          "The Price System as a Mechanism for Using Knowledge",
+          "Increasing Returns and Long-Run Growth",
+          "The Theory of Optimum Currency Areas",
+          "Economic Growth and Income Inequality",
+          "The Colonial Origins of Comparative Development: An Empirical Investigation"
+        ],
+        "vector": {
+          "x1": 0.5,
+          "x2": 0.5,
+          "x3": 0.025
+        }
+      }
+    }
+  ],
+  "aggregates": {
+    "L1": {
+      "x1": {
+        "mean": 0.5621428571428572,
+        "std": 0.08431731987462009,
+        "values": [
+          0.75,
+          0.5,
+          0.55,
+          0.5,
+          0.5,
+          0.6,
+          0.65,
+          0.5714285714285714,
+          0.5,
+          0.5
+        ]
+      },
+      "x2": {
+        "mean": 0.4278571428571429,
+        "std": 0.10304051115350463,
+        "values": [
+          0.25,
+          0.5,
+          0.45,
+          0.5,
+          0.45,
+          0.25,
+          0.4,
+          0.42857142857142855,
+          0.55,
+          0.5
+        ]
+      },
+      "x3": {
+        "mean": 0.02,
+        "std": 0.03496029493900505,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.1,
+          0.05,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L2_y1": {
+      "x1": {
+        "mean": 0.72,
+        "std": 0.09486832980505139,
+        "values": [
+          0.65,
+          0.85,
+          0.6,
+          0.75,
+          0.85,
+          0.6,
+          0.65,
+          0.7,
+          0.8,
+          0.75
+        ]
+      },
+      "x2": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "x3": {
+        "mean": 0.005,
+        "std": 0.0158113883008419,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "L2_y2": {
+      "x1": {
+        "mean": 0.005,
+        "std": 0.0158113883008419,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.05
+        ]
+      },
+      "x2": {
+        "mean": 0.46499999999999997,
+        "std": 0.13550317749451896,
+        "values": [
+          0.45,
+          0.25,
+          0.3,
+          0.5,
+          0.35,
+          0.5,
+          0.5,
+          0.6,
+          0.5,
+          0.7
+        ]
+      },
+      "x3": {
+        "mean": 0.215,
+        "std": 0.13550317749451896,
+        "values": [
+          0.25,
+          0.05,
+          0.1,
+          0.35,
+          0.05,
+          0.15,
+          0.2,
+          0.2,
+          0.45,
+          0.35
+        ]
+      }
+    },
+    "L2": {
+      "x1": {
+        "mean": 0.41,
+        "std": 0.08990735972840785,
+        "values": [
+          0.375,
+          0.5,
+          0.3,
+          0.5,
+          0.5,
+          0.3,
+          0.3,
+          0.375,
+          0.45,
+          0.5
+        ]
+      },
+      "x2": {
+        "mean": 0.4875,
+        "std": 0.04602233757161359,
+        "values": [
+          0.5,
+          0.375,
+          0.5,
+          0.45,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.55,
+          0.5
+        ]
+      },
+      "x3": {
+        "mean": 0.042499999999999996,
+        "std": 0.06566962768281848,
+        "values": [
+          0.0,
+          0.025,
+          0.05,
+          0.0,
+          0.0,
+          0.0,
+          0.15,
+          0.0,
+          0.175,
+          0.025
+        ]
+      }
+    }
+  }
+}

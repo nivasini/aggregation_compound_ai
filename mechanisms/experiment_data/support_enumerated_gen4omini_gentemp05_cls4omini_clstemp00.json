@@ -1,0 +1,3093 @@
+{
+  "config": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.5,
+    "classification_model": "gpt-4o-mini",
+    "classification_temperature": 0.0,
+    "num_seeds": 10,
+    "list_length": 20,
+    "timestamp": "20260330_041456",
+    "experiment": "support"
+  },
+  "parent_topics": {
+    "y1": "theoretical computer science",
+    "y2": "economics"
+  },
+  "classification_topics": {
+    "x1": "complexity theory (computational complexity, P vs NP, complexity classes, hardness results, reductions, circuit complexity, space/time complexity bounds)",
+    "x2": "macroeconomics (GDP, inflation, monetary policy, fiscal policy, business cycles, economic growth, unemployment, central banking, aggregate demand/supply)",
+    "x3": "mechanism design (auction design, incentive compatibility, social choice, matching markets, market design, algorithmic game theory, incentive mechanisms)"
+  },
+  "prompts": [
+    {
+      "name": "y2",
+      "label": "y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.84,
+        "x3": 0.005
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.1505545305418162,
+        "x3": 0.0158113883008419
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The General Theory of Employment, Interest, and Money",
+            "Capital in the Twenty-First Century",
+            "A Contribution to the Theory of Economic Growth",
+            "The Role of Monetary Policy",
+            "The Economic Impact of COVID-19",
+            "Behavioral Economics: Past, Present, and Future",
+            "The Limits of Market Power",
+            "The Great Inflation: 1965-1982",
+            "Economic Growth and Income Inequality",
+            "The Theory of Moral Sentiments",
+            "An Inquiry into the Nature and Causes of the Wealth of Nations",
+            "The Economics of Climate Change",
+            "The Impact of Globalization on Economic Growth",
+            "The Role of Institutions in Economic Development",
+            "Economic Theory and the Role of Government",
+            "The Economics of Education: A Review of the Literature",
+            "Trade Liberalization and Economic Growth",
+            "The Political Economy of Development",
+            "The Economics of Health Care",
+            "The Paradox of Thrift: A Macroeconomic Perspective"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Development",
+            "Behavioral Economics: The Psychology of Decision Making",
+            "The Impact of Globalization on Income Inequality",
+            "An Analysis of the Labor Market Effects of Minimum Wage Increases",
+            "The Economics of Climate Change: A Review",
+            "Financial Crises and Economic Recovery: Lessons from History",
+            "The Effects of Trade Policy on Economic Growth",
+            "Understanding the Relationship Between Inflation and Unemployment",
+            "The Economics of Education: Returns to Investment in Human Capital",
+            "The Role of Central Banks in Financial Stability",
+            "Economic Growth and Environmental Sustainability: A Balancing Act",
+            "The Influence of Fiscal Policy on Economic Performance",
+            "The Economics of Health Care: Costs, Access, and Quality",
+            "The Impact of Technology on Labor Markets",
+            "The Economics of Poverty: Causes and Solutions",
+            "Urbanization and Economic Development: A Global Perspective",
+            "The Effects of Monetary Policy on Asset Prices",
+            "The Role of Entrepreneurship in Economic Growth",
+            "The Economics of Renewable Energy: Challenges and Opportunities",
+            "Analyzing the Effects of Taxation on Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Development",
+            "Behavioral Economics: A New Approach to Economic Decision-Making",
+            "The Impact of Monetary Policy on Economic Growth",
+            "Income Inequality and Economic Growth: A Global Perspective",
+            "The Economics of Climate Change: Mitigation and Adaptation Strategies",
+            "Trade Liberalization and Economic Performance: Evidence from Developing Countries",
+            "The Effects of Minimum Wage on Employment: A Comprehensive Review",
+            "Economic Crises and Their Impact on Labor Markets",
+            "The Relationship Between Education and Economic Growth",
+            "The Dynamics of Supply and Demand in Digital Markets",
+            "Fiscal Policy and Its Effects on Economic Stability",
+            "The Economics of Health Care: Cost, Access, and Quality",
+            "Innovation and Economic Growth: A Theoretical Framework",
+            "The Role of Foreign Direct Investment in Economic Development",
+            "Economic Policy Uncertainty and Its Effects on Investment",
+            "The Economics of Renewable Energy: Challenges and Opportunities",
+            "The Influence of Globalization on Local Economies",
+            "Economic Models of Poverty and Inequality",
+            "The Effects of Automation on Labor Markets and Wages",
+            "The Economics of Public Goods: Theory and Applications"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.75,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Behavioral Economics: The Role of Psychological Factors in Decision Making",
+            "Income Inequality and Economic Growth: A Review of the Literature",
+            "The Effects of Trade Liberalization on Economic Development",
+            "Analyzing the Relationship Between Inflation and Unemployment",
+            "The Economics of Climate Change: Costs and Benefits of Action",
+            "Understanding the Role of Institutions in Economic Performance",
+            "The Role of Technology in Economic Growth: A Historical Perspective",
+            "Labor Market Dynamics: The Impact of Automation on Employment",
+            "The Economics of Healthcare: Efficiency and Equity",
+            "Fiscal Policy and Its Impact on Aggregate Demand",
+            "The Relationship Between Education and Economic Outcomes",
+            "The Role of Foreign Direct Investment in Emerging Markets",
+            "Exploring the Economics of the Gig Economy",
+            "The Influence of Cultural Factors on Economic Behavior",
+            "The Economics of Renewable Energy: Challenges and Opportunities",
+            "An Empirical Analysis of the Phillips Curve",
+            "The Effects of Globalization on Local Economies",
+            "The Economics of Poverty: Causes and Solutions",
+            "The Role of Financial Markets in Economic Stability"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Income Inequality and Economic Development: A Global Perspective",
+            "Behavioral Economics: Insights into Consumer Decision Making",
+            "The Role of Technology in Shaping Economic Outcomes",
+            "Trade Policies and Their Effects on Emerging Markets",
+            "The Economics of Climate Change: Challenges and Solutions",
+            "Labor Market Dynamics in the Age of Automation",
+            "Fiscal Policy and Its Influence on Economic Stability",
+            "The Relationship Between Education and Economic Growth",
+            "Understanding the Gig Economy: Implications for Labor Markets",
+            "The Effects of Globalization on Local Economies",
+            "Analyzing the Economic Impact of Immigration",
+            "The Role of Financial Markets in Economic Development",
+            "Economic Theories of Happiness and Well-Being",
+            "The Influence of Political Stability on Economic Performance",
+            "Sustainable Development: Economic Strategies for the Future",
+            "The Economics of Health Care: Costs and Accessibility",
+            "Behavioral Finance: Market Anomalies and Investor Behavior",
+            "The Effects of Taxation on Economic Activity",
+            "Economic Resilience: Lessons from the COVID-19 Pandemic"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.75,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Minimum Wage Increases on Employment: Evidence from the Restaurant Industry",
+            "Behavioral Economics: A Review of the Literature and Implications for Policy",
+            "The Role of Financial Markets in Economic Growth: A Comparative Analysis",
+            "Income Inequality and Economic Growth: A Cross-Country Analysis",
+            "The Effects of Trade Liberalization on Economic Development: A Meta-Analysis",
+            "Monetary Policy and Inflation: An Empirical Study of Central Banks",
+            "The Economics of Climate Change: Cost-Benefit Analysis and Policy Implications",
+            "Public Debt and Economic Growth: Evidence from Advanced Economies",
+            "The Relationship Between Education and Economic Growth: A Global Perspective",
+            "Taxation and Economic Behavior: An Analysis of Tax Compliance and Evasion",
+            "The Influence of Technology on Labor Markets: A Sectoral Analysis",
+            "Globalization and Its Impact on Local Economies: A Case Study Approach",
+            "The Economics of Healthcare: Analyzing Cost, Access, and Quality",
+            "Consumer Behavior in the Digital Age: Implications for Economic Policy",
+            "The Effects of Immigration on Labor Markets: Evidence from Recent Studies",
+            "Financial Crises and Economic Recovery: Lessons from Historical Events",
+            "The Economics of Renewable Energy: Opportunities and Challenges",
+            "The Role of Institutions in Economic Development: A Comparative Study",
+            "Urbanization and Economic Growth: A Study of Emerging Markets",
+            "The Impact of Automation on Employment and Wages: A Sectoral Analysis"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Growth",
+            "Behavioral Economics: The Psychology of Decision-Making",
+            "The Impact of Trade Liberalization on Economic Growth",
+            "Income Inequality and Economic Development: A Global Perspective",
+            "The Economics of Climate Change: Challenges and Solutions",
+            "The Effects of Monetary Policy on Inflation and Unemployment",
+            "Market Structure and Competition: Implications for Economic Policy",
+            "The Relationship Between Education and Economic Growth",
+            "Fiscal Policy and Its Impact on Economic Stability",
+            "The Economics of Innovation and Technological Change",
+            "Labor Markets and Employment: Trends and Challenges",
+            "The Role of Foreign Direct Investment in Economic Development",
+            "Economic Crises: Causes, Consequences, and Policy Responses",
+            "The Intersection of Health Economics and Public Policy",
+            "The Economics of Poverty: Causes and Solutions",
+            "Globalization and Its Impact on Local Economies",
+            "The Economics of Renewable Energy: Opportunities and Challenges",
+            "The Role of Central Banks in Economic Stability",
+            "The Dynamics of Supply and Demand in Modern Economies",
+            "The Impact of Digital Currencies on Traditional Financial Systems"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.85,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Development",
+            "Behavioral Economics: The Impact of Psychological Factors on Economic Decision Making",
+            "The Effects of Monetary Policy on Economic Growth",
+            "Income Inequality and Economic Growth: A Review of the Literature",
+            "The Economics of Climate Change: A Review of the Evidence",
+            "Trade Liberalization and Its Impact on Economic Growth",
+            "The Relationship Between Education and Economic Development",
+            "The Economics of Health Care: Analyzing Cost and Access",
+            "Labor Markets and Economic Performance: A Global Perspective",
+            "The Impact of Technology on Economic Productivity",
+            "Fiscal Policy and Economic Stabilization: Lessons from the Great Recession",
+            "The Economics of Poverty: Causes and Solutions",
+            "Globalization and Its Economic Implications for Developing Countries",
+            "The Role of Small and Medium Enterprises in Economic Growth",
+            "The Economics of Renewable Energy: Costs and Benefits",
+            "The Influence of Consumer Behavior on Market Dynamics",
+            "The Impact of Foreign Direct Investment on Economic Growth",
+            "Behavioral Finance: Understanding Investor Behavior in Economic Markets",
+            "The Economics of Urbanization: Challenges and Opportunities",
+            "The Relationship Between Economic Policy and Environmental Sustainability"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Behavioral Economics: Insights from Psychology",
+            "The Role of Trade in Economic Development",
+            "Income Inequality and Economic Growth: A Review",
+            "The Economics of Climate Change: A Review of the Literature",
+            "Labor Market Dynamics and Unemployment: A Theoretical Framework",
+            "The Effect of Fiscal Policy on Aggregate Demand",
+            "Understanding the Economics of Health Care",
+            "The Role of Innovation in Economic Growth",
+            "The Economics of Education: Returns to Investment",
+            "Analyzing the Effects of Globalization on Local Economies",
+            "The Relationship Between Inflation and Unemployment",
+            "Natural Resources and Economic Development: A Paradox",
+            "The Economics of Public Goods and Externalities",
+            "The Influence of Consumer Behavior on Market Outcomes",
+            "The Role of Institutions in Economic Performance",
+            "Economic Modeling of Supply Chain Management",
+            "The Impact of Digital Currency on Traditional Banking",
+            "The Economics of Poverty: Causes and Solutions",
+            "The Effects of Immigration on Labor Markets and Wages"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.7,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Development",
+            "Behavioral Economics: The Psychology of Decision Making",
+            "The Impact of Trade on Economic Growth",
+            "Understanding the Phillips Curve: Inflation and Unemployment",
+            "The Economics of Climate Change: Policy Implications",
+            "The Effects of Monetary Policy on Economic Stability",
+            "Income Inequality and Economic Growth: A Global Perspective",
+            "The Dynamics of Labor Markets in the 21st Century",
+            "The Economics of Education: Returns to Investment",
+            "Analyzing the Gig Economy: Opportunities and Challenges",
+            "The Relationship Between Economic Freedom and Growth",
+            "The Role of Technology in Modern Economic Development",
+            "Public Goods and Externalities: An Economic Analysis",
+            "The Economics of Health Care: Access and Affordability",
+            "The Influence of Globalization on Local Economies",
+            "The Impact of Fiscal Policy on Economic Recovery",
+            "The Economics of Renewable Energy: Challenges and Opportunities",
+            "Understanding Market Structures: Competition vs. Monopoly",
+            "The Effects of Immigration on Labor Markets",
+            "The Role of Central Banks in Financial Stability"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.75,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y2",
+      "label": "\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.005,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.0158113883008419,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "The Role of CRISPR Technology in Modern Genetics",
+            "Advancements in Quantum Computing: A Survey",
+            "The Impact of Climate Change on Biodiversity",
+            "Neural Networks for Natural Language Processing: A Survey",
+            "Exploring the Human Microbiome: Implications for Health",
+            "Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "The Effects of Urbanization on Wildlife Populations",
+            "Blockchain Technology: Applications and Future Trends",
+            "Nanomaterials in Medicine: Current Applications and Future Perspectives",
+            "The Influence of Social Media on Mental Health",
+            "Renewable Energy Technologies: A Review of Current Trends",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Psychological Effects of Virtual Reality in Therapy",
+            "Advances in 3D Printing Technologies and Applications",
+            "The Role of Gut-Brain Axis in Neurodegenerative Diseases",
+            "Sustainable Agriculture Practices: A Global Perspective",
+            "The Future of Space Exploration: Challenges and Innovations",
+            "Machine Learning in Drug Discovery: A Review",
+            "The Importance of Biodiversity Conservation in Ecosystem Health"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Microbiomes in Human Health",
+            "Advances in Quantum Computing Algorithms",
+            "Investigating the Genetic Basis of Alzheimer's Disease",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Machine Learning Techniques for Predictive Analytics",
+            "The Effects of Urbanization on Wildlife Habitats",
+            "Exploring the Universe: New Insights from Dark Matter Research",
+            "The Importance of Sleep for Cognitive Function",
+            "Innovations in Renewable Energy Technologies",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Influence of Social Media on Mental Health",
+            "Neuroplasticity: How the Brain Adapts to Change",
+            "The Role of Artificial Intelligence in Healthcare",
+            "Assessing the Impact of Deforestation on Global Ecosystems",
+            "The Science of Happiness: Psychological Perspectives",
+            "Genetic Engineering: Ethical Considerations and Future Prospects",
+            "The Role of Vaccines in Controlling Infectious Diseases",
+            "Advances in Nanotechnology for Drug Delivery Systems",
+            "The Relationship Between Air Quality and Public Health",
+            "Exploring the Effects of Meditation on Stress Reduction"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Microbiomes in Human Health and Disease",
+            "Advances in Quantum Computing: A Review",
+            "Machine Learning Applications in Healthcare",
+            "The Impact of Climate Change on Biodiversity",
+            "Exploring the Genetic Basis of Alzheimer\u2019s Disease",
+            "The Future of Renewable Energy Technologies",
+            "Artificial Intelligence in Natural Language Processing",
+            "The Effects of Social Media on Mental Health",
+            "Innovations in Nanotechnology for Drug Delivery",
+            "Understanding the Mechanisms of CRISPR Gene Editing",
+            "The Role of Artificial Intelligence in Education",
+            "Bioinformatics Approaches to Cancer Research",
+            "The Influence of Urbanization on Ecosystem Services",
+            "Advances in 3D Printing Technology",
+            "The Psychology of Human-Computer Interaction",
+            "Exploring the Ethics of Genetic Engineering",
+            "The Importance of Sleep in Cognitive Function",
+            "The Effects of Air Pollution on Human Health",
+            "The Role of Vaccines in Infectious Disease Control",
+            "The Science of Climate Change Mitigation Strategies"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Advances in Quantum Computing: Opportunities and Challenges",
+            "The Role of Gut Microbiota in Human Health and Disease",
+            "Artificial Intelligence in Healthcare: Current Applications and Future Directions",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Nanomaterials for Energy Storage: A Review of Recent Advances",
+            "CRISPR-Cas9: A Revolutionary Tool for Genetic Engineering",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "Blockchain Technology: Applications and Implications for Data Security",
+            "The Neuroscience of Memory: Insights from Recent Research",
+            "Sustainable Urban Development: Challenges and Solutions",
+            "The Effects of Social Media on Mental Health: A Systematic Review",
+            "Advancements in Renewable Energy Technologies: A Global Overview",
+            "Machine Learning in Predictive Analytics: Methods and Applications",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Ocean Acidification and Its Impact on Marine Ecosystems",
+            "Exploring the Human Microbiome: Implications for Health and Disease",
+            "The Future of Space Exploration: Technologies and Missions",
+            "Ethical Considerations in Biomedical Research: A Review",
+            "The Science of Sleep: Understanding Its Importance for Health"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Classification: A Comprehensive Review",
+            "Advancements in Quantum Computing: A Survey",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Neural Networks for Natural Language Processing: A Review",
+            "Exploring the Frontiers of Nanotechnology in Medicine",
+            "The Effects of Social Media on Mental Health: A Meta-Analysis",
+            "Renewable Energy Technologies: Current Status and Future Prospects",
+            "Blockchain Technology: Applications and Challenges in Various Industries",
+            "The Science of Sleep: Understanding the Mechanisms and Impacts",
+            "Advancements in CRISPR Technology: Ethical and Practical Implications",
+            "The Role of Artificial Intelligence in Cybersecurity",
+            "Sustainable Agriculture: Innovations and Practices for the Future",
+            "Understanding the Genetics of Alzheimer\u2019s Disease",
+            "The Impact of Urbanization on Ecosystem Services",
+            "Machine Learning Techniques for Predictive Analytics in Healthcare",
+            "The Role of Technology in Enhancing Education: A Review",
+            "Bioinformatics Approaches to Genomic Data Analysis",
+            "The Influence of Climate Change on Oceanic Systems"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Microbiomes in Human Health",
+            "Advances in Quantum Computing Algorithms",
+            "Machine Learning Techniques for Image Recognition",
+            "The Impact of Climate Change on Biodiversity",
+            "Neural Networks for Natural Language Processing",
+            "CRISPR Technology and Its Ethical Implications",
+            "The Effects of Urbanization on Wildlife Populations",
+            "Innovations in Renewable Energy Sources",
+            "The Psychological Effects of Social Media on Adolescents",
+            "Exploring the Genetics of Alzheimer\u2019s Disease",
+            "The Role of Artificial Intelligence in Healthcare",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Impact of Air Pollution on Respiratory Health",
+            "Advances in Nanotechnology for Drug Delivery",
+            "The Influence of Music on Cognitive Development",
+            "Assessing the Risks of Genetically Modified Organisms",
+            "The Relationship Between Sleep and Mental Health",
+            "The Evolution of Language: A Cognitive Perspective",
+            "Investigating the Effects of Ocean Acidification",
+            "The Role of Virtual Reality in Education and Training"
+          ],
+          "vector": {
+            "x1": 0.05,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Microbiomes in Human Health and Disease",
+            "Advances in Quantum Computing: A Review",
+            "Machine Learning Techniques for Predictive Analytics",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Neural Networks: Architectures and Applications",
+            "The Genetic Basis of Complex Traits",
+            "Innovations in Renewable Energy Technologies",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Effects of Urbanization on Ecosystem Services",
+            "Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "The Role of CRISPR in Genetic Engineering",
+            "Exploring the Universe: Dark Matter and Dark Energy",
+            "The Psychology of Social Media: Effects on Mental Health",
+            "Bioinformatics Approaches to Drug Discovery",
+            "The Evolution of Language: A Cognitive Perspective",
+            "Assessing the Impact of Deforestation on Carbon Sequestration",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "The Intersection of Art and Technology: A New Paradigm",
+            "Advances in Nanotechnology for Medical Applications",
+            "The Influence of Cultural Factors on Learning Styles"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Microbiomes in Human Health",
+            "Advances in Quantum Computing Algorithms",
+            "Machine Learning Techniques for Image Recognition",
+            "The Impact of Climate Change on Biodiversity",
+            "Neuroplasticity: How the Brain Adapts to Change",
+            "Gene Editing: Ethical Considerations and Applications",
+            "The Effects of Sleep on Memory Consolidation",
+            "Renewable Energy Sources: Innovations and Challenges",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Influence of Social Media on Mental Health",
+            "Artificial Intelligence in Healthcare: Opportunities and Risks",
+            "The Physics of Black Holes: Recent Discoveries",
+            "Advances in CRISPR Technology and Its Implications",
+            "The Role of Art in Social Movements",
+            "Cybersecurity Threats in the Digital Age",
+            "The Science of Happiness: Psychological Perspectives",
+            "Exploring the Universe: The Search for Exoplanets",
+            "The Impact of Urbanization on Wildlife",
+            "Nanotechnology in Medicine: Current Trends and Future Directions",
+            "The Psychology of Color: Effects on Emotion and Behavior"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Review",
+            "Quantum Computing: An Overview of Current Research",
+            "Advancements in CRISPR Technology: Applications and Ethical Considerations",
+            "The Role of Microbiomes in Human Health",
+            "Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "Climate Change and Its Impact on Biodiversity",
+            "Neuroscience of Memory: Mechanisms and Implications",
+            "The Future of Renewable Energy Technologies",
+            "Nanotechnology in Medicine: Current Applications and Future Directions",
+            "Exploring the Universe: Recent Discoveries in Astrophysics",
+            "The Effects of Social Media on Mental Health",
+            "Advances in Robotics: From Automation to Human-Robot Interaction",
+            "Sustainable Agriculture: Innovations for Food Security",
+            "The Impact of Plastic Pollution on Marine Life",
+            "Understanding the Human Genome: Progress and Challenges",
+            "The Science of Sleep: Implications for Health and Performance",
+            "Artificial Intelligence and Ethics: Navigating the Challenges",
+            "The Role of Vaccines in Public Health: A Historical Perspective",
+            "Emerging Infectious Diseases: Trends and Prevention Strategies",
+            "The Intersection of Art and Science: Collaborative Innovations"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Techniques for Biomedical Data",
+            "The Impact of Climate Change on Marine Biodiversity",
+            "Advances in Quantum Computing: A Review",
+            "The Role of Gut Microbiota in Human Health and Disease",
+            "Analyzing the Efficacy of CRISPR Technology in Genetic Engineering",
+            "The Intersection of Artificial Intelligence and Cybersecurity",
+            "Exploring the Mechanisms of Drug Resistance in Cancer Therapy",
+            "The Effects of Urbanization on Local Wildlife Populations",
+            "A Study of Neural Networks in Image Recognition",
+            "The Influence of Social Media on Mental Health",
+            "Renewable Energy Technologies: Current Trends and Future Prospects",
+            "Understanding the Genetic Basis of Alzheimer\u2019s Disease",
+            "The Role of Nanotechnology in Drug Delivery Systems",
+            "Investigating the Relationship Between Air Quality and Public Health",
+            "The Evolution of Language: A Cognitive Perspective",
+            "The Impact of Space Exploration on Technological Advancements",
+            "The Psychology of Color: Implications for Design and Branding",
+            "Advances in 3D Printing: Applications in Medicine and Industry",
+            "The Role of Microplastics in Marine Ecosystems",
+            "Exploring the Ethical Implications of Artificial Intelligence in Healthcare"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "label": "y1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.72,
+        "x2": 0.0,
+        "x3": 0.060000000000000005
+      },
+      "std": {
+        "x1": 0.10327955589886445,
+        "x2": 0.0,
+        "x3": 0.021081851067789197
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "Introduction to the Theory of Computation",
+            "On the Complexity of Finite Functions",
+            "Randomized Algorithms",
+            "A Survey of Quantum Computing",
+            "The Complexity of Approximation Problems",
+            "Probabilistic Analysis of Algorithms",
+            "The P vs NP Problem: A Survey",
+            "Algorithmic Game Theory",
+            "Computational Learning Theory",
+            "The Theory of NP-Completeness",
+            "Automata Theory and Formal Languages",
+            "Computational Geometry: Algorithms and Applications",
+            "The Role of Logic in Computer Science",
+            "Graph Theory and Its Applications in Computer Science",
+            "The Theory of Computation: A Survey",
+            "Foundations of Cryptography: Volume 1",
+            "The Complexity of Counting Problems",
+            "Data Structures and Algorithm Analysis in C++"
+          ],
+          "vector": {
+            "x1": 0.65,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "Introduction to the Theory of Computation",
+            "On the Complexity of Integer Factorization",
+            "A Survey of Cryptographic Protocols",
+            "The Complexity of Approximation Problems",
+            "Randomized Algorithms",
+            "The P vs NP Problem: A Survey",
+            "Quantum Computation and Quantum Information",
+            "Algorithmic Game Theory",
+            "The Nature of Computation",
+            "Computational Learning Theory",
+            "An Introduction to Kolmogorov Complexity and Its Applications",
+            "Automata and Computability",
+            "Network Flow Algorithms",
+            "The Theory of NP-Completeness",
+            "Approximation Algorithms for NP-Hard Problems",
+            "The Role of Randomness in Computation",
+            "Formal Methods in Computer Science",
+            "Computational Geometry: Algorithms and Applications"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "On the Power of Quantum Computation",
+            "The Complexity of Theorem Proving Procedures",
+            "A Survey of Cryptographic Protocols",
+            "Randomized Algorithms",
+            "The Art of Computer Programming",
+            "Introduction to the Theory of Computation",
+            "The Complexity of Approximation Problems",
+            "Algorithmic Game Theory",
+            "On the Limits of Efficient Computation",
+            "A Theory of Data Structures",
+            "The Role of Non-determinism in Computation",
+            "Computational Learning Theory",
+            "Graph Theory and Its Applications in Computer Science",
+            "Formal Methods in Software Engineering",
+            "The P vs NP Problem: A Survey",
+            "Algorithms for Constraint Satisfaction Problems",
+            "The Theory of NP-Completeness",
+            "Automata Theory and Formal Languages",
+            "Quantum Algorithms for Fixed Qubit Architectures"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "The Complexity of Theorem-Proving Procedures",
+            "On the Power of Quantum Computation",
+            "A Survey of Cryptographic Protocols",
+            "Randomized Algorithms",
+            "The Complexity of Approximation Problems",
+            "A Theory of Type Polymorphism in Programming",
+            "The P vs NP Problem",
+            "On the Foundations of Computability Theory",
+            "Algorithmic Game Theory: A Survey",
+            "Proofs and Types",
+            "The Chomsky Hierarchy and Formal Languages",
+            "An Introduction to Complexity Theory",
+            "The Role of Randomness in Computation",
+            "Computational Learning Theory",
+            "The Theory of Computation",
+            "Formal Methods in Software Engineering",
+            "A Survey of Model Checking",
+            "Automata, Languages, and Computation"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of the Traveling Salesman Problem",
+            "A Survey of Quantum Algorithms for Graph Problems",
+            "The P vs NP Problem: A Comprehensive Overview",
+            "The Role of Randomness in Computation",
+            "Complexity Classes and Their Relationships",
+            "An Introduction to Automata Theory",
+            "The Power of Non-Determinism in Computational Complexity",
+            "A New Approach to the Study of NP-Completeness",
+            "The Limits of Computation: Turing Machines and Beyond",
+            "Algorithmic Game Theory: An Overview",
+            "Cryptographic Protocols and Their Security Foundations",
+            "The Theory of Computation: Models and Techniques",
+            "Lower Bounds for Boolean Circuit Complexity",
+            "Analyzing the Complexity of Approximation Algorithms",
+            "The Impact of Parallelism on Computational Complexity",
+            "A Study of Formal Languages and Their Applications",
+            "The Complexity of Counting Problems",
+            "The Evolution of Automata: From Finite State Machines to Turing Machines",
+            "The Role of Logic in Theoretical Computer Science",
+            "Exploring the Frontiers of Algorithm Design and Analysis"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.1
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "Introduction to the Theory of Computation",
+            "On the Complexity of Boolean Functions",
+            "A Survey of NP-Completeness",
+            "Randomized Algorithms",
+            "The Complexity of Counting Problems",
+            "Algorithms for Quantum Computation: A Survey",
+            "The Polynomial Hierarchy",
+            "Approximation Algorithms for NP-Hard Problems",
+            "A Theory of Computation for Natural Language Processing",
+            "Graph Algorithms and Their Applications",
+            "The Role of Randomness in Computation",
+            "The Limits of Efficient Computation",
+            "Formal Languages and Automata Theory",
+            "Computational Learning Theory: A Survey",
+            "The Landscape of Algorithmic Game Theory",
+            "On the Foundations of Cryptography",
+            "The Theory of Algorithms: A Historical Perspective",
+            "Computational Geometry: An Introduction"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "An Introduction to the Theory of Computation",
+            "On the Complexity of Finite Functions",
+            "The Complexity of Counting Problems",
+            "A Survey of NP-Completeness",
+            "Randomized Algorithms",
+            "Quantum Computation and Quantum Information",
+            "The P vs NP Problem: A Survey",
+            "Approximation Algorithms for NP-Hard Problems",
+            "The Theory of Computation: A Survey",
+            "Algorithmic Game Theory",
+            "The Power of Randomness in Computation",
+            "Structural Complexity Theory",
+            "Proof Complexity: A Survey",
+            "Parameterized Complexity",
+            "The Role of Nonlinearity in Complexity Theory",
+            "The Complexity of Approximation",
+            "Formal Languages and Automata Theory",
+            "Computational Learning Theory: An Overview"
+          ],
+          "vector": {
+            "x1": 0.8,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Complexity of Counting Problems",
+            "On the Power of Randomization in Computation",
+            "A Survey of Quantum Computing",
+            "The P vs NP Problem: A Survey",
+            "Formal Languages and Automata Theory",
+            "Algorithms for Graph Coloring Problems",
+            "The Role of Logic in Computer Science",
+            "Approximation Algorithms for NP-Hard Problems",
+            "Game Theory and its Applications in Computer Science",
+            "The Complexity of Approximation Problems",
+            "Proof Complexity and Its Applications",
+            "Parameterized Complexity: A New Perspective",
+            "The Theory of Computation: An Overview",
+            "On the Limits of Efficient Computation",
+            "The Role of Cryptography in Theoretical Computer Science",
+            "Complexity Classes and Their Relationships",
+            "The Algorithmic Theory of Computation",
+            "Advances in Automata Theory",
+            "Dynamic Programming and its Applications in Theoretical Computer Science"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity: A Modern Approach",
+            "The Art of Computer Programming",
+            "Introduction to the Theory of Computation",
+            "On the Complexity of Finite Functions",
+            "Randomized Algorithms",
+            "The Complexity of Approximation Problems",
+            "A Survey of Cryptographic Protocols",
+            "Algorithmic Game Theory",
+            "The Power of Quantum Computation",
+            "Proofs and Types",
+            "Finite Model Theory",
+            "Theoretical Foundations of Object-Oriented Programming",
+            "Parameterized Complexity",
+            "The Complexity of Counting Problems",
+            "On the Limits of Polynomial-Time Computation",
+            "Formal Languages and Automata Theory",
+            "Computational Learning Theory",
+            "The Complexity of Decision Problems",
+            "Graph Theory and Its Applications in Computer Science",
+            "Algorithmic Information Theory"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.1
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Computing",
+            "On the Complexity of Counting Problems",
+            "The P vs NP Problem: A Survey",
+            "An Introduction to Automata Theory",
+            "The Role of Randomness in Computation",
+            "Algorithms for Graph Coloring",
+            "A Framework for Analyzing Algorithms",
+            "The Theory of NP-Completeness",
+            "Complexity Classes and their Hierarchies",
+            "A New Approach to Cryptographic Protocols",
+            "The Limits of Computation: A Theoretical Perspective",
+            "The Theory of Computation and Its Applications",
+            "An Overview of Formal Language Theory",
+            "The Impact of Quantum Algorithms on Classical Complexity",
+            "Approximation Algorithms for NP-Hard Problems",
+            "The Role of Computability in Theoretical Computer Science",
+            "Understanding the Complexity of Dynamic Programming",
+            "Foundations of Machine Learning: A Theoretical Approach",
+            "The Relationship Between Logic and Computation",
+            "Analyzing the Efficiency of Parallel Algorithms"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND y2",
+      "label": "y1\u2227y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.53,
+        "x2": 0.005,
+        "x3": 0.6849999999999999
+      },
+      "std": {
+        "x1": 0.20976176963403032,
+        "x2": 0.0158113883008419,
+        "x3": 0.1582016996677905
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Algorithmic Game Theory: A Survey",
+            "The Complexity of Nash Equilibria",
+            "Mechanism Design: A Linear Programming Approach",
+            "The Price of Anarchy in Network Design",
+            "Auctions and Bidding Strategies in Online Markets",
+            "Computational Complexity and Economic Equilibria",
+            "Game Theory and Algorithmic Mechanism Design",
+            "The Role of Information in Economics and Computer Science",
+            "Learning in Games: A Computational Perspective",
+            "Market Design and the Efficiency of Algorithms",
+            "Fair Division and Its Computational Complexity",
+            "The Impact of Algorithms on Economic Behavior",
+            "Incentive-Compatible Mechanisms in Multi-Agent Systems",
+            "The Economics of Algorithms: Pricing and Competition",
+            "Complexity of Stable Matching and Market Design",
+            "Equilibrium Computation in Economic Models",
+            "The Intersection of Game Theory and Computational Learning",
+            "Designing Algorithms for Economic Efficiency",
+            "Computational Approaches to Mechanism Design",
+            "Theoretical Foundations of Algorithmic Economics"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and Economic Theory",
+            "Algorithmic Game Theory: A Survey",
+            "The Complexity of Nash Equilibria",
+            "Market Equilibrium in Computational Economics",
+            "Mechanism Design and Computational Complexity",
+            "The Price of Anarchy in Network Design",
+            "Computational Models of Economic Behavior",
+            "Auction Algorithms: Theory and Practice",
+            "The Role of Computation in Economic Models",
+            "Game Theory and the Complexity of Strategic Interaction",
+            "Incentive-Compatible Mechanisms in Computational Settings",
+            "Efficiency of Market Equilibria: A Computational Perspective",
+            "Learning in Games: Theoretical Foundations and Applications",
+            "Computationally Efficient Mechanisms for Public Goods",
+            "Theoretical Insights into Algorithmic Pricing",
+            "Complexity of Auctions: Theory and Applications",
+            "Information Economics and Computational Complexity",
+            "Algorithmic Approaches to Economic Modeling",
+            "Dynamic Pricing in Competitive Environments: A Computational Approach",
+            "The Intersection of Game Theory and Computational Learning"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.7
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and Economic Equilibrium",
+            "Algorithmic Game Theory: A Survey",
+            "The Complexity of Nash Equilibrium",
+            "Mechanism Design: A Theoretical Perspective",
+            "Computation and Incentives in Game Theory",
+            "The Role of Algorithms in Economic Theory",
+            "The Price of Anarchy in Network Design",
+            "Computational Models of Economic Behavior",
+            "Game Theory and Algorithmic Mechanism Design",
+            "The Complexity of Voting Rules",
+            "Efficient Algorithms for Market Equilibria",
+            "Computational Social Choice: A Survey",
+            "The Economics of Algorithmic Pricing",
+            "Market Design and Algorithmic Fairness",
+            "The Intersection of Algorithms and Economic Theory",
+            "Computational Aspects of Cooperative Game Theory",
+            "Information Asymmetry and Algorithmic Mechanisms",
+            "Dynamic Pricing Algorithms in Economics",
+            "Algorithmic Approaches to Market Efficiency",
+            "Theoretical Insights into Auctions and Bidding Strategies"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and Economic Equilibrium",
+            "Mechanism Design and Computational Complexity",
+            "The Price of Anarchy in Network Design",
+            "Algorithmic Game Theory: A Survey",
+            "The Complexity of Nash Equilibrium",
+            "Auctions and Mechanism Design: A Computational Perspective",
+            "Computational Models of Strategic Behavior",
+            "The Role of Information in Economic Theory: A Computational Approach",
+            "Algorithmic Mechanism Design",
+            "Complexity and Equilibrium in Market Models",
+            "Learning in Games: A Computational Perspective",
+            "The Impact of Computation on Economic Theory",
+            "Fair Division and Computational Efficiency",
+            "Market Design and Algorithmic Game Theory",
+            "The Economics of Algorithms: A Game Theoretic Approach",
+            "The Complexity of Computing Equilibria in Games",
+            "Mechanism Design with Computational Constraints",
+            "Game Theory and Algorithmic Economics",
+            "The Influence of Computation on Market Outcomes",
+            "Auctions in the Presence of Computational Constraints"
+          ],
+          "vector": {
+            "x1": 0.85,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and Economic Equilibrium",
+            "Game Theory and Computational Complexity",
+            "Mechanism Design and Algorithmic Game Theory",
+            "The Complexity of Nash Equilibrium",
+            "Algorithmic Mechanism Design: A Survey",
+            "The Price of Anarchy in Network Design",
+            "The Role of Computation in Economic Theory",
+            "Algorithmic Approaches to Market Design",
+            "Complexity of Voting and Social Choice",
+            "Computational Models of Market Equilibrium",
+            "Auctions and Algorithmic Game Theory",
+            "The Economics of Algorithms",
+            "Efficient Algorithms for Cooperative Game Theory",
+            "Learning in Games: Theoretical and Practical Perspectives",
+            "Pricing Algorithms and Market Efficiency",
+            "The Intersection of Computational and Economic Models",
+            "Mechanism Design with Computational Constraints",
+            "The Impact of Computation on Economic Behavior",
+            "Equilibrium Computation in Economic Models",
+            "Theoretical Foundations of Algorithmic Economics"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory: A Survey",
+            "Mechanism Design: A Linear Programming Approach",
+            "The Complexity of Nash Equilibria",
+            "Computational Social Choice: A Survey",
+            "The Price of Anarchy in Network Design",
+            "Auctions and Mechanism Design: A Computational Perspective",
+            "Stable Matching with Incomplete Lists: A Polynomial-Time Algorithm",
+            "The Role of Algorithms in Economic Theory",
+            "Incentive-Compatible Mechanisms for Public Goods",
+            "Complexity of Voting Rules: A Survey",
+            "Learning in Games: A Survey",
+            "The Economics of Information: A Theoretical Perspective",
+            "Algorithmic Mechanism Design for Online Auctions",
+            "The Complexity of Stable Matchings",
+            "Game Theory and Algorithmic Mechanisms",
+            "Fair Division: Theory and Algorithms",
+            "The Role of Algorithms in Market Design",
+            "Optimal Auctions and the Role of Information",
+            "Computational Aspects of Cooperative Game Theory",
+            "Economic Applications of Game Theory: A Computational Approach"
+          ],
+          "vector": {
+            "x1": 0.3,
+            "x2": 0.0,
+            "x3": 0.85
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and Economic Mechanism Design",
+            "Algorithmic Game Theory: A Survey",
+            "The Price of Anarchy in Network Design",
+            "Computational Models of Strategic Interaction",
+            "Mechanism Design with Computationally Bounded Agents",
+            "The Complexity of Nash Equilibrium",
+            "Algorithmic Approaches to Market Design",
+            "The Role of Information in Economic Mechanisms",
+            "Computational Economics: A Survey of the Literature",
+            "Game Theory and the Computational Complexity of Equilibria",
+            "Efficient Algorithms for Market Equilibrium",
+            "The Impact of Computation on Economic Theory",
+            "Equilibrium Computation in Economies with Externalities",
+            "The Economics of Algorithms: A Game-Theoretic Perspective",
+            "Computational Mechanism Design: A Survey",
+            "Learning in Games: A Computational Perspective",
+            "Dynamic Pricing and Algorithmic Game Theory",
+            "Computational Approaches to Fair Division",
+            "The Complexity of Cooperative Game Solutions",
+            "Algorithmic Mechanism Design for Cloud Computing"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 1.0
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Nash Equilibria",
+            "Algorithmic Game Theory: A Survey",
+            "The Price of Anarchy in Network Design",
+            "Computational Complexity of Equilibrium Concepts in Game Theory",
+            "Mechanism Design: A Computational Perspective",
+            "The Role of Information in Economic Theory",
+            "Efficient Algorithms for Computing Nash Equilibria",
+            "Game Theory and the Internet: Incentives and Mechanisms",
+            "Complexity of Auctions: A Survey",
+            "The Price of Stability in Network Design",
+            "Algorithmic Mechanism Design",
+            "Learning in Games: A Survey",
+            "Equilibrium Computation in Large Games",
+            "Economic Mechanisms for Distributed Systems",
+            "The Complexity of Social Choice Functions",
+            "Computational Models of Economic Behavior",
+            "Theoretical Foundations of Market Design",
+            "Algorithmic Approaches to Price Formation",
+            "Fair Division: Algorithms and Economic Implications",
+            "The Impact of Algorithms on Market Efficiency"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.0,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Equilibria in Economic Models",
+            "Algorithmic Game Theory and Its Applications",
+            "The Price of Anarchy in Economic Systems",
+            "Computational Aspects of Market Equilibria",
+            "Mechanism Design: A Computational Perspective",
+            "The Complexity of Nash Equilibrium",
+            "Learning in Games: A Computational Approach",
+            "The Role of Algorithms in Economic Theory",
+            "Auctions and Market Design: A Computational Perspective",
+            "Game Theory and the Internet: A Theoretical Framework",
+            "The Complexity of Stable Matchings",
+            "Economic Models with Computational Constraints",
+            "The Impact of Information on Economic Decision-Making",
+            "Algorithmic Mechanism Design: A Survey",
+            "Theoretical Foundations of Market Design",
+            "Complexity Results for Market Equilibria",
+            "Game-Theoretic Approaches to Network Economics",
+            "The Role of Computation in Economic Theory",
+            "Equilibrium Computation in Games with Incomplete Information",
+            "Theoretical Insights into Algorithmic Pricing Strategies"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.05,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Algorithmic Game Theory",
+            "The Price of Anarchy in Network Design",
+            "Mechanism Design: A Linear Programming Approach",
+            "Computational Complexity and Economic Equilibrium",
+            "The Complexity of Nash Equilibria",
+            "Auction Theory: A Computational Perspective",
+            "The Role of Algorithms in Economic Theory",
+            "Learning in Games: Computational and Economic Perspectives",
+            "The Economics of Information: A Game-Theoretic Approach",
+            "Complexity in Voting: Theoretical Insights and Economic Implications",
+            "Market Design and Algorithmic Efficiency",
+            "Computational Mechanism Design",
+            "The Impact of Algorithms on Market Efficiency",
+            "Game Theory and the Economics of Networks",
+            "The Economics of Algorithms: A Survey",
+            "Fair Division: Algorithms and Economic Applications",
+            "The Interaction of Algorithms and Economic Behavior",
+            "Pricing Algorithms and Market Outcomes",
+            "Theoretical Foundations of Algorithmic Trading",
+            "Complexity and Fairness in Resource Allocation"
+          ],
+          "vector": {
+            "x1": 0.35,
+            "x2": 0.0,
+            "x3": 0.75
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 OR y2",
+      "label": "y1\u2228y2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.505,
+        "x2": 0.095,
+        "x3": 0.475
+      },
+      "std": {
+        "x1": 0.10124228365658292,
+        "x2": 0.09264628073124864,
+        "x3": 0.12527746981977422
+      },
+      "seeds": [
+        {
+          "papers": [
+            "Computational Complexity and the Limits of Efficient Algorithms",
+            "The Role of Game Theory in Economic Mechanism Design",
+            "Foundations of Cryptography: A Primer",
+            "Algorithmic Game Theory: A Survey",
+            "The Complexity of Nash Equilibria",
+            "The Price of Anarchy in Network Design",
+            "Approximation Algorithms for NP-hard Problems",
+            "The Economics of Information: A Theoretical Perspective",
+            "Quantum Computation and Quantum Information",
+            "Dynamic Programming and Optimal Control",
+            "Market Equilibrium and Computational Complexity",
+            "Learning in Games: A Theoretical Framework",
+            "The Economic Implications of Algorithmic Trading",
+            "Complexity Classes and Their Implications for Economics",
+            "The Theory of Mechanism Design: An Overview",
+            "Computational Models of Economic Behavior",
+            "The Impact of Information Asymmetry in Economics",
+            "Theoretical Foundations of Neural Networks",
+            "Nonlinear Dynamics in Economic Models",
+            "Algorithmic Approaches to Fair Division Problems"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.05,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and the Theory of Algorithms",
+            "A Survey of Game Theory Applications in Economics",
+            "The Role of Algorithms in Economic Mechanism Design",
+            "Quantum Computation and Its Economic Implications",
+            "Complexity Theory: A Comprehensive Overview",
+            "Market Design: Theory and Applications",
+            "The Intersection of Machine Learning and Economic Theory",
+            "Algorithmic Game Theory: A New Frontier in Economics",
+            "Randomized Algorithms in Theoretical Computer Science",
+            "Information Economics: Theoretical Foundations and Applications",
+            "The Complexity of Nash Equilibria",
+            "Algorithmic Fairness in Economic Models",
+            "Computational Models of Economic Behavior",
+            "The Economics of Information: Theoretical Insights",
+            "Approximation Algorithms for Economic Problems",
+            "Theoretical Insights into Market Equilibrium",
+            "The Role of Computational Theory in Economic Forecasting",
+            "Dynamic Programming and Its Economic Applications",
+            "Theoretical Perspectives on Auction Design",
+            "Cryptography and Economics: A Theoretical Approach"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.15,
+            "x3": 0.5
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of Nash Equilibria",
+            "The Complexity of Counting in Games",
+            "Algorithmic Game Theory: A Survey",
+            "The Price of Anarchy in Network Design",
+            "Approximation Algorithms for NP-Hard Problems",
+            "The Role of Information in Game Theory",
+            "Computational Complexity of Auctions",
+            "Learning in Games: An Overview",
+            "Theoretical Foundations of Mechanism Design",
+            "The Complexity of Stable Matching",
+            "Algorithmic Mechanism Design: A Survey",
+            "Game Theory and Computer Science: A Synergy",
+            "The Impact of Information Asymmetry on Market Efficiency",
+            "Cryptographic Protocols and Game Theory",
+            "The Complexity of Multi-Agent Systems",
+            "Equilibria in Large Games: A Theoretical Perspective",
+            "The Role of Algorithms in Economic Theory",
+            "The Economics of Algorithms: An Analytical Approach",
+            "Theoretical Insights into Market Dynamics",
+            "Analyzing the Efficiency of Economic Systems through Algorithms"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.2,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Computing and Its Applications in Cryptography",
+            "The Complexity of Counting Problems",
+            "An Introduction to Algorithmic Game Theory",
+            "On the Power of Randomization in Computation",
+            "The Role of Information in Economic Theory",
+            "Computational Complexity of Nash Equilibria",
+            "Efficient Algorithms for Large-Scale Optimization Problems",
+            "The Price of Anarchy in Network Design",
+            "Learning in Games: A Survey of Recent Developments",
+            "The Economics of Information: A Survey",
+            "Algorithmic Mechanism Design",
+            "Understanding the Complexity of Market Equilibria",
+            "The Role of Algorithms in Economic Theory",
+            "Approximation Algorithms for Combinatorial Optimization Problems",
+            "The Impact of Algorithms on Economic Efficiency",
+            "Game Theory and Its Applications in Economics",
+            "Theoretical Foundations of Machine Learning in Economics",
+            "The Complexity of Stable Matching Problems",
+            "Mechanism Design for Social Good",
+            "The Intersection of Economics and Theoretical Computer Science"
+          ],
+          "vector": {
+            "x1": 0.45,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Complexity and the Role of Algorithms in Economic Theory",
+            "The Price of Anarchy in Network Design",
+            "Game Theory and Mechanism Design in Computer Science",
+            "On the Complexity of Nash Equilibria",
+            "Algorithmic Game Theory: A Survey",
+            "The Role of Information in Economic Models",
+            "Computational Models of Economic Behavior",
+            "Theoretical Foundations of Algorithmic Trading",
+            "Learning in Games: A Computational Perspective",
+            "The Impact of Algorithms on Market Efficiency",
+            "Approximation Algorithms for Economic Problems",
+            "The Intersection of Machine Learning and Economics",
+            "Cryptographic Protocols in Economic Applications",
+            "Equilibrium Computation in Large Games",
+            "The Complexity of Auction Design",
+            "Algorithms for Optimal Resource Allocation",
+            "The Economics of Information: A Computational Approach",
+            "Mechanism Design with Computational Constraints",
+            "Theoretical Insights into Blockchain Economics",
+            "Complexity-Theoretic Foundations of Economic Models"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of Approximate Solutions to the Traveling Salesman Problem",
+            "A Polynomial-Time Algorithm for the Maximum Flow Problem",
+            "The Complexity of Nash Equilibria",
+            "Learning Theory and the Role of Information in Economics",
+            "The Price of Anarchy in Network Design",
+            "Computational Aspects of Game Theory",
+            "Efficient Algorithms for Stable Matching Problems",
+            "The Role of Algorithms in Economic Theory",
+            "The Complexity of Economic Mechanisms",
+            "Approximation Algorithms for NP-Hard Problems",
+            "Mechanism Design with Limited Information",
+            "The Role of Computation in Market Design",
+            "Algorithmic Game Theory: A Survey",
+            "The Impact of Algorithms on Market Efficiency",
+            "The Complexity of Fair Division",
+            "Dynamic Programming and Economic Decision Making",
+            "On the Efficiency of Auctions",
+            "Computational Complexity in Game Theory",
+            "Algorithmic Approaches to Market Equilibrium",
+            "The Economics of Algorithmic Trading"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "Computational Complexity and the Theory of Algorithms",
+            "The Role of Game Theory in Economic Modeling",
+            "Quantum Computing: A Theoretical Perspective",
+            "Algorithmic Mechanism Design",
+            "The Complexity of Nash Equilibria",
+            "Cryptography and Complexity Theory",
+            "Models of Computation and Economic Growth",
+            "Theoretical Foundations of Machine Learning",
+            "Dynamic Programming and Economic Decision Making",
+            "The Intersection of Algorithms and Economic Theory",
+            "Computational Game Theory: An Overview",
+            "Information Theory and Market Dynamics",
+            "The Complexity of Voting Systems",
+            "Equilibrium Analysis in Computational Economics",
+            "Theoretical Insights into Auction Design",
+            "Computational Models of Market Behavior",
+            "Algorithmic Approaches to Economic Inequality",
+            "Theoretical Underpinnings of Blockchain Technology",
+            "Game-Theoretic Approaches to Network Security",
+            "The Economics of Information: A Theoretical Framework"
+          ],
+          "vector": {
+            "x1": 0.4,
+            "x2": 0.2,
+            "x3": 0.3
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Counting Problems",
+            "On the Limits of Approximation Algorithms for NP-Hard Problems",
+            "A Survey of Game Theory in Economics",
+            "The Role of Mechanism Design in Economic Theory",
+            "Quantum Algorithms for Fixed Qubit Architectures",
+            "The Theory of Computation: A Survey",
+            "Algorithmic Game Theory: A New Perspective on Economic Models",
+            "The Price of Anarchy in Network Design",
+            "Approximation Schemes for NP-Hard Problems",
+            "The Complexity of Nash Equilibria",
+            "Economic Models of Computation",
+            "Randomized Algorithms in Theoretical Computer Science",
+            "The Impact of Information Asymmetry on Market Efficiency",
+            "Efficient Algorithms for Multi-Agent Systems",
+            "Computational Complexity and Economic Behavior",
+            "Learning in Games: A Survey",
+            "The Role of Algorithms in Economic Decision-Making",
+            "The Intersection of Theoretical Computer Science and Economics",
+            "Mechanisms for Public Goods Provision: A Computational Approach",
+            "The Complexity of Market Equilibria"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.2,
+            "x3": 0.45
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Nash Equilibria",
+            "A Survey on the Complexity of Approximation Problems",
+            "The Role of Algorithms in Economic Theory",
+            "Game Theory and Algorithmic Mechanism Design",
+            "A New Approach to the Traveling Salesman Problem",
+            "Computational Aspects of Economic Equilibrium",
+            "The Price of Anarchy in Network Design",
+            "Algorithms for Market Equilibrium",
+            "The Impact of Computational Complexity on Economic Models",
+            "A Theory of Fair Division",
+            "The Complexity of Voting Rules",
+            "Mechanism Design with Incomplete Information",
+            "The Efficiency of Equilibria in Market Games",
+            "Approximation Algorithms for NP-Hard Problems",
+            "The Economics of Information and Computation",
+            "Learning in Games: A Computational Perspective",
+            "The Role of Computation in Economic Theory",
+            "Algorithms for Cooperative Game Theory",
+            "Complexity Results for Market Equilibrium Problems",
+            "The Interaction of Algorithms and Economic Behavior"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.6
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Computing and Its Applications in Economics",
+            "The Complexity of Nash Equilibria",
+            "Algorithmic Game Theory: A Survey",
+            "The Role of Information in Economic Theory",
+            "Computational Complexity and Economic Equilibria",
+            "Mechanism Design: A Theoretical Perspective",
+            "The Price of Anarchy in Network Design",
+            "Algorithms for Market Equilibrium",
+            "Theoretical Foundations of Cryptography",
+            "Game Theory and the Economics of Information",
+            "Efficient Algorithms for Combinatorial Auctions",
+            "The Impact of Algorithms on Market Efficiency",
+            "Complexity Classes and Economic Models",
+            "Nonlinear Pricing and Algorithmic Mechanism Design",
+            "The Economics of Information: A Computational Approach",
+            "Polynomial Time Algorithms for Cooperative Games",
+            "The Theory of Computation and Economic Behavior",
+            "Strategic Behavior in Networked Markets",
+            "Theoretical Insights into Behavioral Economics",
+            "Cryptographic Protocols in Economic Applications"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.15,
+            "x3": 0.35
+          }
+        }
+      ]
+    },
+    {
+      "name": "y1 AND NOT y2",
+      "label": "y1\u2227\u00acy2",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.735,
+        "x2": 0.0,
+        "x3": 0.045000000000000005
+      },
+      "std": {
+        "x1": 0.14346892811104897,
+        "x2": 0.0,
+        "x3": 0.05986094998689324
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Survey of Quantum Algorithms for Graph Problems",
+            "The Complexity of Counting Problems",
+            "On the Power of Randomness in Computation",
+            "The Role of Non-determinism in Computational Complexity",
+            "A New Approach to Parallel Computation",
+            "The P vs NP Problem: A Survey",
+            "Automata Theory and Its Applications",
+            "A Framework for Analyzing Algorithms",
+            "The Limits of Computation: A Study of Turing Machines",
+            "Advances in Cryptographic Protocols",
+            "The Theory of NP-Completeness",
+            "An Introduction to Formal Languages and Automata",
+            "Algorithmic Game Theory: A Theoretical Perspective",
+            "The Relationship Between Logic and Computation",
+            "Complexity Classes and Their Implications",
+            "The Role of Proof Complexity in Theoretical Computer Science",
+            "An Overview of Model Checking Techniques",
+            "The Impact of Quantum Computing on Classical Complexity Theory",
+            "Parameterized Complexity: A Survey",
+            "The Evolution of Computational Models"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of Approximation Problems",
+            "The Complexity of Counting Problems",
+            "A Survey of Quantum Computing Theory",
+            "The P vs NP Problem: A Survey",
+            "A New Approach to the Study of Algorithms",
+            "The Role of Randomness in Computation",
+            "Lower Bounds for Algebraic Computation",
+            "The Complexity of Boolean Functions",
+            "The Theory of NP-Completeness",
+            "A Comprehensive Study of Graph Algorithms",
+            "Advances in Automata Theory and Formal Languages",
+            "The Power of Interactive Proofs",
+            "An Overview of Cryptographic Protocols",
+            "The Theory of Computation: A Historical Perspective",
+            "The Role of Complexity Classes in Computer Science",
+            "Analyzing the Efficiency of Parallel Algorithms",
+            "A Study of Non-deterministic Algorithms",
+            "The Impact of Quantum Mechanics on Computation",
+            "Algorithms for Network Flow Problems",
+            "Foundations of Machine Learning Theory"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Algorithms for Combinatorial Problems",
+            "On the Complexity of Approximation Problems",
+            "The Complexity of Counting Problems",
+            "A New Approach to the P vs NP Problem",
+            "Algorithmic Game Theory: A Survey",
+            "The Role of Randomness in Computation",
+            "Lower Bounds for Algebraic Circuits",
+            "The Power of Non-determinism in Computation",
+            "A Comprehensive Study on Graph Isomorphism",
+            "Complexity Classes: An Overview",
+            "On the Expressive Power of Different Computational Models",
+            "Advances in Parameterized Complexity",
+            "Theoretical Foundations of Machine Learning",
+            "A Study of Cryptographic Protocols",
+            "Analyzing the Complexity of Data Structures",
+            "The Impact of Quantum Computing on Complexity Theory",
+            "Exploring the Limits of Computation",
+            "A Framework for Understanding Computational Intractability",
+            "Techniques for Proving Lower Bounds in Complexity Theory",
+            "The Relationship Between Logic and Computation"
+          ],
+          "vector": {
+            "x1": 0.8,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Quantum Computing and Its Applications",
+            "The Complexity of Counting Problems",
+            "A New Approach to the P vs NP Problem",
+            "On the Limits of Computation: An Overview of Turing Machines",
+            "Randomized Algorithms: Theory and Applications",
+            "The Role of Graph Theory in Computer Science",
+            "Analyzing the Efficiency of Parallel Algorithms",
+            "Advances in Automata Theory: A Comprehensive Review",
+            "Cryptographic Protocols: Foundations and Future Directions",
+            "The Theory of Computation: A Historical Perspective",
+            "Complexity Classes and Their Relationships",
+            "Algorithmic Game Theory: A Survey",
+            "The Role of Formal Languages in Compiler Design",
+            "Exploring the Bounds of Approximation Algorithms",
+            "The Impact of Quantum Algorithms on Classical Complexity",
+            "Theoretical Foundations of Machine Learning",
+            "An Introduction to Homotopy Type Theory",
+            "The Use of Logic in Computer Science",
+            "An Overview of NP-Completeness and Its Implications",
+            "Theoretical Insights into Neural Networks and Deep Learning"
+          ],
+          "vector": {
+            "x1": 0.5,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Computing",
+            "The Complexity of Boolean Functions",
+            "On the Power of Randomness in Computation",
+            "A New Approach to the P vs NP Problem",
+            "Algorithms for Graph Isomorphism",
+            "The Role of Non-determinism in Computation",
+            "An Introduction to Automata Theory",
+            "The Limits of Computability",
+            "Cryptographic Protocols: Theory and Practice",
+            "The Theory of NP-Completeness",
+            "A Survey of Formal Languages and Automata",
+            "Advances in Circuit Complexity",
+            "The Landscape of Algorithmic Game Theory",
+            "Lower Bounds for Algebraic Computation",
+            "The Complexity of Approximation Problems",
+            "Foundations of Cryptography: A Primer",
+            "An Overview of Type Theory",
+            "The Role of Logic in Computer Science",
+            "Analyzing the Complexity of Randomized Algorithms",
+            "The Theory of Computation: A Historical Perspective"
+          ],
+          "vector": {
+            "x1": 0.65,
+            "x2": 0.0,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of Approximate Solutions to the Traveling Salesman Problem",
+            "A Survey of Quantum Algorithms for Combinatorial Optimization",
+            "The Power of Randomization in Computation",
+            "A New Approach to the P vs NP Problem",
+            "Algorithms for Graph Coloring and Their Applications",
+            "The Role of Non-Determinism in Computational Complexity",
+            "A Study of Cryptographic Protocols in Theoretical Computer Science",
+            "Lower Bounds for Boolean Function Complexity",
+            "The Complexity of Counting Problems",
+            "Advances in Automata Theory and Formal Languages",
+            "Theoretical Foundations of Machine Learning",
+            "On the Limits of Efficient Computation",
+            "Analyzing the Complexity of Parallel Algorithms",
+            "The Impact of Quantum Computing on Classical Complexity",
+            "A Framework for Understanding NP-Completeness",
+            "The Role of Information Theory in Computer Science",
+            "Exploring the Landscape of Computational Models",
+            "Techniques for Proving Lower Bounds in Circuit Complexity",
+            "The Intersection of Logic and Computation",
+            "A Comprehensive Review of Graph Algorithms in Theoretical Computer Science"
+          ],
+          "vector": {
+            "x1": 1.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Computing",
+            "The Complexity of Counting Problems",
+            "On the Power of Randomization in Computation",
+            "A New Approach to the P vs NP Problem",
+            "An Introduction to Automata Theory",
+            "The Role of Graph Theory in Theoretical Computer Science",
+            "Formal Verification of Software Systems",
+            "A Study on the Limits of Computability",
+            "Advances in Cryptographic Protocols",
+            "The Theory of NP-Completeness",
+            "Algorithms for Large Scale Data Processing",
+            "The Impact of Parallel Computing on Algorithm Design",
+            "Complexity Classes and Their Relationships",
+            "A Review of Machine Learning from a Theoretical Perspective",
+            "The Role of Logic in Computer Science",
+            "Advances in Distributed Computing Theory",
+            "Analyzing the Efficiency of Sorting Algorithms",
+            "The Foundations of Information Theory",
+            "A Survey of Formal Languages and Their Applications",
+            "Theoretical Aspects of Network Security"
+          ],
+          "vector": {
+            "x1": 0.6,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Quantum Algorithms for Linear Algebra",
+            "The Complexity of Counting Problems",
+            "On the Power of Randomization in Computation",
+            "An Introduction to the Theory of NP-Completeness",
+            "The Art of Computer Programming: Volume 1",
+            "A New Approach to the P vs NP Problem",
+            "Approximation Algorithms for NP-hard Problems",
+            "The Role of Non-determinism in Computational Complexity",
+            "Foundations of Cryptography: Volume 1",
+            "Algorithmic Game Theory: A Survey",
+            "The Limits of Efficient Computation",
+            "The Complexity of Approximation Problems",
+            "Advances in Automata Theory",
+            "A Framework for Analyzing Algorithms",
+            "The Theory of Computation: A Survey",
+            "Lower Bounds for Data Structure Operations",
+            "The Role of Algebra in Theoretical Computer Science",
+            "A Survey of Parameterized Complexity",
+            "The Complexity of Graph Problems",
+            "Foundations of Machine Learning Theory"
+          ],
+          "vector": {
+            "x1": 0.75,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "On the Complexity of Boolean Functions",
+            "The Complexity of Approximation Problems",
+            "A Survey of Quantum Algorithms for Combinatorial Optimization",
+            "The Art of Computer Programming: Volume 1",
+            "A Unified Approach to Graph Algorithms",
+            "The Role of Randomness in Computation",
+            "On the Power of Non-Determinism",
+            "Lower Bounds for Boolean Function Computation",
+            "The P vs NP Problem: A Survey",
+            "The Theory of NP-Completeness",
+            "A New Approach to the Graph Isomorphism Problem",
+            "The Complexity of Counting Problems",
+            "Algorithms for Approximation: A Survey",
+            "An Introduction to the Theory of Computation",
+            "The Role of Algebraic Structures in Complexity Theory",
+            "The Limits of Efficient Computation",
+            "A Comprehensive Study of Cryptographic Protocols",
+            "The Relationship Between Logic and Computation",
+            "Advances in Automata Theory and Formal Languages",
+            "Complexity Classes and Their Hierarchies"
+          ],
+          "vector": {
+            "x1": 0.9,
+            "x2": 0.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "The Complexity of Boolean Functions",
+            "On the Power of Quantum Computation",
+            "A Survey of NP-Completeness",
+            "The Art of Computer Programming",
+            "A Theory of Type Polymorphism in Programming",
+            "The P vs NP Problem",
+            "An Introduction to the Theory of Computation",
+            "The Role of Randomness in Computation",
+            "The Complexity of Counting Problems",
+            "Communication Complexity and Its Applications",
+            "On the Expressive Power of Programming Languages",
+            "Automata Theory and Formal Languages",
+            "The Theory of Computable Functions",
+            "A New Approach to the Theory of Programming Languages",
+            "Cryptographic Protocols and Their Security",
+            "The Limits of Polynomial Time Computation",
+            "The Design and Analysis of Algorithms",
+            "A Survey on Graph Algorithms",
+            "The Foundations of Cryptography",
+            "Complexity Classes and Their Hierarchies"
+          ],
+          "vector": {
+            "x1": 0.7,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT y1",
+      "label": "\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.02,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.03496029493900505,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Survey of Machine Learning Techniques for Cybersecurity",
+            "An Empirical Study of Software Development Practices in Agile Teams",
+            "Evaluating the Impact of User Experience on E-commerce Conversion Rates",
+            "Exploring the Role of Big Data in Healthcare Analytics",
+            "A Comparative Analysis of Cloud Computing Security Models",
+            "The Effect of Social Media on Consumer Behavior",
+            "An Investigation into the Usability of Mobile Applications",
+            "Assessing the Performance of Blockchain Technology in Supply Chain Management",
+            "The Influence of Augmented Reality on Retail Shopping Experiences",
+            "A Study on the Adoption of Internet of Things in Smart Homes",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "Analyzing the Relationship Between Data Privacy and User Trust",
+            "The Role of Artificial Intelligence in Enhancing Customer Service",
+            "Evaluating the Effectiveness of Online Learning Platforms",
+            "A Comprehensive Review of Natural Language Processing Applications",
+            "The Impact of Remote Work on Employee Productivity and Well-being",
+            "A Case Study on the Implementation of DevOps Practices in Organizations",
+            "Understanding the Challenges of Data Integration in Healthcare Systems",
+            "The Future of Autonomous Vehicles: Opportunities and Challenges",
+            "Assessing the Impact of Cybersecurity Awareness Training on Employee Behavior"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Machine Learning for Cybersecurity",
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Natural Language Processing: Current Trends and Future Directions",
+            "Advances in Renewable Energy Technologies and Applications",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Blockchain Technology for Secure and Transparent Transactions",
+            "The Role of Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "Enhancing User Experience through Human-Computer Interaction Design",
+            "Data Privacy and Security in Cloud Computing: A Review",
+            "Smart Cities: A Comprehensive Overview of Technologies and Applications",
+            "The Influence of Climate Change on Biodiversity",
+            "Augmented Reality in Education: A Review of Current Trends",
+            "The Effect of Urbanization on Air Quality: A Global Perspective",
+            "Advances in Genetic Engineering and Its Ethical Implications",
+            "The Use of Drones in Environmental Monitoring: A Review",
+            "Exploring the Relationship Between Sleep and Academic Performance",
+            "The Impact of E-commerce on Traditional Retail: A Study",
+            "Renewable Energy Sources: A Comparative Analysis",
+            "The Role of Virtual Reality in Therapy and Rehabilitation",
+            "Assessing the Effectiveness of Online Learning During the Pandemic"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.1,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Image Captioning",
+            "Machine Learning Approaches for Predictive Maintenance in Industry 4.0",
+            "Blockchain Technology in Healthcare: A Comprehensive Review",
+            "Natural Language Processing for Social Media: A Survey",
+            "Advances in Quantum Computing: Opportunities and Challenges",
+            "The Impact of Artificial Intelligence on Workforce Dynamics",
+            "Data Privacy and Security in Cloud Computing: A Survey",
+            "Robotics and Automation in Agriculture: A Review of Current Trends",
+            "Smart Cities: A Comprehensive Review on Technologies and Applications",
+            "Augmented Reality in Education: A Review of the Current Landscape",
+            "The Role of Big Data Analytics in Supply Chain Management",
+            "Cybersecurity Threats and Solutions in Internet of Things",
+            "Energy-Efficient Algorithms for Wireless Sensor Networks",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Sentiment Analysis of Social Media Data: A Review",
+            "The Convergence of Artificial Intelligence and Internet of Things",
+            "Advancements in 3D Printing Technology: Applications and Implications",
+            "Digital Twins in Manufacturing: A Systematic Review",
+            "The Use of Machine Learning in Drug Discovery",
+            "Trends in Mobile Health Applications: A Systematic Review"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Advancements in Natural Language Processing: A Survey",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Blockchain Technology: Applications and Challenges",
+            "A Survey on Internet of Things: Architecture, Applications, and Future Directions",
+            "Machine Learning Approaches for Predictive Analytics in Healthcare",
+            "Energy-Efficient Algorithms for Wireless Sensor Networks",
+            "Augmented Reality in Education: A Review of Current Trends",
+            "Big Data Analytics in Smart Cities: Opportunities and Challenges",
+            "The Role of Artificial Intelligence in Cybersecurity",
+            "Sustainable Urban Mobility: A Review of Smart Transportation Solutions",
+            "The Effect of Climate Change on Global Food Security",
+            "Robotics in Manufacturing: Trends and Future Directions",
+            "The Use of Mobile Health Applications in Chronic Disease Management",
+            "User Experience Design in E-commerce: A Comprehensive Analysis",
+            "Advancements in Renewable Energy Technologies: A Review",
+            "Ethical Considerations in Artificial Intelligence: A Systematic Review",
+            "The Influence of Virtual Reality on Learning Outcomes",
+            "Data Privacy Concerns in the Age of Digital Transformation",
+            "The Future of Work: Automation and Job Displacement"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Image Captioning",
+            "Advances in Natural Language Processing: A Review",
+            "The Role of Big Data in Healthcare: A Systematic Review",
+            "Machine Learning Techniques for Predictive Maintenance: A Survey",
+            "Understanding the Impact of Social Media on Mental Health",
+            "Renewable Energy Sources: A Review of Current Technologies",
+            "The Evolution of Blockchain Technology and Its Applications",
+            "A Study on Cybersecurity Threats in Cloud Computing",
+            "Enhancing User Experience in Mobile Applications: A Comprehensive Review",
+            "The Impact of Artificial Intelligence on Supply Chain Management",
+            "Exploring the Use of Augmented Reality in Education",
+            "An Overview of Internet of Things (IoT) Security Challenges",
+            "The Influence of Climate Change on Global Food Security",
+            "Smart Cities: Innovations and Challenges in Urban Development",
+            "A Review of Techniques for Sentiment Analysis in Social Media",
+            "Advances in Robotics for Healthcare Applications",
+            "The Future of Autonomous Vehicles: Trends and Challenges",
+            "A Survey of Techniques for Data Privacy in Machine Learning",
+            "The Role of Gamification in Enhancing Learning Outcomes",
+            "Exploring the Relationship Between Urbanization and Biodiversity Loss"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Machine Learning for Big Data Analytics",
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Advances in Natural Language Processing: Techniques and Applications",
+            "The Impact of Social Media on Mental Health: A Review",
+            "Renewable Energy Sources: Current Status and Future Prospects",
+            "The Role of Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "Blockchain Technology: Applications and Challenges in Financial Services",
+            "The Effects of Climate Change on Biodiversity: A Global Perspective",
+            "Smart Cities: A Comprehensive Survey on Technologies and Applications",
+            "Cybersecurity Threats and Countermeasures: A Systematic Review",
+            "Understanding User Experience in Mobile Applications: A Meta-Analysis",
+            "The Influence of Urbanization on Water Quality: A Global Review",
+            "Advances in Quantum Computing: Current Trends and Future Directions",
+            "The Role of Data Science in Predictive Analytics for Business",
+            "Exploring the Effects of Air Pollution on Human Health",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "An Overview of Genetic Algorithms in Optimization Problems",
+            "The Impact of Telecommuting on Work-Life Balance: A Study",
+            "Innovations in 3D Printing Technology: Applications and Limitations",
+            "The Evolution of E-commerce: Trends and Future Directions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Deep Learning for Medical Image Analysis",
+            "Machine Learning Techniques for Predictive Analytics in Healthcare",
+            "The Impact of Social Media on Mental Health: A Review",
+            "Advances in Renewable Energy Technologies: A Review",
+            "Natural Language Processing for Automated Customer Support",
+            "The Role of Artificial Intelligence in Cybersecurity",
+            "An Overview of Blockchain Technology and Its Applications",
+            "Data Mining Techniques for Big Data Analytics",
+            "Smart Cities: A Survey on Urban Computing",
+            "The Effects of Climate Change on Biodiversity",
+            "Enhancing User Experience through Human-Computer Interaction",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Internet of Things: Architecture, Applications, and Challenges",
+            "The Importance of Data Privacy in the Digital Age",
+            "Exploring the Use of Drones in Environmental Monitoring",
+            "The Role of Virtual Reality in Education",
+            "Trends in E-commerce: Consumer Behavior and Technology",
+            "The Effects of Air Pollution on Public Health",
+            "Advances in Robotics for Industrial Automation",
+            "The Influence of Artificial Intelligence on Job Markets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey of Machine Learning Techniques for Cybersecurity",
+            "An Empirical Study of Software Development Practices in Agile Teams",
+            "The Impact of Social Media on Public Health Communication",
+            "An Analysis of User Experience in Mobile Applications",
+            "The Role of Big Data in Healthcare Decision Making",
+            "A Comprehensive Review of Natural Language Processing Applications",
+            "Enhancing Renewable Energy Adoption through Smart Grid Technologies",
+            "Investigating the Effects of Remote Work on Employee Productivity",
+            "The Influence of Blockchain Technology on Supply Chain Management",
+            "Advances in Computer Vision for Autonomous Vehicles",
+            "Assessing the Effectiveness of Online Learning Platforms",
+            "The Relationship between Internet of Things and Smart Cities",
+            "A Study on Privacy Concerns in Cloud Computing",
+            "Evaluating the Performance of Quantum Computing Algorithms",
+            "The Effect of Augmented Reality on Consumer Engagement",
+            "Analyzing the Security Risks of Internet of Things Devices",
+            "The Use of Data Mining Techniques in Predictive Analytics",
+            "Exploring the Ethical Implications of Artificial Intelligence",
+            "The Future of 5G Technology and Its Impact on Communication",
+            "A Review of Human-Computer Interaction in Virtual Reality Environments"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Machine Learning for Big Data Analytics",
+            "Advances in Natural Language Processing: A Comprehensive Review",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Exploring the Role of Artificial Intelligence in Healthcare",
+            "Renewable Energy Sources: A Review of Current Technologies and Future Trends",
+            "The Effects of Climate Change on Biodiversity: A Global Perspective",
+            "Innovations in Quantum Computing: Challenges and Opportunities",
+            "Understanding Cybersecurity Threats in the Internet of Things",
+            "The Role of Blockchain Technology in Supply Chain Management",
+            "Evaluating the Effectiveness of Remote Learning during the Pandemic",
+            "Advances in Gene Editing: CRISPR and Beyond",
+            "The Future of Autonomous Vehicles: Challenges and Solutions",
+            "Assessing the Economic Impact of Telecommuting",
+            "The Role of Virtual Reality in Education: A Review",
+            "Urbanization and Its Impact on Public Health",
+            "Trends in Cyber-Physical Systems: A Comprehensive Overview",
+            "The Influence of Diet on Gut Microbiome and Health",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Role of Data Privacy in Digital Marketing",
+            "Exploring the Link Between Air Pollution and Respiratory Diseases"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.05,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Survey on Machine Learning for Cybersecurity",
+            "Advances in Natural Language Processing: A Review",
+            "Deep Learning for Image Recognition: A Comprehensive Overview",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Renewable Energy Sources: Current Trends and Future Prospects",
+            "The Role of Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "Blockchain Technology: Applications and Future Directions",
+            "A Review of Autonomous Vehicle Technologies and Challenges",
+            "Understanding Climate Change: A Review of Current Research",
+            "The Effect of Urbanization on Biodiversity: A Global Perspective",
+            "Advances in Drug Delivery Systems: A Review",
+            "The Influence of Nutrition on Cognitive Function: A Meta-Analysis",
+            "Smart Cities: Innovations and Challenges in Urban Development",
+            "The Role of Big Data in Modern Business Strategies",
+            "Cybersecurity Threats and Solutions in the IoT Era",
+            "The Future of Quantum Computing: Challenges and Opportunities",
+            "Exploring the Relationship Between Sleep and Academic Performance",
+            "The Effects of Air Pollution on Human Health: A Review",
+            "Innovations in Renewable Energy Storage Technologies",
+            "The Impact of Telemedicine on Healthcare Delivery During Pandemics"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "y2 AND NOT y1",
+      "label": "y2\u2227\u00acy1",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.815,
+        "x3": 0.05
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.1248332220738267,
+        "x3": 0.09428090415820634
+      },
+      "seeds": [
+        {
+          "papers": [
+            "The Impact of Minimum Wage Increases on Employment: Evidence from the Restaurant Industry",
+            "Behavioral Economics and the Role of Nudges in Consumer Decision Making",
+            "The Effects of Tax Policy on Economic Growth: A Comparative Analysis",
+            "Labor Market Outcomes for Immigrants: Evidence from the U.S. and Europe",
+            "The Role of Financial Literacy in Household Savings Behavior",
+            "Analyzing the Economic Effects of Climate Change on Agriculture",
+            "The Relationship Between Education and Economic Growth: A Cross-Country Study",
+            "Understanding the Dynamics of Inflation: Causes and Consequences",
+            "The Economic Impact of Trade Tariffs on Domestic Industries",
+            "Economic Inequality and Its Effects on Social Mobility",
+            "The Role of Central Banks in Managing Economic Crises",
+            "The Effects of Foreign Direct Investment on Local Economies",
+            "Behavioral Biases in Financial Markets: Evidence from Investor Behavior",
+            "The Economics of Renewable Energy: Costs, Benefits, and Policy Implications",
+            "The Impact of Automation on Labor Markets: A Sectoral Analysis",
+            "Public Health and Economic Productivity: A Study of the COVID-19 Pandemic",
+            "The Influence of Monetary Policy on Housing Markets",
+            "Economic Growth and Environmental Sustainability: Finding the Balance",
+            "The Effects of Globalization on Income Distribution",
+            "An Analysis of Consumer Behavior During Economic Recessions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.85,
+            "x3": 0.2
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Minimum Wage Increases on Employment: Evidence from a Large Panel of States",
+            "Behavioral Economics: The Role of Psychological Factors in Economic Decision-Making",
+            "The Economics of Climate Change: A Review of the Literature",
+            "Income Inequality and Economic Growth: A Global Perspective",
+            "The Effects of Trade Liberalization on Economic Growth: Evidence from Developing Countries",
+            "The Relationship Between Education and Economic Development: A Meta-Analysis",
+            "The Role of Financial Institutions in Economic Development: A Comparative Study",
+            "The Economics of Health Care: Analyzing Cost-Effectiveness and Policy Implications",
+            "Labor Market Dynamics: The Role of Unemployment Insurance in Economic Recovery",
+            "The Impact of Foreign Direct Investment on Host Country Economic Growth",
+            "Analyzing the Effects of Tax Policy on Economic Behavior: Evidence from Recent Reforms",
+            "The Role of Entrepreneurship in Economic Development: Challenges and Opportunities",
+            "The Economics of Renewable Energy: Costs, Benefits, and Policy Implications",
+            "Understanding the Economic Impacts of Immigration: A Comprehensive Review",
+            "The Effects of Monetary Policy on Inflation and Economic Growth",
+            "The Role of Government in Market Economies: An Analysis of Regulation and Deregulation",
+            "The Economics of Aging: Challenges and Opportunities for Economic Policy",
+            "Exploring the Relationship Between Economic Growth and Environmental Sustainability",
+            "The Impact of Technology on Labor Markets: Displacement and New Opportunities",
+            "Economic Policy Responses to the COVID-19 Pandemic: A Global Perspective"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Economic Policy Uncertainty on Investment: Evidence from the United States",
+            "The Role of Financial Development in Economic Growth: A Review",
+            "Income Inequality and Economic Growth: A Cross-Country Analysis",
+            "The Effects of Trade Liberalization on Economic Growth: A Meta-Analysis",
+            "Labor Market Dynamics and Economic Performance: Evidence from Panel Data",
+            "The Relationship Between Inflation and Unemployment: A Review of the Phillips Curve",
+            "The Economic Effects of Immigration: A Survey of the Evidence",
+            "The Role of Microfinance in Economic Development: A Systematic Review",
+            "Analyzing the Determinants of Foreign Direct Investment: A Global Perspective",
+            "The Impact of Climate Change on Economic Growth: Evidence from Developing Countries",
+            "The Economics of Renewable Energy: A Comparative Analysis",
+            "The Effects of Monetary Policy on Asset Prices: Evidence from Emerging Markets",
+            "Education and Economic Growth: A Causal Relationship?",
+            "The Relationship Between Economic Growth and Environmental Sustainability",
+            "The Role of Government Spending in Economic Recovery: Lessons from Past Crises",
+            "The Economics of Health Care: A Comparative Study of Systems Worldwide",
+            "Behavioral Economics and Consumer Decision-Making: Insights from Recent Research",
+            "The Effects of Globalization on Labor Markets: A Review of the Literature",
+            "The Impact of Taxation on Economic Growth: Evidence from OECD Countries",
+            "The Economics of Aging: Challenges and Opportunities for Economic Policy"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 1.0,
+            "x3": 0.05
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Income Inequality and Economic Mobility in the United States",
+            "The Role of Government in Economic Development",
+            "Behavioral Economics: Insights into Decision-Making",
+            "The Effects of Trade Liberalization on Emerging Economies",
+            "Labor Market Dynamics and Unemployment Trends",
+            "The Economics of Climate Change: A Review of the Evidence",
+            "The Relationship Between Education and Economic Growth",
+            "Analyzing the Impact of Tax Policy on Small Businesses",
+            "Globalization and Its Effects on Local Economies",
+            "The Economics of Healthcare: Costs, Access, and Outcomes",
+            "The Role of Innovation in Economic Growth",
+            "The Influence of Foreign Direct Investment on Local Economies",
+            "Understanding the Gig Economy: Implications for Labor Markets",
+            "The Economic Impact of Immigration Policies",
+            "Housing Markets and Economic Stability",
+            "The Effects of Minimum Wage Increases on Employment",
+            "Behavioral Biases in Financial Decision-Making",
+            "The Economics of Renewable Energy Adoption",
+            "Assessing the Economic Impact of COVID-19 on Global Markets"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.85,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Analyzing the Effects of Trade Tariffs on Domestic Markets",
+            "The Role of Education in Economic Development",
+            "Income Inequality and Economic Growth: A Cross-Country Analysis",
+            "Behavioral Economics: Insights into Consumer Decision-Making",
+            "The Influence of Foreign Direct Investment on Local Economies",
+            "Labor Market Dynamics and Unemployment Rates",
+            "The Economics of Climate Change: Costs and Benefits",
+            "Assessing the Impact of Minimum Wage Laws on Employment",
+            "The Relationship Between Inflation and Unemployment: A Historical Perspective",
+            "Housing Market Trends and Economic Recovery",
+            "The Effects of Tax Policy on Business Investment",
+            "The Economics of Health Care: Access, Cost, and Quality",
+            "Understanding the Gig Economy: Implications for Workers and Employers",
+            "The Role of Central Banks in Financial Stability",
+            "The Economic Impact of Immigration on Labor Markets",
+            "Evaluating the Effectiveness of Fiscal Stimulus Measures",
+            "The Interplay Between Economic Policy and Environmental Sustainability",
+            "Consumer Confidence and Its Economic Implications",
+            "The Global Supply Chain and Its Economic Consequences"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.85,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Role of Institutions in Economic Development",
+            "Behavioral Economics: Insights and Applications",
+            "The Impact of Trade Policies on Economic Growth",
+            "Income Inequality and Economic Mobility",
+            "The Economics of Climate Change: A Review",
+            "Labor Market Dynamics and Unemployment",
+            "The Effects of Monetary Policy on Inflation",
+            "Analyzing the Relationship Between Education and Economic Outcomes",
+            "The Economics of Health Care: Cost and Access",
+            "Globalization and its Economic Impacts",
+            "The Role of Innovation in Economic Growth",
+            "Public Goods and Externalities in Economic Theory",
+            "The Economics of Poverty: Causes and Solutions",
+            "Housing Markets and Economic Stability",
+            "The Influence of Technology on Labor Markets",
+            "Trade-Offs in Fiscal Policy: A Comparative Analysis",
+            "The Economics of Renewable Energy Sources",
+            "Gender Disparities in Economic Participation",
+            "The Effects of Taxation on Economic Behavior",
+            "Economic Impacts of Migration: A Global Perspective"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.75,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Minimum Wage Increases on Employment: Evidence from the Restaurant Industry",
+            "Behavioral Economics and the Role of Nudges in Consumer Decision Making",
+            "The Economics of Climate Change: A Review of the Evidence",
+            "Trade Policy and Economic Growth: A Comparative Analysis",
+            "The Effects of Taxation on Economic Growth: A Meta-Analysis",
+            "Labor Market Discrimination: Evidence from Field Experiments",
+            "The Role of Financial Literacy in Household Economic Decision-Making",
+            "Housing Markets and Economic Mobility: An Empirical Investigation",
+            "The Economics of Education: Returns to Investment in Human Capital",
+            "The Relationship Between Income Inequality and Economic Growth",
+            "The Effects of Immigration on Local Labor Markets: A Systematic Review",
+            "Public Health and Economic Outcomes: Analyzing the Cost-Effectiveness of Interventions",
+            "The Influence of Monetary Policy on Stock Market Returns",
+            "Analyzing the Effects of Foreign Direct Investment on Developing Economies",
+            "The Economics of Renewable Energy: Costs, Benefits, and Policy Implications",
+            "Understanding the Gig Economy: Implications for Workers and Policy",
+            "The Role of Social Capital in Economic Development",
+            "The Impact of Trade Agreements on Domestic Industries",
+            "Economic Resilience in the Face of Natural Disasters: A Comparative Study",
+            "The Effects of Automation on Employment and Wages: Evidence from Recent Studies"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.75,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Monetary Policy on Economic Growth",
+            "Behavioral Economics: Insights from Experimental Studies",
+            "The Role of Institutions in Economic Development",
+            "Analyzing the Effects of Trade Liberalization on Emerging Markets",
+            "The Economics of Climate Change: Mitigation and Adaptation Strategies",
+            "Labor Market Dynamics: Unemployment and Wage Growth",
+            "The Influence of Fiscal Policy on Income Inequality",
+            "The Economics of Health Care: Cost, Access, and Outcomes",
+            "Understanding the Gig Economy: Trends and Implications",
+            "The Effect of Taxation on Business Investment Decisions",
+            "Global Supply Chains and Their Economic Implications",
+            "The Relationship Between Education and Economic Growth",
+            "The Economics of Renewable Energy: Opportunities and Challenges",
+            "An Empirical Analysis of Consumer Behavior in Digital Markets",
+            "The Role of Foreign Direct Investment in Economic Development",
+            "The Impact of Automation on Labor Markets",
+            "Evaluating the Effectiveness of Social Safety Nets",
+            "The Economics of Housing Markets: Trends and Policy Responses",
+            "The Relationship Between Inflation and Unemployment",
+            "The Role of Microfinance in Poverty Alleviation"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.7,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Minimum Wage on Employment: Evidence from a Natural Experiment",
+            "The Role of Behavioral Economics in Understanding Consumer Choices",
+            "Economic Growth and Environmental Sustainability: A Review of the Literature",
+            "The Effects of Trade Liberalization on Income Inequality",
+            "Analyzing the Relationship Between Inflation and Unemployment: The Phillips Curve Revisited",
+            "The Economics of Climate Change: Mitigation and Adaptation Strategies",
+            "Labor Market Dynamics: The Role of Job Polarization",
+            "The Influence of Monetary Policy on Housing Markets",
+            "Evaluating the Effectiveness of Fiscal Stimulus During Economic Recessions",
+            "The Economics of Education: Returns to Investment in Human Capital",
+            "Globalization and its Impact on Local Economies",
+            "The Intersection of Health Economics and Public Policy",
+            "Behavioral Interventions in Public Policy: A Review of Economic Evidence",
+            "The Role of Financial Markets in Economic Development",
+            "The Economics of Renewable Energy: Cost-Benefit Analysis",
+            "Understanding the Gig Economy: Implications for Labor Markets",
+            "The Effects of Taxation on Economic Growth: A Cross-Country Analysis",
+            "The Relationship Between Economic Growth and Happiness: A Meta-Analysis",
+            "International Trade and Its Effects on Domestic Employment",
+            "The Economics of Migration: Impacts on Home and Host Countries"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.8,
+            "x3": 0.25
+          }
+        },
+        {
+          "papers": [
+            "The Impact of Income Inequality on Economic Growth",
+            "Behavioral Economics: The Role of Psychological Factors in Decision-Making",
+            "The Effects of Trade Liberalization on Economic Development",
+            "Analyzing the Relationship Between Unemployment and Inflation",
+            "The Economics of Climate Change: Mitigation and Adaptation Strategies",
+            "The Role of Government in Market Failures",
+            "The Effects of Monetary Policy on Stock Market Returns",
+            "Labor Market Dynamics: The Impact of Automation on Employment",
+            "The Economics of Health Care: Cost-Benefit Analysis of Universal Coverage",
+            "The Influence of Fiscal Policy on Economic Stability",
+            "The Role of Microfinance in Alleviating Poverty",
+            "An Empirical Analysis of Consumer Behavior in E-commerce",
+            "The Economics of Renewable Energy: Challenges and Opportunities",
+            "The Relationship Between Education and Economic Growth",
+            "The Impact of Foreign Direct Investment on Local Economies",
+            "The Role of Central Banks in Financial Crises",
+            "The Economics of Urbanization: Challenges and Solutions",
+            "Analyzing the Effects of Tax Policy on Economic Growth",
+            "The Relationship Between Trade Policies and Economic Performance",
+            "The Economics of Aging: Challenges for Public Policy"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.6,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 AND y2)",
+      "label": "\u00ac(y1\u2227y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.01,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.0316227766016838,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advances in Quantum Computing: Current Trends and Future Directions",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "Understanding the Role of Gut Microbiota in Human Health",
+            "The Effects of Urbanization on Local Weather Patterns",
+            "Enhancing Cybersecurity with Machine Learning Techniques",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Exploring the Social Impacts of Virtual Reality Technologies",
+            "Assessing the Effectiveness of Renewable Energy Policies",
+            "The Relationship Between Air Quality and Public Health Outcomes",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Influence of Social Media on Political Mobilization",
+            "A Review of Smart Grid Technologies and Their Applications",
+            "The Role of Genomics in Personalized Medicine",
+            "Evaluating the Impact of Telecommuting on Work-Life Balance",
+            "Advances in Robotics for Disaster Response and Recovery",
+            "The Use of Blockchain Technology in Supply Chain Management",
+            "Understanding the Psychological Effects of Climate Change Anxiety",
+            "The Future of Food: Innovations in Sustainable Agriculture Practices"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.1,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning in Medical Image Analysis",
+            "Advances in Natural Language Processing: A Review",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "Understanding the Role of Gut Microbiota in Human Health",
+            "Recent Advances in Renewable Energy Technologies: A Review",
+            "The Effects of Urbanization on Local Climate Patterns",
+            "Exploring the Use of Blockchain in Supply Chain Management",
+            "Assessing the Impact of Social Media on Mental Health",
+            "Innovations in Nanotechnology for Drug Delivery Systems",
+            "The Role of Artificial Intelligence in Personalized Education",
+            "An Overview of Quantum Computing Applications in Chemistry",
+            "The Influence of Dietary Patterns on Cardiovascular Health",
+            "Advances in Robotics for Human-Robot Interaction",
+            "The Effect of Air Pollution on Respiratory Diseases",
+            "Exploring the Relationship Between Sleep Quality and Academic Performance",
+            "The Role of Microplastics in Marine Ecosystems",
+            "Strategies for Enhancing Cybersecurity in Cloud Computing",
+            "The Impact of Telemedicine on Healthcare Accessibility",
+            "Understanding the Mechanisms of Antibiotic Resistance in Bacteria"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "Advancements in Natural Language Processing: A Review",
+            "The Role of Artificial Intelligence in Climate Change Mitigation",
+            "Blockchain Technology in Supply Chain Management: A Review",
+            "Recent Developments in Quantum Computing: Opportunities and Challenges",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Exploring the Applications of Augmented Reality in Education",
+            "Data Privacy and Security in the Age of Big Data: A Survey",
+            "Trends in Renewable Energy Technologies: A Global Perspective",
+            "The Influence of User Experience Design on E-commerce Success",
+            "Emerging Trends in Cybersecurity Threats and Solutions",
+            "Advances in Autonomous Vehicle Technology: Safety and Regulation",
+            "The Use of Wearable Technology in Health Monitoring",
+            "Smart Cities: Innovations in Urban Planning and Sustainability",
+            "The Role of Robotics in Modern Agriculture",
+            "Investigating the Effects of Air Pollution on Public Health",
+            "Nanotechnology in Drug Delivery Systems: A Review",
+            "The Future of Space Exploration: Technologies and Challenges",
+            "Ethical Considerations in Artificial Intelligence Development"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advances in Quantum Computing: A Review of Current Trends",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Exploring the Intersection of Robotics and Human-Computer Interaction",
+            "The Effects of Urbanization on Water Quality in Coastal Areas",
+            "Analyzing Social Media Sentiment during Natural Disasters",
+            "Advances in Renewable Energy Technologies: A Review",
+            "The Importance of Cybersecurity in the Age of IoT",
+            "Understanding the Genetic Basis of Complex Diseases",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Assessing the Impact of Air Pollution on Public Health",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Enhancing Agricultural Productivity through Precision Farming",
+            "The Influence of Virtual Reality on Education and Learning Outcomes",
+            "Investigating the Use of Blockchain in Supply Chain Management",
+            "The Psychological Effects of Social Isolation on Mental Health",
+            "Strategies for Sustainable Urban Development",
+            "The Evolution of Language Processing Algorithms in NLP"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on Deep Learning Techniques for Image Classification",
+            "Advancements in Quantum Computing: A Review of Current Trends",
+            "The Role of CRISPR Technology in Modern Genetics",
+            "Investigating the Effects of Climate Change on Marine Biodiversity",
+            "Machine Learning Approaches for Predicting Disease Outbreaks",
+            "Enhancements in Renewable Energy Technologies: A Global Perspective",
+            "The Impact of Social Media on Mental Health: A Systematic Review",
+            "Exploring the Relationship Between Urbanization and Air Quality",
+            "Novel Approaches in Drug Delivery Systems for Cancer Therapy",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Understanding the Mechanisms of Antibiotic Resistance in Bacteria",
+            "The Intersection of Artificial Intelligence and Healthcare: Innovations and Ethics",
+            "A Review of Blockchain Technology Applications Beyond Cryptocurrency",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Recent Developments in Nanotechnology for Environmental Remediation",
+            "Assessing the Impact of Telecommuting on Work-Life Balance",
+            "The Influence of Dietary Patterns on Gut Health: A Meta-Analysis",
+            "Advances in Robotics for Industrial Automation",
+            "Exploring the Effects of Sleep Deprivation on Cognitive Function",
+            "The Role of Artificial Intelligence in Enhancing Cybersecurity Measures"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on the Effects of Climate Change on Marine Biodiversity",
+            "Advances in Deep Learning for Image Recognition",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Enhancing Renewable Energy Storage Solutions",
+            "Analyzing the Impact of Urbanization on Local Wildlife",
+            "The Influence of Social Media on Mental Health",
+            "Innovations in Gene Editing Technologies: CRISPR and Beyond",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Effect of Sleep on Cognitive Function and Memory",
+            "Exploring the Relationship Between Air Quality and Public Health",
+            "The Future of Quantum Computing: Challenges and Opportunities",
+            "Investigating the Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Impact of Telemedicine on Healthcare Delivery",
+            "The Intersection of Robotics and Human Interaction",
+            "Evaluating the Efficacy of Vaccines in Preventing Infectious Diseases",
+            "The Role of Big Data in Personalized Medicine",
+            "Understanding the Psychological Effects of Climate Anxiety",
+            "Advances in Biodegradable Materials for Sustainable Packaging",
+            "The Impact of 3D Printing on Manufacturing Processes",
+            "Exploring the Benefits of Mindfulness Meditation on Stress Reduction"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advancements in Quantum Computing: A Review of Current Technologies",
+            "Exploring the Role of Microbiomes in Human Health and Disease",
+            "The Effects of Urbanization on Local Wildlife Populations",
+            "Machine Learning Techniques for Predicting Protein Structure",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Innovations in Renewable Energy Technologies: A Review",
+            "Understanding the Mechanisms of Antimicrobial Resistance",
+            "The Influence of Social Media on Mental Health: A Systematic Review",
+            "Recent Developments in Nanomaterials for Energy Storage",
+            "The Relationship Between Sleep Patterns and Cognitive Function",
+            "Exploring the Genetic Basis of Complex Diseases",
+            "The Use of Blockchain Technology in Supply Chain Management",
+            "Trends in Ocean Acidification and Its Impact on Marine Life",
+            "The Efficacy of Vaccines Against Emerging Infectious Diseases",
+            "Examining the Role of Art Therapy in Mental Health Treatment",
+            "Advancements in Autonomous Vehicle Technology",
+            "The Impact of Air Pollution on Respiratory Health",
+            "Understanding the Mechanisms of Plant Resistance to Pathogens"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Advances in Natural Language Processing: A Survey",
+            "The Role of Machine Learning in Predictive Analytics",
+            "A Study on the Impacts of Climate Change on Biodiversity",
+            "Enhancing Cybersecurity with Artificial Intelligence Techniques",
+            "The Effect of Urbanization on Local Wildlife Populations",
+            "Exploring the Applications of Blockchain Technology in Supply Chain Management",
+            "A Review of Renewable Energy Technologies and Their Applications",
+            "Understanding the Mechanisms of Antibiotic Resistance in Bacteria",
+            "The Influence of Social Media on Mental Health: A Systematic Review",
+            "Investigating the Role of Microbiomes in Human Health",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "Applications of Quantum Computing in Material Science",
+            "The Impact of Air Pollution on Public Health: A Meta-Analysis",
+            "Advancements in Gene Editing Technologies: CRISPR and Beyond",
+            "The Relationship Between Sleep Patterns and Cognitive Performance",
+            "Nanotechnology in Medicine: Current Applications and Future Prospects",
+            "The Role of Virtual Reality in Enhancing Learning Experiences",
+            "Analyzing the Effects of Dietary Habits on Gut Health",
+            "A Review of Smart Grid Technologies and Their Impact on Energy Distribution"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on the Impact of Climate Change on Biodiversity",
+            "Advancements in CRISPR Technology for Gene Editing",
+            "The Role of Artificial Intelligence in Healthcare Diagnostics",
+            "Exploring the Effects of Urbanization on Water Quality",
+            "Machine Learning Approaches for Predicting Disease Outbreaks",
+            "The Influence of Social Media on Political Mobilization",
+            "Assessing the Environmental Impact of Renewable Energy Sources",
+            "Neuroscientific Insights into Human Decision-Making",
+            "The Intersection of Art and Technology in Modern Education",
+            "Investigating the Psychological Effects of Isolation During Pandemics",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Urban Green Spaces and Their Impact on Mental Health",
+            "The Future of Autonomous Vehicles in Urban Environments",
+            "Sustainable Practices in Agriculture: A Global Perspective",
+            "The Impact of Virtual Reality on Learning Outcomes",
+            "Understanding the Genetic Basis of Rare Diseases",
+            "Blockchain Technology in Supply Chain Management",
+            "The Effects of Noise Pollution on Urban Wildlife",
+            "Exploring the Relationship Between Sleep and Cognitive Function",
+            "Evaluating the Efficacy of Vaccines Against Emerging Infectious Diseases"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on Neural Network Interpretability",
+            "Advances in Quantum Computing Algorithms",
+            "The Impact of Social Media on Mental Health",
+            "Machine Learning Techniques for Predicting Protein Structure",
+            "Analyzing the Effects of Climate Change on Marine Biodiversity",
+            "Enhancing Cybersecurity with Machine Learning Approaches",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Understanding the Mechanisms of CRISPR-Cas9 Technology",
+            "A Review of Autonomous Vehicle Navigation Systems",
+            "The Influence of Urban Green Spaces on Air Quality",
+            "Exploring the Use of Augmented Reality in Education",
+            "The Future of Renewable Energy Technologies",
+            "Investigating the Relationship Between Sleep and Cognitive Function",
+            "Advances in 3D Printing Materials and Applications",
+            "The Role of Microbiomes in Human Health",
+            "Assessing the Impact of Telemedicine on Patient Outcomes",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "The Effects of Pollution on Human Health: A Global Perspective",
+            "Understanding the Dynamics of Infectious Disease Spread",
+            "The Role of Robotics in Modern Manufacturing Processes"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOT (y1 OR y2)",
+      "label": "\u00ac(y1\u2228y2)",
+      "num_seeds": 10,
+      "mean": {
+        "x1": 0.0,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "std": {
+        "x1": 0.0,
+        "x2": 0.0,
+        "x3": 0.0
+      },
+      "seeds": [
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advances in Quantum Computing: Current Trends and Future Directions",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "Understanding the Role of Gut Microbiota in Human Health",
+            "The Effects of Urbanization on Local Weather Patterns",
+            "Enhancing Cybersecurity with Machine Learning Techniques",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Investigating the Relationship Between Sleep and Mental Health",
+            "The Influence of Social Media on Political Engagement Among Youth",
+            "Exploring Renewable Energy Sources: Solar, Wind, and Beyond",
+            "The Ethics of Autonomous Vehicles: Navigating Moral Dilemmas",
+            "Assessing the Impact of Air Pollution on Public Health",
+            "The Future of Work: Automation and Job Displacement",
+            "Advances in Natural Language Processing for Sentiment Analysis",
+            "The Role of Virtual Reality in Education and Training",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Effects of Dietary Patterns on Cardiovascular Health",
+            "Investigating the Psychological Effects of Climate Anxiety",
+            "The Use of Blockchain Technology in Supply Chain Management"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning in Medical Image Analysis",
+            "Advances in Natural Language Processing: A Review",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Machine Learning Techniques for Predictive Maintenance in Manufacturing",
+            "Understanding the Role of Microbiomes in Human Health",
+            "Innovations in Renewable Energy Technologies: A Review",
+            "The Effect of Urbanization on Water Quality in Coastal Regions",
+            "Exploring the Use of Blockchain in Supply Chain Management",
+            "Assessing the Impact of Social Media on Mental Health",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Enhancing Cybersecurity through Machine Learning Approaches",
+            "The Influence of Dietary Patterns on Cardiovascular Health",
+            "Advances in Gene Editing Technologies: CRISPR and Beyond",
+            "The Relationship Between Air Pollution and Respiratory Diseases",
+            "Evaluating the Effectiveness of Online Learning in Higher Education",
+            "The Role of Robotics in Modern Healthcare",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "The Impact of 3D Printing on Manufacturing and Design",
+            "Exploring the Connection Between Sleep Patterns and Cognitive Function"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on Machine Learning Techniques for Image Classification",
+            "Advancements in Quantum Computing: A Review of Current Research",
+            "The Role of Artificial Intelligence in Healthcare: Opportunities and Challenges",
+            "Exploring the Impact of Climate Change on Biodiversity",
+            "Recent Developments in Nanomaterials for Energy Storage Applications",
+            "The Influence of Social Media on Public Opinion Formation",
+            "Innovative Approaches to Renewable Energy Generation",
+            "The Effect of Urbanization on Local Weather Patterns",
+            "Assessing the Efficacy of Vaccines in Combating Infectious Diseases",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "Understanding the Mechanisms of Antibiotic Resistance in Bacteria",
+            "The Intersection of Art and Technology: New Media Art Practices",
+            "Analyzing the Psychological Effects of Remote Work on Employees",
+            "Advancements in Robotics for Industrial Automation",
+            "The Role of Data Science in Environmental Monitoring",
+            "Exploring the Use of Blockchain Technology in Supply Chain Management",
+            "Cognitive Behavioral Therapy: A Meta-Analysis of Its Effectiveness",
+            "The Impact of Dietary Patterns on Mental Health Outcomes",
+            "Innovations in Smart Grid Technology for Sustainable Energy Management",
+            "The Relationship Between Sleep Quality and Academic Performance in Students"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Medical Image Analysis",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advances in Quantum Computing: A Review of Recent Developments",
+            "Machine Learning Approaches for Predictive Maintenance in Manufacturing",
+            "The Role of Artificial Intelligence in Enhancing Cybersecurity",
+            "Understanding the Mechanisms of Drug Resistance in Cancer Therapy",
+            "The Effects of Urbanization on Ecosystem Services",
+            "Exploring the Relationship Between Sleep and Mental Health",
+            "Innovations in Renewable Energy Technologies: A Focus on Solar Power",
+            "The Influence of Social Media on Public Health Communication",
+            "Assessing the Efficacy of Vaccines in Preventing Infectious Diseases",
+            "The Role of Genetic Engineering in Agriculture: Benefits and Risks",
+            "Investigating the Psychological Impact of Climate Change on Communities",
+            "Advances in Nanotechnology for Drug Delivery Systems",
+            "The Importance of Biodiversity in Ecosystem Resilience",
+            "Analyzing the Effects of Air Pollution on Human Health",
+            "The Future of Autonomous Vehicles: Challenges and Opportunities",
+            "The Role of Robotics in Modern Surgery: A Systematic Review",
+            "Understanding the Dynamics of Social Movements in the Digital Age",
+            "The Impact of Artificial Intelligence on Workforce Dynamics"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on Deep Learning Techniques for Image Classification",
+            "Advancements in Quantum Computing: A Review of Current Trends",
+            "The Role of CRISPR Technology in Modern Genetics",
+            "Investigating the Effects of Climate Change on Marine Biodiversity",
+            "Machine Learning Applications in Predictive Healthcare",
+            "The Impact of Social Media on Mental Health: A Meta-Analysis",
+            "Enhancing Renewable Energy Sources: A Focus on Solar Power Innovations",
+            "The Evolution of Robotics in Industrial Automation",
+            "Exploring the Relationship Between Urbanization and Air Quality",
+            "Innovations in Battery Technology for Electric Vehicles",
+            "Understanding the Mechanisms of Antimicrobial Resistance",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Impact of Telecommuting on Work-Life Balance",
+            "Advances in Biodegradable Materials for Sustainable Packaging",
+            "The Influence of Dietary Patterns on Gut Microbiota",
+            "Exploring the Intersection of Art and Technology in Digital Media",
+            "The Future of Space Exploration: Challenges and Opportunities",
+            "An Analysis of Public Health Responses to Pandemics",
+            "The Role of Education in Promoting Environmental Sustainability",
+            "Emerging Trends in Cybersecurity: Threats and Solutions"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Study on the Effects of Climate Change on Marine Biodiversity",
+            "Advances in Deep Learning for Image Recognition",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Enhancing Renewable Energy Storage Solutions",
+            "Analyzing the Impact of Urbanization on Local Wildlife",
+            "The Influence of Social Media on Mental Health",
+            "Innovations in Gene Editing Techniques: CRISPR and Beyond",
+            "Understanding the Mechanisms of Antibiotic Resistance",
+            "The Effect of Sleep on Cognitive Function and Memory",
+            "Exploring the Relationship Between Air Quality and Public Health",
+            "The Future of Quantum Computing: Challenges and Opportunities",
+            "Investigating the Genetic Basis of Complex Diseases",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Assessing the Impact of Deforestation on Global Carbon Emissions",
+            "The Evolution of Cybersecurity Threats in the Digital Age",
+            "Advances in Robotics for Healthcare Applications",
+            "The Psychological Effects of Climate Change on Communities",
+            "Sustainable Agriculture Practices for Food Security",
+            "The Intersection of Technology and Education: A Review of Current Trends",
+            "Understanding the Neural Basis of Decision-Making Processes"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Survey on Deep Learning for Image Captioning",
+            "The Impact of Climate Change on Biodiversity: A Global Perspective",
+            "Advancements in CRISPR Technology for Gene Editing",
+            "Machine Learning Approaches for Predicting Protein Structures",
+            "The Role of Microbiomes in Human Health and Disease",
+            "Exploring the Effects of Urbanization on Wildlife Populations",
+            "Neural Networks for Natural Language Processing: A Review",
+            "Sustainable Energy Solutions: Innovations and Challenges",
+            "The Influence of Social Media on Mental Health",
+            "Advances in Quantum Computing: Applications and Challenges",
+            "The Role of Artificial Intelligence in Healthcare Diagnostics",
+            "Assessing the Impact of Pollution on Marine Ecosystems",
+            "The Future of Autonomous Vehicles: Safety and Ethics",
+            "Understanding the Genetic Basis of Complex Diseases",
+            "The Use of Drones in Environmental Monitoring",
+            "Exploring the Relationship Between Sleep and Cognitive Function",
+            "Nanotechnology in Medicine: Current Applications and Future Prospects",
+            "The Effects of Dietary Patterns on Gut Health",
+            "Virtual Reality in Education: Enhancing Learning Experiences",
+            "Investigating the Mechanisms of Antibiotic Resistance"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "Advances in Natural Language Processing: A Survey",
+            "The Role of Artificial Intelligence in Healthcare: A Systematic Review",
+            "Exploring the Impact of Social Media on Mental Health",
+            "A Study on the Effectiveness of Renewable Energy Sources",
+            "Machine Learning Techniques for Predictive Analytics in Business",
+            "Understanding Climate Change: A Review of Current Research",
+            "The Impact of Urbanization on Biodiversity",
+            "Blockchain Technology: Applications and Challenges",
+            "Nanotechnology in Medicine: Current Applications and Future Prospects",
+            "The Influence of Mobile Technology on Education",
+            "Advancements in Robotics: A Review of Recent Developments",
+            "The Role of Big Data in Modern Marketing Strategies",
+            "Impacts of Air Pollution on Public Health: A Global Perspective",
+            "Cybersecurity Threats and Solutions: A Comprehensive Overview",
+            "The Psychology of User Experience: Designing for Engagement",
+            "Genetic Engineering: Ethical Considerations and Future Directions",
+            "Trends in Sustainable Agriculture: Innovations and Challenges",
+            "The Future of Virtual Reality in Entertainment and Education",
+            "Water Scarcity: Challenges and Solutions for the 21st Century"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "A Comprehensive Review of Machine Learning Techniques in Medical Diagnosis",
+            "Advances in Natural Language Processing for Text Classification",
+            "Deep Learning Approaches for Image Recognition",
+            "The Impact of Climate Change on Biodiversity",
+            "Exploring the Role of Microbiomes in Human Health",
+            "Enhancements in Renewable Energy Technologies",
+            "The Use of Virtual Reality in Education",
+            "Investigating the Effects of Sleep on Cognitive Performance",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Analyzing Social Media Trends through Sentiment Analysis",
+            "The Influence of Urban Green Spaces on Mental Health",
+            "Assessing the Efficacy of Vaccines in Controlling Infectious Diseases",
+            "The Future of Autonomous Vehicles in Urban Environments",
+            "Understanding Quantum Computing: Applications and Challenges",
+            "The Intersection of Art and Technology: A New Paradigm",
+            "The Role of Data Privacy in the Digital Age",
+            "Exploring the Impact of Genomic Data on Personalized Medicine",
+            "Advances in Robotics: Applications in Manufacturing",
+            "The Psychological Effects of Social Isolation",
+            "Innovations in Water Purification Technologies"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        },
+        {
+          "papers": [
+            "Deep Learning for Image Recognition: A Comprehensive Review",
+            "A Survey on Natural Language Processing Techniques for Sentiment Analysis",
+            "Advancements in Quantum Computing: Challenges and Opportunities",
+            "Biomarkers in Cancer: Current Trends and Future Directions",
+            "The Role of Machine Learning in Predictive Analytics for Healthcare",
+            "Exploring the Impact of Climate Change on Biodiversity",
+            "A Review of Renewable Energy Technologies: Current Status and Future Prospects",
+            "The Influence of Social Media on Mental Health: A Systematic Review",
+            "Robotics in Surgery: Innovations and Clinical Applications",
+            "Understanding the Genetic Basis of Complex Diseases",
+            "The Effect of Urbanization on Air Quality: A Global Perspective",
+            "Advancements in Battery Technology for Electric Vehicles",
+            "The Role of Artificial Intelligence in Drug Discovery",
+            "Cybersecurity Threats and Solutions in the Age of IoT",
+            "The Impact of Telemedicine on Patient Care: A Review",
+            "Sustainable Agriculture Practices: Innovations and Challenges",
+            "The Use of Virtual Reality in Education: A Review of Current Research",
+            "Analyzing the Effects of Sleep on Cognitive Function",
+            "Nanotechnology in Medicine: Current Applications and Future Directions",
+            "The Role of Genetic Engineering in Agriculture: Benefits and Risks"
+          ],
+          "vector": {
+            "x1": 0.0,
+            "x2": 0.0,
+            "x3": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}
