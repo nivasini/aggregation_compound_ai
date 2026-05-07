@@ -7,10 +7,10 @@ aggregation in an output-dimension space represented by frequency of membership 
 
 Three experiments defined in `config.py`:
 
-- **Binding-set contraction** — `L_A ∩ L_B` over two parent topics (NLP, CV).
+- **Binding-set contraction** — `x_1 ∩ x_2` over two parent topics (NLP, CV).
 - **Feasibility expansion** — pairwise unions over three parent topics
   (blockchain, cryptography, distributed systems).
-- **Support expansion** — `L_A ∪ L_B` over two parent topics (theoretical CS,
+- **Support expansion** — `x_1 ∪ x_2` over two parent topics (theoretical CS,
   economics).
 
 Each experiment generates paper lists from an LLM and classifies each list
@@ -18,7 +18,7 @@ along a fixed set of output dimensions to obtain probability vectors.
 
 ## Single-model run
 
-Generate the four core lists (`L_A`, `L_B`, `L_agg`, `L_f`) for all three
+Generate the four core lists (`x_1`, `x_2`, `x_A`, `x*_O(x_A)`) for all three
 experiments:
 
 ```bash
@@ -56,8 +56,8 @@ python mechanisms/scripts/generate_crossmodel_aggregate.py \
     --seeds 30 --random-seed 42
 ```
 
-This produces both orderings of (L_A from model 1, L_B from model 2) and
-(L_A from model 2, L_B from model 1).
+This produces both orderings of (`x_1` from model 1, `x_2` from model 2) and
+(`x_1` from model 2, `x_2` from model 1).
 
 ## Data layout
 
@@ -88,10 +88,10 @@ all cells. The notebook supports two modes:
 
 - `MODE = "single"` — one generator, one judge. Loads the aggregate +
   enumerated files for that configuration, prints Wilson CI tables, finds
-  P_agg (the enumerated prompt closest to L_A_B_agg in CI-box L1 distance),
+  P_agg (the enumerated prompt closest to `x_A` in CI-box L1 distance),
   and produces 2D projection plots with Wilson CI rectangles.
 - `MODE = "cross"` — two generators (M1 and M2) plus a judge. Loads both
-  orderings of (L_A, L_B), prints CI tables for each, and searches P_agg
+  orderings of (`x_1`, `x_2`), prints CI tables for each, and searches P_agg
   over the union of enumerated prompts from both models. Produces two
   plots per experiment (one per ordering).
 
