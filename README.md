@@ -14,8 +14,7 @@ export OPENAI_API_KEY="sk-..."
 
 - **[`mechanisms/`](mechanisms/README.md)** — set-theoretic aggregation
   experiments (binding-set contraction, feasibility expansion, support
-  expansion) over LLM-generated paper lists, with single-model and
-  cross-model analysis notebooks.
+  expansion) over LLM-generated paper lists.
 - **[`rich_embeddings/`](rich_embeddings/README.md)** — sentence-transformer
   embedding analysis of union- vs intersection-style LLM aggregations on a
   reference-generation task, with L2-distance heatmap and 2D/3D
