@@ -10,7 +10,7 @@ pip install -r requirements.txt
 export OPENAI_API_KEY="sk-..."
 ```
 
-## Subprojects
+## Experiments
 
 - **[`mechanisms/`](mechanisms/README.md)** — set-theoretic aggregation
   experiments (binding-set contraction, feasibility expansion, support
