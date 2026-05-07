@@ -1,8 +1,7 @@
 # Aggregation Mechanisms
 
-Set-theoretic aggregation experiments: an LLM generates lists matching parent
-topics, and we measure how those lists transform under intersection / union
-aggregation in a fixed output-dimension space.
+Set-theoretic aggregation experiments: an LLM generates lists matching prompt topics, and we measure how those lists transform under intersection / union
+aggregation in an output-dimension space represented by frequency of membership in output topics.
 
 ## Experiments
 
@@ -19,7 +18,7 @@ along a fixed set of output dimensions to obtain probability vectors.
 
 ## Single-model run
 
-Generate the four core lists (`L_A`, `L_B`, `L_A_B_agg`, `L_f`) for all three
+Generate the four core lists (`L_A`, `L_B`, `L_agg`, `L_f`) for all three
 experiments:
 
 ```bash
