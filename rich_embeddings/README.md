@@ -58,6 +58,3 @@ to force regeneration.
 ```bash
 jupyter notebook rich_embeddings/embeddings.ipynb
 ```
-
-Run all cells. With the cached files present this is a CPU-only computation
-that completes in seconds (no API calls).
