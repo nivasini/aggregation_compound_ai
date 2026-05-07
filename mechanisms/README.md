@@ -7,10 +7,10 @@ aggregation in an output-dimension space represented by frequency of membership 
 
 Three experiments defined in `config.py`:
 
-- **Binding-set contraction** — `x_1 ∩ x_2` over two parent topics (NLP, CV).
-- **Feasibility expansion** — pairwise unions over three parent topics
+- **Binding-set contraction** — `x_1 ∩ x_2` over two prompt topics (NLP, CV).
+- **Feasibility expansion** — pairwise unions over three prompt topics
   (blockchain, cryptography, distributed systems).
-- **Support expansion** — `x_1 ∪ x_2` over two parent topics (theoretical CS,
+- **Support expansion** — `x_1 ∪ x_2` over two prompt topics (theoretical CS,
   economics).
 
 Each experiment generates paper lists from an LLM and classifies each list
@@ -29,7 +29,7 @@ python mechanisms/scripts/generate_aggregate.py \
     --seeds 30 --list-length 20
 ```
 
-Enumerate every set-theoretic prompt over the parent topics:
+Enumerate every set-theoretic prompt over the prompt topics:
 
 ```bash
 python mechanisms/scripts/enumerate_prompts.py \
